@@ -3874,7 +3874,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var _this3 = this;
 
 	    var checkSizeCallback = function checkSizeCallback() {
-	      if (_this3.resizeObserverInterval) clearInterval(_this3.resizeObserverInterval);
 	      if (_this3.playerInfo.computedSize.width != _this3.el.clientWidth || _this3.playerInfo.computedSize.height != _this3.el.clientHeight) {
 	        _this3.playerInfo.computedSize = { width: _this3.el.clientWidth, height: _this3.el.clientHeight };
 	        _mediator2.default.trigger(_this3.options.playerId + ':' + _events2.default.PLAYER_RESIZE, _this3.playerInfo.computedSize);
@@ -4878,7 +4877,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
 	/**
-	 * lodash 4.1.2 (Custom Build) <https://lodash.com/>
+	 * lodash 4.1.1 (Custom Build) <https://lodash.com/>
 	 * Build: `lodash modularize exports="npm" -o ./`
 	 * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
 	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
@@ -4949,7 +4948,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	/** Used to convert symbols to primitives and strings. */
 	var symbolProto = _Symbol ? _Symbol.prototype : undefined,
-	    symbolToString = symbolProto ? symbolProto.toString : undefined;
+	    symbolToString = _Symbol ? symbolProto.toString : undefined;
 
 	/**
 	 * Checks if `value` is object-like. A value is object-like if it's not `null`
@@ -5027,7 +5026,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return '';
 	  }
 	  if (isSymbol(value)) {
-	    return symbolToString ? symbolToString.call(value) : '';
+	    return _Symbol ? symbolToString.call(value) : '';
 	  }
 	  var result = value + '';
 	  return result == '0' && 1 / value == -INFINITY ? '-0' : result;
@@ -5839,7 +5838,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
 	/**
-	 * lodash 4.1.1 (Custom Build) <https://lodash.com/>
+	 * lodash 4.1.0 (Custom Build) <https://lodash.com/>
 	 * Build: `lodash modularize exports="npm" -o ./`
 	 * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
 	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
@@ -6077,7 +6076,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function isPrototype(value) {
 	  var Ctor = value && value.constructor,
-	      proto = typeof Ctor == 'function' && Ctor.prototype || objectProto;
+	      proto = isFunction(Ctor) && Ctor.prototype || objectProto;
 
 	  return value === proto;
 	}
@@ -6153,7 +6152,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * // => false
 	 */
 	function isArrayLike(value) {
-	  return value != null && isLength(getLength(value)) && !isFunction(value);
+	  return value != null && !(typeof value == 'function' && isFunction(value)) && isLength(getLength(value));
 	}
 
 	/**
@@ -6201,8 +6200,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function isFunction(value) {
 	  // The use of `Object#toString` avoids issues with the `typeof` operator
-	  // in Safari 8 which returns 'object' for typed array and weak map constructors,
-	  // and PhantomJS 1.9 which returns 'function' for `NodeList` instances.
+	  // in Safari 8 which returns 'object' for typed array constructors, and
+	  // PhantomJS 1.9 which returns 'function' for `NodeList` instances.
 	  var tag = isObject(value) ? objectToString.call(value) : '';
 	  return tag == funcTag || tag == genTag;
 	}
@@ -6446,7 +6445,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
 	/**
-	 * lodash 4.5.2 (Custom Build) <https://lodash.com/>
+	 * lodash 4.5.1 (Custom Build) <https://lodash.com/>
 	 * Build: `lodash modularize exports="npm" -o ./`
 	 * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
 	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
@@ -6454,15 +6453,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * Available under MIT license <https://lodash.com/license>
 	 */
 
+	/** Used to compose bitmasks for comparison styles. */
+	var UNORDERED_COMPARE_FLAG = 1,
+	    PARTIAL_COMPARE_FLAG = 2;
+
 	/** Used as the size to enable large array optimizations. */
 	var LARGE_ARRAY_SIZE = 200;
 
 	/** Used to stand-in for `undefined` hash values. */
 	var HASH_UNDEFINED = '__lodash_hash_undefined__';
-
-	/** Used to compose bitmasks for comparison styles. */
-	var UNORDERED_COMPARE_FLAG = 1,
-	    PARTIAL_COMPARE_FLAG = 2;
 
 	/** Used as references for various `Number` constants. */
 	var INFINITY = 1 / 0,
@@ -6745,8 +6744,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	/** Used to convert symbols to primitives and strings. */
 	var symbolProto = _Symbol ? _Symbol.prototype : undefined,
-	    symbolValueOf = symbolProto ? symbolProto.valueOf : undefined,
-	    symbolToString = symbolProto ? symbolProto.toString : undefined;
+	    symbolValueOf = _Symbol ? symbolProto.valueOf : undefined,
+	    symbolToString = _Symbol ? symbolProto.toString : undefined;
 
 	/**
 	 * Creates an hash object.
@@ -7209,26 +7208,33 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  if (!objIsArr) {
 	    objTag = getTag(object);
-	    objTag = objTag == argsTag ? objectTag : objTag;
+	    if (objTag == argsTag) {
+	      objTag = objectTag;
+	    } else if (objTag != objectTag) {
+	      objIsArr = isTypedArray(object);
+	    }
 	  }
 	  if (!othIsArr) {
 	    othTag = getTag(other);
-	    othTag = othTag == argsTag ? objectTag : othTag;
+	    if (othTag == argsTag) {
+	      othTag = objectTag;
+	    } else if (othTag != objectTag) {
+	      othIsArr = isTypedArray(other);
+	    }
 	  }
 	  var objIsObj = objTag == objectTag && !isHostObject(object),
 	      othIsObj = othTag == objectTag && !isHostObject(other),
 	      isSameTag = objTag == othTag;
 
-	  if (isSameTag && !objIsObj) {
-	    stack || (stack = new Stack());
-	    return objIsArr || isTypedArray(object) ? equalArrays(object, other, equalFunc, customizer, bitmask, stack) : equalByTag(object, other, objTag, equalFunc, customizer, bitmask, stack);
+	  if (isSameTag && !(objIsArr || objIsObj)) {
+	    return equalByTag(object, other, objTag, equalFunc, customizer, bitmask);
 	  }
-	  if (!(bitmask & PARTIAL_COMPARE_FLAG)) {
+	  var isPartial = bitmask & PARTIAL_COMPARE_FLAG;
+	  if (!isPartial) {
 	    var objIsWrapped = objIsObj && hasOwnProperty.call(object, '__wrapped__'),
 	        othIsWrapped = othIsObj && hasOwnProperty.call(other, '__wrapped__');
 
 	    if (objIsWrapped || othIsWrapped) {
-	      stack || (stack = new Stack());
 	      return equalFunc(objIsWrapped ? object.value() : object, othIsWrapped ? other.value() : other, customizer, bitmask, stack);
 	    }
 	  }
@@ -7236,7 +7242,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return false;
 	  }
 	  stack || (stack = new Stack());
-	  return equalObjects(object, other, equalFunc, customizer, bitmask, stack);
+	  return (objIsArr ? equalArrays : equalObjects)(object, other, equalFunc, customizer, bitmask, stack);
 	}
 
 	/**
@@ -7423,9 +7429,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @param {Array} array The array to compare.
 	 * @param {Array} other The other array to compare.
 	 * @param {Function} equalFunc The function to determine equivalents of values.
-	 * @param {Function} customizer The function to customize comparisons.
-	 * @param {number} bitmask The bitmask of comparison flags. See `baseIsEqual` for more details.
-	 * @param {Object} stack Tracks traversed `array` and `other` objects.
+	 * @param {Function} [customizer] The function to customize comparisons.
+	 * @param {number} [bitmask] The bitmask of comparison flags. See `baseIsEqual` for more details.
+	 * @param {Object} [stack] Tracks traversed `array` and `other` objects.
 	 * @returns {boolean} Returns `true` if the arrays are equivalent, else `false`.
 	 */
 	function equalArrays(array, other, equalFunc, customizer, bitmask, stack) {
@@ -7490,12 +7496,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @param {Object} other The other object to compare.
 	 * @param {string} tag The `toStringTag` of the objects to compare.
 	 * @param {Function} equalFunc The function to determine equivalents of values.
-	 * @param {Function} customizer The function to customize comparisons.
-	 * @param {number} bitmask The bitmask of comparison flags. See `baseIsEqual` for more details.
-	 * @param {Object} stack Tracks traversed `object` and `other` objects.
+	 * @param {Function} [customizer] The function to customize comparisons.
+	 * @param {number} [bitmask] The bitmask of comparison flags. See `baseIsEqual` for more details.
 	 * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
 	 */
-	function equalByTag(object, other, tag, equalFunc, customizer, bitmask, stack) {
+	function equalByTag(object, other, tag, equalFunc, customizer, bitmask) {
 	  switch (tag) {
 	    case arrayBufferTag:
 	      if (object.byteLength != other.byteLength || !equalFunc(new Uint8Array(object), new Uint8Array(other))) {
@@ -7529,21 +7534,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var isPartial = bitmask & PARTIAL_COMPARE_FLAG;
 	      convert || (convert = setToArray);
 
-	      if (object.size != other.size && !isPartial) {
-	        return false;
-	      }
-	      // Assume cyclic values are equal.
-	      var stacked = stack.get(object);
-	      if (stacked) {
-	        return stacked == other;
-	      }
 	      // Recursively compare objects (susceptible to call stack limits).
-	      return equalArrays(convert(object), convert(other), equalFunc, customizer, bitmask | UNORDERED_COMPARE_FLAG, stack.set(object, other));
+	      return (isPartial || object.size == other.size) && equalFunc(convert(object), convert(other), customizer, bitmask | UNORDERED_COMPARE_FLAG);
 
 	    case symbolTag:
-	      if (symbolValueOf) {
-	        return symbolValueOf.call(object) == symbolValueOf.call(other);
-	      }
+	      return !!_Symbol && symbolValueOf.call(object) == symbolValueOf.call(other);
 	  }
 	  return false;
 	}
@@ -7556,9 +7551,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @param {Object} object The object to compare.
 	 * @param {Object} other The other object to compare.
 	 * @param {Function} equalFunc The function to determine equivalents of values.
-	 * @param {Function} customizer The function to customize comparisons.
-	 * @param {number} bitmask The bitmask of comparison flags. See `baseIsEqual` for more details.
-	 * @param {Object} stack Tracks traversed `object` and `other` objects.
+	 * @param {Function} [customizer] The function to customize comparisons.
+	 * @param {number} [bitmask] The bitmask of comparison flags. See `baseIsEqual` for more details.
+	 * @param {Object} [stack] Tracks traversed `object` and `other` objects.
 	 * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
 	 */
 	function equalObjects(object, other, equalFunc, customizer, bitmask, stack) {
@@ -7653,7 +7648,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {*} Returns the function if it's native, else `undefined`.
 	 */
 	function getNative(object, key) {
-	  var value = object[key];
+	  var value = object == null ? undefined : object[key];
 	  return isNative(value) ? value : undefined;
 	}
 
@@ -7767,7 +7762,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function isPrototype(value) {
 	  var Ctor = value && value.constructor,
-	      proto = typeof Ctor == 'function' && Ctor.prototype || objectProto;
+	      proto = isFunction(Ctor) && Ctor.prototype || objectProto;
 
 	  return value === proto;
 	}
@@ -7934,7 +7929,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * // => false
 	 */
 	function isArrayLike(value) {
-	  return value != null && isLength(getLength(value)) && !isFunction(value);
+	  return value != null && !(typeof value == 'function' && isFunction(value)) && isLength(getLength(value));
 	}
 
 	/**
@@ -7982,8 +7977,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function isFunction(value) {
 	  // The use of `Object#toString` avoids issues with the `typeof` operator
-	  // in Safari 8 which returns 'object' for typed array and weak map constructors,
-	  // and PhantomJS 1.9 which returns 'function' for `NodeList` instances.
+	  // in Safari 8 which returns 'object' for typed array constructors, and
+	  // PhantomJS 1.9 which returns 'function' for `NodeList` instances.
 	  var tag = isObject(value) ? objectToString.call(value) : '';
 	  return tag == funcTag || tag == genTag;
 	}
@@ -8186,7 +8181,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return '';
 	  }
 	  if (isSymbol(value)) {
-	    return symbolToString ? symbolToString.call(value) : '';
+	    return _Symbol ? symbolToString.call(value) : '';
 	  }
 	  var result = value + '';
 	  return result == '0' && 1 / value == -INFINITY ? '-0' : result;
@@ -9915,29 +9910,34 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * Copyright 2009-2016 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var baseUniq = __webpack_require__(50);
+	var baseIteratee = __webpack_require__(33),
+	    baseUniq = __webpack_require__(50);
 
 	/**
-	 * Creates a duplicate-free version of an array, using
-	 * [`SameValueZero`](http://ecma-international.org/ecma-262/6.0/#sec-samevaluezero)
-	 * for equality comparisons, in which only the first occurrence of each element
-	 * is kept.
+	 * This method is like `_.uniq` except that it accepts `iteratee` which is
+	 * invoked for each element in `array` to generate the criterion by which
+	 * uniqueness is computed. The iteratee is invoked with one argument: (value).
 	 *
 	 * @static
 	 * @memberOf _
 	 * @category Array
 	 * @param {Array} array The array to inspect.
+	 * @param {Function|Object|string} [iteratee=_.identity] The iteratee invoked per element.
 	 * @returns {Array} Returns the new duplicate free array.
 	 * @example
 	 *
-	 * _.uniq([2, 1, 2]);
-	 * // => [2, 1]
+	 * _.uniqBy([2.1, 1.2, 2.3], Math.floor);
+	 * // => [2.1, 1.2]
+	 *
+	 * // The `_.property` iteratee shorthand.
+	 * _.uniqBy([{ 'x': 1 }, { 'x': 2 }, { 'x': 1 }], 'x');
+	 * // => [{ 'x': 1 }, { 'x': 2 }]
 	 */
-	function uniq(array) {
-	  return array && array.length ? baseUniq(array) : [];
+	function uniqBy(array, iteratee) {
+	  return array && array.length ? baseUniq(array, baseIteratee(iteratee)) : [];
 	}
 
-	module.exports = uniq;
+	module.exports = uniqBy;
 
 /***/ },
 /* 50 */
@@ -10160,7 +10160,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
 	/**
-	 * lodash 4.1.1 (Custom Build) <https://lodash.com/>
+	 * lodash 4.1.0 (Custom Build) <https://lodash.com/>
 	 * Build: `lodash modularize exports="npm" -o ./`
 	 * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
 	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
@@ -10566,7 +10566,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {*} Returns the function if it's native, else `undefined`.
 	 */
 	function getNative(object, key) {
-	  var value = object[key];
+	  var value = object == null ? undefined : object[key];
 	  return isNative(value) ? value : undefined;
 	}
 
@@ -10634,8 +10634,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function isFunction(value) {
 	  // The use of `Object#toString` avoids issues with the `typeof` operator
-	  // in Safari 8 which returns 'object' for typed array and weak map constructors,
-	  // and PhantomJS 1.9 which returns 'function' for `NodeList` instances.
+	  // in Safari 8 which returns 'object' for typed array constructors, and
+	  // PhantomJS 1.9 which returns 'function' for `NodeList` instances.
 	  var tag = isObject(value) ? objectToString.call(value) : '';
 	  return tag == funcTag || tag == genTag;
 	}
@@ -10746,7 +10746,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
 	/**
-	 * lodash 4.0.1 (Custom Build) <https://lodash.com/>
+	 * lodash 4.0.0 (Custom Build) <https://lodash.com/>
 	 * Build: `lodash modularize exports="npm" -o ./`
 	 * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
 	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
@@ -10867,7 +10867,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {*} Returns the function if it's native, else `undefined`.
 	 */
 	function getNative(object, key) {
-	  var value = object[key];
+	  var value = object == null ? undefined : object[key];
 	  return isNative(value) ? value : undefined;
 	}
 
@@ -10889,8 +10889,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function isFunction(value) {
 	  // The use of `Object#toString` avoids issues with the `typeof` operator
-	  // in Safari 8 which returns 'object' for typed array and weak map constructors,
-	  // and PhantomJS 1.9 which returns 'function' for `NodeList` instances.
+	  // in Safari 8 which returns 'object' for typed array constructors, and
+	  // PhantomJS 1.9 which returns 'function' for `NodeList` instances.
 	  var tag = isObject(value) ? objectToString.call(value) : '';
 	  return tag == funcTag || tag == genTag;
 	}
@@ -12373,7 +12373,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      this.currentState = "IDLE";
 	      this.setFlashSettings();
 	      this.updatePlaybackType();
-	      if (this.autoPlay || this._shouldPlayOnBootstrap) {
+	      if (this.autoPlay || this._shouldPlayOnManifestLoaded) {
 	        this.play();
 	      }
 	      this.trigger(_events2.default.PLAYBACK_READY, this.name);
@@ -12708,7 +12708,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      } else {
 	        this.updateCurrentState(state);
 	        this.hasEnded = true;
-	        this.trigger(_events2.default.PLAYBACK_TIMEUPDATE, { current: 0, total: this.el.getDuration() }, this.name);
+	        this.trigger(_events2.default.PLAYBACK_TIMEUPDATE, { current: 0, total: this.getDuration() }, this.name);
 	        this.trigger(_events2.default.PLAYBACK_ENDED, this.name);
 	      }
 	    }
@@ -12763,28 +12763,22 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 
 	  FlasHLS.prototype.firstPlay = function firstPlay() {
-	    var _this4 = this;
-
+	    this._shouldPlayOnManifestLoaded = true;
 	    if (this.el.playerLoad) {
 	      this.setFlashSettings(); //ensure flushLiveURLCache will work (#327)
 	      this.el.playerLoad(this.src);
-	      _mediator2.default.once(this.cid + ':manifestloaded', function () {
-	        return _this4.el.playerPlay();
-	      });
 	      this.srcLoaded = true;
-	    } else {
-	      this._shouldPlayOnBootstrap = true;
 	    }
 	  };
 
 	  FlasHLS.prototype.volume = function volume(value) {
-	    var _this5 = this;
+	    var _this4 = this;
 
 	    if (this.isReady) {
 	      this.el.playerVolume(value);
 	    } else {
 	      this.listenToOnce(this, _events2.default.PLAYBACK_BUFFERFULL, function () {
-	        return _this5.volume(value);
+	        return _this4.volume(value);
 	      });
 	    }
 	  };
@@ -12819,7 +12813,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  FlasHLS.prototype.normalizeDuration = function normalizeDuration(duration) {
 	    if (this.playbackType === _playback2.default.LIVE) {
 	      // estimate 10 seconds of buffer time for live streams for seek positions
-	      duration = duration - 10;
+	      duration = Math.max(0, duration - 10);
 	    }
 	    return duration;
 	  };
@@ -12834,13 +12828,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 
 	  FlasHLS.prototype.seek = function seek(time) {
-	    var duration = this.el.getDuration();
+	    var duration = this.getDuration();
 	    if (this.playbackType === _playback2.default.LIVE) {
-	      // seek operations to a time within 5 seconds from live stream will position playhead back to live
-	      var dvrInUse = time >= 0 && duration - time > 5;
-	      if (!dvrInUse) {
-	        time = -1;
-	      }
+	      // seek operations to a time within 3 seconds from live stream will position playhead back to live
+	      var dvrInUse = duration - time > 3;
 	      this.updateDvr(dvrInUse);
 	    }
 	    this.el.playerSeek(time);
@@ -12863,6 +12854,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 
 	  FlasHLS.prototype.manifestLoaded = function manifestLoaded(duration, loadmetrics) {
+	    if (this._shouldPlayOnManifestLoaded) {
+	      this._shouldPlayOnManifestLoaded = false;
+	      // this method initialises the player (and starts playback)
+	      // this needs to happen before PLAYBACK_LOADEDMETADATA is fired
+	      // as the user may call seek() in a LOADEDMETADATA listener.
+	      /// when playerPlay() is called the player seeks to 0
+	      this.el.playerPlay();
+	    }
+
 	    var levels = this.el.getLevels();
 	    var levelsLength = levels.length;
 	    this._levels = [];
@@ -12872,10 +12872,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	    this.trigger(_events2.default.PLAYBACK_LEVELS_AVAILABLE, this._levels);
 	    this.trigger(_events2.default.PLAYBACK_LOADEDMETADATA, { duration: duration, data: loadmetrics });
-	  };
-
-	  FlasHLS.prototype.timeUpdate = function timeUpdate(time, duration) {
-	    this.trigger(_events2.default.PLAYBACK_TIMEUPDATE, { current: time, total: duration }, this.name);
 	  };
 
 	  FlasHLS.prototype.destroy = function destroy() {
@@ -12897,7 +12893,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 
 	  FlasHLS.prototype.createCallbacks = function createCallbacks() {
-	    var _this6 = this;
+	    var _this5 = this;
 
 	    if (!window.Clappr) {
 	      window.Clappr = {};
@@ -12907,7 +12903,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	    this.flashlsEvents = new _flashls_events2.default(this.cid);
 	    window.Clappr.flashlsCallbacks[this.cid] = function (eventName, args) {
-	      _this6.flashlsEvents[eventName].apply(_this6.flashlsEvents, args);
+	      _this5.flashlsEvents[eventName].apply(_this5.flashlsEvents, args);
 	    };
 	  };
 
@@ -13123,7 +13119,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    var _this = _possibleConstructorReturn(this, _HTML5VideoPlayback.call(this, options));
 
-	    _this.minDvrSize = options.hlsMinimumDvrSize ? options.hlsMinimumDvrSize : 60;
+	    _this.minDvrSize = options.hlsMinimumDvrSize === undefined ? 60 : options.hlsMinimumDvrSize;
 	    _this.playbackType = _playback2.default.VOD;
 	    // for hls streams which have dvr with a sliding window,
 	    // the content at the start of the playlist is removed as new
@@ -13260,6 +13256,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  HLS.prototype.updatePlaybackType = function updatePlaybackType(evt, data) {
 	    this.playbackType = data.details.live ? _playback2.default.LIVE : _playback2.default.VOD;
 	    this.fillLevels();
+	    this.onLevelUpdated(evt, data);
 	  };
 
 	  HLS.prototype.fillLevels = function fillLevels() {
@@ -13473,6 +13470,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	          maxSeekHole: 2,
 	          liveSyncDurationCount: 3,
 	          liveMaxLatencyDurationCount: Infinity,
+	          liveSyncDuration: undefined,
+	          liveMaxLatencyDuration: undefined,
 	          maxMaxBufferLength: 600,
 	          enableWorker: true,
 	          enableSoftwareAES: true,
@@ -13514,6 +13513,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    _classCallCheck(this, Hls);
 
 	    var defaultConfig = Hls.DefaultConfig;
+
+	    if ((config.liveSyncDurationCount || config.liveMaxLatencyDurationCount) && (config.liveSyncDuration || config.liveMaxLatencyDuration)) {
+	      throw new Error('Illegal hls.js config: don\'t mix up liveSyncDurationCount/liveMaxLatencyDurationCount and liveSyncDuration/liveMaxLatencyDuration');
+	    }
+
 	    for (var prop in defaultConfig) {
 	      if (prop in config) {
 	        continue;
@@ -13523,6 +13527,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    if (config.liveMaxLatencyDurationCount !== undefined && config.liveMaxLatencyDurationCount <= config.liveSyncDurationCount) {
 	      throw new Error('Illegal hls.js config: "liveMaxLatencyDurationCount" must be gt "liveSyncDurationCount"');
+	    }
+
+	    if (config.liveMaxLatencyDuration !== undefined && (config.liveMaxLatencyDuration <= config.liveSyncDuration || config.liveSyncDuration === undefined)) {
+	      throw new Error('Illegal hls.js config: "liveMaxLatencyDuration" must be gt "liveSyncDuration"');
 	    }
 
 	    (0, _logger.enableLogs)(config.debug);
@@ -13892,8 +13900,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	  BUFFER_APPENDING_ERROR: 'bufferAppendingError',
 	  // Identifier for a buffer stalled error event
 	  BUFFER_STALLED_ERROR: 'bufferStalledError',
-	  // Identifier for a buffer full error event
-	  BUFFER_FULL_ERROR: 'bufferFullError'
+	  // Identifier for a buffer full event
+	  BUFFER_FULL_ERROR: 'bufferFullError',
+	  // Identifier for a buffer seek over hole event
+	  BUFFER_SEEK_OVER_HOLE: 'bufferSeekOverHole'
 	};
 
 /***/ },
@@ -14001,7 +14011,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      this.url = url;
 	      this.id = id1;
 	      this.id2 = id2;
-	      if (this.id === undefined) {
+	      if (this.id === null) {
 	        retry = config.manifestLoadingMaxRetry;
 	        timeout = config.manifestLoadingTimeOut;
 	        retryDelay = config.manifestLoadingRetryDelay;
@@ -14235,7 +14245,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	        details = _errors.ErrorDetails.LEVEL_LOAD_ERROR;
 	        fatal = false;
 	      }
-	      this.loader.abort();
+	      if (this.loader) {
+	        this.loader.abort();
+	      }
 	      this.hls.trigger(_events2.default.ERROR, { type: _errors.ErrorTypes.NETWORK_ERROR, details: details, fatal: fatal, url: this.url, loader: this.loader, response: event.currentTarget, level: this.id, id: this.id2 });
 	    }
 	  }, {
@@ -14249,7 +14261,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	        details = _errors.ErrorDetails.LEVEL_LOAD_TIMEOUT;
 	        fatal = false;
 	      }
-	      this.loader.abort();
+	      if (this.loader) {
+	        this.loader.abort();
+	      }
 	      this.hls.trigger(_events2.default.ERROR, { type: _errors.ErrorTypes.NETWORK_ERROR, details: details, fatal: fatal, url: this.url, loader: this.loader, level: this.id, id: this.id2 });
 	    }
 	  }]);
@@ -14419,7 +14433,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      baseURL = baseURLQuerySplit[1];
 	    }
 
-	    var baseURLDomainSplit = /^((([a-z]+):)?\/\/[a-z0-9\.-]+(:[0-9]+)?\/)(.*)$/i.exec(baseURL);
+	    var baseURLDomainSplit = /^((([a-z]+):)?\/\/[a-z0-9\.\-_~]+(:[0-9]+)?\/)(.*)$/i.exec(baseURL);
 	    var baseURLProtocol = baseURLDomainSplit[3];
 	    var baseURLDomain = baseURLDomainSplit[1];
 	    var baseURLPath = baseURLDomainSplit[5];
@@ -14679,13 +14693,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'loaderror',
 	    value: function loaderror(event) {
-	      this.loader.abort();
+	      if (this.loader) {
+	        this.loader.abort();
+	      }
 	      this.hls.trigger(_events2.default.ERROR, { type: _errors.ErrorTypes.NETWORK_ERROR, details: _errors.ErrorDetails.FRAG_LOAD_ERROR, fatal: false, frag: this.frag, response: event });
 	    }
 	  }, {
 	    key: 'loadtimeout',
 	    value: function loadtimeout() {
-	      this.loader.abort();
+	      if (this.loader) {
+	        this.loader.abort();
+	      }
 	      this.hls.trigger(_events2.default.ERROR, { type: _errors.ErrorTypes.NETWORK_ERROR, details: _errors.ErrorDetails.FRAG_LOAD_TIMEOUT, fatal: false, frag: this.frag });
 	    }
 	  }, {
@@ -14968,6 +14986,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        ms.removeEventListener('sourceclose', this.onmsc);
 	        // unlink MediaSource from video tag
 	        this.media.src = '';
+	        this.media.removeAttribute('src');
 	        this.mediaSource = null;
 	        this.media = null;
 	        this.pendingTracks = null;
@@ -15200,9 +15219,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	              }
 	            } else {
 	              // QuotaExceededError: http://www.w3.org/TR/html5/infrastructure.html#quotaexceedederror
-	              // let's stop appending any segments, and report BUFFER_FULL error
+	              // let's stop appending any segments, and report BUFFER_FULL_ERROR error
 	              segments = [];
-	              event.details = _errors.ErrorDetails.BUFFER_FULL;
+	              event.details = _errors.ErrorDetails.BUFFER_FULL_ERROR;
 	              hls.trigger(_events2.default.ERROR, event);
 	            }
 	          }
@@ -15620,8 +15639,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	            if (levelDetails.live) {
 	              // check if requested position is within seekable boundaries :
 	              //logger.log(`start/pos/bufEnd/seeking:${start.toFixed(3)}/${pos.toFixed(3)}/${bufferEnd.toFixed(3)}/${this.media.seeking}`);
-	              if (bufferEnd < Math.max(start, end - config.liveMaxLatencyDurationCount * levelDetails.targetduration)) {
-	                this.seekAfterBuffered = start + Math.max(0, levelDetails.totalduration - config.liveSyncDurationCount * levelDetails.targetduration);
+	              var maxLatency = config.liveMaxLatencyDuration !== undefined ? config.liveMaxLatencyDuration : config.liveMaxLatencyDurationCount * levelDetails.targetduration;
+
+	              if (bufferEnd < Math.max(start, end - maxLatency)) {
+	                var targetLatency = config.liveSyncDuration !== undefined ? config.liveSyncDuration : config.liveSyncDurationCount * levelDetails.targetduration;
+	                this.seekAfterBuffered = start + Math.max(0, levelDetails.totalduration - targetLatency);
 	                _logger.logger.log('buffer end: ' + bufferEnd + ' is located too far from the end of live sliding playlist, media position will be reseted to: ' + this.seekAfterBuffered.toFixed(3));
 	                bufferEnd = this.seekAfterBuffered;
 	              }
@@ -15866,7 +15888,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        if (pos + maxHoleDuration >= start && pos < end) {
 	          // play position is inside this buffer TimeRange, retrieve end of buffer position and buffer length
 	          bufferStart = start;
-	          bufferEnd = end + maxHoleDuration;
+	          bufferEnd = end;
 	          bufferLen = bufferEnd - pos;
 	        } else if (pos + maxHoleDuration < start) {
 	          bufferStartNext = start;
@@ -15878,11 +15900,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'getBufferRange',
 	    value: function getBufferRange(position) {
-	      var i, range;
-	      for (i = this.bufferRange.length - 1; i >= 0; i--) {
-	        range = this.bufferRange[i];
-	        if (position >= range.start && position <= range.end) {
-	          return range;
+	      var i,
+	          range,
+	          bufferRange = this.bufferRange;
+	      if (bufferRange) {
+	        for (i = bufferRange.length - 1; i >= 0; i--) {
+	          range = bufferRange[i];
+	          if (position >= range.start && position <= range.end) {
+	            return range;
+	          }
 	        }
 	      }
 	      return null;
@@ -16199,7 +16225,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	      if (this.startFragRequested === false) {
 	        // if live playlist, set start position to be fragment N-this.config.liveSyncDurationCount (usually 3)
 	        if (newDetails.live) {
-	          this.startPosition = Math.max(0, sliding + duration - this.config.liveSyncDurationCount * newDetails.targetduration);
+	          var targetLatency = this.config.liveSyncDuration !== undefined ? this.config.liveSyncDuration : this.config.liveSyncDurationCount * newDetails.targetduration;
+	          this.startPosition = Math.max(0, sliding + duration - targetLatency);
 	        }
 	        this.nextLoadPosition = this.startPosition;
 	      }
@@ -16453,7 +16480,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	          _logger.logger.warn('mediaController: ' + data.details + ' while loading frag,switch to ' + (data.fatal ? 'ERROR' : 'IDLE') + ' state ...');
 	          this.state = data.fatal ? State.ERROR : State.IDLE;
 	          break;
-	        case _errors.ErrorDetails.BUFFER_FULL:
+	        case _errors.ErrorDetails.BUFFER_FULL_ERROR:
 	          // trigger a smooth level switch to empty buffers
 	          // also reduce max buffer length as it might be too high. we do this to avoid loop flushing ...
 	          this.config.maxMaxBufferLength /= 2;
@@ -16500,8 +16527,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	          }
 	          var bufferInfo = this.bufferInfo(currentTime, 0),
 	              expectedPlaying = !(media.paused || media.ended || media.seeking || readyState < 2),
-	              jumpThreshold = 0.2,
-	              playheadMoving = currentTime > media.playbackRate * this.lastCurrentTime;
+	              jumpThreshold = 0.4,
+
+	          // tolerance needed as some browsers stalls playback before reaching buffered range end
+	          playheadMoving = currentTime > media.playbackRate * this.lastCurrentTime;
 
 	          if (this.stalled && playheadMoving) {
 	            this.stalled = false;
@@ -16523,14 +16552,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	            }
 	            // if we are below threshold, try to jump if next buffer range is close
 	            if (bufferInfo.len <= jumpThreshold) {
-	              // no buffer available @ currentTime, check if next buffer is close (more than 5ms diff but within a config.maxSeekHole second range)
+	              // no buffer available @ currentTime, check if next buffer is close (within a config.maxSeekHole second range)
 	              var nextBufferStart = bufferInfo.nextStart,
 	                  delta = nextBufferStart - currentTime;
-	              if (nextBufferStart && delta < this.config.maxSeekHole && delta > 0.005 && !media.seeking) {
+	              if (nextBufferStart && delta < this.config.maxSeekHole && delta > 0 && !media.seeking) {
 	                // next buffer is close ! adjust currentTime to nextBufferStart
 	                // this will ensure effective video decoding
 	                _logger.logger.log('adjust currentTime from ' + media.currentTime + ' to next buffered @ ' + nextBufferStart);
 	                media.currentTime = nextBufferStart;
+	                this.hls.trigger(_events2.default.ERROR, { type: _errors.ErrorTypes.MEDIA_ERROR, details: _errors.ErrorDetails.BUFFER_SEEK_OVER_HOLE, fatal: false });
 	              }
 	            }
 	          } else {
@@ -21815,7 +21845,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	      this.timeout = timeout;
 	      this.maxRetry = maxRetry;
 	      this.retryDelay = retryDelay;
-	      this.timeoutHandle = window.setTimeout(this.loadtimeout.bind(this), timeout);
 	      this.loadInternal();
 	    }
 	  }, {
@@ -21842,6 +21871,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      if (this.xhrSetup) {
 	        this.xhrSetup(xhr, this.url);
 	      }
+	      this.timeoutHandle = window.setTimeout(this.loadtimeout.bind(this), this.timeout);
 	      xhr.send();
 	    }
 	  }, {
@@ -22008,13 +22038,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'loaderror',
 	    value: function loaderror(event) {
-	      this.loader.abort();
+	      if (this.loader) {
+	        this.loader.abort();
+	      }
 	      this.hls.trigger(_events2.default.ERROR, { type: _errors.ErrorTypes.NETWORK_ERROR, details: _errors.ErrorDetails.KEY_LOAD_ERROR, fatal: false, frag: this.frag, response: event });
 	    }
 	  }, {
 	    key: 'loadtimeout',
 	    value: function loadtimeout() {
-	      this.loader.abort();
+	      if (this.loader) {
+	        this.loader.abort();
+	      }
 	      this.hls.trigger(_events2.default.ERROR, { type: _errors.ErrorTypes.NETWORK_ERROR, details: _errors.ErrorDetails.KEY_LOAD_TIMEOUT, fatal: false, frag: this.frag });
 	    }
 	  }, {
