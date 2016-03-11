@@ -4877,7 +4877,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
 	/**
-	 * lodash 4.1.2 (Custom Build) <https://lodash.com/>
+	 * lodash 4.1.1 (Custom Build) <https://lodash.com/>
 	 * Build: `lodash modularize exports="npm" -o ./`
 	 * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
 	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
@@ -4948,7 +4948,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	/** Used to convert symbols to primitives and strings. */
 	var symbolProto = _Symbol ? _Symbol.prototype : undefined,
-	    symbolToString = symbolProto ? symbolProto.toString : undefined;
+	    symbolToString = _Symbol ? symbolProto.toString : undefined;
 
 	/**
 	 * Checks if `value` is object-like. A value is object-like if it's not `null`
@@ -5026,7 +5026,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return '';
 	  }
 	  if (isSymbol(value)) {
-	    return symbolToString ? symbolToString.call(value) : '';
+	    return _Symbol ? symbolToString.call(value) : '';
 	  }
 	  var result = value + '';
 	  return result == '0' && 1 / value == -INFINITY ? '-0' : result;
@@ -5637,13 +5637,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 
 	  Container.prototype.disableMediaControl = function disableMediaControl() {
-	    this.mediaControlDisabled = true;
-	    this.trigger(_events2.default.CONTAINER_MEDIACONTROL_DISABLE);
+	    if (this.mediaControlDisabled !== true) {
+	      this.mediaControlDisabled = true;
+	      this.trigger(_events2.default.CONTAINER_MEDIACONTROL_DISABLE);
+	    }
 	  };
 
 	  Container.prototype.enableMediaControl = function enableMediaControl() {
-	    this.mediaControlDisabled = false;
-	    this.trigger(_events2.default.CONTAINER_MEDIACONTROL_ENABLE);
+	    if (this.mediaControlDisabled !== false) {
+	      this.mediaControlDisabled = false;
+	      this.trigger(_events2.default.CONTAINER_MEDIACONTROL_ENABLE);
+	    }
 	  };
 
 	  /**
@@ -5838,7 +5842,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
 	/**
-	 * lodash 4.1.1 (Custom Build) <https://lodash.com/>
+	 * lodash 4.1.0 (Custom Build) <https://lodash.com/>
 	 * Build: `lodash modularize exports="npm" -o ./`
 	 * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
 	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
@@ -6076,7 +6080,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function isPrototype(value) {
 	  var Ctor = value && value.constructor,
-	      proto = typeof Ctor == 'function' && Ctor.prototype || objectProto;
+	      proto = isFunction(Ctor) && Ctor.prototype || objectProto;
 
 	  return value === proto;
 	}
@@ -6152,7 +6156,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * // => false
 	 */
 	function isArrayLike(value) {
-	  return value != null && isLength(getLength(value)) && !isFunction(value);
+	  return value != null && !(typeof value == 'function' && isFunction(value)) && isLength(getLength(value));
 	}
 
 	/**
@@ -6200,8 +6204,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function isFunction(value) {
 	  // The use of `Object#toString` avoids issues with the `typeof` operator
-	  // in Safari 8 which returns 'object' for typed array and weak map constructors,
-	  // and PhantomJS 1.9 which returns 'function' for `NodeList` instances.
+	  // in Safari 8 which returns 'object' for typed array constructors, and
+	  // PhantomJS 1.9 which returns 'function' for `NodeList` instances.
 	  var tag = isObject(value) ? objectToString.call(value) : '';
 	  return tag == funcTag || tag == genTag;
 	}
@@ -6445,7 +6449,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
 	/**
-	 * lodash 4.5.2 (Custom Build) <https://lodash.com/>
+	 * lodash 4.5.1 (Custom Build) <https://lodash.com/>
 	 * Build: `lodash modularize exports="npm" -o ./`
 	 * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
 	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
@@ -6453,15 +6457,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * Available under MIT license <https://lodash.com/license>
 	 */
 
+	/** Used to compose bitmasks for comparison styles. */
+	var UNORDERED_COMPARE_FLAG = 1,
+	    PARTIAL_COMPARE_FLAG = 2;
+
 	/** Used as the size to enable large array optimizations. */
 	var LARGE_ARRAY_SIZE = 200;
 
 	/** Used to stand-in for `undefined` hash values. */
 	var HASH_UNDEFINED = '__lodash_hash_undefined__';
-
-	/** Used to compose bitmasks for comparison styles. */
-	var UNORDERED_COMPARE_FLAG = 1,
-	    PARTIAL_COMPARE_FLAG = 2;
 
 	/** Used as references for various `Number` constants. */
 	var INFINITY = 1 / 0,
@@ -6744,8 +6748,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	/** Used to convert symbols to primitives and strings. */
 	var symbolProto = _Symbol ? _Symbol.prototype : undefined,
-	    symbolValueOf = symbolProto ? symbolProto.valueOf : undefined,
-	    symbolToString = symbolProto ? symbolProto.toString : undefined;
+	    symbolValueOf = _Symbol ? symbolProto.valueOf : undefined,
+	    symbolToString = _Symbol ? symbolProto.toString : undefined;
 
 	/**
 	 * Creates an hash object.
@@ -7208,26 +7212,33 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  if (!objIsArr) {
 	    objTag = getTag(object);
-	    objTag = objTag == argsTag ? objectTag : objTag;
+	    if (objTag == argsTag) {
+	      objTag = objectTag;
+	    } else if (objTag != objectTag) {
+	      objIsArr = isTypedArray(object);
+	    }
 	  }
 	  if (!othIsArr) {
 	    othTag = getTag(other);
-	    othTag = othTag == argsTag ? objectTag : othTag;
+	    if (othTag == argsTag) {
+	      othTag = objectTag;
+	    } else if (othTag != objectTag) {
+	      othIsArr = isTypedArray(other);
+	    }
 	  }
 	  var objIsObj = objTag == objectTag && !isHostObject(object),
 	      othIsObj = othTag == objectTag && !isHostObject(other),
 	      isSameTag = objTag == othTag;
 
-	  if (isSameTag && !objIsObj) {
-	    stack || (stack = new Stack());
-	    return objIsArr || isTypedArray(object) ? equalArrays(object, other, equalFunc, customizer, bitmask, stack) : equalByTag(object, other, objTag, equalFunc, customizer, bitmask, stack);
+	  if (isSameTag && !(objIsArr || objIsObj)) {
+	    return equalByTag(object, other, objTag, equalFunc, customizer, bitmask);
 	  }
-	  if (!(bitmask & PARTIAL_COMPARE_FLAG)) {
+	  var isPartial = bitmask & PARTIAL_COMPARE_FLAG;
+	  if (!isPartial) {
 	    var objIsWrapped = objIsObj && hasOwnProperty.call(object, '__wrapped__'),
 	        othIsWrapped = othIsObj && hasOwnProperty.call(other, '__wrapped__');
 
 	    if (objIsWrapped || othIsWrapped) {
-	      stack || (stack = new Stack());
 	      return equalFunc(objIsWrapped ? object.value() : object, othIsWrapped ? other.value() : other, customizer, bitmask, stack);
 	    }
 	  }
@@ -7235,7 +7246,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return false;
 	  }
 	  stack || (stack = new Stack());
-	  return equalObjects(object, other, equalFunc, customizer, bitmask, stack);
+	  return (objIsArr ? equalArrays : equalObjects)(object, other, equalFunc, customizer, bitmask, stack);
 	}
 
 	/**
@@ -7422,9 +7433,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @param {Array} array The array to compare.
 	 * @param {Array} other The other array to compare.
 	 * @param {Function} equalFunc The function to determine equivalents of values.
-	 * @param {Function} customizer The function to customize comparisons.
-	 * @param {number} bitmask The bitmask of comparison flags. See `baseIsEqual` for more details.
-	 * @param {Object} stack Tracks traversed `array` and `other` objects.
+	 * @param {Function} [customizer] The function to customize comparisons.
+	 * @param {number} [bitmask] The bitmask of comparison flags. See `baseIsEqual` for more details.
+	 * @param {Object} [stack] Tracks traversed `array` and `other` objects.
 	 * @returns {boolean} Returns `true` if the arrays are equivalent, else `false`.
 	 */
 	function equalArrays(array, other, equalFunc, customizer, bitmask, stack) {
@@ -7489,12 +7500,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @param {Object} other The other object to compare.
 	 * @param {string} tag The `toStringTag` of the objects to compare.
 	 * @param {Function} equalFunc The function to determine equivalents of values.
-	 * @param {Function} customizer The function to customize comparisons.
-	 * @param {number} bitmask The bitmask of comparison flags. See `baseIsEqual` for more details.
-	 * @param {Object} stack Tracks traversed `object` and `other` objects.
+	 * @param {Function} [customizer] The function to customize comparisons.
+	 * @param {number} [bitmask] The bitmask of comparison flags. See `baseIsEqual` for more details.
 	 * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
 	 */
-	function equalByTag(object, other, tag, equalFunc, customizer, bitmask, stack) {
+	function equalByTag(object, other, tag, equalFunc, customizer, bitmask) {
 	  switch (tag) {
 	    case arrayBufferTag:
 	      if (object.byteLength != other.byteLength || !equalFunc(new Uint8Array(object), new Uint8Array(other))) {
@@ -7528,21 +7538,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var isPartial = bitmask & PARTIAL_COMPARE_FLAG;
 	      convert || (convert = setToArray);
 
-	      if (object.size != other.size && !isPartial) {
-	        return false;
-	      }
-	      // Assume cyclic values are equal.
-	      var stacked = stack.get(object);
-	      if (stacked) {
-	        return stacked == other;
-	      }
 	      // Recursively compare objects (susceptible to call stack limits).
-	      return equalArrays(convert(object), convert(other), equalFunc, customizer, bitmask | UNORDERED_COMPARE_FLAG, stack.set(object, other));
+	      return (isPartial || object.size == other.size) && equalFunc(convert(object), convert(other), customizer, bitmask | UNORDERED_COMPARE_FLAG);
 
 	    case symbolTag:
-	      if (symbolValueOf) {
-	        return symbolValueOf.call(object) == symbolValueOf.call(other);
-	      }
+	      return !!_Symbol && symbolValueOf.call(object) == symbolValueOf.call(other);
 	  }
 	  return false;
 	}
@@ -7555,9 +7555,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @param {Object} object The object to compare.
 	 * @param {Object} other The other object to compare.
 	 * @param {Function} equalFunc The function to determine equivalents of values.
-	 * @param {Function} customizer The function to customize comparisons.
-	 * @param {number} bitmask The bitmask of comparison flags. See `baseIsEqual` for more details.
-	 * @param {Object} stack Tracks traversed `object` and `other` objects.
+	 * @param {Function} [customizer] The function to customize comparisons.
+	 * @param {number} [bitmask] The bitmask of comparison flags. See `baseIsEqual` for more details.
+	 * @param {Object} [stack] Tracks traversed `object` and `other` objects.
 	 * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
 	 */
 	function equalObjects(object, other, equalFunc, customizer, bitmask, stack) {
@@ -7652,7 +7652,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {*} Returns the function if it's native, else `undefined`.
 	 */
 	function getNative(object, key) {
-	  var value = object[key];
+	  var value = object == null ? undefined : object[key];
 	  return isNative(value) ? value : undefined;
 	}
 
@@ -7766,7 +7766,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function isPrototype(value) {
 	  var Ctor = value && value.constructor,
-	      proto = typeof Ctor == 'function' && Ctor.prototype || objectProto;
+	      proto = isFunction(Ctor) && Ctor.prototype || objectProto;
 
 	  return value === proto;
 	}
@@ -7933,7 +7933,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * // => false
 	 */
 	function isArrayLike(value) {
-	  return value != null && isLength(getLength(value)) && !isFunction(value);
+	  return value != null && !(typeof value == 'function' && isFunction(value)) && isLength(getLength(value));
 	}
 
 	/**
@@ -7981,8 +7981,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function isFunction(value) {
 	  // The use of `Object#toString` avoids issues with the `typeof` operator
-	  // in Safari 8 which returns 'object' for typed array and weak map constructors,
-	  // and PhantomJS 1.9 which returns 'function' for `NodeList` instances.
+	  // in Safari 8 which returns 'object' for typed array constructors, and
+	  // PhantomJS 1.9 which returns 'function' for `NodeList` instances.
 	  var tag = isObject(value) ? objectToString.call(value) : '';
 	  return tag == funcTag || tag == genTag;
 	}
@@ -8185,7 +8185,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return '';
 	  }
 	  if (isSymbol(value)) {
-	    return symbolToString ? symbolToString.call(value) : '';
+	    return _Symbol ? symbolToString.call(value) : '';
 	  }
 	  var result = value + '';
 	  return result == '0' && 1 / value == -INFINITY ? '-0' : result;
@@ -10146,7 +10146,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
 	/**
-	 * lodash 4.1.1 (Custom Build) <https://lodash.com/>
+	 * lodash 4.1.0 (Custom Build) <https://lodash.com/>
 	 * Build: `lodash modularize exports="npm" -o ./`
 	 * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
 	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
@@ -10552,7 +10552,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {*} Returns the function if it's native, else `undefined`.
 	 */
 	function getNative(object, key) {
-	  var value = object[key];
+	  var value = object == null ? undefined : object[key];
 	  return isNative(value) ? value : undefined;
 	}
 
@@ -10620,8 +10620,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function isFunction(value) {
 	  // The use of `Object#toString` avoids issues with the `typeof` operator
-	  // in Safari 8 which returns 'object' for typed array and weak map constructors,
-	  // and PhantomJS 1.9 which returns 'function' for `NodeList` instances.
+	  // in Safari 8 which returns 'object' for typed array constructors, and
+	  // PhantomJS 1.9 which returns 'function' for `NodeList` instances.
 	  var tag = isObject(value) ? objectToString.call(value) : '';
 	  return tag == funcTag || tag == genTag;
 	}
@@ -10732,7 +10732,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
 	/**
-	 * lodash 4.0.1 (Custom Build) <https://lodash.com/>
+	 * lodash 4.0.0 (Custom Build) <https://lodash.com/>
 	 * Build: `lodash modularize exports="npm" -o ./`
 	 * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
 	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
@@ -10853,7 +10853,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {*} Returns the function if it's native, else `undefined`.
 	 */
 	function getNative(object, key) {
-	  var value = object[key];
+	  var value = object == null ? undefined : object[key];
 	  return isNative(value) ? value : undefined;
 	}
 
@@ -10875,8 +10875,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function isFunction(value) {
 	  // The use of `Object#toString` avoids issues with the `typeof` operator
-	  // in Safari 8 which returns 'object' for typed array and weak map constructors,
-	  // and PhantomJS 1.9 which returns 'function' for `NodeList` instances.
+	  // in Safari 8 which returns 'object' for typed array constructors, and
+	  // PhantomJS 1.9 which returns 'function' for `NodeList` instances.
 	  var tag = isObject(value) ? objectToString.call(value) : '';
 	  return tag == funcTag || tag == genTag;
 	}
@@ -12854,7 +12854,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    this._levels = [];
 
 	    for (var index = 0; index < levelsLength; index++) {
-	      this._levels.push({ id: index, label: levels[index].height + 'p' });
+	      this._levels.push({ id: index, label: levels[index].height + 'p', level: levels[index] });
 	    }
 	    this.trigger(_events2.default.PLAYBACK_LEVELS_AVAILABLE, this._levels);
 	    this.trigger(_events2.default.PLAYBACK_LOADEDMETADATA, { duration: duration, data: loadmetrics });
@@ -13247,7 +13247,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  HLS.prototype.fillLevels = function fillLevels() {
 	    this._levels = this.hls.levels.map(function (level, index) {
-	      return { id: index, label: level.bitrate / 1000 + 'Kbps'
+	      return { id: index, level: level, label: level.bitrate / 1000 + 'Kbps'
 	      };
 	    });
 	    this.trigger(_events2.default.PLAYBACK_LEVELS_AVAILABLE, this._levels);
@@ -16285,8 +16285,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        // include levelCodec in audio and video tracks
 	        track = tracks.audio;
 	        if (track) {
-	          var audioCodec = this.levels[this.level].audioCodec,
-	              ua = navigator.userAgent.toLowerCase();
+	          var audioCodec = this.levels[this.level].audioCodec;
 	          if (audioCodec && this.audioCodecSwap) {
 	            _logger.logger.log('swapping playlist audio codec');
 	            if (audioCodec.indexOf('mp4a.40.5') !== -1) {
@@ -16297,20 +16296,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	          }
 	          // in case AAC and HE-AAC audio codecs are signalled in manifest
 	          // force HE-AAC , as it seems that most browsers prefers that way,
-	          // except for mono streams OR on FF
+	          // except for mono streams OR on Android OR on FF
 	          // these conditions might need to be reviewed ...
 	          if (this.audioCodecSwitch) {
+	            var ua = navigator.userAgent.toLowerCase();
 	            // don't force HE-AAC if mono stream
 	            if (track.metadata.channelCount !== 1 &&
+	            // don't force HE-AAC if android
+	            ua.indexOf('android') === -1 &&
 	            // don't force HE-AAC if firefox
 	            ua.indexOf('firefox') === -1) {
 	              audioCodec = 'mp4a.40.5';
 	            }
-	          }
-	          // HE-AAC is broken on Android, always signal audio codec as AAC even if variant manifest states otherwise
-	          if (ua.indexOf('android') !== -1) {
-	            audioCodec = 'mp4a.40.2';
-	            _logger.logger.log('Android: force audio codec to' + audioCodec);
 	          }
 	          track.levelCodec = audioCodec;
 	        }
@@ -20644,7 +20641,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            key = i;
 	            break;
 	        } else if (wrapperFuncString.indexOf(fnString) > -1) {
-	            sources[i] = wrapperFuncString.substring(0, wrapperFuncString.length - 1) + '\n' + fnString.match(/function\s?(.+?)\s?\(.*/)[1] + '();\n}';
+	            sources[i] = wrapperFuncString.replace(fnString, '(' + fnString + ')();');
 	            key = i;
 	            break;
 	        }
