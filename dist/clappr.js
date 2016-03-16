@@ -4883,7 +4883,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
 	/**
-	 * lodash 4.1.2 (Custom Build) <https://lodash.com/>
+	 * lodash 4.1.1 (Custom Build) <https://lodash.com/>
 	 * Build: `lodash modularize exports="npm" -o ./`
 	 * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
 	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
@@ -4954,7 +4954,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	/** Used to convert symbols to primitives and strings. */
 	var symbolProto = _Symbol ? _Symbol.prototype : undefined,
-	    symbolToString = symbolProto ? symbolProto.toString : undefined;
+	    symbolToString = _Symbol ? symbolProto.toString : undefined;
 
 	/**
 	 * Checks if `value` is object-like. A value is object-like if it's not `null`
@@ -5032,7 +5032,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return '';
 	  }
 	  if (isSymbol(value)) {
-	    return symbolToString ? symbolToString.call(value) : '';
+	    return _Symbol ? symbolToString.call(value) : '';
 	  }
 	  var result = value + '';
 	  return result == '0' && 1 / value == -INFINITY ? '-0' : result;
@@ -5653,13 +5653,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 
 	  Container.prototype.disableMediaControl = function disableMediaControl() {
-	    this.mediaControlDisabled = true;
-	    this.trigger(_events2.default.CONTAINER_MEDIACONTROL_DISABLE);
+	    if (!this.mediaControlDisabled) {
+	      this.mediaControlDisabled = true;
+	      this.trigger(_events2.default.CONTAINER_MEDIACONTROL_DISABLE);
+	    }
 	  };
 
 	  Container.prototype.enableMediaControl = function enableMediaControl() {
-	    this.mediaControlDisabled = false;
-	    this.trigger(_events2.default.CONTAINER_MEDIACONTROL_ENABLE);
+	    if (this.mediaControlDisabled) {
+	      this.mediaControlDisabled = false;
+	      this.trigger(_events2.default.CONTAINER_MEDIACONTROL_ENABLE);
+	    }
 	  };
 
 	  Container.prototype.updateStyle = function updateStyle() {
@@ -5864,7 +5868,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
 	/**
-	 * lodash 4.1.1 (Custom Build) <https://lodash.com/>
+	 * lodash 4.1.0 (Custom Build) <https://lodash.com/>
 	 * Build: `lodash modularize exports="npm" -o ./`
 	 * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
 	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
@@ -6102,7 +6106,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function isPrototype(value) {
 	  var Ctor = value && value.constructor,
-	      proto = typeof Ctor == 'function' && Ctor.prototype || objectProto;
+	      proto = isFunction(Ctor) && Ctor.prototype || objectProto;
 
 	  return value === proto;
 	}
@@ -6178,7 +6182,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * // => false
 	 */
 	function isArrayLike(value) {
-	  return value != null && isLength(getLength(value)) && !isFunction(value);
+	  return value != null && !(typeof value == 'function' && isFunction(value)) && isLength(getLength(value));
 	}
 
 	/**
@@ -6226,8 +6230,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function isFunction(value) {
 	  // The use of `Object#toString` avoids issues with the `typeof` operator
-	  // in Safari 8 which returns 'object' for typed array and weak map constructors,
-	  // and PhantomJS 1.9 which returns 'function' for `NodeList` instances.
+	  // in Safari 8 which returns 'object' for typed array constructors, and
+	  // PhantomJS 1.9 which returns 'function' for `NodeList` instances.
 	  var tag = isObject(value) ? objectToString.call(value) : '';
 	  return tag == funcTag || tag == genTag;
 	}
@@ -6471,7 +6475,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
 	/**
-	 * lodash 4.5.2 (Custom Build) <https://lodash.com/>
+	 * lodash 4.5.1 (Custom Build) <https://lodash.com/>
 	 * Build: `lodash modularize exports="npm" -o ./`
 	 * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
 	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
@@ -6479,15 +6483,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * Available under MIT license <https://lodash.com/license>
 	 */
 
+	/** Used to compose bitmasks for comparison styles. */
+	var UNORDERED_COMPARE_FLAG = 1,
+	    PARTIAL_COMPARE_FLAG = 2;
+
 	/** Used as the size to enable large array optimizations. */
 	var LARGE_ARRAY_SIZE = 200;
 
 	/** Used to stand-in for `undefined` hash values. */
 	var HASH_UNDEFINED = '__lodash_hash_undefined__';
-
-	/** Used to compose bitmasks for comparison styles. */
-	var UNORDERED_COMPARE_FLAG = 1,
-	    PARTIAL_COMPARE_FLAG = 2;
 
 	/** Used as references for various `Number` constants. */
 	var INFINITY = 1 / 0,
@@ -6770,8 +6774,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	/** Used to convert symbols to primitives and strings. */
 	var symbolProto = _Symbol ? _Symbol.prototype : undefined,
-	    symbolValueOf = symbolProto ? symbolProto.valueOf : undefined,
-	    symbolToString = symbolProto ? symbolProto.toString : undefined;
+	    symbolValueOf = _Symbol ? symbolProto.valueOf : undefined,
+	    symbolToString = _Symbol ? symbolProto.toString : undefined;
 
 	/**
 	 * Creates an hash object.
@@ -7234,26 +7238,33 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  if (!objIsArr) {
 	    objTag = getTag(object);
-	    objTag = objTag == argsTag ? objectTag : objTag;
+	    if (objTag == argsTag) {
+	      objTag = objectTag;
+	    } else if (objTag != objectTag) {
+	      objIsArr = isTypedArray(object);
+	    }
 	  }
 	  if (!othIsArr) {
 	    othTag = getTag(other);
-	    othTag = othTag == argsTag ? objectTag : othTag;
+	    if (othTag == argsTag) {
+	      othTag = objectTag;
+	    } else if (othTag != objectTag) {
+	      othIsArr = isTypedArray(other);
+	    }
 	  }
 	  var objIsObj = objTag == objectTag && !isHostObject(object),
 	      othIsObj = othTag == objectTag && !isHostObject(other),
 	      isSameTag = objTag == othTag;
 
-	  if (isSameTag && !objIsObj) {
-	    stack || (stack = new Stack());
-	    return objIsArr || isTypedArray(object) ? equalArrays(object, other, equalFunc, customizer, bitmask, stack) : equalByTag(object, other, objTag, equalFunc, customizer, bitmask, stack);
+	  if (isSameTag && !(objIsArr || objIsObj)) {
+	    return equalByTag(object, other, objTag, equalFunc, customizer, bitmask);
 	  }
-	  if (!(bitmask & PARTIAL_COMPARE_FLAG)) {
+	  var isPartial = bitmask & PARTIAL_COMPARE_FLAG;
+	  if (!isPartial) {
 	    var objIsWrapped = objIsObj && hasOwnProperty.call(object, '__wrapped__'),
 	        othIsWrapped = othIsObj && hasOwnProperty.call(other, '__wrapped__');
 
 	    if (objIsWrapped || othIsWrapped) {
-	      stack || (stack = new Stack());
 	      return equalFunc(objIsWrapped ? object.value() : object, othIsWrapped ? other.value() : other, customizer, bitmask, stack);
 	    }
 	  }
@@ -7261,7 +7272,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return false;
 	  }
 	  stack || (stack = new Stack());
-	  return equalObjects(object, other, equalFunc, customizer, bitmask, stack);
+	  return (objIsArr ? equalArrays : equalObjects)(object, other, equalFunc, customizer, bitmask, stack);
 	}
 
 	/**
@@ -7448,9 +7459,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @param {Array} array The array to compare.
 	 * @param {Array} other The other array to compare.
 	 * @param {Function} equalFunc The function to determine equivalents of values.
-	 * @param {Function} customizer The function to customize comparisons.
-	 * @param {number} bitmask The bitmask of comparison flags. See `baseIsEqual` for more details.
-	 * @param {Object} stack Tracks traversed `array` and `other` objects.
+	 * @param {Function} [customizer] The function to customize comparisons.
+	 * @param {number} [bitmask] The bitmask of comparison flags. See `baseIsEqual` for more details.
+	 * @param {Object} [stack] Tracks traversed `array` and `other` objects.
 	 * @returns {boolean} Returns `true` if the arrays are equivalent, else `false`.
 	 */
 	function equalArrays(array, other, equalFunc, customizer, bitmask, stack) {
@@ -7515,12 +7526,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @param {Object} other The other object to compare.
 	 * @param {string} tag The `toStringTag` of the objects to compare.
 	 * @param {Function} equalFunc The function to determine equivalents of values.
-	 * @param {Function} customizer The function to customize comparisons.
-	 * @param {number} bitmask The bitmask of comparison flags. See `baseIsEqual` for more details.
-	 * @param {Object} stack Tracks traversed `object` and `other` objects.
+	 * @param {Function} [customizer] The function to customize comparisons.
+	 * @param {number} [bitmask] The bitmask of comparison flags. See `baseIsEqual` for more details.
 	 * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
 	 */
-	function equalByTag(object, other, tag, equalFunc, customizer, bitmask, stack) {
+	function equalByTag(object, other, tag, equalFunc, customizer, bitmask) {
 	  switch (tag) {
 	    case arrayBufferTag:
 	      if (object.byteLength != other.byteLength || !equalFunc(new Uint8Array(object), new Uint8Array(other))) {
@@ -7554,21 +7564,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var isPartial = bitmask & PARTIAL_COMPARE_FLAG;
 	      convert || (convert = setToArray);
 
-	      if (object.size != other.size && !isPartial) {
-	        return false;
-	      }
-	      // Assume cyclic values are equal.
-	      var stacked = stack.get(object);
-	      if (stacked) {
-	        return stacked == other;
-	      }
 	      // Recursively compare objects (susceptible to call stack limits).
-	      return equalArrays(convert(object), convert(other), equalFunc, customizer, bitmask | UNORDERED_COMPARE_FLAG, stack.set(object, other));
+	      return (isPartial || object.size == other.size) && equalFunc(convert(object), convert(other), customizer, bitmask | UNORDERED_COMPARE_FLAG);
 
 	    case symbolTag:
-	      if (symbolValueOf) {
-	        return symbolValueOf.call(object) == symbolValueOf.call(other);
-	      }
+	      return !!_Symbol && symbolValueOf.call(object) == symbolValueOf.call(other);
 	  }
 	  return false;
 	}
@@ -7581,9 +7581,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @param {Object} object The object to compare.
 	 * @param {Object} other The other object to compare.
 	 * @param {Function} equalFunc The function to determine equivalents of values.
-	 * @param {Function} customizer The function to customize comparisons.
-	 * @param {number} bitmask The bitmask of comparison flags. See `baseIsEqual` for more details.
-	 * @param {Object} stack Tracks traversed `object` and `other` objects.
+	 * @param {Function} [customizer] The function to customize comparisons.
+	 * @param {number} [bitmask] The bitmask of comparison flags. See `baseIsEqual` for more details.
+	 * @param {Object} [stack] Tracks traversed `object` and `other` objects.
 	 * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
 	 */
 	function equalObjects(object, other, equalFunc, customizer, bitmask, stack) {
@@ -7678,7 +7678,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {*} Returns the function if it's native, else `undefined`.
 	 */
 	function getNative(object, key) {
-	  var value = object[key];
+	  var value = object == null ? undefined : object[key];
 	  return isNative(value) ? value : undefined;
 	}
 
@@ -7792,7 +7792,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function isPrototype(value) {
 	  var Ctor = value && value.constructor,
-	      proto = typeof Ctor == 'function' && Ctor.prototype || objectProto;
+	      proto = isFunction(Ctor) && Ctor.prototype || objectProto;
 
 	  return value === proto;
 	}
@@ -7959,7 +7959,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * // => false
 	 */
 	function isArrayLike(value) {
-	  return value != null && isLength(getLength(value)) && !isFunction(value);
+	  return value != null && !(typeof value == 'function' && isFunction(value)) && isLength(getLength(value));
 	}
 
 	/**
@@ -8007,8 +8007,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function isFunction(value) {
 	  // The use of `Object#toString` avoids issues with the `typeof` operator
-	  // in Safari 8 which returns 'object' for typed array and weak map constructors,
-	  // and PhantomJS 1.9 which returns 'function' for `NodeList` instances.
+	  // in Safari 8 which returns 'object' for typed array constructors, and
+	  // PhantomJS 1.9 which returns 'function' for `NodeList` instances.
 	  var tag = isObject(value) ? objectToString.call(value) : '';
 	  return tag == funcTag || tag == genTag;
 	}
@@ -8211,7 +8211,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return '';
 	  }
 	  if (isSymbol(value)) {
-	    return symbolToString ? symbolToString.call(value) : '';
+	    return _Symbol ? symbolToString.call(value) : '';
 	  }
 	  var result = value + '';
 	  return result == '0' && 1 / value == -INFINITY ? '-0' : result;
@@ -10172,7 +10172,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
 	/**
-	 * lodash 4.1.1 (Custom Build) <https://lodash.com/>
+	 * lodash 4.1.0 (Custom Build) <https://lodash.com/>
 	 * Build: `lodash modularize exports="npm" -o ./`
 	 * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
 	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
@@ -10578,7 +10578,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {*} Returns the function if it's native, else `undefined`.
 	 */
 	function getNative(object, key) {
-	  var value = object[key];
+	  var value = object == null ? undefined : object[key];
 	  return isNative(value) ? value : undefined;
 	}
 
@@ -10646,8 +10646,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function isFunction(value) {
 	  // The use of `Object#toString` avoids issues with the `typeof` operator
-	  // in Safari 8 which returns 'object' for typed array and weak map constructors,
-	  // and PhantomJS 1.9 which returns 'function' for `NodeList` instances.
+	  // in Safari 8 which returns 'object' for typed array constructors, and
+	  // PhantomJS 1.9 which returns 'function' for `NodeList` instances.
 	  var tag = isObject(value) ? objectToString.call(value) : '';
 	  return tag == funcTag || tag == genTag;
 	}
@@ -10758,7 +10758,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
 	/**
-	 * lodash 4.0.1 (Custom Build) <https://lodash.com/>
+	 * lodash 4.0.0 (Custom Build) <https://lodash.com/>
 	 * Build: `lodash modularize exports="npm" -o ./`
 	 * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
 	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
@@ -10879,7 +10879,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {*} Returns the function if it's native, else `undefined`.
 	 */
 	function getNative(object, key) {
-	  var value = object[key];
+	  var value = object == null ? undefined : object[key];
 	  return isNative(value) ? value : undefined;
 	}
 
@@ -10901,8 +10901,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function isFunction(value) {
 	  // The use of `Object#toString` avoids issues with the `typeof` operator
-	  // in Safari 8 which returns 'object' for typed array and weak map constructors,
-	  // and PhantomJS 1.9 which returns 'function' for `NodeList` instances.
+	  // in Safari 8 which returns 'object' for typed array constructors, and
+	  // PhantomJS 1.9 which returns 'function' for `NodeList` instances.
 	  var tag = isObject(value) ? objectToString.call(value) : '';
 	  return tag == funcTag || tag == genTag;
 	}
@@ -13484,6 +13484,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	          maxBufferSize: 60 * 1000 * 1000,
 	          maxBufferHole: 0.5,
 	          maxSeekHole: 2,
+	          maxFragLookUpTolerance: 0.2,
 	          liveSyncDurationCount: 3,
 	          liveMaxLatencyDurationCount: Infinity,
 	          liveSyncDuration: undefined,
@@ -13702,13 +13703,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'nextLoadLevel',
 	    get: function get() {
-	      return this.levelController.nextLoadLevel();
+	      return this.levelController.nextLoadLevel;
 	    }
 
 	    /** set quality level of next loaded fragment **/
 
 	    , set: function set(level) {
-	      this.levelController.level = level;
+	      this.levelController.nextLoadLevel = level;
 	    }
 
 	    /** Return first level (index of first level referenced in manifest)
@@ -15572,6 +15573,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'doTick',
 	    value: function doTick() {
+	      var _this2 = this;
+
 	      var pos,
 	          level,
 	          levelDetails,
@@ -15692,40 +15695,57 @@ return /******/ (function(modules) { // webpackBootstrap
 	              }
 	            }
 	            if (!_frag) {
-	              var foundFrag;
-	              if (bufferEnd < end) {
-	                foundFrag = _binarySearch2.default.search(fragments, function (candidate) {
-	                  //logger.log(`level/sn/start/end/bufEnd:${level}/${candidate.sn}/${candidate.start}/${(candidate.start+candidate.duration)}/${bufferEnd}`);
-	                  // offset should be within fragment boundary
-	                  if (candidate.start + candidate.duration <= bufferEnd) {
-	                    return 1;
-	                  } else if (candidate.start > bufferEnd) {
-	                    return -1;
+	              (function () {
+	                var foundFrag = undefined;
+	                var maxFragLookUpTolerance = config.maxFragLookUpTolerance;
+	                if (bufferEnd < end) {
+	                  if (bufferEnd > end - maxFragLookUpTolerance) {
+	                    maxFragLookUpTolerance = 0;
 	                  }
-	                  return 0;
-	                });
-	              } else {
-	                // reach end of playlist
-	                foundFrag = fragments[fragLen - 1];
-	              }
-	              if (foundFrag) {
-	                _frag = foundFrag;
-	                start = foundFrag.start;
-	                //logger.log('find SN matching with pos:' +  bufferEnd + ':' + frag.sn);
-	                if (fragPrevious && _frag.level === fragPrevious.level && _frag.sn === fragPrevious.sn) {
-	                  if (_frag.sn < levelDetails.endSN) {
-	                    _frag = fragments[_frag.sn + 1 - levelDetails.startSN];
-	                    _logger.logger.log('SN just loaded, load next one: ' + _frag.sn);
-	                  } else {
-	                    // have we reached end of VOD playlist ?
-	                    if (!levelDetails.live) {
-	                      this.hls.trigger(_events2.default.BUFFER_EOS);
-	                      this.state = State.ENDED;
+	                  foundFrag = _binarySearch2.default.search(fragments, function (candidate) {
+	                    // offset should be within fragment boundary - config.maxFragLookUpTolerance
+	                    // this is to cope with situations like
+	                    // bufferEnd = 9.991
+	                    // frag[Ø] : [0,10]
+	                    // frag[1] : [10,20]
+	                    // bufferEnd is within frag[0] range ... although what we are expecting is to return frag[1] here
+	                    //              frag start               frag start+duration
+	                    //                  |-----------------------------|
+	                    //              <--->                         <--->
+	                    //  ...--------><-----------------------------><---------....
+	                    // previous frag         matching fragment         next frag
+	                    //  return -1             return 0                 return 1
+	                    //logger.log(`level/sn/start/end/bufEnd:${level}/${candidate.sn}/${candidate.start}/${(candidate.start+candidate.duration)}/${bufferEnd}`);
+	                    if (candidate.start + candidate.duration - maxFragLookUpTolerance <= bufferEnd) {
+	                      return 1;
+	                    } else if (candidate.start - maxFragLookUpTolerance > bufferEnd) {
+	                      return -1;
 	                    }
-	                    _frag = null;
+	                    return 0;
+	                  });
+	                } else {
+	                  // reach end of playlist
+	                  foundFrag = fragments[fragLen - 1];
+	                }
+	                if (foundFrag) {
+	                  _frag = foundFrag;
+	                  start = foundFrag.start;
+	                  //logger.log('find SN matching with pos:' +  bufferEnd + ':' + frag.sn);
+	                  if (fragPrevious && _frag.level === fragPrevious.level && _frag.sn === fragPrevious.sn) {
+	                    if (_frag.sn < levelDetails.endSN) {
+	                      _frag = fragments[_frag.sn + 1 - levelDetails.startSN];
+	                      _logger.logger.log('SN just loaded, load next one: ' + _frag.sn);
+	                    } else {
+	                      // have we reached end of VOD playlist ?
+	                      if (!levelDetails.live) {
+	                        _this2.hls.trigger(_events2.default.BUFFER_EOS);
+	                        _this2.state = State.ENDED;
+	                      }
+	                      _frag = null;
+	                    }
 	                  }
 	                }
-	              }
+	              })();
 	            }
 	            if (_frag) {
 	              //logger.log('      loading frag ' + i +',pos/bufEnd:' + pos.toFixed(3) + '/' + bufferEnd.toFixed(3));
@@ -15787,25 +15807,47 @@ return /******/ (function(modules) { // webpackBootstrap
 	            var requestDelay = performance.now() - frag.trequest;
 	            // monitor fragment load progress after half of expected fragment duration,to stabilize bitrate
 	            if (requestDelay > 500 * frag.duration) {
-	              var loadRate = frag.loaded * 1000 / requestDelay; // byte/s
+	              var loadRate = Math.max(1, frag.loaded * 1000 / requestDelay); // byte/s; at least 1 byte/s to avoid division by zero
 	              if (frag.expectedLen < frag.loaded) {
 	                frag.expectedLen = frag.loaded;
 	              }
 	              pos = v.currentTime;
 	              var fragLoadedDelay = (frag.expectedLen - frag.loaded) / loadRate;
 	              var bufferStarvationDelay = this.bufferInfo(pos, config.maxBufferHole).end - pos;
-	              var fragLevelNextLoadedDelay = frag.duration * this.levels[hls.nextLoadLevel].bitrate / (8 * loadRate); //bps/Bps
-	              /* if we have less than 2 frag duration in buffer and if frag loaded delay is greater than buffer starvation delay
-	                ... and also bigger than duration needed to load fragment at next level ...*/
-	              if (bufferStarvationDelay < 2 * frag.duration && fragLoadedDelay > bufferStarvationDelay && fragLoadedDelay > fragLevelNextLoadedDelay) {
-	                // abort fragment loading ...
-	                _logger.logger.warn('loading too slow, abort fragment loading');
-	                _logger.logger.log('fragLoadedDelay/bufferStarvationDelay/fragLevelNextLoadedDelay :' + fragLoadedDelay.toFixed(1) + '/' + bufferStarvationDelay.toFixed(1) + '/' + fragLevelNextLoadedDelay.toFixed(1));
-	                //abort fragment loading
-	                frag.loader.abort();
-	                hls.trigger(_events2.default.FRAG_LOAD_EMERGENCY_ABORTED, { frag: frag });
-	                // switch back to IDLE state to request new fragment at lowest level
-	                this.state = State.IDLE;
+	              // consider emergency switch down only if we have less than 2 frag buffered AND
+	              // time to finish loading current fragment is bigger than buffer starvation delay
+	              // ie if we risk buffer starvation if bw does not increase quickly
+	              if (bufferStarvationDelay < 2 * frag.duration && fragLoadedDelay > bufferStarvationDelay) {
+	                var fragLevelNextLoadedDelay = undefined,
+	                    nextLoadLevel = undefined;
+	                // lets iterate through lower level and try to find the biggest one that could avoid rebuffering
+	                // we start from current level - 1 and we step down , until we find a matching level
+	                for (nextLoadLevel = this.level - 1; nextLoadLevel >= 0; nextLoadLevel--) {
+	                  // compute time to load next fragment at lower level
+	                  // 0.8 : consider only 80% of current bw to be conservative
+	                  // 8 = bits per byte (bps/Bps)
+	                  fragLevelNextLoadedDelay = frag.duration * this.levels[nextLoadLevel].bitrate / (8 * 0.8 * loadRate);
+	                  _logger.logger.log('fragLoadedDelay/bufferStarvationDelay/fragLevelNextLoadedDelay[' + nextLoadLevel + '] :' + fragLoadedDelay.toFixed(1) + '/' + bufferStarvationDelay.toFixed(1) + '/' + fragLevelNextLoadedDelay.toFixed(1));
+	                  if (fragLevelNextLoadedDelay < bufferStarvationDelay) {
+	                    // we found a lower level that be rebuffering free with current estimated bw !
+	                    break;
+	                  }
+	                }
+	                // only emergency switch down if it takes less time to load new fragment at lowest level instead
+	                // of finishing loading current one ...
+	                if (fragLevelNextLoadedDelay < fragLoadedDelay) {
+	                  // ensure nextLoadLevel is not negative
+	                  nextLoadLevel = Math.max(0, nextLoadLevel);
+	                  // force next load level in auto mode
+	                  hls.nextLoadLevel = nextLoadLevel;
+	                  // abort fragment loading ...
+	                  _logger.logger.warn('loading too slow, abort fragment loading and switch to level ' + nextLoadLevel);
+	                  //abort fragment loading
+	                  frag.loader.abort();
+	                  hls.trigger(_events2.default.FRAG_LOAD_EMERGENCY_ABORTED, { frag: frag });
+	                  // switch back to IDLE state to request new fragment at lower level
+	                  this.state = State.IDLE;
+	                }
 	              }
 	            }
 	          }
@@ -16391,7 +16433,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'onFragParsingData',
 	    value: function onFragParsingData(data) {
-	      var _this2 = this;
+	      var _this3 = this;
 
 	      if (this.state === State.PARSING) {
 	        this.tparse2 = Date.now();
@@ -16406,7 +16448,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	        [data.data1, data.data2].forEach(function (buffer) {
 	          if (buffer) {
-	            _this2.pendingAppending++;
+	            _this3.pendingAppending++;
 	            hls.trigger(_events2.default.BUFFER_APPENDING, { type: data.type, data: buffer });
 	          }
 	        });
@@ -20671,11 +20713,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	        // be an object with the default export as a property of it. To ensure
 	        // the existing api and babel esmodule exports are both supported we
 	        // check for both
-	        if (exp && (exp === fn || exp.default === fn)) {
+	        if (exp === fn || exp.default === fn) {
 	            key = i;
 	            break;
 	        } else if (wrapperFuncString.indexOf(fnString) > -1) {
-	            sources[i] = wrapperFuncString.substring(0, wrapperFuncString.length - 1) + '\n' + fnString.match(/function\s?(.+?)\s?\(.*/)[1] + '();\n}';
+	            sources[i] = wrapperFuncString.replace(fnString, '(' + fnString + ')();');
 	            key = i;
 	            break;
 	        }
@@ -21168,15 +21210,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }
 	    }
 	  }, {
-	    key: 'nextLoadLevel',
-	    value: function nextLoadLevel() {
-	      if (this._manualLevel !== -1) {
-	        return this._manualLevel;
-	      } else {
-	        return this.hls.abrController.nextAutoLevel;
-	      }
-	    }
-	  }, {
 	    key: 'levels',
 	    get: function get() {
 	      return this._levels;
@@ -21221,6 +21254,21 @@ return /******/ (function(modules) { // webpackBootstrap
 	    },
 	    set: function set(newLevel) {
 	      this._startLevel = newLevel;
+	    }
+	  }, {
+	    key: 'nextLoadLevel',
+	    get: function get() {
+	      if (this._manualLevel !== -1) {
+	        return this._manualLevel;
+	      } else {
+	        return this.hls.abrController.nextAutoLevel;
+	      }
+	    },
+	    set: function set(nextLevel) {
+	      this.level = nextLevel;
+	      if (this._manualLevel === -1) {
+	        this.hls.abrController.nextAutoLevel = nextLevel;
+	      }
 	    }
 	  }]);
 
@@ -22195,7 +22243,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	HTMLImg.canPlay = function (resource) {
-	  return (/\.(png|jpg|jpeg|gif|bmp|tiff|pgm|pnm)(|\?.*)$/i.test(resource)
+	  return (/\.(png|jpg|jpeg|gif|bmp|tiff|pgm|pnm|webp)(|\?.*)$/i.test(resource)
 	  );
 	};
 	module.exports = exports['default'];
