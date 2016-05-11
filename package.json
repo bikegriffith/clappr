@@ -41,7 +41,6 @@
     "dotenv": "^2.0.0",
     "file-loader": "^0.8.4",
     "gulp": "^3.8.1",
-    "hls.js": "^0.5.30",
     "html-loader": "^0.4.3",
     "isparta": "^4.0.0",
     "istanbul": "^0.4.2",
@@ -81,5 +80,7 @@
     "webworkify-webpack": "^1.0.4",
     "yargs": "^4.1.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "hls.js": "git+https://github.com/dailymotion/hls.js.git"
+  }
 }
