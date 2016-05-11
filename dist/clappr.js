@@ -13950,7 +13950,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    set: function set(id) {
 	      this._currentLevel = id;
 	      this.trigger(_events2.default.PLAYBACK_LEVEL_SWITCH_START);
-	      this.hls.currentLevel = this._currentLevel;
+	      this._hls.currentLevel = this._currentLevel;
 	    }
 	  }]);
 
