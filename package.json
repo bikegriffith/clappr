@@ -81,6 +81,6 @@
     "yargs": "^4.1.0"
   },
   "dependencies": {
-    "hls.js": "git+https://github.com/dailymotion/hls.js.git"
+    "hls.js": "git+https://github.com/dailymotion/hls.js.git#ce164f6a211087c640fbb9353e3b623a7587fc72"
   }
 }
