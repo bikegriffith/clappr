@@ -95,6 +95,7 @@ export default class PosterPlugin extends UIContainerPlugin {
       this.$el.show()
     } else {
       this.container.enableMediaControl()
+      this.showPlayButton(false)
       if (this.shouldHideOnPlay()) {
         this.$el.hide()
       }
