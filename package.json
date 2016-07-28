@@ -84,6 +84,6 @@
     "yargs": "^4.1.0"
   },
   "dependencies": {
-    "hls.js": "git+https://github.com/bikegriffith/hls.js.git#4afa648c26954a20c6fd495387abba318cf56e6c"
+    "hls.js": "git+https://github.com/bikegriffith/hls.js.git#playback-fixes-2016-07"
   }
 }
