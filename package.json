@@ -41,7 +41,6 @@
     "eslint": "^3.1.0",
     "file-loader": "^0.9.0",
     "gulp": "^3.8.1",
-    "hls.js": "^0.5.44",
     "html-loader": "^0.4.3",
     "isparta": "^4.0.0",
     "istanbul": "^0.4.2",
@@ -85,5 +84,7 @@
     "webworkify-webpack": "1.1.4",
     "yargs": "^4.1.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "hls.js": "git+https://github.com/bikegriffith/hls.js.git#playback-fixes-2016-07"
+  }
 }
