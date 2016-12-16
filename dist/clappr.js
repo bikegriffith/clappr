@@ -72,23 +72,23 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _playback = __webpack_require__(31);
+	var _playback = __webpack_require__(34);
 
 	var _playback2 = _interopRequireDefault(_playback);
 
-	var _container_plugin = __webpack_require__(85);
+	var _container_plugin = __webpack_require__(95);
 
 	var _container_plugin2 = _interopRequireDefault(_container_plugin);
 
-	var _core_plugin = __webpack_require__(105);
+	var _core_plugin = __webpack_require__(115);
 
 	var _core_plugin2 = _interopRequireDefault(_core_plugin);
 
-	var _ui_core_plugin = __webpack_require__(100);
+	var _ui_core_plugin = __webpack_require__(110);
 
 	var _ui_core_plugin2 = _interopRequireDefault(_ui_core_plugin);
 
-	var _ui_container_plugin = __webpack_require__(80);
+	var _ui_container_plugin = __webpack_require__(90);
 
 	var _ui_container_plugin2 = _interopRequireDefault(_ui_container_plugin);
 
@@ -96,7 +96,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _base_object2 = _interopRequireDefault(_base_object);
 
-	var _ui_object = __webpack_require__(18);
+	var _ui_object = __webpack_require__(19);
 
 	var _ui_object2 = _interopRequireDefault(_ui_object);
 
@@ -104,63 +104,63 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _browser2 = _interopRequireDefault(_browser);
 
-	var _container = __webpack_require__(22);
+	var _container = __webpack_require__(25);
 
 	var _container2 = _interopRequireDefault(_container);
 
-	var _core = __webpack_require__(13);
+	var _core = __webpack_require__(14);
 
 	var _core2 = _interopRequireDefault(_core);
 
-	var _loader = __webpack_require__(48);
+	var _loader = __webpack_require__(54);
 
 	var _loader2 = _interopRequireDefault(_loader);
 
-	var _mediator = __webpack_require__(30);
+	var _mediator = __webpack_require__(33);
 
 	var _mediator2 = _interopRequireDefault(_mediator);
 
-	var _media_control = __webpack_require__(27);
+	var _media_control = __webpack_require__(30);
 
 	var _media_control2 = _interopRequireDefault(_media_control);
 
-	var _player_info = __webpack_require__(45);
+	var _player_info = __webpack_require__(51);
 
 	var _player_info2 = _interopRequireDefault(_player_info);
 
-	var _base_flash_playback = __webpack_require__(56);
+	var _base_flash_playback = __webpack_require__(66);
 
 	var _base_flash_playback2 = _interopRequireDefault(_base_flash_playback);
 
-	var _flash = __webpack_require__(54);
+	var _flash = __webpack_require__(64);
 
 	var _flash2 = _interopRequireDefault(_flash);
 
-	var _flashls = __webpack_require__(63);
+	var _flashls = __webpack_require__(73);
 
 	var _flashls2 = _interopRequireDefault(_flashls);
 
-	var _hls = __webpack_require__(67);
+	var _hls = __webpack_require__(77);
 
 	var _hls2 = _interopRequireDefault(_hls);
 
-	var _html5_audio = __webpack_require__(61);
+	var _html5_audio = __webpack_require__(71);
 
 	var _html5_audio2 = _interopRequireDefault(_html5_audio);
 
-	var _html5_video = __webpack_require__(51);
+	var _html5_video = __webpack_require__(61);
 
 	var _html5_video2 = _interopRequireDefault(_html5_video);
 
-	var _html_img = __webpack_require__(71);
+	var _html_img = __webpack_require__(81);
 
 	var _html_img2 = _interopRequireDefault(_html_img);
 
-	var _no_op = __webpack_require__(74);
+	var _no_op = __webpack_require__(84);
 
 	var _no_op2 = _interopRequireDefault(_no_op);
 
-	var _poster = __webpack_require__(90);
+	var _poster = __webpack_require__(100);
 
 	var _poster2 = _interopRequireDefault(_poster);
 
@@ -168,7 +168,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _log2 = _interopRequireDefault(_log);
 
-	var _styler = __webpack_require__(15);
+	var _styler = __webpack_require__(16);
 
 	var _styler2 = _interopRequireDefault(_styler);
 
@@ -176,17 +176,17 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _vendor2 = _interopRequireDefault(_vendor);
 
-	var _template = __webpack_require__(17);
+	var _template = __webpack_require__(18);
 
 	var _template2 = _interopRequireDefault(_template);
 
-	var _clapprZepto = __webpack_require__(16);
+	var _clapprZepto = __webpack_require__(17);
 
 	var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var version = ("0.2.64"); // Copyright 2014 Globo.com Player authors. All rights reserved.
+	var version = ("0.2.65-pre"); // Copyright 2014 Globo.com Player authors. All rights reserved.
 	// Use of this source code is governed by a BSD-style
 	// license that can be found in the LICENSE file.
 
@@ -252,19 +252,19 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _browser2 = _interopRequireDefault(_browser);
 
-	var _core_factory = __webpack_require__(11);
+	var _core_factory = __webpack_require__(12);
 
 	var _core_factory2 = _interopRequireDefault(_core_factory);
 
-	var _loader = __webpack_require__(48);
+	var _loader = __webpack_require__(54);
 
 	var _loader2 = _interopRequireDefault(_loader);
 
-	var _player_info = __webpack_require__(45);
+	var _player_info = __webpack_require__(51);
 
 	var _player_info2 = _interopRequireDefault(_player_info);
 
-	var _clapprZepto = __webpack_require__(16);
+	var _clapprZepto = __webpack_require__(17);
 
 	var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
 
@@ -1115,7 +1115,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}();
 
 	function seekStringToSeconds() {
-	  var paramName = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 't';
+	  var paramName = arguments.length <= 0 || arguments[0] === undefined ? 't' : arguments[0];
 
 	  var seconds = 0;
 	  var seekString = QueryString.params[paramName] || QueryString.hashParams[paramName] || '';
@@ -1333,7 +1333,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  function BaseObject() {
-	    var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+	    var options = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
 
 	    _classCallCheck(this, BaseObject);
 
@@ -2194,8 +2194,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  function Log() {
 	    var _this = this;
 
-	    var level = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : LEVEL_INFO;
-	    var offLevel = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : LEVEL_DISABLED;
+	    var level = arguments.length <= 0 || arguments[0] === undefined ? LEVEL_INFO : arguments[0];
+	    var offLevel = arguments.length <= 1 || arguments[1] === undefined ? LEVEL_DISABLED : arguments[1];
 
 	    _classCallCheck(this, Log);
 
@@ -2623,15 +2623,53 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 /* 10 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/**
+	 * lodash 4.0.0 (Custom Build) <https://lodash.com/>
+	 * Build: `lodash modularize exports="npm" -o ./`
+	 * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
+	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+	 * Copyright 2009-2016 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+	 * Available under MIT license <https://lodash.com/license>
+	 */
+	var before = __webpack_require__(11);
+
+	/**
+	 * Creates a function that is restricted to invoking `func` once. Repeat calls
+	 * to the function return the value of the first invocation. The `func` is
+	 * invoked with the `this` binding and arguments of the created function.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Function
+	 * @param {Function} func The function to restrict.
+	 * @returns {Function} Returns the new restricted function.
+	 * @example
+	 *
+	 * var initialize = _.once(createApplication);
+	 * initialize();
+	 * initialize();
+	 * // `initialize` invokes `createApplication` once
+	 */
+	function once(func) {
+	  return before(2, func);
+	}
+
+	module.exports = once;
+
+
+/***/ },
+/* 11 */
 /***/ function(module, exports) {
 
 	/**
-	 * lodash (Custom Build) <https://lodash.com/>
+	 * lodash 4.0.1 (Custom Build) <https://lodash.com/>
 	 * Build: `lodash modularize exports="npm" -o ./`
-	 * Copyright jQuery Foundation and other contributors <https://jquery.org/>
-	 * Released under MIT license <https://lodash.com/license>
+	 * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
 	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
-	 * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+	 * Copyright 2009-2016 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+	 * Available under MIT license <https://lodash.com/license>
 	 */
 
 	/** Used as the `TypeError` message for "Functions" methods. */
@@ -2643,7 +2681,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    NAN = 0 / 0;
 
 	/** `Object#toString` result references. */
-	var symbolTag = '[object Symbol]';
+	var funcTag = '[object Function]',
+	    genTag = '[object GeneratorFunction]';
 
 	/** Used to match leading and trailing whitespace. */
 	var reTrim = /^\s+|\s+$/g;
@@ -2664,8 +2703,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var objectProto = Object.prototype;
 
 	/**
-	 * Used to resolve the
-	 * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+	 * Used to resolve the [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
 	 * of values.
 	 */
 	var objectToString = objectProto.toString;
@@ -2677,7 +2715,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @static
 	 * @memberOf _
-	 * @since 3.0.0
 	 * @category Function
 	 * @param {number} n The number of calls at which `func` is no longer invoked.
 	 * @param {Function} func The function to restrict.
@@ -2685,7 +2722,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @example
 	 *
 	 * jQuery(element).on('click', _.before(5, addContactToList));
-	 * // => Allows adding up to 4 contacts to the list.
+	 * // => allows adding up to 4 contacts to the list
 	 */
 	function before(n, func) {
 	  var result;
@@ -2705,35 +2742,35 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	/**
-	 * Creates a function that is restricted to invoking `func` once. Repeat calls
-	 * to the function return the value of the first invocation. The `func` is
-	 * invoked with the `this` binding and arguments of the created function.
+	 * Checks if `value` is classified as a `Function` object.
 	 *
 	 * @static
 	 * @memberOf _
-	 * @since 0.1.0
-	 * @category Function
-	 * @param {Function} func The function to restrict.
-	 * @returns {Function} Returns the new restricted function.
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
 	 * @example
 	 *
-	 * var initialize = _.once(createApplication);
-	 * initialize();
-	 * initialize();
-	 * // => `createApplication` is invoked once
+	 * _.isFunction(_);
+	 * // => true
+	 *
+	 * _.isFunction(/abc/);
+	 * // => false
 	 */
-	function once(func) {
-	  return before(2, func);
+	function isFunction(value) {
+	  // The use of `Object#toString` avoids issues with the `typeof` operator
+	  // in Safari 8 which returns 'object' for typed array constructors, and
+	  // PhantomJS 1.9 which returns 'function' for `NodeList` instances.
+	  var tag = isObject(value) ? objectToString.call(value) : '';
+	  return tag == funcTag || tag == genTag;
 	}
 
 	/**
-	 * Checks if `value` is the
-	 * [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
-	 * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+	 * Checks if `value` is the [language type](https://es5.github.io/#x8) of `Object`.
+	 * (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
 	 *
 	 * @static
 	 * @memberOf _
-	 * @since 0.1.0
 	 * @category Lang
 	 * @param {*} value The value to check.
 	 * @returns {boolean} Returns `true` if `value` is an object, else `false`.
@@ -2757,105 +2794,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	/**
-	 * Checks if `value` is object-like. A value is object-like if it's not `null`
-	 * and has a `typeof` result of "object".
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.0.0
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
-	 * @example
-	 *
-	 * _.isObjectLike({});
-	 * // => true
-	 *
-	 * _.isObjectLike([1, 2, 3]);
-	 * // => true
-	 *
-	 * _.isObjectLike(_.noop);
-	 * // => false
-	 *
-	 * _.isObjectLike(null);
-	 * // => false
-	 */
-	function isObjectLike(value) {
-	  return !!value && typeof value == 'object';
-	}
-
-	/**
-	 * Checks if `value` is classified as a `Symbol` primitive or object.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.0.0
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a symbol, else `false`.
-	 * @example
-	 *
-	 * _.isSymbol(Symbol.iterator);
-	 * // => true
-	 *
-	 * _.isSymbol('abc');
-	 * // => false
-	 */
-	function isSymbol(value) {
-	  return typeof value == 'symbol' ||
-	    (isObjectLike(value) && objectToString.call(value) == symbolTag);
-	}
-
-	/**
-	 * Converts `value` to a finite number.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.12.0
-	 * @category Lang
-	 * @param {*} value The value to convert.
-	 * @returns {number} Returns the converted number.
-	 * @example
-	 *
-	 * _.toFinite(3.2);
-	 * // => 3.2
-	 *
-	 * _.toFinite(Number.MIN_VALUE);
-	 * // => 5e-324
-	 *
-	 * _.toFinite(Infinity);
-	 * // => 1.7976931348623157e+308
-	 *
-	 * _.toFinite('3.2');
-	 * // => 3.2
-	 */
-	function toFinite(value) {
-	  if (!value) {
-	    return value === 0 ? value : 0;
-	  }
-	  value = toNumber(value);
-	  if (value === INFINITY || value === -INFINITY) {
-	    var sign = (value < 0 ? -1 : 1);
-	    return sign * MAX_INTEGER;
-	  }
-	  return value === value ? value : 0;
-	}
-
-	/**
 	 * Converts `value` to an integer.
 	 *
-	 * **Note:** This method is loosely based on
-	 * [`ToInteger`](http://www.ecma-international.org/ecma-262/7.0/#sec-tointeger).
+	 * **Note:** This function is loosely based on [`ToInteger`](http://www.ecma-international.org/ecma-262/6.0/#sec-tointeger).
 	 *
 	 * @static
 	 * @memberOf _
-	 * @since 4.0.0
 	 * @category Lang
 	 * @param {*} value The value to convert.
 	 * @returns {number} Returns the converted integer.
 	 * @example
 	 *
-	 * _.toInteger(3.2);
+	 * _.toInteger(3);
 	 * // => 3
 	 *
 	 * _.toInteger(Number.MIN_VALUE);
@@ -2864,14 +2814,20 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * _.toInteger(Infinity);
 	 * // => 1.7976931348623157e+308
 	 *
-	 * _.toInteger('3.2');
+	 * _.toInteger('3');
 	 * // => 3
 	 */
 	function toInteger(value) {
-	  var result = toFinite(value),
-	      remainder = result % 1;
-
-	  return result === result ? (remainder ? result - remainder : result) : 0;
+	  if (!value) {
+	    return value === 0 ? value : 0;
+	  }
+	  value = toNumber(value);
+	  if (value === INFINITY || value === -INFINITY) {
+	    var sign = (value < 0 ? -1 : 1);
+	    return sign * MAX_INTEGER;
+	  }
+	  var remainder = value % 1;
+	  return value === value ? (remainder ? value - remainder : value) : 0;
 	}
 
 	/**
@@ -2879,14 +2835,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @static
 	 * @memberOf _
-	 * @since 4.0.0
 	 * @category Lang
 	 * @param {*} value The value to process.
 	 * @returns {number} Returns the number.
 	 * @example
 	 *
-	 * _.toNumber(3.2);
-	 * // => 3.2
+	 * _.toNumber(3);
+	 * // => 3
 	 *
 	 * _.toNumber(Number.MIN_VALUE);
 	 * // => 5e-324
@@ -2894,18 +2849,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * _.toNumber(Infinity);
 	 * // => Infinity
 	 *
-	 * _.toNumber('3.2');
-	 * // => 3.2
+	 * _.toNumber('3');
+	 * // => 3
 	 */
 	function toNumber(value) {
-	  if (typeof value == 'number') {
-	    return value;
-	  }
-	  if (isSymbol(value)) {
-	    return NAN;
-	  }
 	  if (isObject(value)) {
-	    var other = typeof value.valueOf == 'function' ? value.valueOf() : value;
+	    var other = isFunction(value.valueOf) ? value.valueOf() : value;
 	    value = isObject(other) ? (other + '') : other;
 	  }
 	  if (typeof value != 'string') {
@@ -2918,19 +2867,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	    : (reIsBadHex.test(value) ? NAN : +value);
 	}
 
-	module.exports = once;
+	module.exports = before;
 
 
 /***/ },
-/* 11 */
+/* 12 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(12);
+	module.exports = __webpack_require__(13);
 
 /***/ },
-/* 12 */
+/* 13 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2945,7 +2894,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _base_object2 = _interopRequireDefault(_base_object);
 
-	var _core = __webpack_require__(13);
+	var _core = __webpack_require__(14);
 
 	var _core2 = _interopRequireDefault(_core);
 
@@ -3040,15 +2989,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 13 */
+/* 14 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(14);
+	module.exports = __webpack_require__(15);
 
 /***/ },
-/* 14 */
+/* 15 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3065,11 +3014,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _styler = __webpack_require__(15);
+	var _styler = __webpack_require__(16);
 
 	var _styler2 = _interopRequireDefault(_styler);
 
-	var _ui_object = __webpack_require__(18);
+	var _ui_object = __webpack_require__(19);
 
 	var _ui_object2 = _interopRequireDefault(_ui_object);
 
@@ -3077,27 +3026,27 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _browser2 = _interopRequireDefault(_browser);
 
-	var _container_factory = __webpack_require__(20);
+	var _container_factory = __webpack_require__(23);
 
 	var _container_factory2 = _interopRequireDefault(_container_factory);
 
-	var _media_control = __webpack_require__(27);
+	var _media_control = __webpack_require__(30);
 
 	var _media_control2 = _interopRequireDefault(_media_control);
 
-	var _mediator = __webpack_require__(30);
+	var _mediator = __webpack_require__(33);
 
 	var _mediator2 = _interopRequireDefault(_mediator);
 
-	var _player_info = __webpack_require__(45);
+	var _player_info = __webpack_require__(51);
 
 	var _player_info2 = _interopRequireDefault(_player_info);
 
-	var _clapprZepto = __webpack_require__(16);
+	var _clapprZepto = __webpack_require__(17);
 
 	var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
 
-	var _style = __webpack_require__(46);
+	var _style = __webpack_require__(52);
 
 	var _style2 = _interopRequireDefault(_style);
 
@@ -3490,7 +3439,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 15 */
+/* 16 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3499,11 +3448,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 
-	var _clapprZepto = __webpack_require__(16);
+	var _clapprZepto = __webpack_require__(17);
 
 	var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
 
-	var _template = __webpack_require__(17);
+	var _template = __webpack_require__(18);
 
 	var _template2 = _interopRequireDefault(_template);
 
@@ -3515,7 +3464,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var Styler = {
 	  getStyleFor: function getStyleFor(style) {
-	    var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : { baseUrl: '' };
+	    var options = arguments.length <= 1 || arguments[1] === undefined ? { baseUrl: '' } : arguments[1];
 
 	    return (0, _clapprZepto2.default)('<style class="clappr-style"></style>').html((0, _template2.default)(style.toString())(options));
 	  }
@@ -3525,7 +3474,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 16 */
+/* 17 */
 /***/ function(module, exports) {
 
 	/* Zepto v1.1.4-80-ga9184b2 - zepto event ajax callbacks deferred touch selector ie - zeptojs.com/license */
@@ -3534,7 +3483,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 17 */
+/* 18 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -3658,7 +3607,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = tmpl;
 
 /***/ },
-/* 18 */
+/* 19 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3671,11 +3620,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _utils = __webpack_require__(2);
 
-	var _clapprZepto = __webpack_require__(16);
+	var _clapprZepto = __webpack_require__(17);
 
 	var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
 
-	var _lodash = __webpack_require__(19);
+	var _lodash = __webpack_require__(20);
 
 	var _lodash2 = _interopRequireDefault(_lodash);
 
@@ -3949,26 +3898,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 19 */
-/***/ function(module, exports) {
+/* 20 */
+/***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(global) {/**
-	 * lodash (Custom Build) <https://lodash.com/>
+	/**
+	 * lodash 4.3.0 (Custom Build) <https://lodash.com/>
 	 * Build: `lodash modularize exports="npm" -o ./`
 	 * Copyright jQuery Foundation and other contributors <https://jquery.org/>
 	 * Released under MIT license <https://lodash.com/license>
 	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
 	 * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 */
-
-	/** Used as the `TypeError` message for "Functions" methods. */
-	var FUNC_ERROR_TEXT = 'Expected a function';
-
-	/** Used to stand-in for `undefined` hash values. */
-	var HASH_UNDEFINED = '__lodash_hash_undefined__';
-
-	/** Used as references for various `Number` constants. */
-	var INFINITY = 1 / 0;
+	var stringToPath = __webpack_require__(21);
 
 	/** `Object#toString` result references. */
 	var funcTag = '[object Function]',
@@ -3977,464 +3918,16 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	/** Used to match property names within property paths. */
 	var reIsDeepProp = /\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,
-	    reIsPlainProp = /^\w*$/,
-	    reLeadingDot = /^\./,
-	    rePropName = /[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g;
-
-	/**
-	 * Used to match `RegExp`
-	 * [syntax characters](http://ecma-international.org/ecma-262/7.0/#sec-patterns).
-	 */
-	var reRegExpChar = /[\\^$.*+?()[\]{}|]/g;
-
-	/** Used to match backslashes in property paths. */
-	var reEscapeChar = /\\(\\)?/g;
-
-	/** Used to detect host constructors (Safari). */
-	var reIsHostCtor = /^\[object .+?Constructor\]$/;
-
-	/** Detect free variable `global` from Node.js. */
-	var freeGlobal = typeof global == 'object' && global && global.Object === Object && global;
-
-	/** Detect free variable `self`. */
-	var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
-
-	/** Used as a reference to the global object. */
-	var root = freeGlobal || freeSelf || Function('return this')();
-
-	/**
-	 * Gets the value at `key` of `object`.
-	 *
-	 * @private
-	 * @param {Object} [object] The object to query.
-	 * @param {string} key The key of the property to get.
-	 * @returns {*} Returns the property value.
-	 */
-	function getValue(object, key) {
-	  return object == null ? undefined : object[key];
-	}
-
-	/**
-	 * Checks if `value` is a host object in IE < 9.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a host object, else `false`.
-	 */
-	function isHostObject(value) {
-	  // Many host objects are `Object` objects that can coerce to strings
-	  // despite having improperly defined `toString` methods.
-	  var result = false;
-	  if (value != null && typeof value.toString != 'function') {
-	    try {
-	      result = !!(value + '');
-	    } catch (e) {}
-	  }
-	  return result;
-	}
+	    reIsPlainProp = /^\w*$/;
 
 	/** Used for built-in method references. */
-	var arrayProto = Array.prototype,
-	    funcProto = Function.prototype,
-	    objectProto = Object.prototype;
-
-	/** Used to detect overreaching core-js shims. */
-	var coreJsData = root['__core-js_shared__'];
-
-	/** Used to detect methods masquerading as native. */
-	var maskSrcKey = (function() {
-	  var uid = /[^.]+$/.exec(coreJsData && coreJsData.keys && coreJsData.keys.IE_PROTO || '');
-	  return uid ? ('Symbol(src)_1.' + uid) : '';
-	}());
-
-	/** Used to resolve the decompiled source of functions. */
-	var funcToString = funcProto.toString;
-
-	/** Used to check objects for own properties. */
-	var hasOwnProperty = objectProto.hasOwnProperty;
+	var objectProto = Object.prototype;
 
 	/**
-	 * Used to resolve the
-	 * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+	 * Used to resolve the [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
 	 * of values.
 	 */
 	var objectToString = objectProto.toString;
-
-	/** Used to detect if a method is native. */
-	var reIsNative = RegExp('^' +
-	  funcToString.call(hasOwnProperty).replace(reRegExpChar, '\\$&')
-	  .replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, '$1.*?') + '$'
-	);
-
-	/** Built-in value references. */
-	var Symbol = root.Symbol,
-	    splice = arrayProto.splice;
-
-	/* Built-in method references that are verified to be native. */
-	var Map = getNative(root, 'Map'),
-	    nativeCreate = getNative(Object, 'create');
-
-	/** Used to convert symbols to primitives and strings. */
-	var symbolProto = Symbol ? Symbol.prototype : undefined,
-	    symbolToString = symbolProto ? symbolProto.toString : undefined;
-
-	/**
-	 * Creates a hash object.
-	 *
-	 * @private
-	 * @constructor
-	 * @param {Array} [entries] The key-value pairs to cache.
-	 */
-	function Hash(entries) {
-	  var index = -1,
-	      length = entries ? entries.length : 0;
-
-	  this.clear();
-	  while (++index < length) {
-	    var entry = entries[index];
-	    this.set(entry[0], entry[1]);
-	  }
-	}
-
-	/**
-	 * Removes all key-value entries from the hash.
-	 *
-	 * @private
-	 * @name clear
-	 * @memberOf Hash
-	 */
-	function hashClear() {
-	  this.__data__ = nativeCreate ? nativeCreate(null) : {};
-	}
-
-	/**
-	 * Removes `key` and its value from the hash.
-	 *
-	 * @private
-	 * @name delete
-	 * @memberOf Hash
-	 * @param {Object} hash The hash to modify.
-	 * @param {string} key The key of the value to remove.
-	 * @returns {boolean} Returns `true` if the entry was removed, else `false`.
-	 */
-	function hashDelete(key) {
-	  return this.has(key) && delete this.__data__[key];
-	}
-
-	/**
-	 * Gets the hash value for `key`.
-	 *
-	 * @private
-	 * @name get
-	 * @memberOf Hash
-	 * @param {string} key The key of the value to get.
-	 * @returns {*} Returns the entry value.
-	 */
-	function hashGet(key) {
-	  var data = this.__data__;
-	  if (nativeCreate) {
-	    var result = data[key];
-	    return result === HASH_UNDEFINED ? undefined : result;
-	  }
-	  return hasOwnProperty.call(data, key) ? data[key] : undefined;
-	}
-
-	/**
-	 * Checks if a hash value for `key` exists.
-	 *
-	 * @private
-	 * @name has
-	 * @memberOf Hash
-	 * @param {string} key The key of the entry to check.
-	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
-	 */
-	function hashHas(key) {
-	  var data = this.__data__;
-	  return nativeCreate ? data[key] !== undefined : hasOwnProperty.call(data, key);
-	}
-
-	/**
-	 * Sets the hash `key` to `value`.
-	 *
-	 * @private
-	 * @name set
-	 * @memberOf Hash
-	 * @param {string} key The key of the value to set.
-	 * @param {*} value The value to set.
-	 * @returns {Object} Returns the hash instance.
-	 */
-	function hashSet(key, value) {
-	  var data = this.__data__;
-	  data[key] = (nativeCreate && value === undefined) ? HASH_UNDEFINED : value;
-	  return this;
-	}
-
-	// Add methods to `Hash`.
-	Hash.prototype.clear = hashClear;
-	Hash.prototype['delete'] = hashDelete;
-	Hash.prototype.get = hashGet;
-	Hash.prototype.has = hashHas;
-	Hash.prototype.set = hashSet;
-
-	/**
-	 * Creates an list cache object.
-	 *
-	 * @private
-	 * @constructor
-	 * @param {Array} [entries] The key-value pairs to cache.
-	 */
-	function ListCache(entries) {
-	  var index = -1,
-	      length = entries ? entries.length : 0;
-
-	  this.clear();
-	  while (++index < length) {
-	    var entry = entries[index];
-	    this.set(entry[0], entry[1]);
-	  }
-	}
-
-	/**
-	 * Removes all key-value entries from the list cache.
-	 *
-	 * @private
-	 * @name clear
-	 * @memberOf ListCache
-	 */
-	function listCacheClear() {
-	  this.__data__ = [];
-	}
-
-	/**
-	 * Removes `key` and its value from the list cache.
-	 *
-	 * @private
-	 * @name delete
-	 * @memberOf ListCache
-	 * @param {string} key The key of the value to remove.
-	 * @returns {boolean} Returns `true` if the entry was removed, else `false`.
-	 */
-	function listCacheDelete(key) {
-	  var data = this.__data__,
-	      index = assocIndexOf(data, key);
-
-	  if (index < 0) {
-	    return false;
-	  }
-	  var lastIndex = data.length - 1;
-	  if (index == lastIndex) {
-	    data.pop();
-	  } else {
-	    splice.call(data, index, 1);
-	  }
-	  return true;
-	}
-
-	/**
-	 * Gets the list cache value for `key`.
-	 *
-	 * @private
-	 * @name get
-	 * @memberOf ListCache
-	 * @param {string} key The key of the value to get.
-	 * @returns {*} Returns the entry value.
-	 */
-	function listCacheGet(key) {
-	  var data = this.__data__,
-	      index = assocIndexOf(data, key);
-
-	  return index < 0 ? undefined : data[index][1];
-	}
-
-	/**
-	 * Checks if a list cache value for `key` exists.
-	 *
-	 * @private
-	 * @name has
-	 * @memberOf ListCache
-	 * @param {string} key The key of the entry to check.
-	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
-	 */
-	function listCacheHas(key) {
-	  return assocIndexOf(this.__data__, key) > -1;
-	}
-
-	/**
-	 * Sets the list cache `key` to `value`.
-	 *
-	 * @private
-	 * @name set
-	 * @memberOf ListCache
-	 * @param {string} key The key of the value to set.
-	 * @param {*} value The value to set.
-	 * @returns {Object} Returns the list cache instance.
-	 */
-	function listCacheSet(key, value) {
-	  var data = this.__data__,
-	      index = assocIndexOf(data, key);
-
-	  if (index < 0) {
-	    data.push([key, value]);
-	  } else {
-	    data[index][1] = value;
-	  }
-	  return this;
-	}
-
-	// Add methods to `ListCache`.
-	ListCache.prototype.clear = listCacheClear;
-	ListCache.prototype['delete'] = listCacheDelete;
-	ListCache.prototype.get = listCacheGet;
-	ListCache.prototype.has = listCacheHas;
-	ListCache.prototype.set = listCacheSet;
-
-	/**
-	 * Creates a map cache object to store key-value pairs.
-	 *
-	 * @private
-	 * @constructor
-	 * @param {Array} [entries] The key-value pairs to cache.
-	 */
-	function MapCache(entries) {
-	  var index = -1,
-	      length = entries ? entries.length : 0;
-
-	  this.clear();
-	  while (++index < length) {
-	    var entry = entries[index];
-	    this.set(entry[0], entry[1]);
-	  }
-	}
-
-	/**
-	 * Removes all key-value entries from the map.
-	 *
-	 * @private
-	 * @name clear
-	 * @memberOf MapCache
-	 */
-	function mapCacheClear() {
-	  this.__data__ = {
-	    'hash': new Hash,
-	    'map': new (Map || ListCache),
-	    'string': new Hash
-	  };
-	}
-
-	/**
-	 * Removes `key` and its value from the map.
-	 *
-	 * @private
-	 * @name delete
-	 * @memberOf MapCache
-	 * @param {string} key The key of the value to remove.
-	 * @returns {boolean} Returns `true` if the entry was removed, else `false`.
-	 */
-	function mapCacheDelete(key) {
-	  return getMapData(this, key)['delete'](key);
-	}
-
-	/**
-	 * Gets the map value for `key`.
-	 *
-	 * @private
-	 * @name get
-	 * @memberOf MapCache
-	 * @param {string} key The key of the value to get.
-	 * @returns {*} Returns the entry value.
-	 */
-	function mapCacheGet(key) {
-	  return getMapData(this, key).get(key);
-	}
-
-	/**
-	 * Checks if a map value for `key` exists.
-	 *
-	 * @private
-	 * @name has
-	 * @memberOf MapCache
-	 * @param {string} key The key of the entry to check.
-	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
-	 */
-	function mapCacheHas(key) {
-	  return getMapData(this, key).has(key);
-	}
-
-	/**
-	 * Sets the map `key` to `value`.
-	 *
-	 * @private
-	 * @name set
-	 * @memberOf MapCache
-	 * @param {string} key The key of the value to set.
-	 * @param {*} value The value to set.
-	 * @returns {Object} Returns the map cache instance.
-	 */
-	function mapCacheSet(key, value) {
-	  getMapData(this, key).set(key, value);
-	  return this;
-	}
-
-	// Add methods to `MapCache`.
-	MapCache.prototype.clear = mapCacheClear;
-	MapCache.prototype['delete'] = mapCacheDelete;
-	MapCache.prototype.get = mapCacheGet;
-	MapCache.prototype.has = mapCacheHas;
-	MapCache.prototype.set = mapCacheSet;
-
-	/**
-	 * Gets the index at which the `key` is found in `array` of key-value pairs.
-	 *
-	 * @private
-	 * @param {Array} array The array to inspect.
-	 * @param {*} key The key to search for.
-	 * @returns {number} Returns the index of the matched value, else `-1`.
-	 */
-	function assocIndexOf(array, key) {
-	  var length = array.length;
-	  while (length--) {
-	    if (eq(array[length][0], key)) {
-	      return length;
-	    }
-	  }
-	  return -1;
-	}
-
-	/**
-	 * The base implementation of `_.isNative` without bad shim checks.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a native function,
-	 *  else `false`.
-	 */
-	function baseIsNative(value) {
-	  if (!isObject(value) || isMasked(value)) {
-	    return false;
-	  }
-	  var pattern = (isFunction(value) || isHostObject(value)) ? reIsNative : reIsHostCtor;
-	  return pattern.test(toSource(value));
-	}
-
-	/**
-	 * The base implementation of `_.toString` which doesn't convert nullish
-	 * values to empty strings.
-	 *
-	 * @private
-	 * @param {*} value The value to process.
-	 * @returns {string} Returns the string.
-	 */
-	function baseToString(value) {
-	  // Exit early for strings to avoid a performance hit in some environments.
-	  if (typeof value == 'string') {
-	    return value;
-	  }
-	  if (isSymbol(value)) {
-	    return symbolToString ? symbolToString.call(value) : '';
-	  }
-	  var result = (value + '');
-	  return (result == '0' && (1 / value) == -INFINITY) ? '-0' : result;
-	}
 
 	/**
 	 * Casts `value` to a path array if it's not one.
@@ -4443,36 +3936,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @param {*} value The value to inspect.
 	 * @returns {Array} Returns the cast property path array.
 	 */
-	function castPath(value) {
+	function baseCastPath(value) {
 	  return isArray(value) ? value : stringToPath(value);
-	}
-
-	/**
-	 * Gets the data for `map`.
-	 *
-	 * @private
-	 * @param {Object} map The map to query.
-	 * @param {string} key The reference key.
-	 * @returns {*} Returns the map data.
-	 */
-	function getMapData(map, key) {
-	  var data = map.__data__;
-	  return isKeyable(key)
-	    ? data[typeof key == 'string' ? 'string' : 'hash']
-	    : data.map;
-	}
-
-	/**
-	 * Gets the native function at `key` of `object`.
-	 *
-	 * @private
-	 * @param {Object} object The object to query.
-	 * @param {string} key The key of the method to get.
-	 * @returns {*} Returns the function if it's native, else `undefined`.
-	 */
-	function getNative(object, key) {
-	  var value = getValue(object, key);
-	  return baseIsNative(value) ? value : undefined;
 	}
 
 	/**
@@ -4484,198 +3949,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {boolean} Returns `true` if `value` is a property name, else `false`.
 	 */
 	function isKey(value, object) {
-	  if (isArray(value)) {
-	    return false;
-	  }
 	  var type = typeof value;
-	  if (type == 'number' || type == 'symbol' || type == 'boolean' ||
-	      value == null || isSymbol(value)) {
+	  if (type == 'number' || type == 'symbol') {
 	    return true;
 	  }
-	  return reIsPlainProp.test(value) || !reIsDeepProp.test(value) ||
-	    (object != null && value in Object(object));
-	}
-
-	/**
-	 * Checks if `value` is suitable for use as unique object key.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is suitable, else `false`.
-	 */
-	function isKeyable(value) {
-	  var type = typeof value;
-	  return (type == 'string' || type == 'number' || type == 'symbol' || type == 'boolean')
-	    ? (value !== '__proto__')
-	    : (value === null);
-	}
-
-	/**
-	 * Checks if `func` has its source masked.
-	 *
-	 * @private
-	 * @param {Function} func The function to check.
-	 * @returns {boolean} Returns `true` if `func` is masked, else `false`.
-	 */
-	function isMasked(func) {
-	  return !!maskSrcKey && (maskSrcKey in func);
-	}
-
-	/**
-	 * Converts `string` to a property path array.
-	 *
-	 * @private
-	 * @param {string} string The string to convert.
-	 * @returns {Array} Returns the property path array.
-	 */
-	var stringToPath = memoize(function(string) {
-	  string = toString(string);
-
-	  var result = [];
-	  if (reLeadingDot.test(string)) {
-	    result.push('');
-	  }
-	  string.replace(rePropName, function(match, number, quote, string) {
-	    result.push(quote ? string.replace(reEscapeChar, '$1') : (number || match));
-	  });
-	  return result;
-	});
-
-	/**
-	 * Converts `value` to a string key if it's not a string or symbol.
-	 *
-	 * @private
-	 * @param {*} value The value to inspect.
-	 * @returns {string|symbol} Returns the key.
-	 */
-	function toKey(value) {
-	  if (typeof value == 'string' || isSymbol(value)) {
-	    return value;
-	  }
-	  var result = (value + '');
-	  return (result == '0' && (1 / value) == -INFINITY) ? '-0' : result;
-	}
-
-	/**
-	 * Converts `func` to its source code.
-	 *
-	 * @private
-	 * @param {Function} func The function to process.
-	 * @returns {string} Returns the source code.
-	 */
-	function toSource(func) {
-	  if (func != null) {
-	    try {
-	      return funcToString.call(func);
-	    } catch (e) {}
-	    try {
-	      return (func + '');
-	    } catch (e) {}
-	  }
-	  return '';
-	}
-
-	/**
-	 * Creates a function that memoizes the result of `func`. If `resolver` is
-	 * provided, it determines the cache key for storing the result based on the
-	 * arguments provided to the memoized function. By default, the first argument
-	 * provided to the memoized function is used as the map cache key. The `func`
-	 * is invoked with the `this` binding of the memoized function.
-	 *
-	 * **Note:** The cache is exposed as the `cache` property on the memoized
-	 * function. Its creation may be customized by replacing the `_.memoize.Cache`
-	 * constructor with one whose instances implement the
-	 * [`Map`](http://ecma-international.org/ecma-262/7.0/#sec-properties-of-the-map-prototype-object)
-	 * method interface of `delete`, `get`, `has`, and `set`.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 0.1.0
-	 * @category Function
-	 * @param {Function} func The function to have its output memoized.
-	 * @param {Function} [resolver] The function to resolve the cache key.
-	 * @returns {Function} Returns the new memoized function.
-	 * @example
-	 *
-	 * var object = { 'a': 1, 'b': 2 };
-	 * var other = { 'c': 3, 'd': 4 };
-	 *
-	 * var values = _.memoize(_.values);
-	 * values(object);
-	 * // => [1, 2]
-	 *
-	 * values(other);
-	 * // => [3, 4]
-	 *
-	 * object.a = 2;
-	 * values(object);
-	 * // => [1, 2]
-	 *
-	 * // Modify the result cache.
-	 * values.cache.set(object, ['a', 'b']);
-	 * values(object);
-	 * // => ['a', 'b']
-	 *
-	 * // Replace `_.memoize.Cache`.
-	 * _.memoize.Cache = WeakMap;
-	 */
-	function memoize(func, resolver) {
-	  if (typeof func != 'function' || (resolver && typeof resolver != 'function')) {
-	    throw new TypeError(FUNC_ERROR_TEXT);
-	  }
-	  var memoized = function() {
-	    var args = arguments,
-	        key = resolver ? resolver.apply(this, args) : args[0],
-	        cache = memoized.cache;
-
-	    if (cache.has(key)) {
-	      return cache.get(key);
-	    }
-	    var result = func.apply(this, args);
-	    memoized.cache = cache.set(key, result);
-	    return result;
-	  };
-	  memoized.cache = new (memoize.Cache || MapCache);
-	  return memoized;
-	}
-
-	// Assign cache to `_.memoize`.
-	memoize.Cache = MapCache;
-
-	/**
-	 * Performs a
-	 * [`SameValueZero`](http://ecma-international.org/ecma-262/7.0/#sec-samevaluezero)
-	 * comparison between two values to determine if they are equivalent.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.0.0
-	 * @category Lang
-	 * @param {*} value The value to compare.
-	 * @param {*} other The other value to compare.
-	 * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
-	 * @example
-	 *
-	 * var object = { 'a': 1 };
-	 * var other = { 'a': 1 };
-	 *
-	 * _.eq(object, object);
-	 * // => true
-	 *
-	 * _.eq(object, other);
-	 * // => false
-	 *
-	 * _.eq('a', 'a');
-	 * // => true
-	 *
-	 * _.eq('a', Object('a'));
-	 * // => false
-	 *
-	 * _.eq(NaN, NaN);
-	 * // => true
-	 */
-	function eq(value, other) {
-	  return value === other || (value !== value && other !== other);
+	  return !isArray(value) &&
+	    (isSymbol(value) || reIsPlainProp.test(value) || !reIsDeepProp.test(value) ||
+	      (object != null && value in Object(object)));
 	}
 
 	/**
@@ -4684,9 +3964,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @static
 	 * @memberOf _
 	 * @since 0.1.0
+	 * @type {Function}
 	 * @category Lang
 	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is an array, else `false`.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified,
+	 *  else `false`.
 	 * @example
 	 *
 	 * _.isArray([1, 2, 3]);
@@ -4711,7 +3993,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @since 0.1.0
 	 * @category Lang
 	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a function, else `false`.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified,
+	 *  else `false`.
 	 * @example
 	 *
 	 * _.isFunction(_);
@@ -4722,15 +4005,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function isFunction(value) {
 	  // The use of `Object#toString` avoids issues with the `typeof` operator
-	  // in Safari 8-9 which returns 'object' for typed array and other constructors.
+	  // in Safari 8 which returns 'object' for typed array and weak map constructors,
+	  // and PhantomJS 1.9 which returns 'function' for `NodeList` instances.
 	  var tag = isObject(value) ? objectToString.call(value) : '';
 	  return tag == funcTag || tag == genTag;
 	}
 
 	/**
-	 * Checks if `value` is the
-	 * [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
-	 * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+	 * Checks if `value` is the [language type](https://es5.github.io/#x8) of `Object`.
+	 * (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
 	 *
 	 * @static
 	 * @memberOf _
@@ -4793,7 +4076,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @since 4.0.0
 	 * @category Lang
 	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a symbol, else `false`.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified,
+	 *  else `false`.
 	 * @example
 	 *
 	 * _.isSymbol(Symbol.iterator);
@@ -4805,31 +4089,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	function isSymbol(value) {
 	  return typeof value == 'symbol' ||
 	    (isObjectLike(value) && objectToString.call(value) == symbolTag);
-	}
-
-	/**
-	 * Converts `value` to a string. An empty string is returned for `null`
-	 * and `undefined` values. The sign of `-0` is preserved.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.0.0
-	 * @category Lang
-	 * @param {*} value The value to process.
-	 * @returns {string} Returns the string.
-	 * @example
-	 *
-	 * _.toString(null);
-	 * // => ''
-	 *
-	 * _.toString(-0);
-	 * // => '-0'
-	 *
-	 * _.toString([1, 2, 3]);
-	 * // => '1,2,3'
-	 */
-	function toString(value) {
-	  return value == null ? '' : baseToString(value);
 	}
 
 	/**
@@ -4862,7 +4121,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * // => 'default'
 	 */
 	function result(object, path, defaultValue) {
-	  path = isKey(path, object) ? [path] : castPath(path);
+	  path = isKey(path, object) ? [path] : baseCastPath(path);
 
 	  var index = -1,
 	      length = path.length;
@@ -4873,7 +4132,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    length = 1;
 	  }
 	  while (++index < length) {
-	    var value = object == null ? undefined : object[toKey(path[index])];
+	    var value = object == null ? undefined : object[path[index]];
 	    if (value === undefined) {
 	      index = length;
 	      value = defaultValue;
@@ -4885,18 +4144,773 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = result;
 
-	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 20 */
+/* 21 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(module, global) {/**
+	 * lodash 4.7.1 (Custom Build) <https://lodash.com/>
+	 * Build: `lodash modularize exports="npm" -o ./`
+	 * Copyright jQuery Foundation and other contributors <https://jquery.org/>
+	 * Released under MIT license <https://lodash.com/license>
+	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+	 * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+	 */
+
+	/** Used as the `TypeError` message for "Functions" methods. */
+	var FUNC_ERROR_TEXT = 'Expected a function';
+
+	/** Used to stand-in for `undefined` hash values. */
+	var HASH_UNDEFINED = '__lodash_hash_undefined__';
+
+	/** Used as references for various `Number` constants. */
+	var INFINITY = 1 / 0;
+
+	/** `Object#toString` result references. */
+	var funcTag = '[object Function]',
+	    genTag = '[object GeneratorFunction]',
+	    symbolTag = '[object Symbol]';
+
+	/** Used to match property names within property paths. */
+	var rePropName = /[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]/g;
+
+	/**
+	 * Used to match `RegExp`
+	 * [syntax characters](http://ecma-international.org/ecma-262/6.0/#sec-patterns).
+	 */
+	var reRegExpChar = /[\\^$.*+?()[\]{}|]/g;
+
+	/** Used to match backslashes in property paths. */
+	var reEscapeChar = /\\(\\)?/g;
+
+	/** Used to detect host constructors (Safari). */
+	var reIsHostCtor = /^\[object .+?Constructor\]$/;
+
+	/** Used to determine if values are of the language type `Object`. */
+	var objectTypes = {
+	  'function': true,
+	  'object': true
+	};
+
+	/** Detect free variable `exports`. */
+	var freeExports = (objectTypes[typeof exports] && exports && !exports.nodeType)
+	  ? exports
+	  : undefined;
+
+	/** Detect free variable `module`. */
+	var freeModule = (objectTypes[typeof module] && module && !module.nodeType)
+	  ? module
+	  : undefined;
+
+	/** Detect free variable `global` from Node.js. */
+	var freeGlobal = checkGlobal(freeExports && freeModule && typeof global == 'object' && global);
+
+	/** Detect free variable `self`. */
+	var freeSelf = checkGlobal(objectTypes[typeof self] && self);
+
+	/** Detect free variable `window`. */
+	var freeWindow = checkGlobal(objectTypes[typeof window] && window);
+
+	/** Detect `this` as the global object. */
+	var thisGlobal = checkGlobal(objectTypes[typeof this] && this);
+
+	/**
+	 * Used as a reference to the global object.
+	 *
+	 * The `this` value is used if it's the global object to avoid Greasemonkey's
+	 * restricted `window` object, otherwise the `window` object is used.
+	 */
+	var root = freeGlobal ||
+	  ((freeWindow !== (thisGlobal && thisGlobal.window)) && freeWindow) ||
+	    freeSelf || thisGlobal || Function('return this')();
+
+	/**
+	 * Checks if `value` is a global object.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {null|Object} Returns `value` if it's a global object, else `null`.
+	 */
+	function checkGlobal(value) {
+	  return (value && value.Object === Object) ? value : null;
+	}
+
+	/**
+	 * Checks if `value` is a host object in IE < 9.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is a host object, else `false`.
+	 */
+	function isHostObject(value) {
+	  // Many host objects are `Object` objects that can coerce to strings
+	  // despite having improperly defined `toString` methods.
+	  var result = false;
+	  if (value != null && typeof value.toString != 'function') {
+	    try {
+	      result = !!(value + '');
+	    } catch (e) {}
+	  }
+	  return result;
+	}
+
+	/** Used for built-in method references. */
+	var arrayProto = Array.prototype,
+	    objectProto = Object.prototype;
+
+	/** Used to resolve the decompiled source of functions. */
+	var funcToString = Function.prototype.toString;
+
+	/** Used to check objects for own properties. */
+	var hasOwnProperty = objectProto.hasOwnProperty;
+
+	/**
+	 * Used to resolve the
+	 * [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
+	 * of values.
+	 */
+	var objectToString = objectProto.toString;
+
+	/** Used to detect if a method is native. */
+	var reIsNative = RegExp('^' +
+	  funcToString.call(hasOwnProperty).replace(reRegExpChar, '\\$&')
+	  .replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, '$1.*?') + '$'
+	);
+
+	/** Built-in value references. */
+	var Symbol = root.Symbol,
+	    splice = arrayProto.splice;
+
+	/* Built-in method references that are verified to be native. */
+	var Map = getNative(root, 'Map'),
+	    nativeCreate = getNative(Object, 'create');
+
+	/** Used to convert symbols to primitives and strings. */
+	var symbolProto = Symbol ? Symbol.prototype : undefined,
+	    symbolToString = symbolProto ? symbolProto.toString : undefined;
+
+	/**
+	 * Creates a hash object.
+	 *
+	 * @private
+	 * @constructor
+	 * @returns {Object} Returns the new hash object.
+	 */
+	function Hash() {}
+
+	/**
+	 * Removes `key` and its value from the hash.
+	 *
+	 * @private
+	 * @param {Object} hash The hash to modify.
+	 * @param {string} key The key of the value to remove.
+	 * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+	 */
+	function hashDelete(hash, key) {
+	  return hashHas(hash, key) && delete hash[key];
+	}
+
+	/**
+	 * Gets the hash value for `key`.
+	 *
+	 * @private
+	 * @param {Object} hash The hash to query.
+	 * @param {string} key The key of the value to get.
+	 * @returns {*} Returns the entry value.
+	 */
+	function hashGet(hash, key) {
+	  if (nativeCreate) {
+	    var result = hash[key];
+	    return result === HASH_UNDEFINED ? undefined : result;
+	  }
+	  return hasOwnProperty.call(hash, key) ? hash[key] : undefined;
+	}
+
+	/**
+	 * Checks if a hash value for `key` exists.
+	 *
+	 * @private
+	 * @param {Object} hash The hash to query.
+	 * @param {string} key The key of the entry to check.
+	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+	 */
+	function hashHas(hash, key) {
+	  return nativeCreate ? hash[key] !== undefined : hasOwnProperty.call(hash, key);
+	}
+
+	/**
+	 * Sets the hash `key` to `value`.
+	 *
+	 * @private
+	 * @param {Object} hash The hash to modify.
+	 * @param {string} key The key of the value to set.
+	 * @param {*} value The value to set.
+	 */
+	function hashSet(hash, key, value) {
+	  hash[key] = (nativeCreate && value === undefined) ? HASH_UNDEFINED : value;
+	}
+
+	// Avoid inheriting from `Object.prototype` when possible.
+	Hash.prototype = nativeCreate ? nativeCreate(null) : objectProto;
+
+	/**
+	 * Creates a map cache object to store key-value pairs.
+	 *
+	 * @private
+	 * @constructor
+	 * @param {Array} [values] The values to cache.
+	 */
+	function MapCache(values) {
+	  var index = -1,
+	      length = values ? values.length : 0;
+
+	  this.clear();
+	  while (++index < length) {
+	    var entry = values[index];
+	    this.set(entry[0], entry[1]);
+	  }
+	}
+
+	/**
+	 * Removes all key-value entries from the map.
+	 *
+	 * @private
+	 * @name clear
+	 * @memberOf MapCache
+	 */
+	function mapClear() {
+	  this.__data__ = {
+	    'hash': new Hash,
+	    'map': Map ? new Map : [],
+	    'string': new Hash
+	  };
+	}
+
+	/**
+	 * Removes `key` and its value from the map.
+	 *
+	 * @private
+	 * @name delete
+	 * @memberOf MapCache
+	 * @param {string} key The key of the value to remove.
+	 * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+	 */
+	function mapDelete(key) {
+	  var data = this.__data__;
+	  if (isKeyable(key)) {
+	    return hashDelete(typeof key == 'string' ? data.string : data.hash, key);
+	  }
+	  return Map ? data.map['delete'](key) : assocDelete(data.map, key);
+	}
+
+	/**
+	 * Gets the map value for `key`.
+	 *
+	 * @private
+	 * @name get
+	 * @memberOf MapCache
+	 * @param {string} key The key of the value to get.
+	 * @returns {*} Returns the entry value.
+	 */
+	function mapGet(key) {
+	  var data = this.__data__;
+	  if (isKeyable(key)) {
+	    return hashGet(typeof key == 'string' ? data.string : data.hash, key);
+	  }
+	  return Map ? data.map.get(key) : assocGet(data.map, key);
+	}
+
+	/**
+	 * Checks if a map value for `key` exists.
+	 *
+	 * @private
+	 * @name has
+	 * @memberOf MapCache
+	 * @param {string} key The key of the entry to check.
+	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+	 */
+	function mapHas(key) {
+	  var data = this.__data__;
+	  if (isKeyable(key)) {
+	    return hashHas(typeof key == 'string' ? data.string : data.hash, key);
+	  }
+	  return Map ? data.map.has(key) : assocHas(data.map, key);
+	}
+
+	/**
+	 * Sets the map `key` to `value`.
+	 *
+	 * @private
+	 * @name set
+	 * @memberOf MapCache
+	 * @param {string} key The key of the value to set.
+	 * @param {*} value The value to set.
+	 * @returns {Object} Returns the map cache instance.
+	 */
+	function mapSet(key, value) {
+	  var data = this.__data__;
+	  if (isKeyable(key)) {
+	    hashSet(typeof key == 'string' ? data.string : data.hash, key, value);
+	  } else if (Map) {
+	    data.map.set(key, value);
+	  } else {
+	    assocSet(data.map, key, value);
+	  }
+	  return this;
+	}
+
+	// Add methods to `MapCache`.
+	MapCache.prototype.clear = mapClear;
+	MapCache.prototype['delete'] = mapDelete;
+	MapCache.prototype.get = mapGet;
+	MapCache.prototype.has = mapHas;
+	MapCache.prototype.set = mapSet;
+
+	/**
+	 * Removes `key` and its value from the associative array.
+	 *
+	 * @private
+	 * @param {Array} array The array to modify.
+	 * @param {string} key The key of the value to remove.
+	 * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+	 */
+	function assocDelete(array, key) {
+	  var index = assocIndexOf(array, key);
+	  if (index < 0) {
+	    return false;
+	  }
+	  var lastIndex = array.length - 1;
+	  if (index == lastIndex) {
+	    array.pop();
+	  } else {
+	    splice.call(array, index, 1);
+	  }
+	  return true;
+	}
+
+	/**
+	 * Gets the associative array value for `key`.
+	 *
+	 * @private
+	 * @param {Array} array The array to query.
+	 * @param {string} key The key of the value to get.
+	 * @returns {*} Returns the entry value.
+	 */
+	function assocGet(array, key) {
+	  var index = assocIndexOf(array, key);
+	  return index < 0 ? undefined : array[index][1];
+	}
+
+	/**
+	 * Checks if an associative array value for `key` exists.
+	 *
+	 * @private
+	 * @param {Array} array The array to query.
+	 * @param {string} key The key of the entry to check.
+	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+	 */
+	function assocHas(array, key) {
+	  return assocIndexOf(array, key) > -1;
+	}
+
+	/**
+	 * Gets the index at which the `key` is found in `array` of key-value pairs.
+	 *
+	 * @private
+	 * @param {Array} array The array to search.
+	 * @param {*} key The key to search for.
+	 * @returns {number} Returns the index of the matched value, else `-1`.
+	 */
+	function assocIndexOf(array, key) {
+	  var length = array.length;
+	  while (length--) {
+	    if (eq(array[length][0], key)) {
+	      return length;
+	    }
+	  }
+	  return -1;
+	}
+
+	/**
+	 * Sets the associative array `key` to `value`.
+	 *
+	 * @private
+	 * @param {Array} array The array to modify.
+	 * @param {string} key The key of the value to set.
+	 * @param {*} value The value to set.
+	 */
+	function assocSet(array, key, value) {
+	  var index = assocIndexOf(array, key);
+	  if (index < 0) {
+	    array.push([key, value]);
+	  } else {
+	    array[index][1] = value;
+	  }
+	}
+
+	/**
+	 * Gets the native function at `key` of `object`.
+	 *
+	 * @private
+	 * @param {Object} object The object to query.
+	 * @param {string} key The key of the method to get.
+	 * @returns {*} Returns the function if it's native, else `undefined`.
+	 */
+	function getNative(object, key) {
+	  var value = object[key];
+	  return isNative(value) ? value : undefined;
+	}
+
+	/**
+	 * Checks if `value` is suitable for use as unique object key.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is suitable, else `false`.
+	 */
+	function isKeyable(value) {
+	  var type = typeof value;
+	  return type == 'number' || type == 'boolean' ||
+	    (type == 'string' && value != '__proto__') || value == null;
+	}
+
+	/**
+	 * Converts `string` to a property path array.
+	 *
+	 * @private
+	 * @param {string} string The string to convert.
+	 * @returns {Array} Returns the property path array.
+	 */
+	var stringToPath = memoize(function(string) {
+	  var result = [];
+	  toString(string).replace(rePropName, function(match, number, quote, string) {
+	    result.push(quote ? string.replace(reEscapeChar, '$1') : (number || match));
+	  });
+	  return result;
+	});
+
+	/**
+	 * Converts `func` to its source code.
+	 *
+	 * @private
+	 * @param {Function} func The function to process.
+	 * @returns {string} Returns the source code.
+	 */
+	function toSource(func) {
+	  if (func != null) {
+	    try {
+	      return funcToString.call(func);
+	    } catch (e) {}
+	    try {
+	      return (func + '');
+	    } catch (e) {}
+	  }
+	  return '';
+	}
+
+	/**
+	 * Creates a function that memoizes the result of `func`. If `resolver` is
+	 * provided, it determines the cache key for storing the result based on the
+	 * arguments provided to the memoized function. By default, the first argument
+	 * provided to the memoized function is used as the map cache key. The `func`
+	 * is invoked with the `this` binding of the memoized function.
+	 *
+	 * **Note:** The cache is exposed as the `cache` property on the memoized
+	 * function. Its creation may be customized by replacing the `_.memoize.Cache`
+	 * constructor with one whose instances implement the
+	 * [`Map`](http://ecma-international.org/ecma-262/6.0/#sec-properties-of-the-map-prototype-object)
+	 * method interface of `delete`, `get`, `has`, and `set`.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 0.1.0
+	 * @category Function
+	 * @param {Function} func The function to have its output memoized.
+	 * @param {Function} [resolver] The function to resolve the cache key.
+	 * @returns {Function} Returns the new memoizing function.
+	 * @example
+	 *
+	 * var object = { 'a': 1, 'b': 2 };
+	 * var other = { 'c': 3, 'd': 4 };
+	 *
+	 * var values = _.memoize(_.values);
+	 * values(object);
+	 * // => [1, 2]
+	 *
+	 * values(other);
+	 * // => [3, 4]
+	 *
+	 * object.a = 2;
+	 * values(object);
+	 * // => [1, 2]
+	 *
+	 * // Modify the result cache.
+	 * values.cache.set(object, ['a', 'b']);
+	 * values(object);
+	 * // => ['a', 'b']
+	 *
+	 * // Replace `_.memoize.Cache`.
+	 * _.memoize.Cache = WeakMap;
+	 */
+	function memoize(func, resolver) {
+	  if (typeof func != 'function' || (resolver && typeof resolver != 'function')) {
+	    throw new TypeError(FUNC_ERROR_TEXT);
+	  }
+	  var memoized = function() {
+	    var args = arguments,
+	        key = resolver ? resolver.apply(this, args) : args[0],
+	        cache = memoized.cache;
+
+	    if (cache.has(key)) {
+	      return cache.get(key);
+	    }
+	    var result = func.apply(this, args);
+	    memoized.cache = cache.set(key, result);
+	    return result;
+	  };
+	  memoized.cache = new (memoize.Cache || MapCache);
+	  return memoized;
+	}
+
+	// Assign cache to `_.memoize`.
+	memoize.Cache = MapCache;
+
+	/**
+	 * Performs a
+	 * [`SameValueZero`](http://ecma-international.org/ecma-262/6.0/#sec-samevaluezero)
+	 * comparison between two values to determine if they are equivalent.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 4.0.0
+	 * @category Lang
+	 * @param {*} value The value to compare.
+	 * @param {*} other The other value to compare.
+	 * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
+	 * @example
+	 *
+	 * var object = { 'user': 'fred' };
+	 * var other = { 'user': 'fred' };
+	 *
+	 * _.eq(object, object);
+	 * // => true
+	 *
+	 * _.eq(object, other);
+	 * // => false
+	 *
+	 * _.eq('a', 'a');
+	 * // => true
+	 *
+	 * _.eq('a', Object('a'));
+	 * // => false
+	 *
+	 * _.eq(NaN, NaN);
+	 * // => true
+	 */
+	function eq(value, other) {
+	  return value === other || (value !== value && other !== other);
+	}
+
+	/**
+	 * Checks if `value` is classified as a `Function` object.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 0.1.0
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified,
+	 *  else `false`.
+	 * @example
+	 *
+	 * _.isFunction(_);
+	 * // => true
+	 *
+	 * _.isFunction(/abc/);
+	 * // => false
+	 */
+	function isFunction(value) {
+	  // The use of `Object#toString` avoids issues with the `typeof` operator
+	  // in Safari 8 which returns 'object' for typed array and weak map constructors,
+	  // and PhantomJS 1.9 which returns 'function' for `NodeList` instances.
+	  var tag = isObject(value) ? objectToString.call(value) : '';
+	  return tag == funcTag || tag == genTag;
+	}
+
+	/**
+	 * Checks if `value` is the
+	 * [language type](http://www.ecma-international.org/ecma-262/6.0/#sec-ecmascript-language-types)
+	 * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 0.1.0
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+	 * @example
+	 *
+	 * _.isObject({});
+	 * // => true
+	 *
+	 * _.isObject([1, 2, 3]);
+	 * // => true
+	 *
+	 * _.isObject(_.noop);
+	 * // => true
+	 *
+	 * _.isObject(null);
+	 * // => false
+	 */
+	function isObject(value) {
+	  var type = typeof value;
+	  return !!value && (type == 'object' || type == 'function');
+	}
+
+	/**
+	 * Checks if `value` is object-like. A value is object-like if it's not `null`
+	 * and has a `typeof` result of "object".
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 4.0.0
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+	 * @example
+	 *
+	 * _.isObjectLike({});
+	 * // => true
+	 *
+	 * _.isObjectLike([1, 2, 3]);
+	 * // => true
+	 *
+	 * _.isObjectLike(_.noop);
+	 * // => false
+	 *
+	 * _.isObjectLike(null);
+	 * // => false
+	 */
+	function isObjectLike(value) {
+	  return !!value && typeof value == 'object';
+	}
+
+	/**
+	 * Checks if `value` is a native function.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 3.0.0
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is a native function,
+	 *  else `false`.
+	 * @example
+	 *
+	 * _.isNative(Array.prototype.push);
+	 * // => true
+	 *
+	 * _.isNative(_);
+	 * // => false
+	 */
+	function isNative(value) {
+	  if (!isObject(value)) {
+	    return false;
+	  }
+	  var pattern = (isFunction(value) || isHostObject(value)) ? reIsNative : reIsHostCtor;
+	  return pattern.test(toSource(value));
+	}
+
+	/**
+	 * Checks if `value` is classified as a `Symbol` primitive or object.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 4.0.0
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified,
+	 *  else `false`.
+	 * @example
+	 *
+	 * _.isSymbol(Symbol.iterator);
+	 * // => true
+	 *
+	 * _.isSymbol('abc');
+	 * // => false
+	 */
+	function isSymbol(value) {
+	  return typeof value == 'symbol' ||
+	    (isObjectLike(value) && objectToString.call(value) == symbolTag);
+	}
+
+	/**
+	 * Converts `value` to a string if it's not one. An empty string is returned
+	 * for `null` and `undefined` values. The sign of `-0` is preserved.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 4.0.0
+	 * @category Lang
+	 * @param {*} value The value to process.
+	 * @returns {string} Returns the string.
+	 * @example
+	 *
+	 * _.toString(null);
+	 * // => ''
+	 *
+	 * _.toString(-0);
+	 * // => '-0'
+	 *
+	 * _.toString([1, 2, 3]);
+	 * // => '1,2,3'
+	 */
+	function toString(value) {
+	  // Exit early for strings to avoid a performance hit in some environments.
+	  if (typeof value == 'string') {
+	    return value;
+	  }
+	  if (value == null) {
+	    return '';
+	  }
+	  if (isSymbol(value)) {
+	    return symbolToString ? symbolToString.call(value) : '';
+	  }
+	  var result = (value + '');
+	  return (result == '0' && (1 / value) == -INFINITY) ? '-0' : result;
+	}
+
+	module.exports = stringToPath;
+
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(22)(module), (function() { return this; }())))
+
+/***/ },
+/* 22 */
+/***/ function(module, exports) {
+
+	module.exports = function(module) {
+		if(!module.webpackPolyfill) {
+			module.deprecate = function() {};
+			module.paths = [];
+			// module.parent = undefined by default
+			module.children = [];
+			module.webpackPolyfill = 1;
+		}
+		return module;
+	}
+
+
+/***/ },
+/* 23 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(21);
+	module.exports = __webpack_require__(24);
 
 /***/ },
-/* 21 */
+/* 24 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4915,15 +4929,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _container = __webpack_require__(22);
+	var _container = __webpack_require__(25);
 
 	var _container2 = _interopRequireDefault(_container);
 
-	var _clapprZepto = __webpack_require__(16);
+	var _clapprZepto = __webpack_require__(17);
 
 	var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
 
-	var _lodash = __webpack_require__(26);
+	var _lodash = __webpack_require__(29);
 
 	var _lodash2 = _interopRequireDefault(_lodash);
 
@@ -5026,15 +5040,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 22 */
+/* 25 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(23);
+	module.exports = __webpack_require__(26);
 
 /***/ },
-/* 23 */
+/* 26 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5049,19 +5063,19 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _ui_object = __webpack_require__(18);
+	var _ui_object = __webpack_require__(19);
 
 	var _ui_object2 = _interopRequireDefault(_ui_object);
 
-	var _styler = __webpack_require__(15);
+	var _styler = __webpack_require__(16);
 
 	var _styler2 = _interopRequireDefault(_styler);
 
-	var _style = __webpack_require__(24);
+	var _style = __webpack_require__(27);
 
 	var _style2 = _interopRequireDefault(_style);
 
-	var _clapprZepto = __webpack_require__(16);
+	var _clapprZepto = __webpack_require__(17);
 
 	var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
 
@@ -5555,10 +5569,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 24 */
+/* 27 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(25)();
+	exports = module.exports = __webpack_require__(28)();
 	// imports
 
 
@@ -5569,7 +5583,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 25 */
+/* 28 */
 /***/ function(module, exports) {
 
 	/*
@@ -5625,11 +5639,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 26 */
+/* 29 */
 /***/ function(module, exports) {
 
 	/**
-	 * lodash (Custom Build) <https://lodash.com/>
+	 * lodash 4.0.4 (Custom Build) <https://lodash.com/>
 	 * Build: `lodash modularize exports="npm" -o ./`
 	 * Copyright jQuery Foundation and other contributors <https://jquery.org/>
 	 * Released under MIT license <https://lodash.com/license>
@@ -5659,26 +5673,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return result;
 	}
 
-	/**
-	 * Creates a unary function that invokes `func` with its argument transformed.
-	 *
-	 * @private
-	 * @param {Function} func The function to wrap.
-	 * @param {Function} transform The argument transform.
-	 * @returns {Function} Returns the new function.
-	 */
-	function overArg(func, transform) {
-	  return function(arg) {
-	    return func(transform(arg));
-	  };
-	}
-
 	/** Used for built-in method references. */
-	var funcProto = Function.prototype,
-	    objectProto = Object.prototype;
+	var objectProto = Object.prototype;
 
 	/** Used to resolve the decompiled source of functions. */
-	var funcToString = funcProto.toString;
+	var funcToString = Function.prototype.toString;
 
 	/** Used to check objects for own properties. */
 	var hasOwnProperty = objectProto.hasOwnProperty;
@@ -5687,14 +5686,24 @@ return /******/ (function(modules) { // webpackBootstrap
 	var objectCtorString = funcToString.call(Object);
 
 	/**
-	 * Used to resolve the
-	 * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+	 * Used to resolve the [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
 	 * of values.
 	 */
 	var objectToString = objectProto.toString;
 
-	/** Built-in value references. */
-	var getPrototype = overArg(Object.getPrototypeOf, Object);
+	/* Built-in method references for those with the same name as other `lodash` methods. */
+	var nativeGetPrototype = Object.getPrototypeOf;
+
+	/**
+	 * Gets the `[[Prototype]]` of `value`.
+	 *
+	 * @private
+	 * @param {*} value The value to query.
+	 * @returns {null|Object} Returns the `[[Prototype]]`.
+	 */
+	function getPrototype(value) {
+	  return nativeGetPrototype(Object(value));
+	}
 
 	/**
 	 * Checks if `value` is object-like. A value is object-like if it's not `null`
@@ -5733,7 +5742,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @since 0.8.0
 	 * @category Lang
 	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a plain object, else `false`.
+	 * @returns {boolean} Returns `true` if `value` is a plain object,
+	 *  else `false`.
 	 * @example
 	 *
 	 * function Foo() {
@@ -5770,15 +5780,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 27 */
+/* 30 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(28);
+	module.exports = __webpack_require__(31);
 
 /***/ },
-/* 28 */
+/* 31 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -5797,11 +5807,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _styler = __webpack_require__(15);
+	var _styler = __webpack_require__(16);
 
 	var _styler2 = _interopRequireDefault(_styler);
 
-	var _ui_object = __webpack_require__(18);
+	var _ui_object = __webpack_require__(19);
 
 	var _ui_object2 = _interopRequireDefault(_ui_object);
 
@@ -5809,63 +5819,63 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _browser2 = _interopRequireDefault(_browser);
 
-	var _mediator = __webpack_require__(30);
+	var _mediator = __webpack_require__(33);
 
 	var _mediator2 = _interopRequireDefault(_mediator);
 
-	var _template = __webpack_require__(17);
+	var _template = __webpack_require__(18);
 
 	var _template2 = _interopRequireDefault(_template);
 
-	var _playback = __webpack_require__(31);
+	var _playback = __webpack_require__(34);
 
 	var _playback2 = _interopRequireDefault(_playback);
 
-	var _clapprZepto = __webpack_require__(16);
+	var _clapprZepto = __webpack_require__(17);
 
 	var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
 
-	var _lodash = __webpack_require__(32);
+	var _lodash = __webpack_require__(35);
 
 	var _lodash2 = _interopRequireDefault(_lodash);
 
-	var _mediaControl = __webpack_require__(34);
+	var _mediaControl = __webpack_require__(40);
 
 	var _mediaControl2 = _interopRequireDefault(_mediaControl);
 
-	var _mediaControl3 = __webpack_require__(36);
+	var _mediaControl3 = __webpack_require__(42);
 
 	var _mediaControl4 = _interopRequireDefault(_mediaControl3);
 
-	var _play = __webpack_require__(37);
+	var _play = __webpack_require__(43);
 
 	var _play2 = _interopRequireDefault(_play);
 
-	var _pause = __webpack_require__(38);
+	var _pause = __webpack_require__(44);
 
 	var _pause2 = _interopRequireDefault(_pause);
 
-	var _stop = __webpack_require__(39);
+	var _stop = __webpack_require__(45);
 
 	var _stop2 = _interopRequireDefault(_stop);
 
-	var _volume = __webpack_require__(40);
+	var _volume = __webpack_require__(46);
 
 	var _volume2 = _interopRequireDefault(_volume);
 
-	var _mute = __webpack_require__(41);
+	var _mute = __webpack_require__(47);
 
 	var _mute2 = _interopRequireDefault(_mute);
 
-	var _expand = __webpack_require__(42);
+	var _expand = __webpack_require__(48);
 
 	var _expand2 = _interopRequireDefault(_expand);
 
-	var _shrink = __webpack_require__(43);
+	var _shrink = __webpack_require__(49);
 
 	var _shrink2 = _interopRequireDefault(_shrink);
 
-	var _hd = __webpack_require__(44);
+	var _hd = __webpack_require__(50);
 
 	var _hd2 = _interopRequireDefault(_hd);
 
@@ -6272,7 +6282,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  MediaControl.prototype.hideVolumeBar = function hideVolumeBar() {
 	    var _this3 = this;
 
-	    var timeout = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 400;
+	    var timeout = arguments.length <= 0 || arguments[0] === undefined ? 400 : arguments[0];
 
 	    if (!this.$volumeBarContainer) return;
 	    if (this.draggingVolumeBar) {
@@ -6389,7 +6399,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  MediaControl.prototype.hide = function hide() {
 	    var _this5 = this;
 
-	    var delay = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
+	    var delay = arguments.length <= 0 || arguments[0] === undefined ? 0 : arguments[0];
 
 	    if (!this.isVisible() || _browser2.default.isMobile && !this.container.isPlaying()) {
 	      return;
@@ -6613,110 +6623,21 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return (0, _utils.extend)(MediaControl, properties);
 	};
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(29)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(32)))
 
 /***/ },
-/* 29 */
+/* 32 */
 /***/ function(module, exports) {
 
 	// shim for using process in browser
+
 	var process = module.exports = {};
-
-	// cached from whatever global is present so that test runners that stub it
-	// don't break things.  But we need to wrap it in a try catch in case it is
-	// wrapped in strict mode code which doesn't define any globals.  It's inside a
-	// function because try/catches deoptimize in certain engines.
-
-	var cachedSetTimeout;
-	var cachedClearTimeout;
-
-	function defaultSetTimout() {
-	    throw new Error('setTimeout has not been defined');
-	}
-	function defaultClearTimeout () {
-	    throw new Error('clearTimeout has not been defined');
-	}
-	(function () {
-	    try {
-	        if (typeof setTimeout === 'function') {
-	            cachedSetTimeout = setTimeout;
-	        } else {
-	            cachedSetTimeout = defaultSetTimout;
-	        }
-	    } catch (e) {
-	        cachedSetTimeout = defaultSetTimout;
-	    }
-	    try {
-	        if (typeof clearTimeout === 'function') {
-	            cachedClearTimeout = clearTimeout;
-	        } else {
-	            cachedClearTimeout = defaultClearTimeout;
-	        }
-	    } catch (e) {
-	        cachedClearTimeout = defaultClearTimeout;
-	    }
-	} ())
-	function runTimeout(fun) {
-	    if (cachedSetTimeout === setTimeout) {
-	        //normal enviroments in sane situations
-	        return setTimeout(fun, 0);
-	    }
-	    // if setTimeout wasn't available but was latter defined
-	    if ((cachedSetTimeout === defaultSetTimout || !cachedSetTimeout) && setTimeout) {
-	        cachedSetTimeout = setTimeout;
-	        return setTimeout(fun, 0);
-	    }
-	    try {
-	        // when when somebody has screwed with setTimeout but no I.E. maddness
-	        return cachedSetTimeout(fun, 0);
-	    } catch(e){
-	        try {
-	            // When we are in I.E. but the script has been evaled so I.E. doesn't trust the global object when called normally
-	            return cachedSetTimeout.call(null, fun, 0);
-	        } catch(e){
-	            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error
-	            return cachedSetTimeout.call(this, fun, 0);
-	        }
-	    }
-
-
-	}
-	function runClearTimeout(marker) {
-	    if (cachedClearTimeout === clearTimeout) {
-	        //normal enviroments in sane situations
-	        return clearTimeout(marker);
-	    }
-	    // if clearTimeout wasn't available but was latter defined
-	    if ((cachedClearTimeout === defaultClearTimeout || !cachedClearTimeout) && clearTimeout) {
-	        cachedClearTimeout = clearTimeout;
-	        return clearTimeout(marker);
-	    }
-	    try {
-	        // when when somebody has screwed with setTimeout but no I.E. maddness
-	        return cachedClearTimeout(marker);
-	    } catch (e){
-	        try {
-	            // When we are in I.E. but the script has been evaled so I.E. doesn't  trust the global object when called normally
-	            return cachedClearTimeout.call(null, marker);
-	        } catch (e){
-	            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error.
-	            // Some versions of I.E. have different rules for clearTimeout vs setTimeout
-	            return cachedClearTimeout.call(this, marker);
-	        }
-	    }
-
-
-
-	}
 	var queue = [];
 	var draining = false;
 	var currentQueue;
 	var queueIndex = -1;
 
 	function cleanUpNextTick() {
-	    if (!draining || !currentQueue) {
-	        return;
-	    }
 	    draining = false;
 	    if (currentQueue.length) {
 	        queue = currentQueue.concat(queue);
@@ -6732,7 +6653,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    if (draining) {
 	        return;
 	    }
-	    var timeout = runTimeout(cleanUpNextTick);
+	    var timeout = setTimeout(cleanUpNextTick);
 	    draining = true;
 
 	    var len = queue.length;
@@ -6749,7 +6670,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	    currentQueue = null;
 	    draining = false;
-	    runClearTimeout(timeout);
+	    clearTimeout(timeout);
 	}
 
 	process.nextTick = function (fun) {
@@ -6761,7 +6682,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	    queue.push(new Item(fun, args));
 	    if (queue.length === 1 && !draining) {
-	        runTimeout(drainQueue);
+	        setTimeout(drainQueue, 0);
 	    }
 	};
 
@@ -6802,7 +6723,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 30 */
+/* 33 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6865,7 +6786,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 31 */
+/* 34 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6878,7 +6799,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _utils = __webpack_require__(2);
 
-	var _ui_object = __webpack_require__(18);
+	var _ui_object = __webpack_require__(19);
 
 	var _ui_object2 = _interopRequireDefault(_ui_object);
 
@@ -7174,10 +7095,1299 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 32 */
+/* 35 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(global, module) {/**
+	/**
+	 * lodash (Custom Build) <https://lodash.com/>
+	 * Build: `lodash modularize exports="npm" -o ./`
+	 * Copyright jQuery Foundation and other contributors <https://jquery.org/>
+	 * Released under MIT license <https://lodash.com/license>
+	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+	 * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+	 */
+	var baseClone = __webpack_require__(36),
+	    isPlainObject = __webpack_require__(29),
+	    keysIn = __webpack_require__(37),
+	    rest = __webpack_require__(38),
+	    root = __webpack_require__(39);
+
+	/** Used as the size to enable large array optimizations. */
+	var LARGE_ARRAY_SIZE = 200;
+
+	/** Used to stand-in for `undefined` hash values. */
+	var HASH_UNDEFINED = '__lodash_hash_undefined__';
+
+	/** Used as references for various `Number` constants. */
+	var MAX_SAFE_INTEGER = 9007199254740991;
+
+	/** `Object#toString` result references. */
+	var argsTag = '[object Arguments]',
+	    arrayTag = '[object Array]',
+	    boolTag = '[object Boolean]',
+	    dateTag = '[object Date]',
+	    errorTag = '[object Error]',
+	    funcTag = '[object Function]',
+	    genTag = '[object GeneratorFunction]',
+	    mapTag = '[object Map]',
+	    numberTag = '[object Number]',
+	    objectTag = '[object Object]',
+	    regexpTag = '[object RegExp]',
+	    setTag = '[object Set]',
+	    stringTag = '[object String]',
+	    weakMapTag = '[object WeakMap]';
+
+	var arrayBufferTag = '[object ArrayBuffer]',
+	    dataViewTag = '[object DataView]',
+	    float32Tag = '[object Float32Array]',
+	    float64Tag = '[object Float64Array]',
+	    int8Tag = '[object Int8Array]',
+	    int16Tag = '[object Int16Array]',
+	    int32Tag = '[object Int32Array]',
+	    uint8Tag = '[object Uint8Array]',
+	    uint8ClampedTag = '[object Uint8ClampedArray]',
+	    uint16Tag = '[object Uint16Array]',
+	    uint32Tag = '[object Uint32Array]';
+
+	/**
+	 * Used to match `RegExp`
+	 * [syntax characters](http://ecma-international.org/ecma-262/6.0/#sec-patterns).
+	 */
+	var reRegExpChar = /[\\^$.*+?()[\]{}|]/g;
+
+	/** Used to detect host constructors (Safari). */
+	var reIsHostCtor = /^\[object .+?Constructor\]$/;
+
+	/** Used to detect unsigned integer values. */
+	var reIsUint = /^(?:0|[1-9]\d*)$/;
+
+	/** Used to identify `toStringTag` values of typed arrays. */
+	var typedArrayTags = {};
+	typedArrayTags[float32Tag] = typedArrayTags[float64Tag] =
+	typedArrayTags[int8Tag] = typedArrayTags[int16Tag] =
+	typedArrayTags[int32Tag] = typedArrayTags[uint8Tag] =
+	typedArrayTags[uint8ClampedTag] = typedArrayTags[uint16Tag] =
+	typedArrayTags[uint32Tag] = true;
+	typedArrayTags[argsTag] = typedArrayTags[arrayTag] =
+	typedArrayTags[arrayBufferTag] = typedArrayTags[boolTag] =
+	typedArrayTags[dataViewTag] = typedArrayTags[dateTag] =
+	typedArrayTags[errorTag] = typedArrayTags[funcTag] =
+	typedArrayTags[mapTag] = typedArrayTags[numberTag] =
+	typedArrayTags[objectTag] = typedArrayTags[regexpTag] =
+	typedArrayTags[setTag] = typedArrayTags[stringTag] =
+	typedArrayTags[weakMapTag] = false;
+
+	/**
+	 * A specialized version of `_.forEach` for arrays without support for
+	 * iteratee shorthands.
+	 *
+	 * @private
+	 * @param {Array} array The array to iterate over.
+	 * @param {Function} iteratee The function invoked per iteration.
+	 * @returns {Array} Returns `array`.
+	 */
+	function arrayEach(array, iteratee) {
+	  var index = -1,
+	      length = array.length;
+
+	  while (++index < length) {
+	    if (iteratee(array[index], index, array) === false) {
+	      break;
+	    }
+	  }
+	  return array;
+	}
+
+	/**
+	 * Checks if `value` is a host object in IE < 9.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is a host object, else `false`.
+	 */
+	function isHostObject(value) {
+	  // Many host objects are `Object` objects that can coerce to strings
+	  // despite having improperly defined `toString` methods.
+	  var result = false;
+	  if (value != null && typeof value.toString != 'function') {
+	    try {
+	      result = !!(value + '');
+	    } catch (e) {}
+	  }
+	  return result;
+	}
+
+	/** Used for built-in method references. */
+	var arrayProto = Array.prototype,
+	    objectProto = Object.prototype;
+
+	/** Used to resolve the decompiled source of functions. */
+	var funcToString = Function.prototype.toString;
+
+	/** Used to check objects for own properties. */
+	var hasOwnProperty = objectProto.hasOwnProperty;
+
+	/**
+	 * Used to resolve the
+	 * [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
+	 * of values.
+	 */
+	var objectToString = objectProto.toString;
+
+	/** Used to detect if a method is native. */
+	var reIsNative = RegExp('^' +
+	  funcToString.call(hasOwnProperty).replace(reRegExpChar, '\\$&')
+	  .replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, '$1.*?') + '$'
+	);
+
+	/** Built-in value references. */
+	var propertyIsEnumerable = objectProto.propertyIsEnumerable,
+	    splice = arrayProto.splice;
+
+	/* Built-in method references that are verified to be native. */
+	var Map = getNative(root, 'Map'),
+	    nativeCreate = getNative(Object, 'create');
+
+	/**
+	 * Creates a hash object.
+	 *
+	 * @private
+	 * @constructor
+	 * @param {Array} [entries] The key-value pairs to cache.
+	 */
+	function Hash(entries) {
+	  var index = -1,
+	      length = entries ? entries.length : 0;
+
+	  this.clear();
+	  while (++index < length) {
+	    var entry = entries[index];
+	    this.set(entry[0], entry[1]);
+	  }
+	}
+
+	/**
+	 * Removes all key-value entries from the hash.
+	 *
+	 * @private
+	 * @name clear
+	 * @memberOf Hash
+	 */
+	function hashClear() {
+	  this.__data__ = nativeCreate ? nativeCreate(null) : {};
+	}
+
+	/**
+	 * Removes `key` and its value from the hash.
+	 *
+	 * @private
+	 * @name delete
+	 * @memberOf Hash
+	 * @param {Object} hash The hash to modify.
+	 * @param {string} key The key of the value to remove.
+	 * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+	 */
+	function hashDelete(key) {
+	  return this.has(key) && delete this.__data__[key];
+	}
+
+	/**
+	 * Gets the hash value for `key`.
+	 *
+	 * @private
+	 * @name get
+	 * @memberOf Hash
+	 * @param {string} key The key of the value to get.
+	 * @returns {*} Returns the entry value.
+	 */
+	function hashGet(key) {
+	  var data = this.__data__;
+	  if (nativeCreate) {
+	    var result = data[key];
+	    return result === HASH_UNDEFINED ? undefined : result;
+	  }
+	  return hasOwnProperty.call(data, key) ? data[key] : undefined;
+	}
+
+	/**
+	 * Checks if a hash value for `key` exists.
+	 *
+	 * @private
+	 * @name has
+	 * @memberOf Hash
+	 * @param {string} key The key of the entry to check.
+	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+	 */
+	function hashHas(key) {
+	  var data = this.__data__;
+	  return nativeCreate ? data[key] !== undefined : hasOwnProperty.call(data, key);
+	}
+
+	/**
+	 * Sets the hash `key` to `value`.
+	 *
+	 * @private
+	 * @name set
+	 * @memberOf Hash
+	 * @param {string} key The key of the value to set.
+	 * @param {*} value The value to set.
+	 * @returns {Object} Returns the hash instance.
+	 */
+	function hashSet(key, value) {
+	  var data = this.__data__;
+	  data[key] = (nativeCreate && value === undefined) ? HASH_UNDEFINED : value;
+	  return this;
+	}
+
+	// Add methods to `Hash`.
+	Hash.prototype.clear = hashClear;
+	Hash.prototype['delete'] = hashDelete;
+	Hash.prototype.get = hashGet;
+	Hash.prototype.has = hashHas;
+	Hash.prototype.set = hashSet;
+
+	/**
+	 * Creates an list cache object.
+	 *
+	 * @private
+	 * @constructor
+	 * @param {Array} [entries] The key-value pairs to cache.
+	 */
+	function ListCache(entries) {
+	  var index = -1,
+	      length = entries ? entries.length : 0;
+
+	  this.clear();
+	  while (++index < length) {
+	    var entry = entries[index];
+	    this.set(entry[0], entry[1]);
+	  }
+	}
+
+	/**
+	 * Removes all key-value entries from the list cache.
+	 *
+	 * @private
+	 * @name clear
+	 * @memberOf ListCache
+	 */
+	function listCacheClear() {
+	  this.__data__ = [];
+	}
+
+	/**
+	 * Removes `key` and its value from the list cache.
+	 *
+	 * @private
+	 * @name delete
+	 * @memberOf ListCache
+	 * @param {string} key The key of the value to remove.
+	 * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+	 */
+	function listCacheDelete(key) {
+	  var data = this.__data__,
+	      index = assocIndexOf(data, key);
+
+	  if (index < 0) {
+	    return false;
+	  }
+	  var lastIndex = data.length - 1;
+	  if (index == lastIndex) {
+	    data.pop();
+	  } else {
+	    splice.call(data, index, 1);
+	  }
+	  return true;
+	}
+
+	/**
+	 * Gets the list cache value for `key`.
+	 *
+	 * @private
+	 * @name get
+	 * @memberOf ListCache
+	 * @param {string} key The key of the value to get.
+	 * @returns {*} Returns the entry value.
+	 */
+	function listCacheGet(key) {
+	  var data = this.__data__,
+	      index = assocIndexOf(data, key);
+
+	  return index < 0 ? undefined : data[index][1];
+	}
+
+	/**
+	 * Checks if a list cache value for `key` exists.
+	 *
+	 * @private
+	 * @name has
+	 * @memberOf ListCache
+	 * @param {string} key The key of the entry to check.
+	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+	 */
+	function listCacheHas(key) {
+	  return assocIndexOf(this.__data__, key) > -1;
+	}
+
+	/**
+	 * Sets the list cache `key` to `value`.
+	 *
+	 * @private
+	 * @name set
+	 * @memberOf ListCache
+	 * @param {string} key The key of the value to set.
+	 * @param {*} value The value to set.
+	 * @returns {Object} Returns the list cache instance.
+	 */
+	function listCacheSet(key, value) {
+	  var data = this.__data__,
+	      index = assocIndexOf(data, key);
+
+	  if (index < 0) {
+	    data.push([key, value]);
+	  } else {
+	    data[index][1] = value;
+	  }
+	  return this;
+	}
+
+	// Add methods to `ListCache`.
+	ListCache.prototype.clear = listCacheClear;
+	ListCache.prototype['delete'] = listCacheDelete;
+	ListCache.prototype.get = listCacheGet;
+	ListCache.prototype.has = listCacheHas;
+	ListCache.prototype.set = listCacheSet;
+
+	/**
+	 * Creates a map cache object to store key-value pairs.
+	 *
+	 * @private
+	 * @constructor
+	 * @param {Array} [entries] The key-value pairs to cache.
+	 */
+	function MapCache(entries) {
+	  var index = -1,
+	      length = entries ? entries.length : 0;
+
+	  this.clear();
+	  while (++index < length) {
+	    var entry = entries[index];
+	    this.set(entry[0], entry[1]);
+	  }
+	}
+
+	/**
+	 * Removes all key-value entries from the map.
+	 *
+	 * @private
+	 * @name clear
+	 * @memberOf MapCache
+	 */
+	function mapCacheClear() {
+	  this.__data__ = {
+	    'hash': new Hash,
+	    'map': new (Map || ListCache),
+	    'string': new Hash
+	  };
+	}
+
+	/**
+	 * Removes `key` and its value from the map.
+	 *
+	 * @private
+	 * @name delete
+	 * @memberOf MapCache
+	 * @param {string} key The key of the value to remove.
+	 * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+	 */
+	function mapCacheDelete(key) {
+	  return getMapData(this, key)['delete'](key);
+	}
+
+	/**
+	 * Gets the map value for `key`.
+	 *
+	 * @private
+	 * @name get
+	 * @memberOf MapCache
+	 * @param {string} key The key of the value to get.
+	 * @returns {*} Returns the entry value.
+	 */
+	function mapCacheGet(key) {
+	  return getMapData(this, key).get(key);
+	}
+
+	/**
+	 * Checks if a map value for `key` exists.
+	 *
+	 * @private
+	 * @name has
+	 * @memberOf MapCache
+	 * @param {string} key The key of the entry to check.
+	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+	 */
+	function mapCacheHas(key) {
+	  return getMapData(this, key).has(key);
+	}
+
+	/**
+	 * Sets the map `key` to `value`.
+	 *
+	 * @private
+	 * @name set
+	 * @memberOf MapCache
+	 * @param {string} key The key of the value to set.
+	 * @param {*} value The value to set.
+	 * @returns {Object} Returns the map cache instance.
+	 */
+	function mapCacheSet(key, value) {
+	  getMapData(this, key).set(key, value);
+	  return this;
+	}
+
+	// Add methods to `MapCache`.
+	MapCache.prototype.clear = mapCacheClear;
+	MapCache.prototype['delete'] = mapCacheDelete;
+	MapCache.prototype.get = mapCacheGet;
+	MapCache.prototype.has = mapCacheHas;
+	MapCache.prototype.set = mapCacheSet;
+
+	/**
+	 * Creates a stack cache object to store key-value pairs.
+	 *
+	 * @private
+	 * @constructor
+	 * @param {Array} [entries] The key-value pairs to cache.
+	 */
+	function Stack(entries) {
+	  this.__data__ = new ListCache(entries);
+	}
+
+	/**
+	 * Removes all key-value entries from the stack.
+	 *
+	 * @private
+	 * @name clear
+	 * @memberOf Stack
+	 */
+	function stackClear() {
+	  this.__data__ = new ListCache;
+	}
+
+	/**
+	 * Removes `key` and its value from the stack.
+	 *
+	 * @private
+	 * @name delete
+	 * @memberOf Stack
+	 * @param {string} key The key of the value to remove.
+	 * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+	 */
+	function stackDelete(key) {
+	  return this.__data__['delete'](key);
+	}
+
+	/**
+	 * Gets the stack value for `key`.
+	 *
+	 * @private
+	 * @name get
+	 * @memberOf Stack
+	 * @param {string} key The key of the value to get.
+	 * @returns {*} Returns the entry value.
+	 */
+	function stackGet(key) {
+	  return this.__data__.get(key);
+	}
+
+	/**
+	 * Checks if a stack value for `key` exists.
+	 *
+	 * @private
+	 * @name has
+	 * @memberOf Stack
+	 * @param {string} key The key of the entry to check.
+	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+	 */
+	function stackHas(key) {
+	  return this.__data__.has(key);
+	}
+
+	/**
+	 * Sets the stack `key` to `value`.
+	 *
+	 * @private
+	 * @name set
+	 * @memberOf Stack
+	 * @param {string} key The key of the value to set.
+	 * @param {*} value The value to set.
+	 * @returns {Object} Returns the stack cache instance.
+	 */
+	function stackSet(key, value) {
+	  var cache = this.__data__;
+	  if (cache instanceof ListCache && cache.__data__.length == LARGE_ARRAY_SIZE) {
+	    cache = this.__data__ = new MapCache(cache.__data__);
+	  }
+	  cache.set(key, value);
+	  return this;
+	}
+
+	// Add methods to `Stack`.
+	Stack.prototype.clear = stackClear;
+	Stack.prototype['delete'] = stackDelete;
+	Stack.prototype.get = stackGet;
+	Stack.prototype.has = stackHas;
+	Stack.prototype.set = stackSet;
+
+	/**
+	 * This function is like `assignValue` except that it doesn't assign
+	 * `undefined` values.
+	 *
+	 * @private
+	 * @param {Object} object The object to modify.
+	 * @param {string} key The key of the property to assign.
+	 * @param {*} value The value to assign.
+	 */
+	function assignMergeValue(object, key, value) {
+	  if ((value !== undefined && !eq(object[key], value)) ||
+	      (typeof key == 'number' && value === undefined && !(key in object))) {
+	    object[key] = value;
+	  }
+	}
+
+	/**
+	 * Assigns `value` to `key` of `object` if the existing value is not equivalent
+	 * using [`SameValueZero`](http://ecma-international.org/ecma-262/6.0/#sec-samevaluezero)
+	 * for equality comparisons.
+	 *
+	 * @private
+	 * @param {Object} object The object to modify.
+	 * @param {string} key The key of the property to assign.
+	 * @param {*} value The value to assign.
+	 */
+	function assignValue(object, key, value) {
+	  var objValue = object[key];
+	  if (!(hasOwnProperty.call(object, key) && eq(objValue, value)) ||
+	      (value === undefined && !(key in object))) {
+	    object[key] = value;
+	  }
+	}
+
+	/**
+	 * Gets the index at which the `key` is found in `array` of key-value pairs.
+	 *
+	 * @private
+	 * @param {Array} array The array to search.
+	 * @param {*} key The key to search for.
+	 * @returns {number} Returns the index of the matched value, else `-1`.
+	 */
+	function assocIndexOf(array, key) {
+	  var length = array.length;
+	  while (length--) {
+	    if (eq(array[length][0], key)) {
+	      return length;
+	    }
+	  }
+	  return -1;
+	}
+
+	/**
+	 * The base implementation of `_.merge` without support for multiple sources.
+	 *
+	 * @private
+	 * @param {Object} object The destination object.
+	 * @param {Object} source The source object.
+	 * @param {number} srcIndex The index of `source`.
+	 * @param {Function} [customizer] The function to customize merged values.
+	 * @param {Object} [stack] Tracks traversed source values and their merged
+	 *  counterparts.
+	 */
+	function baseMerge(object, source, srcIndex, customizer, stack) {
+	  if (object === source) {
+	    return;
+	  }
+	  if (!(isArray(source) || isTypedArray(source))) {
+	    var props = keysIn(source);
+	  }
+	  arrayEach(props || source, function(srcValue, key) {
+	    if (props) {
+	      key = srcValue;
+	      srcValue = source[key];
+	    }
+	    if (isObject(srcValue)) {
+	      stack || (stack = new Stack);
+	      baseMergeDeep(object, source, key, srcIndex, baseMerge, customizer, stack);
+	    }
+	    else {
+	      var newValue = customizer
+	        ? customizer(object[key], srcValue, (key + ''), object, source, stack)
+	        : undefined;
+
+	      if (newValue === undefined) {
+	        newValue = srcValue;
+	      }
+	      assignMergeValue(object, key, newValue);
+	    }
+	  });
+	}
+
+	/**
+	 * A specialized version of `baseMerge` for arrays and objects which performs
+	 * deep merges and tracks traversed objects enabling objects with circular
+	 * references to be merged.
+	 *
+	 * @private
+	 * @param {Object} object The destination object.
+	 * @param {Object} source The source object.
+	 * @param {string} key The key of the value to merge.
+	 * @param {number} srcIndex The index of `source`.
+	 * @param {Function} mergeFunc The function to merge values.
+	 * @param {Function} [customizer] The function to customize assigned values.
+	 * @param {Object} [stack] Tracks traversed source values and their merged
+	 *  counterparts.
+	 */
+	function baseMergeDeep(object, source, key, srcIndex, mergeFunc, customizer, stack) {
+	  var objValue = object[key],
+	      srcValue = source[key],
+	      stacked = stack.get(srcValue);
+
+	  if (stacked) {
+	    assignMergeValue(object, key, stacked);
+	    return;
+	  }
+	  var newValue = customizer
+	    ? customizer(objValue, srcValue, (key + ''), object, source, stack)
+	    : undefined;
+
+	  var isCommon = newValue === undefined;
+
+	  if (isCommon) {
+	    newValue = srcValue;
+	    if (isArray(srcValue) || isTypedArray(srcValue)) {
+	      if (isArray(objValue)) {
+	        newValue = objValue;
+	      }
+	      else if (isArrayLikeObject(objValue)) {
+	        newValue = copyArray(objValue);
+	      }
+	      else {
+	        isCommon = false;
+	        newValue = baseClone(srcValue, true);
+	      }
+	    }
+	    else if (isPlainObject(srcValue) || isArguments(srcValue)) {
+	      if (isArguments(objValue)) {
+	        newValue = toPlainObject(objValue);
+	      }
+	      else if (!isObject(objValue) || (srcIndex && isFunction(objValue))) {
+	        isCommon = false;
+	        newValue = baseClone(srcValue, true);
+	      }
+	      else {
+	        newValue = objValue;
+	      }
+	    }
+	    else {
+	      isCommon = false;
+	    }
+	  }
+	  stack.set(srcValue, newValue);
+
+	  if (isCommon) {
+	    // Recursively merge objects and arrays (susceptible to call stack limits).
+	    mergeFunc(newValue, srcValue, srcIndex, customizer, stack);
+	  }
+	  stack['delete'](srcValue);
+	  assignMergeValue(object, key, newValue);
+	}
+
+	/**
+	 * The base implementation of `_.property` without support for deep paths.
+	 *
+	 * @private
+	 * @param {string} key The key of the property to get.
+	 * @returns {Function} Returns the new accessor function.
+	 */
+	function baseProperty(key) {
+	  return function(object) {
+	    return object == null ? undefined : object[key];
+	  };
+	}
+
+	/**
+	 * Copies the values of `source` to `array`.
+	 *
+	 * @private
+	 * @param {Array} source The array to copy values from.
+	 * @param {Array} [array=[]] The array to copy values to.
+	 * @returns {Array} Returns `array`.
+	 */
+	function copyArray(source, array) {
+	  var index = -1,
+	      length = source.length;
+
+	  array || (array = Array(length));
+	  while (++index < length) {
+	    array[index] = source[index];
+	  }
+	  return array;
+	}
+
+	/**
+	 * Copies properties of `source` to `object`.
+	 *
+	 * @private
+	 * @param {Object} source The object to copy properties from.
+	 * @param {Array} props The property identifiers to copy.
+	 * @param {Object} [object={}] The object to copy properties to.
+	 * @param {Function} [customizer] The function to customize copied values.
+	 * @returns {Object} Returns `object`.
+	 */
+	function copyObject(source, props, object, customizer) {
+	  object || (object = {});
+
+	  var index = -1,
+	      length = props.length;
+
+	  while (++index < length) {
+	    var key = props[index];
+
+	    var newValue = customizer
+	      ? customizer(object[key], source[key], key, object, source)
+	      : source[key];
+
+	    assignValue(object, key, newValue);
+	  }
+	  return object;
+	}
+
+	/**
+	 * Creates a function like `_.assign`.
+	 *
+	 * @private
+	 * @param {Function} assigner The function to assign values.
+	 * @returns {Function} Returns the new assigner function.
+	 */
+	function createAssigner(assigner) {
+	  return rest(function(object, sources) {
+	    var index = -1,
+	        length = sources.length,
+	        customizer = length > 1 ? sources[length - 1] : undefined,
+	        guard = length > 2 ? sources[2] : undefined;
+
+	    customizer = (assigner.length > 3 && typeof customizer == 'function')
+	      ? (length--, customizer)
+	      : undefined;
+
+	    if (guard && isIterateeCall(sources[0], sources[1], guard)) {
+	      customizer = length < 3 ? undefined : customizer;
+	      length = 1;
+	    }
+	    object = Object(object);
+	    while (++index < length) {
+	      var source = sources[index];
+	      if (source) {
+	        assigner(object, source, index, customizer);
+	      }
+	    }
+	    return object;
+	  });
+	}
+
+	/**
+	 * Gets the "length" property value of `object`.
+	 *
+	 * **Note:** This function is used to avoid a
+	 * [JIT bug](https://bugs.webkit.org/show_bug.cgi?id=142792) that affects
+	 * Safari on at least iOS 8.1-8.3 ARM64.
+	 *
+	 * @private
+	 * @param {Object} object The object to query.
+	 * @returns {*} Returns the "length" value.
+	 */
+	var getLength = baseProperty('length');
+
+	/**
+	 * Gets the data for `map`.
+	 *
+	 * @private
+	 * @param {Object} map The map to query.
+	 * @param {string} key The reference key.
+	 * @returns {*} Returns the map data.
+	 */
+	function getMapData(map, key) {
+	  var data = map.__data__;
+	  return isKeyable(key)
+	    ? data[typeof key == 'string' ? 'string' : 'hash']
+	    : data.map;
+	}
+
+	/**
+	 * Gets the native function at `key` of `object`.
+	 *
+	 * @private
+	 * @param {Object} object The object to query.
+	 * @param {string} key The key of the method to get.
+	 * @returns {*} Returns the function if it's native, else `undefined`.
+	 */
+	function getNative(object, key) {
+	  var value = object[key];
+	  return isNative(value) ? value : undefined;
+	}
+
+	/**
+	 * Checks if `value` is a valid array-like index.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @param {number} [length=MAX_SAFE_INTEGER] The upper bounds of a valid index.
+	 * @returns {boolean} Returns `true` if `value` is a valid index, else `false`.
+	 */
+	function isIndex(value, length) {
+	  length = length == null ? MAX_SAFE_INTEGER : length;
+	  return !!length &&
+	    (typeof value == 'number' || reIsUint.test(value)) &&
+	    (value > -1 && value % 1 == 0 && value < length);
+	}
+
+	/**
+	 * Checks if the given arguments are from an iteratee call.
+	 *
+	 * @private
+	 * @param {*} value The potential iteratee value argument.
+	 * @param {*} index The potential iteratee index or key argument.
+	 * @param {*} object The potential iteratee object argument.
+	 * @returns {boolean} Returns `true` if the arguments are from an iteratee call,
+	 *  else `false`.
+	 */
+	function isIterateeCall(value, index, object) {
+	  if (!isObject(object)) {
+	    return false;
+	  }
+	  var type = typeof index;
+	  if (type == 'number'
+	        ? (isArrayLike(object) && isIndex(index, object.length))
+	        : (type == 'string' && index in object)
+	      ) {
+	    return eq(object[index], value);
+	  }
+	  return false;
+	}
+
+	/**
+	 * Checks if `value` is suitable for use as unique object key.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is suitable, else `false`.
+	 */
+	function isKeyable(value) {
+	  var type = typeof value;
+	  return (type == 'string' || type == 'number' || type == 'symbol' || type == 'boolean')
+	    ? (value !== '__proto__')
+	    : (value === null);
+	}
+
+	/**
+	 * Converts `func` to its source code.
+	 *
+	 * @private
+	 * @param {Function} func The function to process.
+	 * @returns {string} Returns the source code.
+	 */
+	function toSource(func) {
+	  if (func != null) {
+	    try {
+	      return funcToString.call(func);
+	    } catch (e) {}
+	    try {
+	      return (func + '');
+	    } catch (e) {}
+	  }
+	  return '';
+	}
+
+	/**
+	 * Performs a
+	 * [`SameValueZero`](http://ecma-international.org/ecma-262/6.0/#sec-samevaluezero)
+	 * comparison between two values to determine if they are equivalent.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 4.0.0
+	 * @category Lang
+	 * @param {*} value The value to compare.
+	 * @param {*} other The other value to compare.
+	 * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
+	 * @example
+	 *
+	 * var object = { 'user': 'fred' };
+	 * var other = { 'user': 'fred' };
+	 *
+	 * _.eq(object, object);
+	 * // => true
+	 *
+	 * _.eq(object, other);
+	 * // => false
+	 *
+	 * _.eq('a', 'a');
+	 * // => true
+	 *
+	 * _.eq('a', Object('a'));
+	 * // => false
+	 *
+	 * _.eq(NaN, NaN);
+	 * // => true
+	 */
+	function eq(value, other) {
+	  return value === other || (value !== value && other !== other);
+	}
+
+	/**
+	 * Checks if `value` is likely an `arguments` object.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 0.1.0
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified,
+	 *  else `false`.
+	 * @example
+	 *
+	 * _.isArguments(function() { return arguments; }());
+	 * // => true
+	 *
+	 * _.isArguments([1, 2, 3]);
+	 * // => false
+	 */
+	function isArguments(value) {
+	  // Safari 8.1 incorrectly makes `arguments.callee` enumerable in strict mode.
+	  return isArrayLikeObject(value) && hasOwnProperty.call(value, 'callee') &&
+	    (!propertyIsEnumerable.call(value, 'callee') || objectToString.call(value) == argsTag);
+	}
+
+	/**
+	 * Checks if `value` is classified as an `Array` object.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 0.1.0
+	 * @type {Function}
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified,
+	 *  else `false`.
+	 * @example
+	 *
+	 * _.isArray([1, 2, 3]);
+	 * // => true
+	 *
+	 * _.isArray(document.body.children);
+	 * // => false
+	 *
+	 * _.isArray('abc');
+	 * // => false
+	 *
+	 * _.isArray(_.noop);
+	 * // => false
+	 */
+	var isArray = Array.isArray;
+
+	/**
+	 * Checks if `value` is array-like. A value is considered array-like if it's
+	 * not a function and has a `value.length` that's an integer greater than or
+	 * equal to `0` and less than or equal to `Number.MAX_SAFE_INTEGER`.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 4.0.0
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is array-like, else `false`.
+	 * @example
+	 *
+	 * _.isArrayLike([1, 2, 3]);
+	 * // => true
+	 *
+	 * _.isArrayLike(document.body.children);
+	 * // => true
+	 *
+	 * _.isArrayLike('abc');
+	 * // => true
+	 *
+	 * _.isArrayLike(_.noop);
+	 * // => false
+	 */
+	function isArrayLike(value) {
+	  return value != null && isLength(getLength(value)) && !isFunction(value);
+	}
+
+	/**
+	 * This method is like `_.isArrayLike` except that it also checks if `value`
+	 * is an object.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 4.0.0
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is an array-like object,
+	 *  else `false`.
+	 * @example
+	 *
+	 * _.isArrayLikeObject([1, 2, 3]);
+	 * // => true
+	 *
+	 * _.isArrayLikeObject(document.body.children);
+	 * // => true
+	 *
+	 * _.isArrayLikeObject('abc');
+	 * // => false
+	 *
+	 * _.isArrayLikeObject(_.noop);
+	 * // => false
+	 */
+	function isArrayLikeObject(value) {
+	  return isObjectLike(value) && isArrayLike(value);
+	}
+
+	/**
+	 * Checks if `value` is classified as a `Function` object.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 0.1.0
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified,
+	 *  else `false`.
+	 * @example
+	 *
+	 * _.isFunction(_);
+	 * // => true
+	 *
+	 * _.isFunction(/abc/);
+	 * // => false
+	 */
+	function isFunction(value) {
+	  // The use of `Object#toString` avoids issues with the `typeof` operator
+	  // in Safari 8 which returns 'object' for typed array and weak map constructors,
+	  // and PhantomJS 1.9 which returns 'function' for `NodeList` instances.
+	  var tag = isObject(value) ? objectToString.call(value) : '';
+	  return tag == funcTag || tag == genTag;
+	}
+
+	/**
+	 * Checks if `value` is a valid array-like length.
+	 *
+	 * **Note:** This function is loosely based on
+	 * [`ToLength`](http://ecma-international.org/ecma-262/6.0/#sec-tolength).
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 4.0.0
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is a valid length,
+	 *  else `false`.
+	 * @example
+	 *
+	 * _.isLength(3);
+	 * // => true
+	 *
+	 * _.isLength(Number.MIN_VALUE);
+	 * // => false
+	 *
+	 * _.isLength(Infinity);
+	 * // => false
+	 *
+	 * _.isLength('3');
+	 * // => false
+	 */
+	function isLength(value) {
+	  return typeof value == 'number' &&
+	    value > -1 && value % 1 == 0 && value <= MAX_SAFE_INTEGER;
+	}
+
+	/**
+	 * Checks if `value` is the
+	 * [language type](http://www.ecma-international.org/ecma-262/6.0/#sec-ecmascript-language-types)
+	 * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 0.1.0
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+	 * @example
+	 *
+	 * _.isObject({});
+	 * // => true
+	 *
+	 * _.isObject([1, 2, 3]);
+	 * // => true
+	 *
+	 * _.isObject(_.noop);
+	 * // => true
+	 *
+	 * _.isObject(null);
+	 * // => false
+	 */
+	function isObject(value) {
+	  var type = typeof value;
+	  return !!value && (type == 'object' || type == 'function');
+	}
+
+	/**
+	 * Checks if `value` is object-like. A value is object-like if it's not `null`
+	 * and has a `typeof` result of "object".
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 4.0.0
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+	 * @example
+	 *
+	 * _.isObjectLike({});
+	 * // => true
+	 *
+	 * _.isObjectLike([1, 2, 3]);
+	 * // => true
+	 *
+	 * _.isObjectLike(_.noop);
+	 * // => false
+	 *
+	 * _.isObjectLike(null);
+	 * // => false
+	 */
+	function isObjectLike(value) {
+	  return !!value && typeof value == 'object';
+	}
+
+	/**
+	 * Checks if `value` is a native function.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 3.0.0
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is a native function,
+	 *  else `false`.
+	 * @example
+	 *
+	 * _.isNative(Array.prototype.push);
+	 * // => true
+	 *
+	 * _.isNative(_);
+	 * // => false
+	 */
+	function isNative(value) {
+	  if (!isObject(value)) {
+	    return false;
+	  }
+	  var pattern = (isFunction(value) || isHostObject(value)) ? reIsNative : reIsHostCtor;
+	  return pattern.test(toSource(value));
+	}
+
+	/**
+	 * Checks if `value` is classified as a typed array.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 3.0.0
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified,
+	 *  else `false`.
+	 * @example
+	 *
+	 * _.isTypedArray(new Uint8Array);
+	 * // => true
+	 *
+	 * _.isTypedArray([]);
+	 * // => false
+	 */
+	function isTypedArray(value) {
+	  return isObjectLike(value) &&
+	    isLength(value.length) && !!typedArrayTags[objectToString.call(value)];
+	}
+
+	/**
+	 * Converts `value` to a plain object flattening inherited enumerable string
+	 * keyed properties of `value` to own properties of the plain object.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 3.0.0
+	 * @category Lang
+	 * @param {*} value The value to convert.
+	 * @returns {Object} Returns the converted plain object.
+	 * @example
+	 *
+	 * function Foo() {
+	 *   this.b = 2;
+	 * }
+	 *
+	 * Foo.prototype.c = 3;
+	 *
+	 * _.assign({ 'a': 1 }, new Foo);
+	 * // => { 'a': 1, 'b': 2 }
+	 *
+	 * _.assign({ 'a': 1 }, _.toPlainObject(new Foo));
+	 * // => { 'a': 1, 'b': 2, 'c': 3 }
+	 */
+	function toPlainObject(value) {
+	  return copyObject(value, keysIn(value));
+	}
+
+	/**
+	 * This method is like `_.assign` except that it recursively merges own and
+	 * inherited enumerable string keyed properties of source objects into the
+	 * destination object. Source properties that resolve to `undefined` are
+	 * skipped if a destination value exists. Array and plain object properties
+	 * are merged recursively. Other objects and value types are overridden by
+	 * assignment. Source objects are applied from left to right. Subsequent
+	 * sources overwrite property assignments of previous sources.
+	 *
+	 * **Note:** This method mutates `object`.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 0.5.0
+	 * @category Object
+	 * @param {Object} object The destination object.
+	 * @param {...Object} [sources] The source objects.
+	 * @returns {Object} Returns `object`.
+	 * @example
+	 *
+	 * var users = {
+	 *   'data': [{ 'user': 'barney' }, { 'user': 'fred' }]
+	 * };
+	 *
+	 * var ages = {
+	 *   'data': [{ 'age': 36 }, { 'age': 40 }]
+	 * };
+	 *
+	 * _.merge(users, ages);
+	 * // => { 'data': [{ 'user': 'barney', 'age': 36 }, { 'user': 'fred', 'age': 40 }] }
+	 */
+	var merge = createAssigner(function(object, source, srcIndex) {
+	  baseMerge(object, source, srcIndex);
+	});
+
+	module.exports = merge;
+
+
+/***/ },
+/* 36 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(module, global) {/**
 	 * lodash (Custom Build) <https://lodash.com/>
 	 * Build: `lodash modularize exports="npm" -o ./`
 	 * Copyright jQuery Foundation and other contributors <https://jquery.org/>
@@ -7227,7 +8437,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	/**
 	 * Used to match `RegExp`
-	 * [syntax characters](http://ecma-international.org/ecma-262/7.0/#sec-patterns).
+	 * [syntax characters](http://ecma-international.org/ecma-262/6.0/#sec-patterns).
 	 */
 	var reRegExpChar = /[\\^$.*+?()[\]{}|]/g;
 
@@ -7239,22 +8449,6 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	/** Used to detect unsigned integer values. */
 	var reIsUint = /^(?:0|[1-9]\d*)$/;
-
-	/** Used to identify `toStringTag` values of typed arrays. */
-	var typedArrayTags = {};
-	typedArrayTags[float32Tag] = typedArrayTags[float64Tag] =
-	typedArrayTags[int8Tag] = typedArrayTags[int16Tag] =
-	typedArrayTags[int32Tag] = typedArrayTags[uint8Tag] =
-	typedArrayTags[uint8ClampedTag] = typedArrayTags[uint16Tag] =
-	typedArrayTags[uint32Tag] = true;
-	typedArrayTags[argsTag] = typedArrayTags[arrayTag] =
-	typedArrayTags[arrayBufferTag] = typedArrayTags[boolTag] =
-	typedArrayTags[dataViewTag] = typedArrayTags[dateTag] =
-	typedArrayTags[errorTag] = typedArrayTags[funcTag] =
-	typedArrayTags[mapTag] = typedArrayTags[numberTag] =
-	typedArrayTags[objectTag] = typedArrayTags[regexpTag] =
-	typedArrayTags[setTag] = typedArrayTags[stringTag] =
-	typedArrayTags[weakMapTag] = false;
 
 	/** Used to identify `toStringTag` values supported by `_.clone`. */
 	var cloneableTags = {};
@@ -7272,36 +8466,48 @@ return /******/ (function(modules) { // webpackBootstrap
 	cloneableTags[errorTag] = cloneableTags[funcTag] =
 	cloneableTags[weakMapTag] = false;
 
-	/** Detect free variable `global` from Node.js. */
-	var freeGlobal = typeof global == 'object' && global && global.Object === Object && global;
-
-	/** Detect free variable `self`. */
-	var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
-
-	/** Used as a reference to the global object. */
-	var root = freeGlobal || freeSelf || Function('return this')();
+	/** Used to determine if values are of the language type `Object`. */
+	var objectTypes = {
+	  'function': true,
+	  'object': true
+	};
 
 	/** Detect free variable `exports`. */
-	var freeExports = typeof exports == 'object' && exports && !exports.nodeType && exports;
+	var freeExports = (objectTypes[typeof exports] && exports && !exports.nodeType)
+	  ? exports
+	  : undefined;
 
 	/** Detect free variable `module`. */
-	var freeModule = freeExports && typeof module == 'object' && module && !module.nodeType && module;
+	var freeModule = (objectTypes[typeof module] && module && !module.nodeType)
+	  ? module
+	  : undefined;
 
 	/** Detect the popular CommonJS extension `module.exports`. */
-	var moduleExports = freeModule && freeModule.exports === freeExports;
+	var moduleExports = (freeModule && freeModule.exports === freeExports)
+	  ? freeExports
+	  : undefined;
 
-	/** Detect free variable `process` from Node.js. */
-	var freeProcess = moduleExports && freeGlobal.process;
+	/** Detect free variable `global` from Node.js. */
+	var freeGlobal = checkGlobal(freeExports && freeModule && typeof global == 'object' && global);
 
-	/** Used to access faster Node.js helpers. */
-	var nodeUtil = (function() {
-	  try {
-	    return freeProcess && freeProcess.binding('util');
-	  } catch (e) {}
-	}());
+	/** Detect free variable `self`. */
+	var freeSelf = checkGlobal(objectTypes[typeof self] && self);
 
-	/* Node.js helper references. */
-	var nodeIsTypedArray = nodeUtil && nodeUtil.isTypedArray;
+	/** Detect free variable `window`. */
+	var freeWindow = checkGlobal(objectTypes[typeof window] && window);
+
+	/** Detect `this` as the global object. */
+	var thisGlobal = checkGlobal(objectTypes[typeof this] && this);
+
+	/**
+	 * Used as a reference to the global object.
+	 *
+	 * The `this` value is used if it's the global object to avoid Greasemonkey's
+	 * restricted `window` object, otherwise the `window` object is used.
+	 */
+	var root = freeGlobal ||
+	  ((freeWindow !== (thisGlobal && thisGlobal.window)) && freeWindow) ||
+	    freeSelf || thisGlobal || Function('return this')();
 
 	/**
 	 * Adds the key-value `pair` to `map`.
@@ -7312,7 +8518,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {Object} Returns `map`.
 	 */
 	function addMapEntry(map, pair) {
-	  // Don't return `map.set` because it's not chainable in IE 11.
+	  // Don't return `Map#set` because it doesn't return the map instance in IE 11.
 	  map.set(pair[0], pair[1]);
 	  return map;
 	}
@@ -7326,29 +8532,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {Object} Returns `set`.
 	 */
 	function addSetEntry(set, value) {
-	  // Don't return `set.add` because it's not chainable in IE 11.
 	  set.add(value);
 	  return set;
-	}
-
-	/**
-	 * A faster alternative to `Function#apply`, this function invokes `func`
-	 * with the `this` binding of `thisArg` and the arguments of `args`.
-	 *
-	 * @private
-	 * @param {Function} func The function to invoke.
-	 * @param {*} thisArg The `this` binding of `func`.
-	 * @param {Array} args The arguments to invoke `func` with.
-	 * @returns {*} Returns the result of `func`.
-	 */
-	function apply(func, thisArg, args) {
-	  switch (args.length) {
-	    case 0: return func.call(thisArg);
-	    case 1: return func.call(thisArg, args[0]);
-	    case 2: return func.call(thisArg, args[0], args[1]);
-	    case 3: return func.call(thisArg, args[0], args[1], args[2]);
-	  }
-	  return func.apply(thisArg, args);
 	}
 
 	/**
@@ -7356,13 +8541,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * iteratee shorthands.
 	 *
 	 * @private
-	 * @param {Array} [array] The array to iterate over.
+	 * @param {Array} array The array to iterate over.
 	 * @param {Function} iteratee The function invoked per iteration.
 	 * @returns {Array} Returns `array`.
 	 */
 	function arrayEach(array, iteratee) {
 	  var index = -1,
-	      length = array ? array.length : 0;
+	      length = array.length;
 
 	  while (++index < length) {
 	    if (iteratee(array[index], index, array) === false) {
@@ -7396,7 +8581,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * iteratee shorthands.
 	 *
 	 * @private
-	 * @param {Array} [array] The array to iterate over.
+	 * @param {Array} array The array to iterate over.
 	 * @param {Function} iteratee The function invoked per iteration.
 	 * @param {*} [accumulator] The initial value.
 	 * @param {boolean} [initAccum] Specify using the first element of `array` as
@@ -7405,7 +8590,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function arrayReduce(array, iteratee, accumulator, initAccum) {
 	  var index = -1,
-	      length = array ? array.length : 0;
+	      length = array.length;
 
 	  if (initAccum && length) {
 	    accumulator = array[++index];
@@ -7436,28 +8621,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	/**
-	 * The base implementation of `_.unary` without support for storing metadata.
+	 * Checks if `value` is a global object.
 	 *
 	 * @private
-	 * @param {Function} func The function to cap arguments for.
-	 * @returns {Function} Returns the new capped function.
+	 * @param {*} value The value to check.
+	 * @returns {null|Object} Returns `value` if it's a global object, else `null`.
 	 */
-	function baseUnary(func) {
-	  return function(value) {
-	    return func(value);
-	  };
-	}
-
-	/**
-	 * Gets the value at `key` of `object`.
-	 *
-	 * @private
-	 * @param {Object} [object] The object to query.
-	 * @param {string} key The key of the property to get.
-	 * @returns {*} Returns the property value.
-	 */
-	function getValue(object, key) {
-	  return object == null ? undefined : object[key];
+	function checkGlobal(value) {
+	  return (value && value.Object === Object) ? value : null;
 	}
 
 	/**
@@ -7497,20 +8668,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	/**
-	 * Creates a unary function that invokes `func` with its argument transformed.
-	 *
-	 * @private
-	 * @param {Function} func The function to wrap.
-	 * @param {Function} transform The argument transform.
-	 * @returns {Function} Returns the new function.
-	 */
-	function overArg(func, transform) {
-	  return function(arg) {
-	    return func(transform(arg));
-	  };
-	}
-
-	/**
 	 * Converts `set` to an array of its values.
 	 *
 	 * @private
@@ -7529,30 +8686,17 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	/** Used for built-in method references. */
 	var arrayProto = Array.prototype,
-	    funcProto = Function.prototype,
 	    objectProto = Object.prototype;
 
-	/** Used to detect overreaching core-js shims. */
-	var coreJsData = root['__core-js_shared__'];
-
-	/** Used to detect methods masquerading as native. */
-	var maskSrcKey = (function() {
-	  var uid = /[^.]+$/.exec(coreJsData && coreJsData.keys && coreJsData.keys.IE_PROTO || '');
-	  return uid ? ('Symbol(src)_1.' + uid) : '';
-	}());
-
 	/** Used to resolve the decompiled source of functions. */
-	var funcToString = funcProto.toString;
+	var funcToString = Function.prototype.toString;
 
 	/** Used to check objects for own properties. */
 	var hasOwnProperty = objectProto.hasOwnProperty;
 
-	/** Used to infer the `Object` constructor. */
-	var objectCtorString = funcToString.call(Object);
-
 	/**
 	 * Used to resolve the
-	 * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+	 * [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
 	 * of values.
 	 */
 	var objectToString = objectProto.toString;
@@ -7567,16 +8711,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	var Buffer = moduleExports ? root.Buffer : undefined,
 	    Symbol = root.Symbol,
 	    Uint8Array = root.Uint8Array,
-	    getPrototype = overArg(Object.getPrototypeOf, Object),
+	    getOwnPropertySymbols = Object.getOwnPropertySymbols,
 	    objectCreate = Object.create,
 	    propertyIsEnumerable = objectProto.propertyIsEnumerable,
 	    splice = arrayProto.splice;
 
 	/* Built-in method references for those with the same name as other `lodash` methods. */
-	var nativeGetSymbols = Object.getOwnPropertySymbols,
-	    nativeIsBuffer = Buffer ? Buffer.isBuffer : undefined,
-	    nativeKeys = overArg(Object.keys, Object),
-	    nativeMax = Math.max;
+	var nativeGetPrototype = Object.getPrototypeOf,
+	    nativeKeys = Object.keys;
 
 	/* Built-in method references that are verified to be native. */
 	var DataView = getNative(root, 'DataView'),
@@ -7974,13 +9116,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function stackSet(key, value) {
 	  var cache = this.__data__;
-	  if (cache instanceof ListCache) {
-	    var pairs = cache.__data__;
-	    if (!Map || (pairs.length < LARGE_ARRAY_SIZE - 1)) {
-	      pairs.push([key, value]);
-	      return this;
-	    }
-	    cache = this.__data__ = new MapCache(pairs);
+	  if (cache instanceof ListCache && cache.__data__.length == LARGE_ARRAY_SIZE) {
+	    cache = this.__data__ = new MapCache(cache.__data__);
 	  }
 	  cache.set(key, value);
 	  return this;
@@ -7994,51 +9131,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	Stack.prototype.set = stackSet;
 
 	/**
-	 * Creates an array of the enumerable property names of the array-like `value`.
-	 *
-	 * @private
-	 * @param {*} value The value to query.
-	 * @param {boolean} inherited Specify returning inherited property names.
-	 * @returns {Array} Returns the array of property names.
-	 */
-	function arrayLikeKeys(value, inherited) {
-	  // Safari 8.1 makes `arguments.callee` enumerable in strict mode.
-	  // Safari 9 makes `arguments.length` enumerable in strict mode.
-	  var result = (isArray(value) || isArguments(value))
-	    ? baseTimes(value.length, String)
-	    : [];
-
-	  var length = result.length,
-	      skipIndexes = !!length;
-
-	  for (var key in value) {
-	    if ((inherited || hasOwnProperty.call(value, key)) &&
-	        !(skipIndexes && (key == 'length' || isIndex(key, length)))) {
-	      result.push(key);
-	    }
-	  }
-	  return result;
-	}
-
-	/**
-	 * This function is like `assignValue` except that it doesn't assign
-	 * `undefined` values.
-	 *
-	 * @private
-	 * @param {Object} object The object to modify.
-	 * @param {string} key The key of the property to assign.
-	 * @param {*} value The value to assign.
-	 */
-	function assignMergeValue(object, key, value) {
-	  if ((value !== undefined && !eq(object[key], value)) ||
-	      (typeof key == 'number' && value === undefined && !(key in object))) {
-	    object[key] = value;
-	  }
-	}
-
-	/**
 	 * Assigns `value` to `key` of `object` if the existing value is not equivalent
-	 * using [`SameValueZero`](http://ecma-international.org/ecma-262/7.0/#sec-samevaluezero)
+	 * using [`SameValueZero`](http://ecma-international.org/ecma-262/6.0/#sec-samevaluezero)
 	 * for equality comparisons.
 	 *
 	 * @private
@@ -8058,7 +9152,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * Gets the index at which the `key` is found in `array` of key-value pairs.
 	 *
 	 * @private
-	 * @param {Array} array The array to inspect.
+	 * @param {Array} array The array to search.
 	 * @param {*} key The key to search for.
 	 * @returns {number} Returns the index of the matched value, else `-1`.
 	 */
@@ -8149,12 +9243,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!isArr) {
 	    var props = isFull ? getAllKeys(value) : keys(value);
 	  }
+	  // Recursively populate clone (susceptible to call stack limits).
 	  arrayEach(props || value, function(subValue, key) {
 	    if (props) {
 	      key = subValue;
 	      subValue = value[key];
 	    }
-	    // Recursively populate clone (susceptible to call stack limits).
 	    assignValue(result, key, baseClone(subValue, isDeep, isFull, customizer, key, value, stack));
 	  });
 	  return result;
@@ -8189,221 +9283,43 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	/**
-	 * The base implementation of `getTag`.
+	 * The base implementation of `_.has` without support for deep paths.
 	 *
 	 * @private
-	 * @param {*} value The value to query.
-	 * @returns {string} Returns the `toStringTag`.
+	 * @param {Object} object The object to query.
+	 * @param {Array|string} key The key to check.
+	 * @returns {boolean} Returns `true` if `key` exists, else `false`.
 	 */
-	function baseGetTag(value) {
-	  return objectToString.call(value);
+	function baseHas(object, key) {
+	  // Avoid a bug in IE 10-11 where objects with a [[Prototype]] of `null`,
+	  // that are composed entirely of index properties, return `false` for
+	  // `hasOwnProperty` checks of them.
+	  return hasOwnProperty.call(object, key) ||
+	    (typeof object == 'object' && key in object && getPrototype(object) === null);
 	}
 
 	/**
-	 * The base implementation of `_.isNative` without bad shim checks.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a native function,
-	 *  else `false`.
-	 */
-	function baseIsNative(value) {
-	  if (!isObject(value) || isMasked(value)) {
-	    return false;
-	  }
-	  var pattern = (isFunction(value) || isHostObject(value)) ? reIsNative : reIsHostCtor;
-	  return pattern.test(toSource(value));
-	}
-
-	/**
-	 * The base implementation of `_.isTypedArray` without Node.js optimizations.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a typed array, else `false`.
-	 */
-	function baseIsTypedArray(value) {
-	  return isObjectLike(value) &&
-	    isLength(value.length) && !!typedArrayTags[objectToString.call(value)];
-	}
-
-	/**
-	 * The base implementation of `_.keys` which doesn't treat sparse arrays as dense.
+	 * The base implementation of `_.keys` which doesn't skip the constructor
+	 * property of prototypes or treat sparse arrays as dense.
 	 *
 	 * @private
 	 * @param {Object} object The object to query.
 	 * @returns {Array} Returns the array of property names.
 	 */
 	function baseKeys(object) {
-	  if (!isPrototype(object)) {
-	    return nativeKeys(object);
-	  }
-	  var result = [];
-	  for (var key in Object(object)) {
-	    if (hasOwnProperty.call(object, key) && key != 'constructor') {
-	      result.push(key);
-	    }
-	  }
-	  return result;
+	  return nativeKeys(Object(object));
 	}
 
 	/**
-	 * The base implementation of `_.keysIn` which doesn't treat sparse arrays as dense.
+	 * The base implementation of `_.property` without support for deep paths.
 	 *
 	 * @private
-	 * @param {Object} object The object to query.
-	 * @returns {Array} Returns the array of property names.
+	 * @param {string} key The key of the property to get.
+	 * @returns {Function} Returns the new accessor function.
 	 */
-	function baseKeysIn(object) {
-	  if (!isObject(object)) {
-	    return nativeKeysIn(object);
-	  }
-	  var isProto = isPrototype(object),
-	      result = [];
-
-	  for (var key in object) {
-	    if (!(key == 'constructor' && (isProto || !hasOwnProperty.call(object, key)))) {
-	      result.push(key);
-	    }
-	  }
-	  return result;
-	}
-
-	/**
-	 * The base implementation of `_.merge` without support for multiple sources.
-	 *
-	 * @private
-	 * @param {Object} object The destination object.
-	 * @param {Object} source The source object.
-	 * @param {number} srcIndex The index of `source`.
-	 * @param {Function} [customizer] The function to customize merged values.
-	 * @param {Object} [stack] Tracks traversed source values and their merged
-	 *  counterparts.
-	 */
-	function baseMerge(object, source, srcIndex, customizer, stack) {
-	  if (object === source) {
-	    return;
-	  }
-	  if (!(isArray(source) || isTypedArray(source))) {
-	    var props = baseKeysIn(source);
-	  }
-	  arrayEach(props || source, function(srcValue, key) {
-	    if (props) {
-	      key = srcValue;
-	      srcValue = source[key];
-	    }
-	    if (isObject(srcValue)) {
-	      stack || (stack = new Stack);
-	      baseMergeDeep(object, source, key, srcIndex, baseMerge, customizer, stack);
-	    }
-	    else {
-	      var newValue = customizer
-	        ? customizer(object[key], srcValue, (key + ''), object, source, stack)
-	        : undefined;
-
-	      if (newValue === undefined) {
-	        newValue = srcValue;
-	      }
-	      assignMergeValue(object, key, newValue);
-	    }
-	  });
-	}
-
-	/**
-	 * A specialized version of `baseMerge` for arrays and objects which performs
-	 * deep merges and tracks traversed objects enabling objects with circular
-	 * references to be merged.
-	 *
-	 * @private
-	 * @param {Object} object The destination object.
-	 * @param {Object} source The source object.
-	 * @param {string} key The key of the value to merge.
-	 * @param {number} srcIndex The index of `source`.
-	 * @param {Function} mergeFunc The function to merge values.
-	 * @param {Function} [customizer] The function to customize assigned values.
-	 * @param {Object} [stack] Tracks traversed source values and their merged
-	 *  counterparts.
-	 */
-	function baseMergeDeep(object, source, key, srcIndex, mergeFunc, customizer, stack) {
-	  var objValue = object[key],
-	      srcValue = source[key],
-	      stacked = stack.get(srcValue);
-
-	  if (stacked) {
-	    assignMergeValue(object, key, stacked);
-	    return;
-	  }
-	  var newValue = customizer
-	    ? customizer(objValue, srcValue, (key + ''), object, source, stack)
-	    : undefined;
-
-	  var isCommon = newValue === undefined;
-
-	  if (isCommon) {
-	    newValue = srcValue;
-	    if (isArray(srcValue) || isTypedArray(srcValue)) {
-	      if (isArray(objValue)) {
-	        newValue = objValue;
-	      }
-	      else if (isArrayLikeObject(objValue)) {
-	        newValue = copyArray(objValue);
-	      }
-	      else {
-	        isCommon = false;
-	        newValue = baseClone(srcValue, true);
-	      }
-	    }
-	    else if (isPlainObject(srcValue) || isArguments(srcValue)) {
-	      if (isArguments(objValue)) {
-	        newValue = toPlainObject(objValue);
-	      }
-	      else if (!isObject(objValue) || (srcIndex && isFunction(objValue))) {
-	        isCommon = false;
-	        newValue = baseClone(srcValue, true);
-	      }
-	      else {
-	        newValue = objValue;
-	      }
-	    }
-	    else {
-	      isCommon = false;
-	    }
-	  }
-	  if (isCommon) {
-	    // Recursively merge objects and arrays (susceptible to call stack limits).
-	    stack.set(srcValue, newValue);
-	    mergeFunc(newValue, srcValue, srcIndex, customizer, stack);
-	    stack['delete'](srcValue);
-	  }
-	  assignMergeValue(object, key, newValue);
-	}
-
-	/**
-	 * The base implementation of `_.rest` which doesn't validate or coerce arguments.
-	 *
-	 * @private
-	 * @param {Function} func The function to apply a rest parameter to.
-	 * @param {number} [start=func.length-1] The start position of the rest parameter.
-	 * @returns {Function} Returns the new function.
-	 */
-	function baseRest(func, start) {
-	  start = nativeMax(start === undefined ? (func.length - 1) : start, 0);
-	  return function() {
-	    var args = arguments,
-	        index = -1,
-	        length = nativeMax(args.length - start, 0),
-	        array = Array(length);
-
-	    while (++index < length) {
-	      array[index] = args[start + index];
-	    }
-	    index = -1;
-	    var otherArgs = Array(start + 1);
-	    while (++index < start) {
-	      otherArgs[index] = args[index];
-	    }
-	    otherArgs[start] = array;
-	    return apply(func, this, otherArgs);
+	function baseProperty(key) {
+	  return function(object) {
+	    return object == null ? undefined : object[key];
 	  };
 	}
 
@@ -8555,9 +9471,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    var newValue = customizer
 	      ? customizer(object[key], source[key], key, object, source)
-	      : undefined;
+	      : source[key];
 
-	    assignValue(object, key, newValue === undefined ? source[key] : newValue);
+	    assignValue(object, key, newValue);
 	  }
 	  return object;
 	}
@@ -8575,39 +9491,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	/**
-	 * Creates a function like `_.assign`.
-	 *
-	 * @private
-	 * @param {Function} assigner The function to assign values.
-	 * @returns {Function} Returns the new assigner function.
-	 */
-	function createAssigner(assigner) {
-	  return baseRest(function(object, sources) {
-	    var index = -1,
-	        length = sources.length,
-	        customizer = length > 1 ? sources[length - 1] : undefined,
-	        guard = length > 2 ? sources[2] : undefined;
-
-	    customizer = (assigner.length > 3 && typeof customizer == 'function')
-	      ? (length--, customizer)
-	      : undefined;
-
-	    if (guard && isIterateeCall(sources[0], sources[1], guard)) {
-	      customizer = length < 3 ? undefined : customizer;
-	      length = 1;
-	    }
-	    object = Object(object);
-	    while (++index < length) {
-	      var source = sources[index];
-	      if (source) {
-	        assigner(object, source, index, customizer);
-	      }
-	    }
-	    return object;
-	  });
-	}
-
-	/**
 	 * Creates an array of own enumerable property names and symbols of `object`.
 	 *
 	 * @private
@@ -8617,6 +9500,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	function getAllKeys(object) {
 	  return baseGetAllKeys(object, keys, getSymbols);
 	}
+
+	/**
+	 * Gets the "length" property value of `object`.
+	 *
+	 * **Note:** This function is used to avoid a
+	 * [JIT bug](https://bugs.webkit.org/show_bug.cgi?id=142792) that affects
+	 * Safari on at least iOS 8.1-8.3 ARM64.
+	 *
+	 * @private
+	 * @param {Object} object The object to query.
+	 * @returns {*} Returns the "length" value.
+	 */
+	var getLength = baseProperty('length');
 
 	/**
 	 * Gets the data for `map`.
@@ -8642,8 +9538,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {*} Returns the function if it's native, else `undefined`.
 	 */
 	function getNative(object, key) {
-	  var value = getValue(object, key);
-	  return baseIsNative(value) ? value : undefined;
+	  var value = object[key];
+	  return isNative(value) ? value : undefined;
+	}
+
+	/**
+	 * Gets the `[[Prototype]]` of `value`.
+	 *
+	 * @private
+	 * @param {*} value The value to query.
+	 * @returns {null|Object} Returns the `[[Prototype]]`.
+	 */
+	function getPrototype(value) {
+	  return nativeGetPrototype(Object(value));
 	}
 
 	/**
@@ -8653,7 +9560,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @param {Object} object The object to query.
 	 * @returns {Array} Returns the array of symbols.
 	 */
-	var getSymbols = nativeGetSymbols ? overArg(nativeGetSymbols, Object) : stubArray;
+	function getSymbols(object) {
+	  // Coerce `object` to an object to avoid non-object errors in V8.
+	  // See https://bugs.chromium.org/p/v8/issues/detail?id=3443 for more details.
+	  return getOwnPropertySymbols(Object(object));
+	}
+
+	// Fallback for IE < 11.
+	if (!getOwnPropertySymbols) {
+	  getSymbols = function() {
+	    return [];
+	  };
+	}
 
 	/**
 	 * Gets the `toStringTag` of `value`.
@@ -8662,10 +9580,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @param {*} value The value to query.
 	 * @returns {string} Returns the `toStringTag`.
 	 */
-	var getTag = baseGetTag;
+	function getTag(value) {
+	  return objectToString.call(value);
+	}
 
 	// Fallback for data views, maps, sets, and weak maps in IE 11,
-	// for data views in Edge < 14, and promises in Node.js.
+	// for data views in Edge, and promises in Node.js.
 	if ((DataView && getTag(new DataView(new ArrayBuffer(1))) != dataViewTag) ||
 	    (Map && getTag(new Map) != mapTag) ||
 	    (Promise && getTag(Promise.resolve()) != promiseTag) ||
@@ -8771,6 +9691,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	/**
+	 * Creates an array of index keys for `object` values of arrays,
+	 * `arguments` objects, and strings, otherwise `null` is returned.
+	 *
+	 * @private
+	 * @param {Object} object The object to query.
+	 * @returns {Array|null} Returns index keys, else `null`.
+	 */
+	function indexKeys(object) {
+	  var length = object ? object.length : undefined;
+	  if (isLength(length) &&
+	      (isArray(object) || isString(object) || isArguments(object))) {
+	    return baseTimes(length, String);
+	  }
+	  return null;
+	}
+
+	/**
 	 * Checks if `value` is a valid array-like index.
 	 *
 	 * @private
@@ -8783,30 +9720,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return !!length &&
 	    (typeof value == 'number' || reIsUint.test(value)) &&
 	    (value > -1 && value % 1 == 0 && value < length);
-	}
-
-	/**
-	 * Checks if the given arguments are from an iteratee call.
-	 *
-	 * @private
-	 * @param {*} value The potential iteratee value argument.
-	 * @param {*} index The potential iteratee index or key argument.
-	 * @param {*} object The potential iteratee object argument.
-	 * @returns {boolean} Returns `true` if the arguments are from an iteratee call,
-	 *  else `false`.
-	 */
-	function isIterateeCall(value, index, object) {
-	  if (!isObject(object)) {
-	    return false;
-	  }
-	  var type = typeof index;
-	  if (type == 'number'
-	        ? (isArrayLike(object) && isIndex(index, object.length))
-	        : (type == 'string' && index in object)
-	      ) {
-	    return eq(object[index], value);
-	  }
-	  return false;
 	}
 
 	/**
@@ -8824,17 +9737,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	/**
-	 * Checks if `func` has its source masked.
-	 *
-	 * @private
-	 * @param {Function} func The function to check.
-	 * @returns {boolean} Returns `true` if `func` is masked, else `false`.
-	 */
-	function isMasked(func) {
-	  return !!maskSrcKey && (maskSrcKey in func);
-	}
-
-	/**
 	 * Checks if `value` is likely a prototype object.
 	 *
 	 * @private
@@ -8846,25 +9748,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	      proto = (typeof Ctor == 'function' && Ctor.prototype) || objectProto;
 
 	  return value === proto;
-	}
-
-	/**
-	 * This function is like
-	 * [`Object.keys`](http://ecma-international.org/ecma-262/7.0/#sec-object.keys)
-	 * except that it includes inherited enumerable properties.
-	 *
-	 * @private
-	 * @param {Object} object The object to query.
-	 * @returns {Array} Returns the array of property names.
-	 */
-	function nativeKeysIn(object) {
-	  var result = [];
-	  if (object != null) {
-	    for (var key in Object(object)) {
-	      result.push(key);
-	    }
-	  }
-	  return result;
 	}
 
 	/**
@@ -8888,7 +9771,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	/**
 	 * Performs a
-	 * [`SameValueZero`](http://ecma-international.org/ecma-262/7.0/#sec-samevaluezero)
+	 * [`SameValueZero`](http://ecma-international.org/ecma-262/6.0/#sec-samevaluezero)
 	 * comparison between two values to determine if they are equivalent.
 	 *
 	 * @static
@@ -8900,8 +9783,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
 	 * @example
 	 *
-	 * var object = { 'a': 1 };
-	 * var other = { 'a': 1 };
+	 * var object = { 'user': 'fred' };
+	 * var other = { 'user': 'fred' };
 	 *
 	 * _.eq(object, object);
 	 * // => true
@@ -8930,7 +9813,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @since 0.1.0
 	 * @category Lang
 	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is an `arguments` object,
+	 * @returns {boolean} Returns `true` if `value` is correctly classified,
 	 *  else `false`.
 	 * @example
 	 *
@@ -8941,7 +9824,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * // => false
 	 */
 	function isArguments(value) {
-	  // Safari 8.1 makes `arguments.callee` enumerable in strict mode.
+	  // Safari 8.1 incorrectly makes `arguments.callee` enumerable in strict mode.
 	  return isArrayLikeObject(value) && hasOwnProperty.call(value, 'callee') &&
 	    (!propertyIsEnumerable.call(value, 'callee') || objectToString.call(value) == argsTag);
 	}
@@ -8952,9 +9835,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @static
 	 * @memberOf _
 	 * @since 0.1.0
+	 * @type {Function}
 	 * @category Lang
 	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is an array, else `false`.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified,
+	 *  else `false`.
 	 * @example
 	 *
 	 * _.isArray([1, 2, 3]);
@@ -8997,7 +9882,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * // => false
 	 */
 	function isArrayLike(value) {
-	  return value != null && isLength(value.length) && !isFunction(value);
+	  return value != null && isLength(getLength(value)) && !isFunction(value);
 	}
 
 	/**
@@ -9046,7 +9931,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * _.isBuffer(new Uint8Array(2));
 	 * // => false
 	 */
-	var isBuffer = nativeIsBuffer || stubFalse;
+	var isBuffer = !Buffer ? constant(false) : function(value) {
+	  return value instanceof Buffer;
+	};
 
 	/**
 	 * Checks if `value` is classified as a `Function` object.
@@ -9056,7 +9943,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @since 0.1.0
 	 * @category Lang
 	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a function, else `false`.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified,
+	 *  else `false`.
 	 * @example
 	 *
 	 * _.isFunction(_);
@@ -9067,7 +9955,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function isFunction(value) {
 	  // The use of `Object#toString` avoids issues with the `typeof` operator
-	  // in Safari 8-9 which returns 'object' for typed array and other constructors.
+	  // in Safari 8 which returns 'object' for typed array and weak map constructors,
+	  // and PhantomJS 1.9 which returns 'function' for `NodeList` instances.
 	  var tag = isObject(value) ? objectToString.call(value) : '';
 	  return tag == funcTag || tag == genTag;
 	}
@@ -9075,15 +9964,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	/**
 	 * Checks if `value` is a valid array-like length.
 	 *
-	 * **Note:** This method is loosely based on
-	 * [`ToLength`](http://ecma-international.org/ecma-262/7.0/#sec-tolength).
+	 * **Note:** This function is loosely based on
+	 * [`ToLength`](http://ecma-international.org/ecma-262/6.0/#sec-tolength).
 	 *
 	 * @static
 	 * @memberOf _
 	 * @since 4.0.0
 	 * @category Lang
 	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a valid length, else `false`.
+	 * @returns {boolean} Returns `true` if `value` is a valid length,
+	 *  else `false`.
 	 * @example
 	 *
 	 * _.isLength(3);
@@ -9105,7 +9995,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	/**
 	 * Checks if `value` is the
-	 * [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
+	 * [language type](http://www.ecma-international.org/ecma-262/6.0/#sec-ecmascript-language-types)
 	 * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
 	 *
 	 * @static
@@ -9162,99 +10052,59 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	/**
-	 * Checks if `value` is a plain object, that is, an object created by the
-	 * `Object` constructor or one with a `[[Prototype]]` of `null`.
+	 * Checks if `value` is a native function.
 	 *
 	 * @static
 	 * @memberOf _
-	 * @since 0.8.0
+	 * @since 3.0.0
 	 * @category Lang
 	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a plain object, else `false`.
+	 * @returns {boolean} Returns `true` if `value` is a native function,
+	 *  else `false`.
 	 * @example
 	 *
-	 * function Foo() {
-	 *   this.a = 1;
-	 * }
-	 *
-	 * _.isPlainObject(new Foo);
-	 * // => false
-	 *
-	 * _.isPlainObject([1, 2, 3]);
-	 * // => false
-	 *
-	 * _.isPlainObject({ 'x': 0, 'y': 0 });
+	 * _.isNative(Array.prototype.push);
 	 * // => true
 	 *
-	 * _.isPlainObject(Object.create(null));
-	 * // => true
+	 * _.isNative(_);
+	 * // => false
 	 */
-	function isPlainObject(value) {
-	  if (!isObjectLike(value) ||
-	      objectToString.call(value) != objectTag || isHostObject(value)) {
+	function isNative(value) {
+	  if (!isObject(value)) {
 	    return false;
 	  }
-	  var proto = getPrototype(value);
-	  if (proto === null) {
-	    return true;
-	  }
-	  var Ctor = hasOwnProperty.call(proto, 'constructor') && proto.constructor;
-	  return (typeof Ctor == 'function' &&
-	    Ctor instanceof Ctor && funcToString.call(Ctor) == objectCtorString);
+	  var pattern = (isFunction(value) || isHostObject(value)) ? reIsNative : reIsHostCtor;
+	  return pattern.test(toSource(value));
 	}
 
 	/**
-	 * Checks if `value` is classified as a typed array.
+	 * Checks if `value` is classified as a `String` primitive or object.
 	 *
 	 * @static
+	 * @since 0.1.0
 	 * @memberOf _
-	 * @since 3.0.0
 	 * @category Lang
 	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a typed array, else `false`.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified,
+	 *  else `false`.
 	 * @example
 	 *
-	 * _.isTypedArray(new Uint8Array);
+	 * _.isString('abc');
 	 * // => true
 	 *
-	 * _.isTypedArray([]);
+	 * _.isString(1);
 	 * // => false
 	 */
-	var isTypedArray = nodeIsTypedArray ? baseUnary(nodeIsTypedArray) : baseIsTypedArray;
-
-	/**
-	 * Converts `value` to a plain object flattening inherited enumerable string
-	 * keyed properties of `value` to own properties of the plain object.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 3.0.0
-	 * @category Lang
-	 * @param {*} value The value to convert.
-	 * @returns {Object} Returns the converted plain object.
-	 * @example
-	 *
-	 * function Foo() {
-	 *   this.b = 2;
-	 * }
-	 *
-	 * Foo.prototype.c = 3;
-	 *
-	 * _.assign({ 'a': 1 }, new Foo);
-	 * // => { 'a': 1, 'b': 2 }
-	 *
-	 * _.assign({ 'a': 1 }, _.toPlainObject(new Foo));
-	 * // => { 'a': 1, 'b': 2, 'c': 3 }
-	 */
-	function toPlainObject(value) {
-	  return copyObject(value, keysIn(value));
+	function isString(value) {
+	  return typeof value == 'string' ||
+	    (!isArray(value) && isObjectLike(value) && objectToString.call(value) == stringTag);
 	}
 
 	/**
 	 * Creates an array of the own enumerable property names of `object`.
 	 *
 	 * **Note:** Non-object values are coerced to objects. See the
-	 * [ES spec](http://ecma-international.org/ecma-262/7.0/#sec-object.keys)
+	 * [ES spec](http://ecma-international.org/ecma-262/6.0/#sec-object.keys)
 	 * for more details.
 	 *
 	 * @static
@@ -9279,7 +10129,523 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * // => ['0', '1']
 	 */
 	function keys(object) {
-	  return isArrayLike(object) ? arrayLikeKeys(object) : baseKeys(object);
+	  var isProto = isPrototype(object);
+	  if (!(isProto || isArrayLike(object))) {
+	    return baseKeys(object);
+	  }
+	  var indexes = indexKeys(object),
+	      skipIndexes = !!indexes,
+	      result = indexes || [],
+	      length = result.length;
+
+	  for (var key in object) {
+	    if (baseHas(object, key) &&
+	        !(skipIndexes && (key == 'length' || isIndex(key, length))) &&
+	        !(isProto && key == 'constructor')) {
+	      result.push(key);
+	    }
+	  }
+	  return result;
+	}
+
+	/**
+	 * Creates a function that returns `value`.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 2.4.0
+	 * @category Util
+	 * @param {*} value The value to return from the new function.
+	 * @returns {Function} Returns the new constant function.
+	 * @example
+	 *
+	 * var object = { 'user': 'fred' };
+	 * var getter = _.constant(object);
+	 *
+	 * getter() === object;
+	 * // => true
+	 */
+	function constant(value) {
+	  return function() {
+	    return value;
+	  };
+	}
+
+	module.exports = baseClone;
+
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(22)(module), (function() { return this; }())))
+
+/***/ },
+/* 37 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(module, global) {/**
+	 * lodash (Custom Build) <https://lodash.com/>
+	 * Build: `lodash modularize exports="npm" -o ./`
+	 * Copyright jQuery Foundation and other contributors <https://jquery.org/>
+	 * Released under MIT license <https://lodash.com/license>
+	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+	 * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+	 */
+
+	/** Used as references for various `Number` constants. */
+	var MAX_SAFE_INTEGER = 9007199254740991;
+
+	/** `Object#toString` result references. */
+	var argsTag = '[object Arguments]',
+	    funcTag = '[object Function]',
+	    genTag = '[object GeneratorFunction]',
+	    stringTag = '[object String]';
+
+	/** Used to detect unsigned integer values. */
+	var reIsUint = /^(?:0|[1-9]\d*)$/;
+
+	/** Used to determine if values are of the language type `Object`. */
+	var objectTypes = {
+	  'function': true,
+	  'object': true
+	};
+
+	/** Detect free variable `exports`. */
+	var freeExports = (objectTypes[typeof exports] && exports && !exports.nodeType)
+	  ? exports
+	  : undefined;
+
+	/** Detect free variable `module`. */
+	var freeModule = (objectTypes[typeof module] && module && !module.nodeType)
+	  ? module
+	  : undefined;
+
+	/** Detect free variable `global` from Node.js. */
+	var freeGlobal = checkGlobal(freeExports && freeModule && typeof global == 'object' && global);
+
+	/** Detect free variable `self`. */
+	var freeSelf = checkGlobal(objectTypes[typeof self] && self);
+
+	/** Detect free variable `window`. */
+	var freeWindow = checkGlobal(objectTypes[typeof window] && window);
+
+	/** Detect `this` as the global object. */
+	var thisGlobal = checkGlobal(objectTypes[typeof this] && this);
+
+	/**
+	 * Used as a reference to the global object.
+	 *
+	 * The `this` value is used if it's the global object to avoid Greasemonkey's
+	 * restricted `window` object, otherwise the `window` object is used.
+	 */
+	var root = freeGlobal ||
+	  ((freeWindow !== (thisGlobal && thisGlobal.window)) && freeWindow) ||
+	    freeSelf || thisGlobal || Function('return this')();
+
+	/**
+	 * The base implementation of `_.times` without support for iteratee shorthands
+	 * or max array length checks.
+	 *
+	 * @private
+	 * @param {number} n The number of times to invoke `iteratee`.
+	 * @param {Function} iteratee The function invoked per iteration.
+	 * @returns {Array} Returns the array of results.
+	 */
+	function baseTimes(n, iteratee) {
+	  var index = -1,
+	      result = Array(n);
+
+	  while (++index < n) {
+	    result[index] = iteratee(index);
+	  }
+	  return result;
+	}
+
+	/**
+	 * Checks if `value` is a global object.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {null|Object} Returns `value` if it's a global object, else `null`.
+	 */
+	function checkGlobal(value) {
+	  return (value && value.Object === Object) ? value : null;
+	}
+
+	/**
+	 * Converts `iterator` to an array.
+	 *
+	 * @private
+	 * @param {Object} iterator The iterator to convert.
+	 * @returns {Array} Returns the converted array.
+	 */
+	function iteratorToArray(iterator) {
+	  var data,
+	      result = [];
+
+	  while (!(data = iterator.next()).done) {
+	    result.push(data.value);
+	  }
+	  return result;
+	}
+
+	/** Used for built-in method references. */
+	var objectProto = Object.prototype;
+
+	/** Used to check objects for own properties. */
+	var hasOwnProperty = objectProto.hasOwnProperty;
+
+	/**
+	 * Used to resolve the
+	 * [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
+	 * of values.
+	 */
+	var objectToString = objectProto.toString;
+
+	/** Built-in value references. */
+	var Reflect = root.Reflect,
+	    enumerate = Reflect ? Reflect.enumerate : undefined,
+	    propertyIsEnumerable = objectProto.propertyIsEnumerable;
+
+	/**
+	 * The base implementation of `_.keysIn` which doesn't skip the constructor
+	 * property of prototypes or treat sparse arrays as dense.
+	 *
+	 * @private
+	 * @param {Object} object The object to query.
+	 * @returns {Array} Returns the array of property names.
+	 */
+	function baseKeysIn(object) {
+	  object = object == null ? object : Object(object);
+
+	  var result = [];
+	  for (var key in object) {
+	    result.push(key);
+	  }
+	  return result;
+	}
+
+	// Fallback for IE < 9 with es6-shim.
+	if (enumerate && !propertyIsEnumerable.call({ 'valueOf': 1 }, 'valueOf')) {
+	  baseKeysIn = function(object) {
+	    return iteratorToArray(enumerate(object));
+	  };
+	}
+
+	/**
+	 * The base implementation of `_.property` without support for deep paths.
+	 *
+	 * @private
+	 * @param {string} key The key of the property to get.
+	 * @returns {Function} Returns the new accessor function.
+	 */
+	function baseProperty(key) {
+	  return function(object) {
+	    return object == null ? undefined : object[key];
+	  };
+	}
+
+	/**
+	 * Gets the "length" property value of `object`.
+	 *
+	 * **Note:** This function is used to avoid a
+	 * [JIT bug](https://bugs.webkit.org/show_bug.cgi?id=142792) that affects
+	 * Safari on at least iOS 8.1-8.3 ARM64.
+	 *
+	 * @private
+	 * @param {Object} object The object to query.
+	 * @returns {*} Returns the "length" value.
+	 */
+	var getLength = baseProperty('length');
+
+	/**
+	 * Creates an array of index keys for `object` values of arrays,
+	 * `arguments` objects, and strings, otherwise `null` is returned.
+	 *
+	 * @private
+	 * @param {Object} object The object to query.
+	 * @returns {Array|null} Returns index keys, else `null`.
+	 */
+	function indexKeys(object) {
+	  var length = object ? object.length : undefined;
+	  if (isLength(length) &&
+	      (isArray(object) || isString(object) || isArguments(object))) {
+	    return baseTimes(length, String);
+	  }
+	  return null;
+	}
+
+	/**
+	 * Checks if `value` is a valid array-like index.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @param {number} [length=MAX_SAFE_INTEGER] The upper bounds of a valid index.
+	 * @returns {boolean} Returns `true` if `value` is a valid index, else `false`.
+	 */
+	function isIndex(value, length) {
+	  length = length == null ? MAX_SAFE_INTEGER : length;
+	  return !!length &&
+	    (typeof value == 'number' || reIsUint.test(value)) &&
+	    (value > -1 && value % 1 == 0 && value < length);
+	}
+
+	/**
+	 * Checks if `value` is likely a prototype object.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is a prototype, else `false`.
+	 */
+	function isPrototype(value) {
+	  var Ctor = value && value.constructor,
+	      proto = (typeof Ctor == 'function' && Ctor.prototype) || objectProto;
+
+	  return value === proto;
+	}
+
+	/**
+	 * Checks if `value` is likely an `arguments` object.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 0.1.0
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified,
+	 *  else `false`.
+	 * @example
+	 *
+	 * _.isArguments(function() { return arguments; }());
+	 * // => true
+	 *
+	 * _.isArguments([1, 2, 3]);
+	 * // => false
+	 */
+	function isArguments(value) {
+	  // Safari 8.1 incorrectly makes `arguments.callee` enumerable in strict mode.
+	  return isArrayLikeObject(value) && hasOwnProperty.call(value, 'callee') &&
+	    (!propertyIsEnumerable.call(value, 'callee') || objectToString.call(value) == argsTag);
+	}
+
+	/**
+	 * Checks if `value` is classified as an `Array` object.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 0.1.0
+	 * @type {Function}
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified,
+	 *  else `false`.
+	 * @example
+	 *
+	 * _.isArray([1, 2, 3]);
+	 * // => true
+	 *
+	 * _.isArray(document.body.children);
+	 * // => false
+	 *
+	 * _.isArray('abc');
+	 * // => false
+	 *
+	 * _.isArray(_.noop);
+	 * // => false
+	 */
+	var isArray = Array.isArray;
+
+	/**
+	 * Checks if `value` is array-like. A value is considered array-like if it's
+	 * not a function and has a `value.length` that's an integer greater than or
+	 * equal to `0` and less than or equal to `Number.MAX_SAFE_INTEGER`.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 4.0.0
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is array-like, else `false`.
+	 * @example
+	 *
+	 * _.isArrayLike([1, 2, 3]);
+	 * // => true
+	 *
+	 * _.isArrayLike(document.body.children);
+	 * // => true
+	 *
+	 * _.isArrayLike('abc');
+	 * // => true
+	 *
+	 * _.isArrayLike(_.noop);
+	 * // => false
+	 */
+	function isArrayLike(value) {
+	  return value != null && isLength(getLength(value)) && !isFunction(value);
+	}
+
+	/**
+	 * This method is like `_.isArrayLike` except that it also checks if `value`
+	 * is an object.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 4.0.0
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is an array-like object,
+	 *  else `false`.
+	 * @example
+	 *
+	 * _.isArrayLikeObject([1, 2, 3]);
+	 * // => true
+	 *
+	 * _.isArrayLikeObject(document.body.children);
+	 * // => true
+	 *
+	 * _.isArrayLikeObject('abc');
+	 * // => false
+	 *
+	 * _.isArrayLikeObject(_.noop);
+	 * // => false
+	 */
+	function isArrayLikeObject(value) {
+	  return isObjectLike(value) && isArrayLike(value);
+	}
+
+	/**
+	 * Checks if `value` is classified as a `Function` object.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 0.1.0
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified,
+	 *  else `false`.
+	 * @example
+	 *
+	 * _.isFunction(_);
+	 * // => true
+	 *
+	 * _.isFunction(/abc/);
+	 * // => false
+	 */
+	function isFunction(value) {
+	  // The use of `Object#toString` avoids issues with the `typeof` operator
+	  // in Safari 8 which returns 'object' for typed array and weak map constructors,
+	  // and PhantomJS 1.9 which returns 'function' for `NodeList` instances.
+	  var tag = isObject(value) ? objectToString.call(value) : '';
+	  return tag == funcTag || tag == genTag;
+	}
+
+	/**
+	 * Checks if `value` is a valid array-like length.
+	 *
+	 * **Note:** This function is loosely based on
+	 * [`ToLength`](http://ecma-international.org/ecma-262/6.0/#sec-tolength).
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 4.0.0
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is a valid length,
+	 *  else `false`.
+	 * @example
+	 *
+	 * _.isLength(3);
+	 * // => true
+	 *
+	 * _.isLength(Number.MIN_VALUE);
+	 * // => false
+	 *
+	 * _.isLength(Infinity);
+	 * // => false
+	 *
+	 * _.isLength('3');
+	 * // => false
+	 */
+	function isLength(value) {
+	  return typeof value == 'number' &&
+	    value > -1 && value % 1 == 0 && value <= MAX_SAFE_INTEGER;
+	}
+
+	/**
+	 * Checks if `value` is the
+	 * [language type](http://www.ecma-international.org/ecma-262/6.0/#sec-ecmascript-language-types)
+	 * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 0.1.0
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+	 * @example
+	 *
+	 * _.isObject({});
+	 * // => true
+	 *
+	 * _.isObject([1, 2, 3]);
+	 * // => true
+	 *
+	 * _.isObject(_.noop);
+	 * // => true
+	 *
+	 * _.isObject(null);
+	 * // => false
+	 */
+	function isObject(value) {
+	  var type = typeof value;
+	  return !!value && (type == 'object' || type == 'function');
+	}
+
+	/**
+	 * Checks if `value` is object-like. A value is object-like if it's not `null`
+	 * and has a `typeof` result of "object".
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 4.0.0
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+	 * @example
+	 *
+	 * _.isObjectLike({});
+	 * // => true
+	 *
+	 * _.isObjectLike([1, 2, 3]);
+	 * // => true
+	 *
+	 * _.isObjectLike(_.noop);
+	 * // => false
+	 *
+	 * _.isObjectLike(null);
+	 * // => false
+	 */
+	function isObjectLike(value) {
+	  return !!value && typeof value == 'object';
+	}
+
+	/**
+	 * Checks if `value` is classified as a `String` primitive or object.
+	 *
+	 * @static
+	 * @since 0.1.0
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified,
+	 *  else `false`.
+	 * @example
+	 *
+	 * _.isString('abc');
+	 * // => true
+	 *
+	 * _.isString(1);
+	 * // => false
+	 */
+	function isString(value) {
+	  return typeof value == 'string' ||
+	    (!isArray(value) && isObjectLike(value) && objectToString.call(value) == stringTag);
 	}
 
 	/**
@@ -9306,179 +10672,418 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * // => ['a', 'b', 'c'] (iteration order is not guaranteed)
 	 */
 	function keysIn(object) {
-	  return isArrayLike(object) ? arrayLikeKeys(object, true) : baseKeysIn(object);
+	  var index = -1,
+	      isProto = isPrototype(object),
+	      props = baseKeysIn(object),
+	      propsLength = props.length,
+	      indexes = indexKeys(object),
+	      skipIndexes = !!indexes,
+	      result = indexes || [],
+	      length = result.length;
+
+	  while (++index < propsLength) {
+	    var key = props[index];
+	    if (!(skipIndexes && (key == 'length' || isIndex(key, length))) &&
+	        !(key == 'constructor' && (isProto || !hasOwnProperty.call(object, key)))) {
+	      result.push(key);
+	    }
+	  }
+	  return result;
 	}
 
-	/**
-	 * This method is like `_.assign` except that it recursively merges own and
-	 * inherited enumerable string keyed properties of source objects into the
-	 * destination object. Source properties that resolve to `undefined` are
-	 * skipped if a destination value exists. Array and plain object properties
-	 * are merged recursively. Other objects and value types are overridden by
-	 * assignment. Source objects are applied from left to right. Subsequent
-	 * sources overwrite property assignments of previous sources.
-	 *
-	 * **Note:** This method mutates `object`.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 0.5.0
-	 * @category Object
-	 * @param {Object} object The destination object.
-	 * @param {...Object} [sources] The source objects.
-	 * @returns {Object} Returns `object`.
-	 * @example
-	 *
-	 * var object = {
-	 *   'a': [{ 'b': 2 }, { 'd': 4 }]
-	 * };
-	 *
-	 * var other = {
-	 *   'a': [{ 'c': 3 }, { 'e': 5 }]
-	 * };
-	 *
-	 * _.merge(object, other);
-	 * // => { 'a': [{ 'b': 2, 'c': 3 }, { 'd': 4, 'e': 5 }] }
-	 */
-	var merge = createAssigner(function(object, source, srcIndex) {
-	  baseMerge(object, source, srcIndex);
-	});
+	module.exports = keysIn;
 
-	/**
-	 * This method returns a new empty array.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.13.0
-	 * @category Util
-	 * @returns {Array} Returns the new empty array.
-	 * @example
-	 *
-	 * var arrays = _.times(2, _.stubArray);
-	 *
-	 * console.log(arrays);
-	 * // => [[], []]
-	 *
-	 * console.log(arrays[0] === arrays[1]);
-	 * // => false
-	 */
-	function stubArray() {
-	  return [];
-	}
-
-	/**
-	 * This method returns `false`.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.13.0
-	 * @category Util
-	 * @returns {boolean} Returns `false`.
-	 * @example
-	 *
-	 * _.times(2, _.stubFalse);
-	 * // => [false, false]
-	 */
-	function stubFalse() {
-	  return false;
-	}
-
-	module.exports = merge;
-
-	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(33)(module)))
-
-/***/ },
-/* 33 */
-/***/ function(module, exports) {
-
-	module.exports = function(module) {
-		if(!module.webpackPolyfill) {
-			module.deprecate = function() {};
-			module.paths = [];
-			// module.parent = undefined by default
-			module.children = [];
-			module.webpackPolyfill = 1;
-		}
-		return module;
-	}
-
-
-/***/ },
-/* 34 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(25)();
-	// imports
-
-
-	// module
-	exports.push([module.id, ".media-control-notransition {\n  -webkit-transition: none !important;\n  -moz-transition: none !important;\n  transition: none !important; }\n\n.media-control[data-media-control] {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  z-index: 9999;\n  pointer-events: none; }\n  .media-control[data-media-control].dragging {\n    pointer-events: auto;\n    cursor: -webkit-grabbing !important;\n    cursor: grabbing !important;\n    cursor: url(" + __webpack_require__(35) + "), move; }\n    .media-control[data-media-control].dragging * {\n      cursor: -webkit-grabbing !important;\n      cursor: grabbing !important;\n      cursor: url(" + __webpack_require__(35) + "), move; }\n  .media-control[data-media-control] .media-control-background[data-background] {\n    position: absolute;\n    height: 40%;\n    width: 100%;\n    bottom: 0;\n    background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.9));\n    background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));\n    -webkit-transition: opacity 0.6s ease-out;\n    -moz-transition: opacity 0.6s ease-out;\n    transition: opacity 0.6s ease-out; }\n  .media-control[data-media-control] .media-control-icon {\n    line-height: 0;\n    letter-spacing: 0;\n    speak: none;\n    color: #fff;\n    opacity: 0.5;\n    vertical-align: middle;\n    text-align: left;\n    -webkit-transition: all 0.1s ease;\n    -moz-transition: all 0.1s ease;\n    transition: all 0.1s ease; }\n  .media-control[data-media-control] .media-control-icon:hover {\n    color: white;\n    opacity: 0.75;\n    text-shadow: rgba(255, 255, 255, 0.8) 0 0 5px; }\n  .media-control[data-media-control].media-control-hide .media-control-background[data-background] {\n    opacity: 0; }\n  .media-control[data-media-control].media-control-hide .media-control-layer[data-controls] {\n    bottom: -50px; }\n    .media-control[data-media-control].media-control-hide .media-control-layer[data-controls] .bar-container[data-seekbar] .bar-scrubber[data-seekbar] {\n      opacity: 0; }\n  .media-control[data-media-control] .media-control-layer[data-controls] {\n    position: absolute;\n    bottom: 7px;\n    width: 100%;\n    height: 32px;\n    font-size: 0;\n    vertical-align: middle;\n    pointer-events: auto;\n    -webkit-transition: bottom 0.4s ease-out;\n    -moz-transition: bottom 0.4s ease-out;\n    transition: bottom 0.4s ease-out; }\n    .media-control[data-media-control] .media-control-layer[data-controls] .media-control-left-panel[data-media-control] {\n      position: absolute;\n      top: 0;\n      left: 4px;\n      height: 100%; }\n    .media-control[data-media-control] .media-control-layer[data-controls] .media-control-center-panel[data-media-control] {\n      height: 100%;\n      text-align: center;\n      line-height: 32px; }\n    .media-control[data-media-control] .media-control-layer[data-controls] .media-control-right-panel[data-media-control] {\n      position: absolute;\n      top: 0;\n      right: 4px;\n      height: 100%; }\n    .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button {\n      background-color: transparent;\n      border: 0;\n      margin: 0 6px;\n      padding: 0;\n      cursor: pointer;\n      display: inline-block;\n      width: 32px;\n      height: 100%; }\n      .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button svg {\n        width: 100%;\n        height: 22px; }\n        .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button svg path {\n          fill: white; }\n      .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button:focus {\n        outline: none; }\n      .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button[data-play] {\n        float: left;\n        height: 100%; }\n      .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button[data-pause] {\n        float: left;\n        height: 100%; }\n      .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button[data-stop] {\n        float: left;\n        height: 100%; }\n      .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button[data-fullscreen] {\n        float: right;\n        background-color: transparent;\n        border: 0;\n        height: 100%; }\n      .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button[data-hd-indicator] {\n        cursor: default;\n        float: right;\n        background-color: transparent;\n        border: 0;\n        height: 100%;\n        display: none; }\n        .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button[data-hd-indicator].enabled {\n          opacity: 1.0;\n          display: block; }\n          .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button[data-hd-indicator].enabled:hover {\n            opacity: 1.0;\n            text-shadow: none; }\n      .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button[data-playpause] {\n        float: left; }\n      .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button[data-playstop] {\n        float: left; }\n    .media-control[data-media-control] .media-control-layer[data-controls] .media-control-indicator[data-position], .media-control[data-media-control] .media-control-layer[data-controls] .media-control-indicator[data-duration] {\n      display: inline-block;\n      font-size: 10px;\n      color: white;\n      cursor: default;\n      line-height: 32px;\n      position: relative; }\n    .media-control[data-media-control] .media-control-layer[data-controls] .media-control-indicator[data-position] {\n      margin: 0 6px 0 7px; }\n    .media-control[data-media-control] .media-control-layer[data-controls] .media-control-indicator[data-duration] {\n      color: rgba(255, 255, 255, 0.5);\n      margin-right: 6px; }\n      .media-control[data-media-control] .media-control-layer[data-controls] .media-control-indicator[data-duration]:before {\n        content: \"|\";\n        margin-right: 7px; }\n    .media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar] {\n      position: absolute;\n      top: -20px;\n      left: 0;\n      display: inline-block;\n      vertical-align: middle;\n      width: 100%;\n      height: 25px;\n      cursor: pointer; }\n      .media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar] .bar-background[data-seekbar] {\n        width: 100%;\n        height: 1px;\n        position: relative;\n        top: 12px;\n        background-color: #666666; }\n        .media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar] .bar-background[data-seekbar] .bar-fill-1[data-seekbar] {\n          position: absolute;\n          top: 0;\n          left: 0;\n          width: 0;\n          height: 100%;\n          background-color: #c2c2c2;\n          -webkit-transition: all 0.1s ease-out;\n          -moz-transition: all 0.1s ease-out;\n          transition: all 0.1s ease-out; }\n        .media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar] .bar-background[data-seekbar] .bar-fill-2[data-seekbar] {\n          position: absolute;\n          top: 0;\n          left: 0;\n          width: 0;\n          height: 100%;\n          background-color: #005aff;\n          -webkit-transition: all 0.1s ease-out;\n          -moz-transition: all 0.1s ease-out;\n          transition: all 0.1s ease-out; }\n        .media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar] .bar-background[data-seekbar] .bar-hover[data-seekbar] {\n          opacity: 0;\n          position: absolute;\n          top: -3px;\n          width: 5px;\n          height: 7px;\n          background-color: rgba(255, 255, 255, 0.5);\n          -webkit-transition: opacity 0.1s ease;\n          -moz-transition: opacity 0.1s ease;\n          transition: opacity 0.1s ease; }\n      .media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar]:hover .bar-background[data-seekbar] .bar-hover[data-seekbar] {\n        opacity: 1; }\n      .media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar].seek-disabled {\n        cursor: default; }\n        .media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar].seek-disabled:hover .bar-background[data-seekbar] .bar-hover[data-seekbar] {\n          opacity: 0; }\n      .media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar] .bar-scrubber[data-seekbar] {\n        position: absolute;\n        -webkit-transform: translateX(-50%);\n        -moz-transform: translateX(-50%);\n        -ms-transform: translateX(-50%);\n        -o-transform: translateX(-50%);\n        transform: translateX(-50%);\n        top: 2px;\n        left: 0;\n        width: 20px;\n        height: 20px;\n        opacity: 1;\n        -webkit-transition: all 0.1s ease-out;\n        -moz-transition: all 0.1s ease-out;\n        transition: all 0.1s ease-out; }\n        .media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar] .bar-scrubber[data-seekbar] .bar-scrubber-icon[data-seekbar] {\n          position: absolute;\n          left: 6px;\n          top: 6px;\n          width: 8px;\n          height: 8px;\n          border-radius: 10px;\n          box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.2);\n          background-color: white; }\n    .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] {\n      float: right;\n      display: inline-block;\n      height: 32px;\n      cursor: pointer;\n      margin: 0 6px;\n      box-sizing: border-box; }\n      .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .drawer-icon-container[data-volume] {\n        float: left;\n        bottom: 0; }\n        .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .drawer-icon-container[data-volume] .drawer-icon[data-volume] {\n          background-color: transparent;\n          border: 0;\n          box-sizing: content-box;\n          width: 32px;\n          height: 32px;\n          opacity: 0.5; }\n          .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .drawer-icon-container[data-volume] .drawer-icon[data-volume]:hover {\n            opacity: 0.75; }\n          .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .drawer-icon-container[data-volume] .drawer-icon[data-volume] svg {\n            height: 24px;\n            position: relative;\n            top: 3px; }\n            .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .drawer-icon-container[data-volume] .drawer-icon[data-volume] svg path {\n              fill: white; }\n          .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .drawer-icon-container[data-volume] .drawer-icon[data-volume].muted svg {\n            margin-left: 2px; }\n      .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume] {\n        float: left;\n        position: relative;\n        overflow: hidden;\n        top: 6px;\n        width: 42px;\n        height: 18px;\n        padding: 3px 0;\n        -webkit-transition: width 0.2s ease-out;\n        -moz-transition: width 0.2s ease-out;\n        transition: width 0.2s ease-out; }\n        .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume] .bar-background[data-volume] {\n          height: 1px;\n          position: relative;\n          top: 7px;\n          margin: 0 3px;\n          background-color: #666666; }\n          .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume] .bar-background[data-volume] .bar-fill-1[data-volume] {\n            position: absolute;\n            top: 0;\n            left: 0;\n            width: 0;\n            height: 100%;\n            background-color: #c2c2c2;\n            -webkit-transition: all 0.1s ease-out;\n            -moz-transition: all 0.1s ease-out;\n            transition: all 0.1s ease-out; }\n          .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume] .bar-background[data-volume] .bar-fill-2[data-volume] {\n            position: absolute;\n            top: 0;\n            left: 0;\n            width: 0;\n            height: 100%;\n            background-color: #005aff;\n            -webkit-transition: all 0.1s ease-out;\n            -moz-transition: all 0.1s ease-out;\n            transition: all 0.1s ease-out; }\n          .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume] .bar-background[data-volume] .bar-hover[data-volume] {\n            opacity: 0;\n            position: absolute;\n            top: -3px;\n            width: 5px;\n            height: 7px;\n            background-color: rgba(255, 255, 255, 0.5);\n            -webkit-transition: opacity 0.1s ease;\n            -moz-transition: opacity 0.1s ease;\n            transition: opacity 0.1s ease; }\n        .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume] .bar-scrubber[data-volume] {\n          position: absolute;\n          -webkit-transform: translateX(-50%);\n          -moz-transform: translateX(-50%);\n          -ms-transform: translateX(-50%);\n          -o-transform: translateX(-50%);\n          transform: translateX(-50%);\n          top: 0px;\n          left: 0;\n          width: 20px;\n          height: 20px;\n          opacity: 1;\n          -webkit-transition: all 0.1s ease-out;\n          -moz-transition: all 0.1s ease-out;\n          transition: all 0.1s ease-out; }\n          .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume] .bar-scrubber[data-volume] .bar-scrubber-icon[data-volume] {\n            position: absolute;\n            left: 6px;\n            top: 6px;\n            width: 8px;\n            height: 8px;\n            border-radius: 10px;\n            box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.2);\n            background-color: white; }\n        .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume] .segmented-bar-element[data-volume] {\n          float: left;\n          width: 4px;\n          padding-left: 2px;\n          height: 12px;\n          opacity: 0.5;\n          box-shadow: inset 2px 0 0 white;\n          -webkit-transition: -webkit-transform 0.2s ease-out;\n          -moz-transition: -moz-transform 0.2s ease-out;\n          transition: transform 0.2s ease-out; }\n          .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume] .segmented-bar-element[data-volume].fill {\n            box-shadow: inset 2px 0 0 #fff;\n            opacity: 1; }\n          .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume] .segmented-bar-element[data-volume]:nth-of-type(1) {\n            padding-left: 0; }\n          .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume] .segmented-bar-element[data-volume]:hover {\n            -webkit-transform: scaleY(1.5);\n            -moz-transform: scaleY(1.5);\n            -ms-transform: scaleY(1.5);\n            -o-transform: scaleY(1.5);\n            transform: scaleY(1.5); }\n  .media-control[data-media-control].w320 .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume].volume-bar-hide {\n    width: 0;\n    height: 12px;\n    top: 9px;\n    padding: 0; }\n", ""]);
-
-	// exports
-
-
-/***/ },
-/* 35 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "a8c874b93b3d848f39a71260c57e3863.cur";
-
-/***/ },
-/* 36 */
-/***/ function(module, exports) {
-
-	module.exports = "<div class=\"media-control-background\" data-background></div>\n<div class=\"media-control-layer\" data-controls>\n  <%  var renderBar = function(name) { %>\n      <div class=\"bar-container\" data-<%= name %>>\n        <div class=\"bar-background\" data-<%= name %>>\n          <div class=\"bar-fill-1\" data-<%= name %>></div>\n          <div class=\"bar-fill-2\" data-<%= name %>></div>\n          <div class=\"bar-hover\" data-<%= name %>></div>\n        </div>\n        <div class=\"bar-scrubber\" data-<%= name %>>\n          <div class=\"bar-scrubber-icon\" data-<%= name %>></div>\n        </div>\n      </div>\n  <%  }; %>\n  <%  var renderSegmentedBar = function(name, segments) {\n      segments = segments || 10; %>\n    <div class=\"bar-container\" data-<%= name %>>\n    <% for (var i = 0; i < segments; i++) { %>\n      <div class=\"segmented-bar-element\" data-<%= name %>></div>\n    <% } %>\n    </div>\n  <% }; %>\n  <% var renderDrawer = function(name, renderContent) { %>\n      <div class=\"drawer-container\" data-<%= name %>>\n        <div class=\"drawer-icon-container\" data-<%= name %>>\n          <div class=\"drawer-icon media-control-icon\" data-<%= name %>></div>\n          <span class=\"drawer-text\" data-<%= name %>></span>\n        </div>\n        <% renderContent(name); %>\n      </div>\n  <% }; %>\n  <% var renderIndicator = function(name) { %>\n      <div class=\"media-control-indicator\" data-<%= name %>></div>\n  <% }; %>\n  <% var renderButton = function(name) { %>\n      <button type=\"button\" class=\"media-control-button media-control-icon\" data-<%= name %>></button>\n  <% }; %>\n  <%  var templates = {\n        bar: renderBar,\n        segmentedBar: renderSegmentedBar,\n      };\n      var render = function(settingsList) {\n        settingsList.forEach(function(setting) {\n          if(setting === \"seekbar\") {\n            renderBar(setting);\n          } else if (setting === \"volume\") {\n            renderDrawer(setting, settings.volumeBarTemplate ? templates[settings.volumeBarTemplate] : function(name) { return renderSegmentedBar(name); });\n          } else if (setting === \"duration\" || setting === \"position\") {\n            renderIndicator(setting);\n          } else {\n            renderButton(setting);\n          }\n        });\n      }; %>\n  <% if (settings.default && settings.default.length) { %>\n  <div class=\"media-control-center-panel\" data-media-control>\n    <% render(settings.default); %>\n  </div>\n  <% } %>\n  <% if (settings.left && settings.left.length) { %>\n  <div class=\"media-control-left-panel\" data-media-control>\n    <% render(settings.left); %>\n  </div>\n  <% } %>\n  <% if (settings.right && settings.right.length) { %>\n  <div class=\"media-control-right-panel\" data-media-control>\n    <% render(settings.right); %>\n  </div>\n  <% } %>\n</div>\n";
-
-/***/ },
-/* 37 */
-/***/ function(module, exports) {
-
-	module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill=\"#010101\" d=\"M1.425.35L14.575 8l-13.15 7.65V.35z\"></path></svg>"
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(22)(module), (function() { return this; }())))
 
 /***/ },
 /* 38 */
 /***/ function(module, exports) {
 
-	module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" fill=\"#010101\" d=\"M1.712 14.76H6.43V1.24H1.71v13.52zm7.86-13.52v13.52h4.716V1.24H9.573z\"></path></svg>"
+	/**
+	 * lodash 4.0.1 (Custom Build) <https://lodash.com/>
+	 * Build: `lodash modularize exports="npm" -o ./`
+	 * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
+	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+	 * Copyright 2009-2016 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+	 * Available under MIT license <https://lodash.com/license>
+	 */
+
+	/** Used as the `TypeError` message for "Functions" methods. */
+	var FUNC_ERROR_TEXT = 'Expected a function';
+
+	/** Used as references for various `Number` constants. */
+	var INFINITY = 1 / 0,
+	    MAX_INTEGER = 1.7976931348623157e+308,
+	    NAN = 0 / 0;
+
+	/** `Object#toString` result references. */
+	var funcTag = '[object Function]',
+	    genTag = '[object GeneratorFunction]';
+
+	/** Used to match leading and trailing whitespace. */
+	var reTrim = /^\s+|\s+$/g;
+
+	/** Used to detect bad signed hexadecimal string values. */
+	var reIsBadHex = /^[-+]0x[0-9a-f]+$/i;
+
+	/** Used to detect binary string values. */
+	var reIsBinary = /^0b[01]+$/i;
+
+	/** Used to detect octal string values. */
+	var reIsOctal = /^0o[0-7]+$/i;
+
+	/** Built-in method references without a dependency on `root`. */
+	var freeParseInt = parseInt;
+
+	/**
+	 * A faster alternative to `Function#apply`, this function invokes `func`
+	 * with the `this` binding of `thisArg` and the arguments of `args`.
+	 *
+	 * @private
+	 * @param {Function} func The function to invoke.
+	 * @param {*} thisArg The `this` binding of `func`.
+	 * @param {...*} args The arguments to invoke `func` with.
+	 * @returns {*} Returns the result of `func`.
+	 */
+	function apply(func, thisArg, args) {
+	  var length = args.length;
+	  switch (length) {
+	    case 0: return func.call(thisArg);
+	    case 1: return func.call(thisArg, args[0]);
+	    case 2: return func.call(thisArg, args[0], args[1]);
+	    case 3: return func.call(thisArg, args[0], args[1], args[2]);
+	  }
+	  return func.apply(thisArg, args);
+	}
+
+	/** Used for built-in method references. */
+	var objectProto = Object.prototype;
+
+	/**
+	 * Used to resolve the [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
+	 * of values.
+	 */
+	var objectToString = objectProto.toString;
+
+	/* Built-in method references for those with the same name as other `lodash` methods. */
+	var nativeMax = Math.max;
+
+	/**
+	 * Creates a function that invokes `func` with the `this` binding of the
+	 * created function and arguments from `start` and beyond provided as an array.
+	 *
+	 * **Note:** This method is based on the [rest parameter](https://mdn.io/rest_parameters).
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Function
+	 * @param {Function} func The function to apply a rest parameter to.
+	 * @param {number} [start=func.length-1] The start position of the rest parameter.
+	 * @returns {Function} Returns the new function.
+	 * @example
+	 *
+	 * var say = _.rest(function(what, names) {
+	 *   return what + ' ' + _.initial(names).join(', ') +
+	 *     (_.size(names) > 1 ? ', & ' : '') + _.last(names);
+	 * });
+	 *
+	 * say('hello', 'fred', 'barney', 'pebbles');
+	 * // => 'hello fred, barney, & pebbles'
+	 */
+	function rest(func, start) {
+	  if (typeof func != 'function') {
+	    throw new TypeError(FUNC_ERROR_TEXT);
+	  }
+	  start = nativeMax(start === undefined ? (func.length - 1) : toInteger(start), 0);
+	  return function() {
+	    var args = arguments,
+	        index = -1,
+	        length = nativeMax(args.length - start, 0),
+	        array = Array(length);
+
+	    while (++index < length) {
+	      array[index] = args[start + index];
+	    }
+	    switch (start) {
+	      case 0: return func.call(this, array);
+	      case 1: return func.call(this, args[0], array);
+	      case 2: return func.call(this, args[0], args[1], array);
+	    }
+	    var otherArgs = Array(start + 1);
+	    index = -1;
+	    while (++index < start) {
+	      otherArgs[index] = args[index];
+	    }
+	    otherArgs[start] = array;
+	    return apply(func, this, otherArgs);
+	  };
+	}
+
+	/**
+	 * Checks if `value` is classified as a `Function` object.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+	 * @example
+	 *
+	 * _.isFunction(_);
+	 * // => true
+	 *
+	 * _.isFunction(/abc/);
+	 * // => false
+	 */
+	function isFunction(value) {
+	  // The use of `Object#toString` avoids issues with the `typeof` operator
+	  // in Safari 8 which returns 'object' for typed array constructors, and
+	  // PhantomJS 1.9 which returns 'function' for `NodeList` instances.
+	  var tag = isObject(value) ? objectToString.call(value) : '';
+	  return tag == funcTag || tag == genTag;
+	}
+
+	/**
+	 * Checks if `value` is the [language type](https://es5.github.io/#x8) of `Object`.
+	 * (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+	 * @example
+	 *
+	 * _.isObject({});
+	 * // => true
+	 *
+	 * _.isObject([1, 2, 3]);
+	 * // => true
+	 *
+	 * _.isObject(_.noop);
+	 * // => true
+	 *
+	 * _.isObject(null);
+	 * // => false
+	 */
+	function isObject(value) {
+	  var type = typeof value;
+	  return !!value && (type == 'object' || type == 'function');
+	}
+
+	/**
+	 * Converts `value` to an integer.
+	 *
+	 * **Note:** This function is loosely based on [`ToInteger`](http://www.ecma-international.org/ecma-262/6.0/#sec-tointeger).
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to convert.
+	 * @returns {number} Returns the converted integer.
+	 * @example
+	 *
+	 * _.toInteger(3);
+	 * // => 3
+	 *
+	 * _.toInteger(Number.MIN_VALUE);
+	 * // => 0
+	 *
+	 * _.toInteger(Infinity);
+	 * // => 1.7976931348623157e+308
+	 *
+	 * _.toInteger('3');
+	 * // => 3
+	 */
+	function toInteger(value) {
+	  if (!value) {
+	    return value === 0 ? value : 0;
+	  }
+	  value = toNumber(value);
+	  if (value === INFINITY || value === -INFINITY) {
+	    var sign = (value < 0 ? -1 : 1);
+	    return sign * MAX_INTEGER;
+	  }
+	  var remainder = value % 1;
+	  return value === value ? (remainder ? value - remainder : value) : 0;
+	}
+
+	/**
+	 * Converts `value` to a number.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to process.
+	 * @returns {number} Returns the number.
+	 * @example
+	 *
+	 * _.toNumber(3);
+	 * // => 3
+	 *
+	 * _.toNumber(Number.MIN_VALUE);
+	 * // => 5e-324
+	 *
+	 * _.toNumber(Infinity);
+	 * // => Infinity
+	 *
+	 * _.toNumber('3');
+	 * // => 3
+	 */
+	function toNumber(value) {
+	  if (isObject(value)) {
+	    var other = isFunction(value.valueOf) ? value.valueOf() : value;
+	    value = isObject(other) ? (other + '') : other;
+	  }
+	  if (typeof value != 'string') {
+	    return value === 0 ? value : +value;
+	  }
+	  value = value.replace(reTrim, '');
+	  var isBinary = reIsBinary.test(value);
+	  return (isBinary || reIsOctal.test(value))
+	    ? freeParseInt(value.slice(2), isBinary ? 2 : 8)
+	    : (reIsBadHex.test(value) ? NAN : +value);
+	}
+
+	module.exports = rest;
+
 
 /***/ },
 /* 39 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
-	module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" fill=\"#010101\" d=\"M1.712 1.24h12.6v13.52h-12.6z\"></path></svg>"
+	/* WEBPACK VAR INJECTION */(function(module, global) {/**
+	 * lodash 3.0.0 (Custom Build) <https://lodash.com/>
+	 * Build: `lodash modularize exports="npm" -o ./`
+	 * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
+	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+	 * Copyright 2009-2016 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+	 * Available under MIT license <https://lodash.com/license>
+	 */
+
+	/** Used to determine if values are of the language type `Object`. */
+	var objectTypes = {
+	  'function': true,
+	  'object': true
+	};
+
+	/** Detect free variable `exports`. */
+	var freeExports = (objectTypes[typeof exports] && exports && !exports.nodeType) ? exports : null;
+
+	/** Detect free variable `module`. */
+	var freeModule = (objectTypes[typeof module] && module && !module.nodeType) ? module : null;
+
+	/** Detect free variable `global` from Node.js. */
+	var freeGlobal = checkGlobal(freeExports && freeModule && typeof global == 'object' && global);
+
+	/** Detect free variable `self`. */
+	var freeSelf = checkGlobal(objectTypes[typeof self] && self);
+
+	/** Detect free variable `window`. */
+	var freeWindow = checkGlobal(objectTypes[typeof window] && window);
+
+	/** Detect `this` as the global object. */
+	var thisGlobal = checkGlobal(objectTypes[typeof this] && this);
+
+	/**
+	 * Used as a reference to the global object.
+	 *
+	 * The `this` value is used if it's the global object to avoid Greasemonkey's
+	 * restricted `window` object, otherwise the `window` object is used.
+	 */
+	var root = freeGlobal || ((freeWindow !== (thisGlobal && thisGlobal.window)) && freeWindow) || freeSelf || thisGlobal || Function('return this')();
+
+	/**
+	 * Checks if `value` is a global object.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {null|Object} Returns `value` if it's a global object, else `null`.
+	 */
+	function checkGlobal(value) {
+	  return (value && value.Object === Object) ? value : null;
+	}
+
+	module.exports = root;
+
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(22)(module), (function() { return this; }())))
 
 /***/ },
 /* 40 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
-	module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" fill=\"#010101\" d=\"M11.5 11h-.002v1.502L7.798 10H4.5V6h3.297l3.7-2.502V4.5h.003V11zM11 4.49L7.953 6.5H5v3h2.953L11 11.51V4.49z\"></path></svg>"
+	exports = module.exports = __webpack_require__(28)();
+	// imports
+
+
+	// module
+	exports.push([module.id, ".media-control-notransition {\n  -webkit-transition: none !important;\n  -moz-transition: none !important;\n  transition: none !important; }\n\n.media-control[data-media-control] {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  z-index: 9999;\n  pointer-events: none; }\n  .media-control[data-media-control].dragging {\n    pointer-events: auto;\n    cursor: -webkit-grabbing !important;\n    cursor: grabbing !important;\n    cursor: url(" + __webpack_require__(41) + "), move; }\n    .media-control[data-media-control].dragging * {\n      cursor: -webkit-grabbing !important;\n      cursor: grabbing !important;\n      cursor: url(" + __webpack_require__(41) + "), move; }\n  .media-control[data-media-control] .media-control-background[data-background] {\n    position: absolute;\n    height: 40%;\n    width: 100%;\n    bottom: 0;\n    background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.9));\n    background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));\n    -webkit-transition: opacity 0.6s ease-out;\n    -moz-transition: opacity 0.6s ease-out;\n    transition: opacity 0.6s ease-out; }\n  .media-control[data-media-control] .media-control-icon {\n    line-height: 0;\n    letter-spacing: 0;\n    speak: none;\n    color: #fff;\n    opacity: 0.5;\n    vertical-align: middle;\n    text-align: left;\n    -webkit-transition: all 0.1s ease;\n    -moz-transition: all 0.1s ease;\n    transition: all 0.1s ease; }\n  .media-control[data-media-control] .media-control-icon:hover {\n    color: white;\n    opacity: 0.75;\n    text-shadow: rgba(255, 255, 255, 0.8) 0 0 5px; }\n  .media-control[data-media-control].media-control-hide .media-control-background[data-background] {\n    opacity: 0; }\n  .media-control[data-media-control].media-control-hide .media-control-layer[data-controls] {\n    bottom: -50px; }\n    .media-control[data-media-control].media-control-hide .media-control-layer[data-controls] .bar-container[data-seekbar] .bar-scrubber[data-seekbar] {\n      opacity: 0; }\n  .media-control[data-media-control] .media-control-layer[data-controls] {\n    position: absolute;\n    bottom: 7px;\n    width: 100%;\n    height: 32px;\n    font-size: 0;\n    vertical-align: middle;\n    pointer-events: auto;\n    -webkit-transition: bottom 0.4s ease-out;\n    -moz-transition: bottom 0.4s ease-out;\n    transition: bottom 0.4s ease-out; }\n    .media-control[data-media-control] .media-control-layer[data-controls] .media-control-left-panel[data-media-control] {\n      position: absolute;\n      top: 0;\n      left: 4px;\n      height: 100%; }\n    .media-control[data-media-control] .media-control-layer[data-controls] .media-control-center-panel[data-media-control] {\n      height: 100%;\n      text-align: center;\n      line-height: 32px; }\n    .media-control[data-media-control] .media-control-layer[data-controls] .media-control-right-panel[data-media-control] {\n      position: absolute;\n      top: 0;\n      right: 4px;\n      height: 100%; }\n    .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button {\n      background-color: transparent;\n      border: 0;\n      margin: 0 6px;\n      padding: 0;\n      cursor: pointer;\n      display: inline-block;\n      width: 32px;\n      height: 100%; }\n      .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button svg {\n        width: 100%;\n        height: 22px; }\n        .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button svg path {\n          fill: white; }\n      .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button:focus {\n        outline: none; }\n      .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button[data-play] {\n        float: left;\n        height: 100%; }\n      .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button[data-pause] {\n        float: left;\n        height: 100%; }\n      .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button[data-stop] {\n        float: left;\n        height: 100%; }\n      .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button[data-fullscreen] {\n        float: right;\n        background-color: transparent;\n        border: 0;\n        height: 100%; }\n      .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button[data-hd-indicator] {\n        cursor: default;\n        float: right;\n        background-color: transparent;\n        border: 0;\n        height: 100%;\n        display: none; }\n        .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button[data-hd-indicator].enabled {\n          opacity: 1.0;\n          display: block; }\n          .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button[data-hd-indicator].enabled:hover {\n            opacity: 1.0;\n            text-shadow: none; }\n      .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button[data-playpause] {\n        float: left; }\n      .media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button[data-playstop] {\n        float: left; }\n    .media-control[data-media-control] .media-control-layer[data-controls] .media-control-indicator[data-position], .media-control[data-media-control] .media-control-layer[data-controls] .media-control-indicator[data-duration] {\n      display: inline-block;\n      font-size: 10px;\n      color: white;\n      cursor: default;\n      line-height: 32px;\n      position: relative; }\n    .media-control[data-media-control] .media-control-layer[data-controls] .media-control-indicator[data-position] {\n      margin: 0 6px 0 7px; }\n    .media-control[data-media-control] .media-control-layer[data-controls] .media-control-indicator[data-duration] {\n      color: rgba(255, 255, 255, 0.5);\n      margin-right: 6px; }\n      .media-control[data-media-control] .media-control-layer[data-controls] .media-control-indicator[data-duration]:before {\n        content: \"|\";\n        margin-right: 7px; }\n    .media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar] {\n      position: absolute;\n      top: -20px;\n      left: 0;\n      display: inline-block;\n      vertical-align: middle;\n      width: 100%;\n      height: 25px;\n      cursor: pointer; }\n      .media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar] .bar-background[data-seekbar] {\n        width: 100%;\n        height: 1px;\n        position: relative;\n        top: 12px;\n        background-color: #666666; }\n        .media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar] .bar-background[data-seekbar] .bar-fill-1[data-seekbar] {\n          position: absolute;\n          top: 0;\n          left: 0;\n          width: 0;\n          height: 100%;\n          background-color: #c2c2c2;\n          -webkit-transition: all 0.1s ease-out;\n          -moz-transition: all 0.1s ease-out;\n          transition: all 0.1s ease-out; }\n        .media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar] .bar-background[data-seekbar] .bar-fill-2[data-seekbar] {\n          position: absolute;\n          top: 0;\n          left: 0;\n          width: 0;\n          height: 100%;\n          background-color: #005aff;\n          -webkit-transition: all 0.1s ease-out;\n          -moz-transition: all 0.1s ease-out;\n          transition: all 0.1s ease-out; }\n        .media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar] .bar-background[data-seekbar] .bar-hover[data-seekbar] {\n          opacity: 0;\n          position: absolute;\n          top: -3px;\n          width: 5px;\n          height: 7px;\n          background-color: rgba(255, 255, 255, 0.5);\n          -webkit-transition: opacity 0.1s ease;\n          -moz-transition: opacity 0.1s ease;\n          transition: opacity 0.1s ease; }\n      .media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar]:hover .bar-background[data-seekbar] .bar-hover[data-seekbar] {\n        opacity: 1; }\n      .media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar].seek-disabled {\n        cursor: default; }\n        .media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar].seek-disabled:hover .bar-background[data-seekbar] .bar-hover[data-seekbar] {\n          opacity: 0; }\n      .media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar] .bar-scrubber[data-seekbar] {\n        position: absolute;\n        -webkit-transform: translateX(-50%);\n        -moz-transform: translateX(-50%);\n        -ms-transform: translateX(-50%);\n        -o-transform: translateX(-50%);\n        transform: translateX(-50%);\n        top: 2px;\n        left: 0;\n        width: 20px;\n        height: 20px;\n        opacity: 1;\n        -webkit-transition: all 0.1s ease-out;\n        -moz-transition: all 0.1s ease-out;\n        transition: all 0.1s ease-out; }\n        .media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar] .bar-scrubber[data-seekbar] .bar-scrubber-icon[data-seekbar] {\n          position: absolute;\n          left: 6px;\n          top: 6px;\n          width: 8px;\n          height: 8px;\n          border-radius: 10px;\n          box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.2);\n          background-color: white; }\n    .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] {\n      float: right;\n      display: inline-block;\n      height: 32px;\n      cursor: pointer;\n      margin: 0 6px;\n      box-sizing: border-box; }\n      .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .drawer-icon-container[data-volume] {\n        float: left;\n        bottom: 0; }\n        .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .drawer-icon-container[data-volume] .drawer-icon[data-volume] {\n          background-color: transparent;\n          border: 0;\n          box-sizing: content-box;\n          width: 32px;\n          height: 32px;\n          opacity: 0.5; }\n          .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .drawer-icon-container[data-volume] .drawer-icon[data-volume]:hover {\n            opacity: 0.75; }\n          .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .drawer-icon-container[data-volume] .drawer-icon[data-volume] svg {\n            height: 24px;\n            position: relative;\n            top: 3px; }\n            .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .drawer-icon-container[data-volume] .drawer-icon[data-volume] svg path {\n              fill: white; }\n          .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .drawer-icon-container[data-volume] .drawer-icon[data-volume].muted svg {\n            margin-left: 2px; }\n      .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume] {\n        float: left;\n        position: relative;\n        overflow: hidden;\n        top: 6px;\n        width: 42px;\n        height: 18px;\n        padding: 3px 0;\n        -webkit-transition: width 0.2s ease-out;\n        -moz-transition: width 0.2s ease-out;\n        transition: width 0.2s ease-out; }\n        .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume] .bar-background[data-volume] {\n          height: 1px;\n          position: relative;\n          top: 7px;\n          margin: 0 3px;\n          background-color: #666666; }\n          .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume] .bar-background[data-volume] .bar-fill-1[data-volume] {\n            position: absolute;\n            top: 0;\n            left: 0;\n            width: 0;\n            height: 100%;\n            background-color: #c2c2c2;\n            -webkit-transition: all 0.1s ease-out;\n            -moz-transition: all 0.1s ease-out;\n            transition: all 0.1s ease-out; }\n          .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume] .bar-background[data-volume] .bar-fill-2[data-volume] {\n            position: absolute;\n            top: 0;\n            left: 0;\n            width: 0;\n            height: 100%;\n            background-color: #005aff;\n            -webkit-transition: all 0.1s ease-out;\n            -moz-transition: all 0.1s ease-out;\n            transition: all 0.1s ease-out; }\n          .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume] .bar-background[data-volume] .bar-hover[data-volume] {\n            opacity: 0;\n            position: absolute;\n            top: -3px;\n            width: 5px;\n            height: 7px;\n            background-color: rgba(255, 255, 255, 0.5);\n            -webkit-transition: opacity 0.1s ease;\n            -moz-transition: opacity 0.1s ease;\n            transition: opacity 0.1s ease; }\n        .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume] .bar-scrubber[data-volume] {\n          position: absolute;\n          -webkit-transform: translateX(-50%);\n          -moz-transform: translateX(-50%);\n          -ms-transform: translateX(-50%);\n          -o-transform: translateX(-50%);\n          transform: translateX(-50%);\n          top: 0px;\n          left: 0;\n          width: 20px;\n          height: 20px;\n          opacity: 1;\n          -webkit-transition: all 0.1s ease-out;\n          -moz-transition: all 0.1s ease-out;\n          transition: all 0.1s ease-out; }\n          .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume] .bar-scrubber[data-volume] .bar-scrubber-icon[data-volume] {\n            position: absolute;\n            left: 6px;\n            top: 6px;\n            width: 8px;\n            height: 8px;\n            border-radius: 10px;\n            box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.2);\n            background-color: white; }\n        .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume] .segmented-bar-element[data-volume] {\n          float: left;\n          width: 4px;\n          padding-left: 2px;\n          height: 12px;\n          opacity: 0.5;\n          box-shadow: inset 2px 0 0 white;\n          -webkit-transition: -webkit-transform 0.2s ease-out;\n          -moz-transition: -moz-transform 0.2s ease-out;\n          transition: transform 0.2s ease-out; }\n          .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume] .segmented-bar-element[data-volume].fill {\n            box-shadow: inset 2px 0 0 #fff;\n            opacity: 1; }\n          .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume] .segmented-bar-element[data-volume]:nth-of-type(1) {\n            padding-left: 0; }\n          .media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume] .segmented-bar-element[data-volume]:hover {\n            -webkit-transform: scaleY(1.5);\n            -moz-transform: scaleY(1.5);\n            -ms-transform: scaleY(1.5);\n            -o-transform: scaleY(1.5);\n            transform: scaleY(1.5); }\n  .media-control[data-media-control].w320 .media-control-layer[data-controls] .drawer-container[data-volume] .bar-container[data-volume].volume-bar-hide {\n    width: 0;\n    height: 12px;\n    top: 9px;\n    padding: 0; }\n", ""]);
+
+	// exports
+
 
 /***/ },
 /* 41 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
-	module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" fill=\"#010101\" d=\"M9.75 11.51L6.7 9.5H3.75v-3H6.7L9.75 4.49v.664l.497.498V3.498L6.547 6H3.248v4h3.296l3.7 2.502v-2.154l-.497.5v.662zm3-5.165L12.404 6l-1.655 1.653L9.093 6l-.346.345L10.402 8 8.747 9.654l.346.347 1.655-1.653L12.403 10l.348-.346L11.097 8l1.655-1.655z\"></path></svg>"
+	module.exports = __webpack_require__.p + "a8c874b93b3d848f39a71260c57e3863.cur";
 
 /***/ },
 /* 42 */
 /***/ function(module, exports) {
 
-	module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill=\"#010101\" d=\"M7.156 8L4 11.156V8.5H3V13h4.5v-1H4.844L8 8.844 7.156 8zM8.5 3v1h2.657L8 7.157 8.846 8 12 4.844V7.5h1V3H8.5z\"></path></svg>"
+	module.exports = "<div class=\"media-control-background\" data-background></div>\n<div class=\"media-control-layer\" data-controls>\n  <%  var renderBar = function(name) { %>\n      <div class=\"bar-container\" data-<%= name %>>\n        <div class=\"bar-background\" data-<%= name %>>\n          <div class=\"bar-fill-1\" data-<%= name %>></div>\n          <div class=\"bar-fill-2\" data-<%= name %>></div>\n          <div class=\"bar-hover\" data-<%= name %>></div>\n        </div>\n        <div class=\"bar-scrubber\" data-<%= name %>>\n          <div class=\"bar-scrubber-icon\" data-<%= name %>></div>\n        </div>\n      </div>\n  <%  }; %>\n  <%  var renderSegmentedBar = function(name, segments) {\n      segments = segments || 10; %>\n    <div class=\"bar-container\" data-<%= name %>>\n    <% for (var i = 0; i < segments; i++) { %>\n      <div class=\"segmented-bar-element\" data-<%= name %>></div>\n    <% } %>\n    </div>\n  <% }; %>\n  <% var renderDrawer = function(name, renderContent) { %>\n      <div class=\"drawer-container\" data-<%= name %>>\n        <div class=\"drawer-icon-container\" data-<%= name %>>\n          <div class=\"drawer-icon media-control-icon\" data-<%= name %>></div>\n          <span class=\"drawer-text\" data-<%= name %>></span>\n        </div>\n        <% renderContent(name); %>\n      </div>\n  <% }; %>\n  <% var renderIndicator = function(name) { %>\n      <div class=\"media-control-indicator\" data-<%= name %>></div>\n  <% }; %>\n  <% var renderButton = function(name) { %>\n    <button type=\"button\" class=\"media-control-button media-control-icon\" data-<%= name %> aria-label=\"<%= name %>\"></button>\n  <% }; %>\n  <%  var templates = {\n        bar: renderBar,\n        segmentedBar: renderSegmentedBar,\n      };\n      var render = function(settingsList) {\n        settingsList.forEach(function(setting) {\n          if(setting === \"seekbar\") {\n            renderBar(setting);\n          } else if (setting === \"volume\") {\n            renderDrawer(setting, settings.volumeBarTemplate ? templates[settings.volumeBarTemplate] : function(name) { return renderSegmentedBar(name); });\n          } else if (setting === \"duration\" || setting === \"position\") {\n            renderIndicator(setting);\n          } else {\n            renderButton(setting);\n          }\n        });\n      }; %>\n  <% if (settings.default && settings.default.length) { %>\n  <div class=\"media-control-center-panel\" data-media-control>\n    <% render(settings.default); %>\n  </div>\n  <% } %>\n  <% if (settings.left && settings.left.length) { %>\n  <div class=\"media-control-left-panel\" data-media-control>\n    <% render(settings.left); %>\n  </div>\n  <% } %>\n  <% if (settings.right && settings.right.length) { %>\n  <div class=\"media-control-right-panel\" data-media-control>\n    <% render(settings.right); %>\n  </div>\n  <% } %>\n</div>\n";
 
 /***/ },
 /* 43 */
 /***/ function(module, exports) {
 
-	module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill=\"#010101\" d=\"M13.5 3.344l-.844-.844L9.5 5.656V3h-1v4.5H13v-1h-2.656L13.5 3.344zM3 9.5h2.656L2.5 12.656l.844.844L6.5 10.344V13h1V8.5H3v1z\"></path></svg>"
+	module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill=\"#010101\" d=\"M1.425.35L14.575 8l-13.15 7.65V.35z\"></path></svg>"
 
 /***/ },
 /* 44 */
 /***/ function(module, exports) {
 
-	module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill=\"#010101\" d=\"M5.375 7.062H2.637V4.26H.502v7.488h2.135V8.9h2.738v2.848h2.133V4.26H5.375v2.802zm5.97-2.81h-2.84v7.496h2.798c2.65 0 4.195-1.607 4.195-3.77v-.022c0-2.162-1.523-3.704-4.154-3.704zm2.06 3.758c0 1.21-.81 1.896-2.03 1.896h-.83V6.093h.83c1.22 0 2.03.696 2.03 1.896v.02z\"></path></svg>"
+	module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" fill=\"#010101\" d=\"M1.712 14.76H6.43V1.24H1.71v13.52zm7.86-13.52v13.52h4.716V1.24H9.573z\"></path></svg>"
 
 /***/ },
 /* 45 */
+/***/ function(module, exports) {
+
+	module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" fill=\"#010101\" d=\"M1.712 1.24h12.6v13.52h-12.6z\"></path></svg>"
+
+/***/ },
+/* 46 */
+/***/ function(module, exports) {
+
+	module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" fill=\"#010101\" d=\"M11.5 11h-.002v1.502L7.798 10H4.5V6h3.297l3.7-2.502V4.5h.003V11zM11 4.49L7.953 6.5H5v3h2.953L11 11.51V4.49z\"></path></svg>"
+
+/***/ },
+/* 47 */
+/***/ function(module, exports) {
+
+	module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" fill=\"#010101\" d=\"M9.75 11.51L6.7 9.5H3.75v-3H6.7L9.75 4.49v.664l.497.498V3.498L6.547 6H3.248v4h3.296l3.7 2.502v-2.154l-.497.5v.662zm3-5.165L12.404 6l-1.655 1.653L9.093 6l-.346.345L10.402 8 8.747 9.654l.346.347 1.655-1.653L12.403 10l.348-.346L11.097 8l1.655-1.655z\"></path></svg>"
+
+/***/ },
+/* 48 */
+/***/ function(module, exports) {
+
+	module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill=\"#010101\" d=\"M7.156 8L4 11.156V8.5H3V13h4.5v-1H4.844L8 8.844 7.156 8zM8.5 3v1h2.657L8 7.157 8.846 8 12 4.844V7.5h1V3H8.5z\"></path></svg>"
+
+/***/ },
+/* 49 */
+/***/ function(module, exports) {
+
+	module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill=\"#010101\" d=\"M13.5 3.344l-.844-.844L9.5 5.656V3h-1v4.5H13v-1h-2.656L13.5 3.344zM3 9.5h2.656L2.5 12.656l.844.844L6.5 10.344V13h1V8.5H3v1z\"></path></svg>"
+
+/***/ },
+/* 50 */
+/***/ function(module, exports) {
+
+	module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill=\"#010101\" d=\"M5.375 7.062H2.637V4.26H.502v7.488h2.135V8.9h2.738v2.848h2.133V4.26H5.375v2.802zm5.97-2.81h-2.84v7.496h2.798c2.65 0 4.195-1.607 4.195-3.77v-.022c0-2.162-1.523-3.704-4.154-3.704zm2.06 3.758c0 1.21-.81 1.896-2.03 1.896h-.83V6.093h.83c1.22 0 2.03.696 2.03 1.896v.02z\"></path></svg>"
+
+/***/ },
+/* 51 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -9511,35 +11116,35 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports["default"];
 
 /***/ },
-/* 46 */
+/* 52 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(25)();
+	exports = module.exports = __webpack_require__(28)();
 	// imports
 
 
 	// module
-	exports.push([module.id, "@font-face {\n  font-family: \"Roboto\";\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Roboto\"), local(\"Roboto-Regular\"), url(" + __webpack_require__(47) + ") format(\"truetype\"); }\n\n[data-player] {\n  -webkit-touch-callout: none;\n  -webkit-user-select: none;\n  -khtml-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  -o-user-select: none;\n  user-select: none;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-transform: translate3d(0, 0, 0);\n  -moz-transform: translate3d(0, 0, 0);\n  -ms-transform: translate3d(0, 0, 0);\n  -o-transform: translate3d(0, 0, 0);\n  transform: translate3d(0, 0, 0);\n  position: relative;\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-style: normal;\n  font-weight: normal;\n  text-align: center;\n  overflow: hidden;\n  font-size: 100%;\n  font-family: \"Roboto\", \"Open Sans\", Arial, sans-serif;\n  text-shadow: 0 0 0;\n  box-sizing: border-box; }\n  [data-player] div, [data-player] span, [data-player] applet, [data-player] object, [data-player] iframe,\n  [data-player] h1, [data-player] h2, [data-player] h3, [data-player] h4, [data-player] h5, [data-player] h6, [data-player] p, [data-player] blockquote, [data-player] pre,\n  [data-player] a, [data-player] abbr, [data-player] acronym, [data-player] address, [data-player] big, [data-player] cite, [data-player] code,\n  [data-player] del, [data-player] dfn, [data-player] em, [data-player] img, [data-player] ins, [data-player] kbd, [data-player] q, [data-player] s, [data-player] samp,\n  [data-player] small, [data-player] strike, [data-player] strong, [data-player] sub, [data-player] sup, [data-player] tt, [data-player] var,\n  [data-player] b, [data-player] u, [data-player] i, [data-player] center,\n  [data-player] dl, [data-player] dt, [data-player] dd, [data-player] ol, [data-player] ul, [data-player] li,\n  [data-player] fieldset, [data-player] form, [data-player] label, [data-player] legend,\n  [data-player] table, [data-player] caption, [data-player] tbody, [data-player] tfoot, [data-player] thead, [data-player] tr, [data-player] th, [data-player] td,\n  [data-player] article, [data-player] aside, [data-player] canvas, [data-player] details, [data-player] embed,\n  [data-player] figure, [data-player] figcaption, [data-player] footer, [data-player] header, [data-player] hgroup,\n  [data-player] menu, [data-player] nav, [data-player] output, [data-player] ruby, [data-player] section, [data-player] summary,\n  [data-player] time, [data-player] mark, [data-player] audio, [data-player] video {\n    margin: 0;\n    padding: 0;\n    border: 0;\n    font: inherit;\n    font-size: 100%;\n    vertical-align: baseline; }\n  [data-player] table {\n    border-collapse: collapse;\n    border-spacing: 0; }\n  [data-player] caption, [data-player] th, [data-player] td {\n    text-align: left;\n    font-weight: normal;\n    vertical-align: middle; }\n  [data-player] q, [data-player] blockquote {\n    quotes: none; }\n    [data-player] q:before, [data-player] q:after, [data-player] blockquote:before, [data-player] blockquote:after {\n      content: \"\";\n      content: none; }\n  [data-player] a img {\n    border: none; }\n  [data-player]:focus {\n    outline: 0; }\n  [data-player] * {\n    max-width: none;\n    box-sizing: inherit;\n    float: none; }\n  [data-player] div {\n    display: block; }\n  [data-player].fullscreen {\n    width: 100% !important;\n    height: 100% !important;\n    top: 0;\n    left: 0; }\n  [data-player].nocursor {\n    cursor: none; }\n\n.clappr-style {\n  display: none !important; }\n", ""]);
+	exports.push([module.id, "@font-face {\n  font-family: \"Roboto\";\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Roboto\"), local(\"Roboto-Regular\"), url(" + __webpack_require__(53) + ") format(\"truetype\"); }\n\n[data-player] {\n  -webkit-touch-callout: none;\n  -webkit-user-select: none;\n  -khtml-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  -o-user-select: none;\n  user-select: none;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-transform: translate3d(0, 0, 0);\n  -moz-transform: translate3d(0, 0, 0);\n  -ms-transform: translate3d(0, 0, 0);\n  -o-transform: translate3d(0, 0, 0);\n  transform: translate3d(0, 0, 0);\n  position: relative;\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-style: normal;\n  font-weight: normal;\n  text-align: center;\n  overflow: hidden;\n  font-size: 100%;\n  font-family: \"Roboto\", \"Open Sans\", Arial, sans-serif;\n  text-shadow: 0 0 0;\n  box-sizing: border-box; }\n  [data-player] div, [data-player] span, [data-player] applet, [data-player] object, [data-player] iframe,\n  [data-player] h1, [data-player] h2, [data-player] h3, [data-player] h4, [data-player] h5, [data-player] h6, [data-player] p, [data-player] blockquote, [data-player] pre,\n  [data-player] a, [data-player] abbr, [data-player] acronym, [data-player] address, [data-player] big, [data-player] cite, [data-player] code,\n  [data-player] del, [data-player] dfn, [data-player] em, [data-player] img, [data-player] ins, [data-player] kbd, [data-player] q, [data-player] s, [data-player] samp,\n  [data-player] small, [data-player] strike, [data-player] strong, [data-player] sub, [data-player] sup, [data-player] tt, [data-player] var,\n  [data-player] b, [data-player] u, [data-player] i, [data-player] center,\n  [data-player] dl, [data-player] dt, [data-player] dd, [data-player] ol, [data-player] ul, [data-player] li,\n  [data-player] fieldset, [data-player] form, [data-player] label, [data-player] legend,\n  [data-player] table, [data-player] caption, [data-player] tbody, [data-player] tfoot, [data-player] thead, [data-player] tr, [data-player] th, [data-player] td,\n  [data-player] article, [data-player] aside, [data-player] canvas, [data-player] details, [data-player] embed,\n  [data-player] figure, [data-player] figcaption, [data-player] footer, [data-player] header, [data-player] hgroup,\n  [data-player] menu, [data-player] nav, [data-player] output, [data-player] ruby, [data-player] section, [data-player] summary,\n  [data-player] time, [data-player] mark, [data-player] audio, [data-player] video {\n    margin: 0;\n    padding: 0;\n    border: 0;\n    font: inherit;\n    font-size: 100%;\n    vertical-align: baseline; }\n  [data-player] table {\n    border-collapse: collapse;\n    border-spacing: 0; }\n  [data-player] caption, [data-player] th, [data-player] td {\n    text-align: left;\n    font-weight: normal;\n    vertical-align: middle; }\n  [data-player] q, [data-player] blockquote {\n    quotes: none; }\n    [data-player] q:before, [data-player] q:after, [data-player] blockquote:before, [data-player] blockquote:after {\n      content: \"\";\n      content: none; }\n  [data-player] a img {\n    border: none; }\n  [data-player]:focus {\n    outline: 0; }\n  [data-player] * {\n    max-width: none;\n    box-sizing: inherit;\n    float: none; }\n  [data-player] div {\n    display: block; }\n  [data-player].fullscreen {\n    width: 100% !important;\n    height: 100% !important;\n    top: 0;\n    left: 0; }\n  [data-player].nocursor {\n    cursor: none; }\n\n.clappr-style {\n  display: none !important; }\n", ""]);
 
 	// exports
 
 
 /***/ },
-/* 47 */
+/* 53 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "38861cba61c66739c1452c3a71e39852.ttf";
 
 /***/ },
-/* 48 */
+/* 54 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(49);
+	module.exports = __webpack_require__(55);
 
 /***/ },
-/* 49 */
+/* 55 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9552,87 +11157,87 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _base_object2 = _interopRequireDefault(_base_object);
 
-	var _player_info = __webpack_require__(45);
+	var _player_info = __webpack_require__(51);
 
 	var _player_info2 = _interopRequireDefault(_player_info);
 
-	var _lodash = __webpack_require__(50);
+	var _lodash = __webpack_require__(56);
 
 	var _lodash2 = _interopRequireDefault(_lodash);
 
-	var _html5_video = __webpack_require__(51);
+	var _html5_video = __webpack_require__(61);
 
 	var _html5_video2 = _interopRequireDefault(_html5_video);
 
-	var _flash = __webpack_require__(54);
+	var _flash = __webpack_require__(64);
 
 	var _flash2 = _interopRequireDefault(_flash);
 
-	var _html5_audio = __webpack_require__(61);
+	var _html5_audio = __webpack_require__(71);
 
 	var _html5_audio2 = _interopRequireDefault(_html5_audio);
 
-	var _flashls = __webpack_require__(63);
+	var _flashls = __webpack_require__(73);
 
 	var _flashls2 = _interopRequireDefault(_flashls);
 
-	var _hls = __webpack_require__(67);
+	var _hls = __webpack_require__(77);
 
 	var _hls2 = _interopRequireDefault(_hls);
 
-	var _html_img = __webpack_require__(71);
+	var _html_img = __webpack_require__(81);
 
 	var _html_img2 = _interopRequireDefault(_html_img);
 
-	var _no_op = __webpack_require__(74);
+	var _no_op = __webpack_require__(84);
 
 	var _no_op2 = _interopRequireDefault(_no_op);
 
-	var _spinner_three_bounce = __webpack_require__(78);
+	var _spinner_three_bounce = __webpack_require__(88);
 
 	var _spinner_three_bounce2 = _interopRequireDefault(_spinner_three_bounce);
 
-	var _stats = __webpack_require__(83);
+	var _stats = __webpack_require__(93);
 
 	var _stats2 = _interopRequireDefault(_stats);
 
-	var _watermark = __webpack_require__(86);
+	var _watermark = __webpack_require__(96);
 
 	var _watermark2 = _interopRequireDefault(_watermark);
 
-	var _poster = __webpack_require__(90);
+	var _poster = __webpack_require__(100);
 
 	var _poster2 = _interopRequireDefault(_poster);
 
-	var _google_analytics = __webpack_require__(94);
+	var _google_analytics = __webpack_require__(104);
 
 	var _google_analytics2 = _interopRequireDefault(_google_analytics);
 
-	var _click_to_pause = __webpack_require__(96);
+	var _click_to_pause = __webpack_require__(106);
 
 	var _click_to_pause2 = _interopRequireDefault(_click_to_pause);
 
-	var _dvr_controls = __webpack_require__(98);
+	var _dvr_controls = __webpack_require__(108);
 
 	var _dvr_controls2 = _interopRequireDefault(_dvr_controls);
 
-	var _favicon = __webpack_require__(103);
+	var _favicon = __webpack_require__(113);
 
 	var _favicon2 = _interopRequireDefault(_favicon);
 
-	var _seek_time = __webpack_require__(106);
+	var _seek_time = __webpack_require__(116);
 
 	var _seek_time2 = _interopRequireDefault(_seek_time);
 
-	var _sources = __webpack_require__(110);
+	var _sources = __webpack_require__(120);
 
 	var _sources2 = _interopRequireDefault(_sources);
 
-	var _end_video = __webpack_require__(111);
+	var _end_video = __webpack_require__(121);
 
 	var _end_video2 = _interopRequireDefault(_end_video);
 
-	var _strings = __webpack_require__(112);
+	var _strings = __webpack_require__(122);
 
 	var _strings2 = _interopRequireDefault(_strings);
 
@@ -9761,23 +11366,67 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 50 */
+/* 56 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(global, module) {/**
-	 * lodash (Custom Build) <https://lodash.com/>
+	/**
+	 * lodash 4.3.0 (Custom Build) <https://lodash.com/>
 	 * Build: `lodash modularize exports="npm" -o ./`
 	 * Copyright jQuery Foundation and other contributors <https://jquery.org/>
 	 * Released under MIT license <https://lodash.com/license>
 	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
 	 * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 */
+	var baseIteratee = __webpack_require__(57),
+	    baseUniq = __webpack_require__(58);
+
+	/**
+	 * This method is like `_.uniq` except that it accepts `iteratee` which is
+	 * invoked for each element in `array` to generate the criterion by which
+	 * uniqueness is computed. The iteratee is invoked with one argument: (value).
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 4.0.0
+	 * @category Array
+	 * @param {Array} array The array to inspect.
+	 * @param {Array|Function|Object|string} [iteratee=_.identity]
+	 *  The iteratee invoked per element.
+	 * @returns {Array} Returns the new duplicate free array.
+	 * @example
+	 *
+	 * _.uniqBy([2.1, 1.2, 2.3], Math.floor);
+	 * // => [2.1, 1.2]
+	 *
+	 * // The `_.property` iteratee shorthand.
+	 * _.uniqBy([{ 'x': 1 }, { 'x': 2 }, { 'x': 1 }], 'x');
+	 * // => [{ 'x': 1 }, { 'x': 2 }]
+	 */
+	function uniqBy(array, iteratee) {
+	  return (array && array.length)
+	    ? baseUniq(array, baseIteratee(iteratee))
+	    : [];
+	}
+
+	module.exports = uniqBy;
+
+
+/***/ },
+/* 57 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(module, global) {/**
+	 * lodash 4.6.1 (Custom Build) <https://lodash.com/>
+	 * Build: `lodash modularize exports="npm" -o ./`
+	 * Copyright jQuery Foundation and other contributors <https://jquery.org/>
+	 * Released under MIT license <https://lodash.com/license>
+	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+	 * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+	 */
+	var stringToPath = __webpack_require__(21);
 
 	/** Used as the size to enable large array optimizations. */
 	var LARGE_ARRAY_SIZE = 200;
-
-	/** Used as the `TypeError` message for "Functions" methods. */
-	var FUNC_ERROR_TEXT = 'Expected a function';
 
 	/** Used to stand-in for `undefined` hash values. */
 	var HASH_UNDEFINED = '__lodash_hash_undefined__';
@@ -9787,8 +11436,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    PARTIAL_COMPARE_FLAG = 2;
 
 	/** Used as references for various `Number` constants. */
-	var INFINITY = 1 / 0,
-	    MAX_SAFE_INTEGER = 9007199254740991;
+	var MAX_SAFE_INTEGER = 9007199254740991;
 
 	/** `Object#toString` result references. */
 	var argsTag = '[object Arguments]',
@@ -9822,18 +11470,13 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	/** Used to match property names within property paths. */
 	var reIsDeepProp = /\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,
-	    reIsPlainProp = /^\w*$/,
-	    reLeadingDot = /^\./,
-	    rePropName = /[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g;
+	    reIsPlainProp = /^\w*$/;
 
 	/**
 	 * Used to match `RegExp`
-	 * [syntax characters](http://ecma-international.org/ecma-262/7.0/#sec-patterns).
+	 * [syntax characters](http://ecma-international.org/ecma-262/6.0/#sec-patterns).
 	 */
 	var reRegExpChar = /[\\^$.*+?()[\]{}|]/g;
-
-	/** Used to match backslashes in property paths. */
-	var reEscapeChar = /\\(\\)?/g;
 
 	/** Used to detect host constructors (Safari). */
 	var reIsHostCtor = /^\[object .+?Constructor\]$/;
@@ -9857,70 +11500,62 @@ return /******/ (function(modules) { // webpackBootstrap
 	typedArrayTags[setTag] = typedArrayTags[stringTag] =
 	typedArrayTags[weakMapTag] = false;
 
-	/** Detect free variable `global` from Node.js. */
-	var freeGlobal = typeof global == 'object' && global && global.Object === Object && global;
-
-	/** Detect free variable `self`. */
-	var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
-
-	/** Used as a reference to the global object. */
-	var root = freeGlobal || freeSelf || Function('return this')();
+	/** Used to determine if values are of the language type `Object`. */
+	var objectTypes = {
+	  'function': true,
+	  'object': true
+	};
 
 	/** Detect free variable `exports`. */
-	var freeExports = typeof exports == 'object' && exports && !exports.nodeType && exports;
+	var freeExports = (objectTypes[typeof exports] && exports && !exports.nodeType)
+	  ? exports
+	  : undefined;
 
 	/** Detect free variable `module`. */
-	var freeModule = freeExports && typeof module == 'object' && module && !module.nodeType && module;
+	var freeModule = (objectTypes[typeof module] && module && !module.nodeType)
+	  ? module
+	  : undefined;
 
-	/** Detect the popular CommonJS extension `module.exports`. */
-	var moduleExports = freeModule && freeModule.exports === freeExports;
+	/** Detect free variable `global` from Node.js. */
+	var freeGlobal = checkGlobal(freeExports && freeModule && typeof global == 'object' && global);
 
-	/** Detect free variable `process` from Node.js. */
-	var freeProcess = moduleExports && freeGlobal.process;
+	/** Detect free variable `self`. */
+	var freeSelf = checkGlobal(objectTypes[typeof self] && self);
 
-	/** Used to access faster Node.js helpers. */
-	var nodeUtil = (function() {
-	  try {
-	    return freeProcess && freeProcess.binding('util');
-	  } catch (e) {}
-	}());
+	/** Detect free variable `window`. */
+	var freeWindow = checkGlobal(objectTypes[typeof window] && window);
 
-	/* Node.js helper references. */
-	var nodeIsTypedArray = nodeUtil && nodeUtil.isTypedArray;
+	/** Detect `this` as the global object. */
+	var thisGlobal = checkGlobal(objectTypes[typeof this] && this);
 
 	/**
-	 * A specialized version of `_.includes` for arrays without support for
-	 * specifying an index to search from.
+	 * Used as a reference to the global object.
 	 *
-	 * @private
-	 * @param {Array} [array] The array to inspect.
-	 * @param {*} target The value to search for.
-	 * @returns {boolean} Returns `true` if `target` is found, else `false`.
+	 * The `this` value is used if it's the global object to avoid Greasemonkey's
+	 * restricted `window` object, otherwise the `window` object is used.
 	 */
-	function arrayIncludes(array, value) {
-	  var length = array ? array.length : 0;
-	  return !!length && baseIndexOf(array, value, 0) > -1;
-	}
+	var root = freeGlobal ||
+	  ((freeWindow !== (thisGlobal && thisGlobal.window)) && freeWindow) ||
+	    freeSelf || thisGlobal || Function('return this')();
 
 	/**
-	 * This function is like `arrayIncludes` except that it accepts a comparator.
+	 * A specialized version of `_.map` for arrays without support for iteratee
+	 * shorthands.
 	 *
 	 * @private
-	 * @param {Array} [array] The array to inspect.
-	 * @param {*} target The value to search for.
-	 * @param {Function} comparator The comparator invoked per element.
-	 * @returns {boolean} Returns `true` if `target` is found, else `false`.
+	 * @param {Array} array The array to iterate over.
+	 * @param {Function} iteratee The function invoked per iteration.
+	 * @returns {Array} Returns the new mapped array.
 	 */
-	function arrayIncludesWith(array, value, comparator) {
+	function arrayMap(array, iteratee) {
 	  var index = -1,
-	      length = array ? array.length : 0;
+	      length = array.length,
+	      result = Array(length);
 
 	  while (++index < length) {
-	    if (comparator(value, array[index])) {
-	      return true;
-	    }
+	    result[index] = iteratee(array[index], index, array);
 	  }
-	  return false;
+	  return result;
 	}
 
 	/**
@@ -9928,14 +11563,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * shorthands.
 	 *
 	 * @private
-	 * @param {Array} [array] The array to iterate over.
+	 * @param {Array} array The array to iterate over.
 	 * @param {Function} predicate The function invoked per iteration.
 	 * @returns {boolean} Returns `true` if any element passes the predicate check,
 	 *  else `false`.
 	 */
 	function arraySome(array, predicate) {
 	  var index = -1,
-	      length = array ? array.length : 0;
+	      length = array.length;
 
 	  while (++index < length) {
 	    if (predicate(array[index], index, array)) {
@@ -9943,77 +11578,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  }
 	  return false;
-	}
-
-	/**
-	 * The base implementation of `_.findIndex` and `_.findLastIndex` without
-	 * support for iteratee shorthands.
-	 *
-	 * @private
-	 * @param {Array} array The array to inspect.
-	 * @param {Function} predicate The function invoked per iteration.
-	 * @param {number} fromIndex The index to search from.
-	 * @param {boolean} [fromRight] Specify iterating from right to left.
-	 * @returns {number} Returns the index of the matched value, else `-1`.
-	 */
-	function baseFindIndex(array, predicate, fromIndex, fromRight) {
-	  var length = array.length,
-	      index = fromIndex + (fromRight ? 1 : -1);
-
-	  while ((fromRight ? index-- : ++index < length)) {
-	    if (predicate(array[index], index, array)) {
-	      return index;
-	    }
-	  }
-	  return -1;
-	}
-
-	/**
-	 * The base implementation of `_.indexOf` without `fromIndex` bounds checks.
-	 *
-	 * @private
-	 * @param {Array} array The array to inspect.
-	 * @param {*} value The value to search for.
-	 * @param {number} fromIndex The index to search from.
-	 * @returns {number} Returns the index of the matched value, else `-1`.
-	 */
-	function baseIndexOf(array, value, fromIndex) {
-	  if (value !== value) {
-	    return baseFindIndex(array, baseIsNaN, fromIndex);
-	  }
-	  var index = fromIndex - 1,
-	      length = array.length;
-
-	  while (++index < length) {
-	    if (array[index] === value) {
-	      return index;
-	    }
-	  }
-	  return -1;
-	}
-
-	/**
-	 * The base implementation of `_.isNaN` without support for number objects.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is `NaN`, else `false`.
-	 */
-	function baseIsNaN(value) {
-	  return value !== value;
-	}
-
-	/**
-	 * The base implementation of `_.property` without support for deep paths.
-	 *
-	 * @private
-	 * @param {string} key The key of the property to get.
-	 * @returns {Function} Returns the new accessor function.
-	 */
-	function baseProperty(key) {
-	  return function(object) {
-	    return object == null ? undefined : object[key];
-	  };
 	}
 
 	/**
@@ -10036,40 +11600,29 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	/**
-	 * The base implementation of `_.unary` without support for storing metadata.
+	 * The base implementation of `_.toPairs` and `_.toPairsIn` which creates an array
+	 * of key-value pairs for `object` corresponding to the property names of `props`.
 	 *
 	 * @private
-	 * @param {Function} func The function to cap arguments for.
-	 * @returns {Function} Returns the new capped function.
+	 * @param {Object} object The object to query.
+	 * @param {Array} props The property names to get values for.
+	 * @returns {Object} Returns the new array of key-value pairs.
 	 */
-	function baseUnary(func) {
-	  return function(value) {
-	    return func(value);
-	  };
+	function baseToPairs(object, props) {
+	  return arrayMap(props, function(key) {
+	    return [key, object[key]];
+	  });
 	}
 
 	/**
-	 * Checks if a cache value for `key` exists.
+	 * Checks if `value` is a global object.
 	 *
 	 * @private
-	 * @param {Object} cache The cache to query.
-	 * @param {string} key The key of the entry to check.
-	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+	 * @param {*} value The value to check.
+	 * @returns {null|Object} Returns `value` if it's a global object, else `null`.
 	 */
-	function cacheHas(cache, key) {
-	  return cache.has(key);
-	}
-
-	/**
-	 * Gets the value at `key` of `object`.
-	 *
-	 * @private
-	 * @param {Object} [object] The object to query.
-	 * @param {string} key The key of the property to get.
-	 * @returns {*} Returns the property value.
-	 */
-	function getValue(object, key) {
-	  return object == null ? undefined : object[key];
+	function checkGlobal(value) {
+	  return (value && value.Object === Object) ? value : null;
 	}
 
 	/**
@@ -10092,11 +11645,25 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	/**
-	 * Converts `map` to its key-value pairs.
+	 * Checks if `value` is a valid array-like index.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @param {number} [length=MAX_SAFE_INTEGER] The upper bounds of a valid index.
+	 * @returns {boolean} Returns `true` if `value` is a valid index, else `false`.
+	 */
+	function isIndex(value, length) {
+	  value = (typeof value == 'number' || reIsUint.test(value)) ? +value : -1;
+	  length = length == null ? MAX_SAFE_INTEGER : length;
+	  return value > -1 && value % 1 == 0 && value < length;
+	}
+
+	/**
+	 * Converts `map` to an array.
 	 *
 	 * @private
 	 * @param {Object} map The map to convert.
-	 * @returns {Array} Returns the key-value pairs.
+	 * @returns {Array} Returns the converted array.
 	 */
 	function mapToArray(map) {
 	  var index = -1,
@@ -10109,25 +11676,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	/**
-	 * Creates a unary function that invokes `func` with its argument transformed.
-	 *
-	 * @private
-	 * @param {Function} func The function to wrap.
-	 * @param {Function} transform The argument transform.
-	 * @returns {Function} Returns the new function.
-	 */
-	function overArg(func, transform) {
-	  return function(arg) {
-	    return func(transform(arg));
-	  };
-	}
-
-	/**
-	 * Converts `set` to an array of its values.
+	 * Converts `set` to an array.
 	 *
 	 * @private
 	 * @param {Object} set The set to convert.
-	 * @returns {Array} Returns the values.
+	 * @returns {Array} Returns the converted array.
 	 */
 	function setToArray(set) {
 	  var index = -1,
@@ -10141,27 +11694,17 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	/** Used for built-in method references. */
 	var arrayProto = Array.prototype,
-	    funcProto = Function.prototype,
 	    objectProto = Object.prototype;
 
-	/** Used to detect overreaching core-js shims. */
-	var coreJsData = root['__core-js_shared__'];
-
-	/** Used to detect methods masquerading as native. */
-	var maskSrcKey = (function() {
-	  var uid = /[^.]+$/.exec(coreJsData && coreJsData.keys && coreJsData.keys.IE_PROTO || '');
-	  return uid ? ('Symbol(src)_1.' + uid) : '';
-	}());
-
 	/** Used to resolve the decompiled source of functions. */
-	var funcToString = funcProto.toString;
+	var funcToString = Function.prototype.toString;
 
 	/** Used to check objects for own properties. */
 	var hasOwnProperty = objectProto.hasOwnProperty;
 
 	/**
 	 * Used to resolve the
-	 * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+	 * [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
 	 * of values.
 	 */
 	var objectToString = objectProto.toString;
@@ -10179,7 +11722,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    splice = arrayProto.splice;
 
 	/* Built-in method references for those with the same name as other `lodash` methods. */
-	var nativeKeys = overArg(Object.keys, Object);
+	var nativeGetPrototype = Object.getPrototypeOf,
+	    nativeKeys = Object.keys;
 
 	/* Built-in method references that are verified to be native. */
 	var DataView = getNative(root, 'DataView'),
@@ -10198,233 +11742,86 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	/** Used to convert symbols to primitives and strings. */
 	var symbolProto = Symbol ? Symbol.prototype : undefined,
-	    symbolValueOf = symbolProto ? symbolProto.valueOf : undefined,
-	    symbolToString = symbolProto ? symbolProto.toString : undefined;
+	    symbolValueOf = symbolProto ? symbolProto.valueOf : undefined;
 
 	/**
 	 * Creates a hash object.
 	 *
 	 * @private
 	 * @constructor
-	 * @param {Array} [entries] The key-value pairs to cache.
+	 * @returns {Object} Returns the new hash object.
 	 */
-	function Hash(entries) {
-	  var index = -1,
-	      length = entries ? entries.length : 0;
-
-	  this.clear();
-	  while (++index < length) {
-	    var entry = entries[index];
-	    this.set(entry[0], entry[1]);
-	  }
-	}
-
-	/**
-	 * Removes all key-value entries from the hash.
-	 *
-	 * @private
-	 * @name clear
-	 * @memberOf Hash
-	 */
-	function hashClear() {
-	  this.__data__ = nativeCreate ? nativeCreate(null) : {};
-	}
+	function Hash() {}
 
 	/**
 	 * Removes `key` and its value from the hash.
 	 *
 	 * @private
-	 * @name delete
-	 * @memberOf Hash
 	 * @param {Object} hash The hash to modify.
 	 * @param {string} key The key of the value to remove.
 	 * @returns {boolean} Returns `true` if the entry was removed, else `false`.
 	 */
-	function hashDelete(key) {
-	  return this.has(key) && delete this.__data__[key];
+	function hashDelete(hash, key) {
+	  return hashHas(hash, key) && delete hash[key];
 	}
 
 	/**
 	 * Gets the hash value for `key`.
 	 *
 	 * @private
-	 * @name get
-	 * @memberOf Hash
+	 * @param {Object} hash The hash to query.
 	 * @param {string} key The key of the value to get.
 	 * @returns {*} Returns the entry value.
 	 */
-	function hashGet(key) {
-	  var data = this.__data__;
+	function hashGet(hash, key) {
 	  if (nativeCreate) {
-	    var result = data[key];
+	    var result = hash[key];
 	    return result === HASH_UNDEFINED ? undefined : result;
 	  }
-	  return hasOwnProperty.call(data, key) ? data[key] : undefined;
+	  return hasOwnProperty.call(hash, key) ? hash[key] : undefined;
 	}
 
 	/**
 	 * Checks if a hash value for `key` exists.
 	 *
 	 * @private
-	 * @name has
-	 * @memberOf Hash
+	 * @param {Object} hash The hash to query.
 	 * @param {string} key The key of the entry to check.
 	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
 	 */
-	function hashHas(key) {
-	  var data = this.__data__;
-	  return nativeCreate ? data[key] !== undefined : hasOwnProperty.call(data, key);
+	function hashHas(hash, key) {
+	  return nativeCreate ? hash[key] !== undefined : hasOwnProperty.call(hash, key);
 	}
 
 	/**
 	 * Sets the hash `key` to `value`.
 	 *
 	 * @private
-	 * @name set
-	 * @memberOf Hash
+	 * @param {Object} hash The hash to modify.
 	 * @param {string} key The key of the value to set.
 	 * @param {*} value The value to set.
-	 * @returns {Object} Returns the hash instance.
 	 */
-	function hashSet(key, value) {
-	  var data = this.__data__;
-	  data[key] = (nativeCreate && value === undefined) ? HASH_UNDEFINED : value;
-	  return this;
+	function hashSet(hash, key, value) {
+	  hash[key] = (nativeCreate && value === undefined) ? HASH_UNDEFINED : value;
 	}
 
-	// Add methods to `Hash`.
-	Hash.prototype.clear = hashClear;
-	Hash.prototype['delete'] = hashDelete;
-	Hash.prototype.get = hashGet;
-	Hash.prototype.has = hashHas;
-	Hash.prototype.set = hashSet;
-
-	/**
-	 * Creates an list cache object.
-	 *
-	 * @private
-	 * @constructor
-	 * @param {Array} [entries] The key-value pairs to cache.
-	 */
-	function ListCache(entries) {
-	  var index = -1,
-	      length = entries ? entries.length : 0;
-
-	  this.clear();
-	  while (++index < length) {
-	    var entry = entries[index];
-	    this.set(entry[0], entry[1]);
-	  }
-	}
-
-	/**
-	 * Removes all key-value entries from the list cache.
-	 *
-	 * @private
-	 * @name clear
-	 * @memberOf ListCache
-	 */
-	function listCacheClear() {
-	  this.__data__ = [];
-	}
-
-	/**
-	 * Removes `key` and its value from the list cache.
-	 *
-	 * @private
-	 * @name delete
-	 * @memberOf ListCache
-	 * @param {string} key The key of the value to remove.
-	 * @returns {boolean} Returns `true` if the entry was removed, else `false`.
-	 */
-	function listCacheDelete(key) {
-	  var data = this.__data__,
-	      index = assocIndexOf(data, key);
-
-	  if (index < 0) {
-	    return false;
-	  }
-	  var lastIndex = data.length - 1;
-	  if (index == lastIndex) {
-	    data.pop();
-	  } else {
-	    splice.call(data, index, 1);
-	  }
-	  return true;
-	}
-
-	/**
-	 * Gets the list cache value for `key`.
-	 *
-	 * @private
-	 * @name get
-	 * @memberOf ListCache
-	 * @param {string} key The key of the value to get.
-	 * @returns {*} Returns the entry value.
-	 */
-	function listCacheGet(key) {
-	  var data = this.__data__,
-	      index = assocIndexOf(data, key);
-
-	  return index < 0 ? undefined : data[index][1];
-	}
-
-	/**
-	 * Checks if a list cache value for `key` exists.
-	 *
-	 * @private
-	 * @name has
-	 * @memberOf ListCache
-	 * @param {string} key The key of the entry to check.
-	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
-	 */
-	function listCacheHas(key) {
-	  return assocIndexOf(this.__data__, key) > -1;
-	}
-
-	/**
-	 * Sets the list cache `key` to `value`.
-	 *
-	 * @private
-	 * @name set
-	 * @memberOf ListCache
-	 * @param {string} key The key of the value to set.
-	 * @param {*} value The value to set.
-	 * @returns {Object} Returns the list cache instance.
-	 */
-	function listCacheSet(key, value) {
-	  var data = this.__data__,
-	      index = assocIndexOf(data, key);
-
-	  if (index < 0) {
-	    data.push([key, value]);
-	  } else {
-	    data[index][1] = value;
-	  }
-	  return this;
-	}
-
-	// Add methods to `ListCache`.
-	ListCache.prototype.clear = listCacheClear;
-	ListCache.prototype['delete'] = listCacheDelete;
-	ListCache.prototype.get = listCacheGet;
-	ListCache.prototype.has = listCacheHas;
-	ListCache.prototype.set = listCacheSet;
+	// Avoid inheriting from `Object.prototype` when possible.
+	Hash.prototype = nativeCreate ? nativeCreate(null) : objectProto;
 
 	/**
 	 * Creates a map cache object to store key-value pairs.
 	 *
 	 * @private
 	 * @constructor
-	 * @param {Array} [entries] The key-value pairs to cache.
+	 * @param {Array} [values] The values to cache.
 	 */
-	function MapCache(entries) {
+	function MapCache(values) {
 	  var index = -1,
-	      length = entries ? entries.length : 0;
+	      length = values ? values.length : 0;
 
 	  this.clear();
 	  while (++index < length) {
-	    var entry = entries[index];
+	    var entry = values[index];
 	    this.set(entry[0], entry[1]);
 	  }
 	}
@@ -10436,10 +11833,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @name clear
 	 * @memberOf MapCache
 	 */
-	function mapCacheClear() {
+	function mapClear() {
 	  this.__data__ = {
 	    'hash': new Hash,
-	    'map': new (Map || ListCache),
+	    'map': Map ? new Map : [],
 	    'string': new Hash
 	  };
 	}
@@ -10453,8 +11850,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @param {string} key The key of the value to remove.
 	 * @returns {boolean} Returns `true` if the entry was removed, else `false`.
 	 */
-	function mapCacheDelete(key) {
-	  return getMapData(this, key)['delete'](key);
+	function mapDelete(key) {
+	  var data = this.__data__;
+	  if (isKeyable(key)) {
+	    return hashDelete(typeof key == 'string' ? data.string : data.hash, key);
+	  }
+	  return Map ? data.map['delete'](key) : assocDelete(data.map, key);
 	}
 
 	/**
@@ -10466,8 +11867,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @param {string} key The key of the value to get.
 	 * @returns {*} Returns the entry value.
 	 */
-	function mapCacheGet(key) {
-	  return getMapData(this, key).get(key);
+	function mapGet(key) {
+	  var data = this.__data__;
+	  if (isKeyable(key)) {
+	    return hashGet(typeof key == 'string' ? data.string : data.hash, key);
+	  }
+	  return Map ? data.map.get(key) : assocGet(data.map, key);
 	}
 
 	/**
@@ -10479,8 +11884,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @param {string} key The key of the entry to check.
 	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
 	 */
-	function mapCacheHas(key) {
-	  return getMapData(this, key).has(key);
+	function mapHas(key) {
+	  var data = this.__data__;
+	  if (isKeyable(key)) {
+	    return hashHas(typeof key == 'string' ? data.string : data.hash, key);
+	  }
+	  return Map ? data.map.has(key) : assocHas(data.map, key);
 	}
 
 	/**
@@ -10493,77 +11902,41 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @param {*} value The value to set.
 	 * @returns {Object} Returns the map cache instance.
 	 */
-	function mapCacheSet(key, value) {
-	  getMapData(this, key).set(key, value);
+	function mapSet(key, value) {
+	  var data = this.__data__;
+	  if (isKeyable(key)) {
+	    hashSet(typeof key == 'string' ? data.string : data.hash, key, value);
+	  } else if (Map) {
+	    data.map.set(key, value);
+	  } else {
+	    assocSet(data.map, key, value);
+	  }
 	  return this;
 	}
 
 	// Add methods to `MapCache`.
-	MapCache.prototype.clear = mapCacheClear;
-	MapCache.prototype['delete'] = mapCacheDelete;
-	MapCache.prototype.get = mapCacheGet;
-	MapCache.prototype.has = mapCacheHas;
-	MapCache.prototype.set = mapCacheSet;
-
-	/**
-	 *
-	 * Creates an array cache object to store unique values.
-	 *
-	 * @private
-	 * @constructor
-	 * @param {Array} [values] The values to cache.
-	 */
-	function SetCache(values) {
-	  var index = -1,
-	      length = values ? values.length : 0;
-
-	  this.__data__ = new MapCache;
-	  while (++index < length) {
-	    this.add(values[index]);
-	  }
-	}
-
-	/**
-	 * Adds `value` to the array cache.
-	 *
-	 * @private
-	 * @name add
-	 * @memberOf SetCache
-	 * @alias push
-	 * @param {*} value The value to cache.
-	 * @returns {Object} Returns the cache instance.
-	 */
-	function setCacheAdd(value) {
-	  this.__data__.set(value, HASH_UNDEFINED);
-	  return this;
-	}
-
-	/**
-	 * Checks if `value` is in the array cache.
-	 *
-	 * @private
-	 * @name has
-	 * @memberOf SetCache
-	 * @param {*} value The value to search for.
-	 * @returns {number} Returns `true` if `value` is found, else `false`.
-	 */
-	function setCacheHas(value) {
-	  return this.__data__.has(value);
-	}
-
-	// Add methods to `SetCache`.
-	SetCache.prototype.add = SetCache.prototype.push = setCacheAdd;
-	SetCache.prototype.has = setCacheHas;
+	MapCache.prototype.clear = mapClear;
+	MapCache.prototype['delete'] = mapDelete;
+	MapCache.prototype.get = mapGet;
+	MapCache.prototype.has = mapHas;
+	MapCache.prototype.set = mapSet;
 
 	/**
 	 * Creates a stack cache object to store key-value pairs.
 	 *
 	 * @private
 	 * @constructor
-	 * @param {Array} [entries] The key-value pairs to cache.
+	 * @param {Array} [values] The values to cache.
 	 */
-	function Stack(entries) {
-	  this.__data__ = new ListCache(entries);
+	function Stack(values) {
+	  var index = -1,
+	      length = values ? values.length : 0;
+
+	  this.clear();
+	  while (++index < length) {
+	    var entry = values[index];
+	    this.set(entry[0], entry[1]);
+	  }
 	}
 
 	/**
@@ -10574,7 +11947,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @memberOf Stack
 	 */
 	function stackClear() {
-	  this.__data__ = new ListCache;
+	  this.__data__ = { 'array': [], 'map': null };
 	}
 
 	/**
@@ -10587,7 +11960,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {boolean} Returns `true` if the entry was removed, else `false`.
 	 */
 	function stackDelete(key) {
-	  return this.__data__['delete'](key);
+	  var data = this.__data__,
+	      array = data.array;
+
+	  return array ? assocDelete(array, key) : data.map['delete'](key);
 	}
 
 	/**
@@ -10600,7 +11976,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {*} Returns the entry value.
 	 */
 	function stackGet(key) {
-	  return this.__data__.get(key);
+	  var data = this.__data__,
+	      array = data.array;
+
+	  return array ? assocGet(array, key) : data.map.get(key);
 	}
 
 	/**
@@ -10613,7 +11992,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
 	 */
 	function stackHas(key) {
-	  return this.__data__.has(key);
+	  var data = this.__data__,
+	      array = data.array;
+
+	  return array ? assocHas(array, key) : data.map.has(key);
 	}
 
 	/**
@@ -10627,16 +12009,21 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {Object} Returns the stack cache instance.
 	 */
 	function stackSet(key, value) {
-	  var cache = this.__data__;
-	  if (cache instanceof ListCache) {
-	    var pairs = cache.__data__;
-	    if (!Map || (pairs.length < LARGE_ARRAY_SIZE - 1)) {
-	      pairs.push([key, value]);
-	      return this;
+	  var data = this.__data__,
+	      array = data.array;
+
+	  if (array) {
+	    if (array.length < (LARGE_ARRAY_SIZE - 1)) {
+	      assocSet(array, key, value);
+	    } else {
+	      data.array = null;
+	      data.map = new MapCache(array);
 	    }
-	    cache = this.__data__ = new MapCache(pairs);
 	  }
-	  cache.set(key, value);
+	  var map = data.map;
+	  if (map) {
+	    map.set(key, value);
+	  }
 	  return this;
 	}
 
@@ -10648,37 +12035,57 @@ return /******/ (function(modules) { // webpackBootstrap
 	Stack.prototype.set = stackSet;
 
 	/**
-	 * Creates an array of the enumerable property names of the array-like `value`.
+	 * Removes `key` and its value from the associative array.
 	 *
 	 * @private
-	 * @param {*} value The value to query.
-	 * @param {boolean} inherited Specify returning inherited property names.
-	 * @returns {Array} Returns the array of property names.
+	 * @param {Array} array The array to modify.
+	 * @param {string} key The key of the value to remove.
+	 * @returns {boolean} Returns `true` if the entry was removed, else `false`.
 	 */
-	function arrayLikeKeys(value, inherited) {
-	  // Safari 8.1 makes `arguments.callee` enumerable in strict mode.
-	  // Safari 9 makes `arguments.length` enumerable in strict mode.
-	  var result = (isArray(value) || isArguments(value))
-	    ? baseTimes(value.length, String)
-	    : [];
-
-	  var length = result.length,
-	      skipIndexes = !!length;
-
-	  for (var key in value) {
-	    if ((inherited || hasOwnProperty.call(value, key)) &&
-	        !(skipIndexes && (key == 'length' || isIndex(key, length)))) {
-	      result.push(key);
-	    }
+	function assocDelete(array, key) {
+	  var index = assocIndexOf(array, key);
+	  if (index < 0) {
+	    return false;
 	  }
-	  return result;
+	  var lastIndex = array.length - 1;
+	  if (index == lastIndex) {
+	    array.pop();
+	  } else {
+	    splice.call(array, index, 1);
+	  }
+	  return true;
+	}
+
+	/**
+	 * Gets the associative array value for `key`.
+	 *
+	 * @private
+	 * @param {Array} array The array to query.
+	 * @param {string} key The key of the value to get.
+	 * @returns {*} Returns the entry value.
+	 */
+	function assocGet(array, key) {
+	  var index = assocIndexOf(array, key);
+	  return index < 0 ? undefined : array[index][1];
+	}
+
+	/**
+	 * Checks if an associative array value for `key` exists.
+	 *
+	 * @private
+	 * @param {Array} array The array to query.
+	 * @param {string} key The key of the entry to check.
+	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+	 */
+	function assocHas(array, key) {
+	  return assocIndexOf(array, key) > -1;
 	}
 
 	/**
 	 * Gets the index at which the `key` is found in `array` of key-value pairs.
 	 *
 	 * @private
-	 * @param {Array} array The array to inspect.
+	 * @param {Array} array The array to search.
 	 * @param {*} key The key to search for.
 	 * @returns {number} Returns the index of the matched value, else `-1`.
 	 */
@@ -10693,6 +12100,34 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	/**
+	 * Sets the associative array `key` to `value`.
+	 *
+	 * @private
+	 * @param {Array} array The array to modify.
+	 * @param {string} key The key of the value to set.
+	 * @param {*} value The value to set.
+	 */
+	function assocSet(array, key, value) {
+	  var index = assocIndexOf(array, key);
+	  if (index < 0) {
+	    array.push([key, value]);
+	  } else {
+	    array[index][1] = value;
+	  }
+	}
+
+	/**
+	 * Casts `value` to a path array if it's not one.
+	 *
+	 * @private
+	 * @param {*} value The value to inspect.
+	 * @returns {Array} Returns the cast property path array.
+	 */
+	function baseCastPath(value) {
+	  return isArray(value) ? value : stringToPath(value);
+	}
+
+	/**
 	 * The base implementation of `_.get` without support for default values.
 	 *
 	 * @private
@@ -10701,38 +12136,43 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {*} Returns the resolved value.
 	 */
 	function baseGet(object, path) {
-	  path = isKey(path, object) ? [path] : castPath(path);
+	  path = isKey(path, object) ? [path] : baseCastPath(path);
 
 	  var index = 0,
 	      length = path.length;
 
 	  while (object != null && index < length) {
-	    object = object[toKey(path[index++])];
+	    object = object[path[index++]];
 	  }
 	  return (index && index == length) ? object : undefined;
 	}
 
 	/**
-	 * The base implementation of `getTag`.
+	 * The base implementation of `_.has` without support for deep paths.
 	 *
 	 * @private
-	 * @param {*} value The value to query.
-	 * @returns {string} Returns the `toStringTag`.
+	 * @param {Object} object The object to query.
+	 * @param {Array|string} key The key to check.
+	 * @returns {boolean} Returns `true` if `key` exists, else `false`.
 	 */
-	function baseGetTag(value) {
-	  return objectToString.call(value);
+	function baseHas(object, key) {
+	  // Avoid a bug in IE 10-11 where objects with a [[Prototype]] of `null`,
+	  // that are composed entirely of index properties, return `false` for
+	  // `hasOwnProperty` checks of them.
+	  return hasOwnProperty.call(object, key) ||
+	    (typeof object == 'object' && key in object && getPrototype(object) === null);
 	}
 
 	/**
 	 * The base implementation of `_.hasIn` without support for deep paths.
 	 *
 	 * @private
-	 * @param {Object} [object] The object to query.
+	 * @param {Object} object The object to query.
 	 * @param {Array|string} key The key to check.
 	 * @returns {boolean} Returns `true` if `key` exists, else `false`.
 	 */
 	function baseHasIn(object, key) {
-	  return object != null && key in Object(object);
+	  return key in Object(object);
 	}
 
 	/**
@@ -10873,34 +12313,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	/**
-	 * The base implementation of `_.isNative` without bad shim checks.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a native function,
-	 *  else `false`.
-	 */
-	function baseIsNative(value) {
-	  if (!isObject(value) || isMasked(value)) {
-	    return false;
-	  }
-	  var pattern = (isFunction(value) || isHostObject(value)) ? reIsNative : reIsHostCtor;
-	  return pattern.test(toSource(value));
-	}
-
-	/**
-	 * The base implementation of `_.isTypedArray` without Node.js optimizations.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a typed array, else `false`.
-	 */
-	function baseIsTypedArray(value) {
-	  return isObjectLike(value) &&
-	    isLength(value.length) && !!typedArrayTags[objectToString.call(value)];
-	}
-
-	/**
 	 * The base implementation of `_.iteratee`.
 	 *
 	 * @private
@@ -10925,23 +12337,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	/**
-	 * The base implementation of `_.keys` which doesn't treat sparse arrays as dense.
+	 * The base implementation of `_.keys` which doesn't skip the constructor
+	 * property of prototypes or treat sparse arrays as dense.
 	 *
 	 * @private
 	 * @param {Object} object The object to query.
 	 * @returns {Array} Returns the array of property names.
 	 */
 	function baseKeys(object) {
-	  if (!isPrototype(object)) {
-	    return nativeKeys(object);
-	  }
-	  var result = [];
-	  for (var key in Object(object)) {
-	    if (hasOwnProperty.call(object, key) && key != 'constructor') {
-	      result.push(key);
-	    }
-	  }
-	  return result;
+	  return nativeKeys(Object(object));
 	}
 
 	/**
@@ -10949,7 +12353,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @private
 	 * @param {Object} source The object of property values to match.
-	 * @returns {Function} Returns the new spec function.
+	 * @returns {Function} Returns the new function.
 	 */
 	function baseMatches(source) {
 	  var matchData = getMatchData(source);
@@ -10967,11 +12371,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @private
 	 * @param {string} path The path of the property to get.
 	 * @param {*} srcValue The value to match.
-	 * @returns {Function} Returns the new spec function.
+	 * @returns {Function} Returns the new function.
 	 */
 	function baseMatchesProperty(path, srcValue) {
 	  if (isKey(path) && isStrictComparable(srcValue)) {
-	    return matchesStrictComparable(toKey(path), srcValue);
+	    return matchesStrictComparable(path, srcValue);
 	  }
 	  return function(object) {
 	    var objValue = get(object, path);
@@ -10982,120 +12386,30 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	/**
+	 * The base implementation of `_.property` without support for deep paths.
+	 *
+	 * @private
+	 * @param {string} key The key of the property to get.
+	 * @returns {Function} Returns the new function.
+	 */
+	function baseProperty(key) {
+	  return function(object) {
+	    return object == null ? undefined : object[key];
+	  };
+	}
+
+	/**
 	 * A specialized version of `baseProperty` which supports deep paths.
 	 *
 	 * @private
 	 * @param {Array|string} path The path of the property to get.
-	 * @returns {Function} Returns the new accessor function.
+	 * @returns {Function} Returns the new function.
 	 */
 	function basePropertyDeep(path) {
 	  return function(object) {
 	    return baseGet(object, path);
 	  };
 	}
-
-	/**
-	 * The base implementation of `_.toString` which doesn't convert nullish
-	 * values to empty strings.
-	 *
-	 * @private
-	 * @param {*} value The value to process.
-	 * @returns {string} Returns the string.
-	 */
-	function baseToString(value) {
-	  // Exit early for strings to avoid a performance hit in some environments.
-	  if (typeof value == 'string') {
-	    return value;
-	  }
-	  if (isSymbol(value)) {
-	    return symbolToString ? symbolToString.call(value) : '';
-	  }
-	  var result = (value + '');
-	  return (result == '0' && (1 / value) == -INFINITY) ? '-0' : result;
-	}
-
-	/**
-	 * The base implementation of `_.uniqBy` without support for iteratee shorthands.
-	 *
-	 * @private
-	 * @param {Array} array The array to inspect.
-	 * @param {Function} [iteratee] The iteratee invoked per element.
-	 * @param {Function} [comparator] The comparator invoked per element.
-	 * @returns {Array} Returns the new duplicate free array.
-	 */
-	function baseUniq(array, iteratee, comparator) {
-	  var index = -1,
-	      includes = arrayIncludes,
-	      length = array.length,
-	      isCommon = true,
-	      result = [],
-	      seen = result;
-
-	  if (comparator) {
-	    isCommon = false;
-	    includes = arrayIncludesWith;
-	  }
-	  else if (length >= LARGE_ARRAY_SIZE) {
-	    var set = iteratee ? null : createSet(array);
-	    if (set) {
-	      return setToArray(set);
-	    }
-	    isCommon = false;
-	    includes = cacheHas;
-	    seen = new SetCache;
-	  }
-	  else {
-	    seen = iteratee ? [] : result;
-	  }
-	  outer:
-	  while (++index < length) {
-	    var value = array[index],
-	        computed = iteratee ? iteratee(value) : value;
-
-	    value = (comparator || value !== 0) ? value : 0;
-	    if (isCommon && computed === computed) {
-	      var seenIndex = seen.length;
-	      while (seenIndex--) {
-	        if (seen[seenIndex] === computed) {
-	          continue outer;
-	        }
-	      }
-	      if (iteratee) {
-	        seen.push(computed);
-	      }
-	      result.push(value);
-	    }
-	    else if (!includes(seen, computed, comparator)) {
-	      if (seen !== result) {
-	        seen.push(computed);
-	      }
-	      result.push(value);
-	    }
-	  }
-	  return result;
-	}
-
-	/**
-	 * Casts `value` to a path array if it's not one.
-	 *
-	 * @private
-	 * @param {*} value The value to inspect.
-	 * @returns {Array} Returns the cast property path array.
-	 */
-	function castPath(value) {
-	  return isArray(value) ? value : stringToPath(value);
-	}
-
-	/**
-	 * Creates a set object of `values`.
-	 *
-	 * @private
-	 * @param {Array} values The values to add to the set.
-	 * @returns {Object} Returns the new set.
-	 */
-	var createSet = !(Set && (1 / setToArray(new Set([,-0]))[1]) == INFINITY) ? noop : function(values) {
-	  return new Set(values);
-	};
 
 	/**
 	 * A specialized version of `baseIsEqualDeep` for arrays with support for
@@ -11112,7 +12426,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {boolean} Returns `true` if the arrays are equivalent, else `false`.
 	 */
 	function equalArrays(array, other, equalFunc, customizer, bitmask, stack) {
-	  var isPartial = bitmask & PARTIAL_COMPARE_FLAG,
+	  var index = -1,
+	      isPartial = bitmask & PARTIAL_COMPARE_FLAG,
+	      isUnordered = bitmask & UNORDERED_COMPARE_FLAG,
 	      arrLength = array.length,
 	      othLength = other.length;
 
@@ -11121,15 +12437,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	  // Assume cyclic values are equal.
 	  var stacked = stack.get(array);
-	  if (stacked && stack.get(other)) {
+	  if (stacked) {
 	    return stacked == other;
 	  }
-	  var index = -1,
-	      result = true,
-	      seen = (bitmask & UNORDERED_COMPARE_FLAG) ? new SetCache : undefined;
-
+	  var result = true;
 	  stack.set(array, other);
-	  stack.set(other, array);
 
 	  // Ignore non-index properties.
 	  while (++index < arrLength) {
@@ -11149,12 +12461,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	      break;
 	    }
 	    // Recursively compare arrays (susceptible to call stack limits).
-	    if (seen) {
-	      if (!arraySome(other, function(othValue, othIndex) {
-	            if (!seen.has(othIndex) &&
-	                (arrValue === othValue || equalFunc(arrValue, othValue, customizer, bitmask, stack))) {
-	              return seen.add(othIndex);
-	            }
+	    if (isUnordered) {
+	      if (!arraySome(other, function(othValue) {
+	            return arrValue === othValue ||
+	              equalFunc(arrValue, othValue, customizer, bitmask, stack);
 	          })) {
 	        result = false;
 	        break;
@@ -11168,7 +12478,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  }
 	  stack['delete'](array);
-	  stack['delete'](other);
 	  return result;
 	}
 
@@ -11209,18 +12518,22 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    case boolTag:
 	    case dateTag:
-	    case numberTag:
-	      // Coerce booleans to `1` or `0` and dates to milliseconds.
-	      // Invalid dates are coerced to `NaN`.
-	      return eq(+object, +other);
+	      // Coerce dates and booleans to numbers, dates to milliseconds and
+	      // booleans to `1` or `0` treating invalid dates coerced to `NaN` as
+	      // not equal.
+	      return +object == +other;
 
 	    case errorTag:
 	      return object.name == other.name && object.message == other.message;
 
+	    case numberTag:
+	      // Treat `NaN` vs. `NaN` as equal.
+	      return (object != +object) ? other != +other : object == +other;
+
 	    case regexpTag:
 	    case stringTag:
 	      // Coerce regexes to strings and treat strings, primitives and objects,
-	      // as equal. See http://www.ecma-international.org/ecma-262/7.0/#sec-regexp.prototype.tostring
+	      // as equal. See http://www.ecma-international.org/ecma-262/6.0/#sec-regexp.prototype.tostring
 	      // for more details.
 	      return object == (other + '');
 
@@ -11240,12 +12553,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	        return stacked == other;
 	      }
 	      bitmask |= UNORDERED_COMPARE_FLAG;
+	      stack.set(object, other);
 
 	      // Recursively compare objects (susceptible to call stack limits).
-	      stack.set(object, other);
-	      var result = equalArrays(convert(object), convert(other), equalFunc, customizer, bitmask, stack);
-	      stack['delete'](object);
-	      return result;
+	      return equalArrays(convert(object), convert(other), equalFunc, customizer, bitmask, stack);
 
 	    case symbolTag:
 	      if (symbolValueOf) {
@@ -11282,18 +12593,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var index = objLength;
 	  while (index--) {
 	    var key = objProps[index];
-	    if (!(isPartial ? key in other : hasOwnProperty.call(other, key))) {
+	    if (!(isPartial ? key in other : baseHas(other, key))) {
 	      return false;
 	    }
 	  }
 	  // Assume cyclic values are equal.
 	  var stacked = stack.get(object);
-	  if (stacked && stack.get(other)) {
+	  if (stacked) {
 	    return stacked == other;
 	  }
 	  var result = true;
 	  stack.set(object, other);
-	  stack.set(other, object);
 
 	  var skipCtor = isPartial;
 	  while (++index < objLength) {
@@ -11329,24 +12639,21 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  }
 	  stack['delete'](object);
-	  stack['delete'](other);
 	  return result;
 	}
 
 	/**
-	 * Gets the data for `map`.
+	 * Gets the "length" property value of `object`.
+	 *
+	 * **Note:** This function is used to avoid a
+	 * [JIT bug](https://bugs.webkit.org/show_bug.cgi?id=142792) that affects
+	 * Safari on at least iOS 8.1-8.3 ARM64.
 	 *
 	 * @private
-	 * @param {Object} map The map to query.
-	 * @param {string} key The reference key.
-	 * @returns {*} Returns the map data.
+	 * @param {Object} object The object to query.
+	 * @returns {*} Returns the "length" value.
 	 */
-	function getMapData(map, key) {
-	  var data = map.__data__;
-	  return isKeyable(key)
-	    ? data[typeof key == 'string' ? 'string' : 'hash']
-	    : data.map;
-	}
+	var getLength = baseProperty('length');
 
 	/**
 	 * Gets the property names, values, and compare flags of `object`.
@@ -11356,14 +12663,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {Array} Returns the match data of `object`.
 	 */
 	function getMatchData(object) {
-	  var result = keys(object),
+	  var result = toPairs(object),
 	      length = result.length;
 
 	  while (length--) {
-	    var key = result[length],
-	        value = object[key];
-
-	    result[length] = [key, value, isStrictComparable(value)];
+	    result[length][2] = isStrictComparable(result[length][1]);
 	  }
 	  return result;
 	}
@@ -11377,8 +12681,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {*} Returns the function if it's native, else `undefined`.
 	 */
 	function getNative(object, key) {
-	  var value = getValue(object, key);
-	  return baseIsNative(value) ? value : undefined;
+	  var value = object[key];
+	  return isNative(value) ? value : undefined;
+	}
+
+	/**
+	 * Gets the `[[Prototype]]` of `value`.
+	 *
+	 * @private
+	 * @param {*} value The value to query.
+	 * @returns {null|Object} Returns the `[[Prototype]]`.
+	 */
+	function getPrototype(value) {
+	  return nativeGetPrototype(Object(value));
 	}
 
 	/**
@@ -11388,10 +12703,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @param {*} value The value to query.
 	 * @returns {string} Returns the `toStringTag`.
 	 */
-	var getTag = baseGetTag;
+	function getTag(value) {
+	  return objectToString.call(value);
+	}
 
 	// Fallback for data views, maps, sets, and weak maps in IE 11,
-	// for data views in Edge < 14, and promises in Node.js.
+	// for data views in Edge, and promises in Node.js.
 	if ((DataView && getTag(new DataView(new ArrayBuffer(1))) != dataViewTag) ||
 	    (Map && getTag(new Map) != mapTag) ||
 	    (Promise && getTag(Promise.resolve()) != promiseTag) ||
@@ -11425,14 +12742,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {boolean} Returns `true` if `path` exists, else `false`.
 	 */
 	function hasPath(object, path, hasFunc) {
-	  path = isKey(path, object) ? [path] : castPath(path);
+	  path = isKey(path, object) ? [path] : baseCastPath(path);
 
 	  var result,
 	      index = -1,
 	      length = path.length;
 
 	  while (++index < length) {
-	    var key = toKey(path[index]);
+	    var key = path[index];
 	    if (!(result = object != null && hasFunc(object, key))) {
 	      break;
 	    }
@@ -11443,22 +12760,24 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	  var length = object ? object.length : 0;
 	  return !!length && isLength(length) && isIndex(key, length) &&
-	    (isArray(object) || isArguments(object));
+	    (isArray(object) || isString(object) || isArguments(object));
 	}
 
 	/**
-	 * Checks if `value` is a valid array-like index.
+	 * Creates an array of index keys for `object` values of arrays,
+	 * `arguments` objects, and strings, otherwise `null` is returned.
 	 *
 	 * @private
-	 * @param {*} value The value to check.
-	 * @param {number} [length=MAX_SAFE_INTEGER] The upper bounds of a valid index.
-	 * @returns {boolean} Returns `true` if `value` is a valid index, else `false`.
+	 * @param {Object} object The object to query.
+	 * @returns {Array|null} Returns index keys, else `null`.
 	 */
-	function isIndex(value, length) {
-	  length = length == null ? MAX_SAFE_INTEGER : length;
-	  return !!length &&
-	    (typeof value == 'number' || reIsUint.test(value)) &&
-	    (value > -1 && value % 1 == 0 && value < length);
+	function indexKeys(object) {
+	  var length = object ? object.length : undefined;
+	  if (isLength(length) &&
+	      (isArray(object) || isString(object) || isArguments(object))) {
+	    return baseTimes(length, String);
+	  }
+	  return null;
 	}
 
 	/**
@@ -11470,16 +12789,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {boolean} Returns `true` if `value` is a property name, else `false`.
 	 */
 	function isKey(value, object) {
-	  if (isArray(value)) {
-	    return false;
-	  }
 	  var type = typeof value;
-	  if (type == 'number' || type == 'symbol' || type == 'boolean' ||
-	      value == null || isSymbol(value)) {
+	  if (type == 'number' || type == 'symbol') {
 	    return true;
 	  }
-	  return reIsPlainProp.test(value) || !reIsDeepProp.test(value) ||
-	    (object != null && value in Object(object));
+	  return !isArray(value) &&
+	    (isSymbol(value) || reIsPlainProp.test(value) || !reIsDeepProp.test(value) ||
+	      (object != null && value in Object(object)));
 	}
 
 	/**
@@ -11491,20 +12807,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function isKeyable(value) {
 	  var type = typeof value;
-	  return (type == 'string' || type == 'number' || type == 'symbol' || type == 'boolean')
-	    ? (value !== '__proto__')
-	    : (value === null);
-	}
-
-	/**
-	 * Checks if `func` has its source masked.
-	 *
-	 * @private
-	 * @param {Function} func The function to check.
-	 * @returns {boolean} Returns `true` if `func` is masked, else `false`.
-	 */
-	function isMasked(func) {
-	  return !!maskSrcKey && (maskSrcKey in func);
+	  return type == 'number' || type == 'boolean' ||
+	    (type == 'string' && value != '__proto__') || value == null;
 	}
 
 	/**
@@ -11540,7 +12844,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @private
 	 * @param {string} key The key of the property to get.
 	 * @param {*} srcValue The value to match.
-	 * @returns {Function} Returns the new spec function.
+	 * @returns {Function} Returns the new function.
 	 */
 	function matchesStrictComparable(key, srcValue) {
 	  return function(object) {
@@ -11550,41 +12854,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return object[key] === srcValue &&
 	      (srcValue !== undefined || (key in Object(object)));
 	  };
-	}
-
-	/**
-	 * Converts `string` to a property path array.
-	 *
-	 * @private
-	 * @param {string} string The string to convert.
-	 * @returns {Array} Returns the property path array.
-	 */
-	var stringToPath = memoize(function(string) {
-	  string = toString(string);
-
-	  var result = [];
-	  if (reLeadingDot.test(string)) {
-	    result.push('');
-	  }
-	  string.replace(rePropName, function(match, number, quote, string) {
-	    result.push(quote ? string.replace(reEscapeChar, '$1') : (number || match));
-	  });
-	  return result;
-	});
-
-	/**
-	 * Converts `value` to a string key if it's not a string or symbol.
-	 *
-	 * @private
-	 * @param {*} value The value to inspect.
-	 * @returns {string|symbol} Returns the key.
-	 */
-	function toKey(value) {
-	  if (typeof value == 'string' || isSymbol(value)) {
-	    return value;
-	  }
-	  var result = (value + '');
-	  return (result == '0' && (1 / value) == -INFINITY) ? '-0' : result;
 	}
 
 	/**
@@ -11607,103 +12876,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	/**
-	 * This method is like `_.uniq` except that it accepts `iteratee` which is
-	 * invoked for each element in `array` to generate the criterion by which
-	 * uniqueness is computed. The iteratee is invoked with one argument: (value).
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.0.0
-	 * @category Array
-	 * @param {Array} array The array to inspect.
-	 * @param {Function} [iteratee=_.identity]
-	 *  The iteratee invoked per element.
-	 * @returns {Array} Returns the new duplicate free array.
-	 * @example
-	 *
-	 * _.uniqBy([2.1, 1.2, 2.3], Math.floor);
-	 * // => [2.1, 1.2]
-	 *
-	 * // The `_.property` iteratee shorthand.
-	 * _.uniqBy([{ 'x': 1 }, { 'x': 2 }, { 'x': 1 }], 'x');
-	 * // => [{ 'x': 1 }, { 'x': 2 }]
-	 */
-	function uniqBy(array, iteratee) {
-	  return (array && array.length)
-	    ? baseUniq(array, baseIteratee(iteratee, 2))
-	    : [];
-	}
-
-	/**
-	 * Creates a function that memoizes the result of `func`. If `resolver` is
-	 * provided, it determines the cache key for storing the result based on the
-	 * arguments provided to the memoized function. By default, the first argument
-	 * provided to the memoized function is used as the map cache key. The `func`
-	 * is invoked with the `this` binding of the memoized function.
-	 *
-	 * **Note:** The cache is exposed as the `cache` property on the memoized
-	 * function. Its creation may be customized by replacing the `_.memoize.Cache`
-	 * constructor with one whose instances implement the
-	 * [`Map`](http://ecma-international.org/ecma-262/7.0/#sec-properties-of-the-map-prototype-object)
-	 * method interface of `delete`, `get`, `has`, and `set`.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 0.1.0
-	 * @category Function
-	 * @param {Function} func The function to have its output memoized.
-	 * @param {Function} [resolver] The function to resolve the cache key.
-	 * @returns {Function} Returns the new memoized function.
-	 * @example
-	 *
-	 * var object = { 'a': 1, 'b': 2 };
-	 * var other = { 'c': 3, 'd': 4 };
-	 *
-	 * var values = _.memoize(_.values);
-	 * values(object);
-	 * // => [1, 2]
-	 *
-	 * values(other);
-	 * // => [3, 4]
-	 *
-	 * object.a = 2;
-	 * values(object);
-	 * // => [1, 2]
-	 *
-	 * // Modify the result cache.
-	 * values.cache.set(object, ['a', 'b']);
-	 * values(object);
-	 * // => ['a', 'b']
-	 *
-	 * // Replace `_.memoize.Cache`.
-	 * _.memoize.Cache = WeakMap;
-	 */
-	function memoize(func, resolver) {
-	  if (typeof func != 'function' || (resolver && typeof resolver != 'function')) {
-	    throw new TypeError(FUNC_ERROR_TEXT);
-	  }
-	  var memoized = function() {
-	    var args = arguments,
-	        key = resolver ? resolver.apply(this, args) : args[0],
-	        cache = memoized.cache;
-
-	    if (cache.has(key)) {
-	      return cache.get(key);
-	    }
-	    var result = func.apply(this, args);
-	    memoized.cache = cache.set(key, result);
-	    return result;
-	  };
-	  memoized.cache = new (memoize.Cache || MapCache);
-	  return memoized;
-	}
-
-	// Assign cache to `_.memoize`.
-	memoize.Cache = MapCache;
-
-	/**
 	 * Performs a
-	 * [`SameValueZero`](http://ecma-international.org/ecma-262/7.0/#sec-samevaluezero)
+	 * [`SameValueZero`](http://ecma-international.org/ecma-262/6.0/#sec-samevaluezero)
 	 * comparison between two values to determine if they are equivalent.
 	 *
 	 * @static
@@ -11715,8 +12889,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
 	 * @example
 	 *
-	 * var object = { 'a': 1 };
-	 * var other = { 'a': 1 };
+	 * var object = { 'user': 'fred' };
+	 * var other = { 'user': 'fred' };
 	 *
 	 * _.eq(object, object);
 	 * // => true
@@ -11745,7 +12919,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @since 0.1.0
 	 * @category Lang
 	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is an `arguments` object,
+	 * @returns {boolean} Returns `true` if `value` is correctly classified,
 	 *  else `false`.
 	 * @example
 	 *
@@ -11756,7 +12930,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * // => false
 	 */
 	function isArguments(value) {
-	  // Safari 8.1 makes `arguments.callee` enumerable in strict mode.
+	  // Safari 8.1 incorrectly makes `arguments.callee` enumerable in strict mode.
 	  return isArrayLikeObject(value) && hasOwnProperty.call(value, 'callee') &&
 	    (!propertyIsEnumerable.call(value, 'callee') || objectToString.call(value) == argsTag);
 	}
@@ -11767,9 +12941,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @static
 	 * @memberOf _
 	 * @since 0.1.0
+	 * @type {Function}
 	 * @category Lang
 	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is an array, else `false`.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified,
+	 *  else `false`.
 	 * @example
 	 *
 	 * _.isArray([1, 2, 3]);
@@ -11812,7 +12988,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * // => false
 	 */
 	function isArrayLike(value) {
-	  return value != null && isLength(value.length) && !isFunction(value);
+	  return value != null && isLength(getLength(value)) && !isFunction(value);
 	}
 
 	/**
@@ -11852,7 +13028,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @since 0.1.0
 	 * @category Lang
 	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a function, else `false`.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified,
+	 *  else `false`.
 	 * @example
 	 *
 	 * _.isFunction(_);
@@ -11863,7 +13040,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	function isFunction(value) {
 	  // The use of `Object#toString` avoids issues with the `typeof` operator
-	  // in Safari 8-9 which returns 'object' for typed array and other constructors.
+	  // in Safari 8 which returns 'object' for typed array and weak map constructors,
+	  // and PhantomJS 1.9 which returns 'function' for `NodeList` instances.
 	  var tag = isObject(value) ? objectToString.call(value) : '';
 	  return tag == funcTag || tag == genTag;
 	}
@@ -11871,15 +13049,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	/**
 	 * Checks if `value` is a valid array-like length.
 	 *
-	 * **Note:** This method is loosely based on
-	 * [`ToLength`](http://ecma-international.org/ecma-262/7.0/#sec-tolength).
+	 * **Note:** This function is loosely based on
+	 * [`ToLength`](http://ecma-international.org/ecma-262/6.0/#sec-tolength).
 	 *
 	 * @static
 	 * @memberOf _
 	 * @since 4.0.0
 	 * @category Lang
 	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a valid length, else `false`.
+	 * @returns {boolean} Returns `true` if `value` is a valid length,
+	 *  else `false`.
 	 * @example
 	 *
 	 * _.isLength(3);
@@ -11901,7 +13080,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	/**
 	 * Checks if `value` is the
-	 * [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
+	 * [language type](http://www.ecma-international.org/ecma-262/6.0/#sec-ecmascript-language-types)
 	 * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
 	 *
 	 * @static
@@ -11958,6 +13137,55 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	/**
+	 * Checks if `value` is a native function.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 3.0.0
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is a native function,
+	 *  else `false`.
+	 * @example
+	 *
+	 * _.isNative(Array.prototype.push);
+	 * // => true
+	 *
+	 * _.isNative(_);
+	 * // => false
+	 */
+	function isNative(value) {
+	  if (!isObject(value)) {
+	    return false;
+	  }
+	  var pattern = (isFunction(value) || isHostObject(value)) ? reIsNative : reIsHostCtor;
+	  return pattern.test(toSource(value));
+	}
+
+	/**
+	 * Checks if `value` is classified as a `String` primitive or object.
+	 *
+	 * @static
+	 * @since 0.1.0
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified,
+	 *  else `false`.
+	 * @example
+	 *
+	 * _.isString('abc');
+	 * // => true
+	 *
+	 * _.isString(1);
+	 * // => false
+	 */
+	function isString(value) {
+	  return typeof value == 'string' ||
+	    (!isArray(value) && isObjectLike(value) && objectToString.call(value) == stringTag);
+	}
+
+	/**
 	 * Checks if `value` is classified as a `Symbol` primitive or object.
 	 *
 	 * @static
@@ -11965,7 +13193,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @since 4.0.0
 	 * @category Lang
 	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a symbol, else `false`.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified,
+	 *  else `false`.
 	 * @example
 	 *
 	 * _.isSymbol(Symbol.iterator);
@@ -11987,7 +13216,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @since 3.0.0
 	 * @category Lang
 	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a typed array, else `false`.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified,
+	 *  else `false`.
 	 * @example
 	 *
 	 * _.isTypedArray(new Uint8Array);
@@ -11996,36 +13226,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * _.isTypedArray([]);
 	 * // => false
 	 */
-	var isTypedArray = nodeIsTypedArray ? baseUnary(nodeIsTypedArray) : baseIsTypedArray;
-
-	/**
-	 * Converts `value` to a string. An empty string is returned for `null`
-	 * and `undefined` values. The sign of `-0` is preserved.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.0.0
-	 * @category Lang
-	 * @param {*} value The value to process.
-	 * @returns {string} Returns the string.
-	 * @example
-	 *
-	 * _.toString(null);
-	 * // => ''
-	 *
-	 * _.toString(-0);
-	 * // => '-0'
-	 *
-	 * _.toString([1, 2, 3]);
-	 * // => '1,2,3'
-	 */
-	function toString(value) {
-	  return value == null ? '' : baseToString(value);
+	function isTypedArray(value) {
+	  return isObjectLike(value) &&
+	    isLength(value.length) && !!typedArrayTags[objectToString.call(value)];
 	}
 
 	/**
 	 * Gets the value at `path` of `object`. If the resolved value is
-	 * `undefined`, the `defaultValue` is returned in its place.
+	 * `undefined`, the `defaultValue` is used in its place.
 	 *
 	 * @static
 	 * @memberOf _
@@ -12087,7 +13295,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * Creates an array of the own enumerable property names of `object`.
 	 *
 	 * **Note:** Non-object values are coerced to objects. See the
-	 * [ES spec](http://ecma-international.org/ecma-262/7.0/#sec-object.keys)
+	 * [ES spec](http://ecma-international.org/ecma-262/6.0/#sec-object.keys)
 	 * for more details.
 	 *
 	 * @static
@@ -12112,11 +13320,54 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * // => ['0', '1']
 	 */
 	function keys(object) {
-	  return isArrayLike(object) ? arrayLikeKeys(object) : baseKeys(object);
+	  var isProto = isPrototype(object);
+	  if (!(isProto || isArrayLike(object))) {
+	    return baseKeys(object);
+	  }
+	  var indexes = indexKeys(object),
+	      skipIndexes = !!indexes,
+	      result = indexes || [],
+	      length = result.length;
+
+	  for (var key in object) {
+	    if (baseHas(object, key) &&
+	        !(skipIndexes && (key == 'length' || isIndex(key, length))) &&
+	        !(isProto && key == 'constructor')) {
+	      result.push(key);
+	    }
+	  }
+	  return result;
 	}
 
 	/**
-	 * This method returns the first argument it receives.
+	 * Creates an array of own enumerable string keyed-value pairs for `object`
+	 * which can be consumed by `_.fromPairs`.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @since 4.0.0
+	 * @alias entries
+	 * @category Object
+	 * @param {Object} object The object to query.
+	 * @returns {Array} Returns the new array of key-value pairs.
+	 * @example
+	 *
+	 * function Foo() {
+	 *   this.a = 1;
+	 *   this.b = 2;
+	 * }
+	 *
+	 * Foo.prototype.c = 3;
+	 *
+	 * _.toPairs(new Foo);
+	 * // => [['a', 1], ['b', 2]] (iteration order is not guaranteed)
+	 */
+	function toPairs(object) {
+	  return baseToPairs(object, keys(object));
+	}
+
+	/**
+	 * This method returns the first argument given to it.
 	 *
 	 * @static
 	 * @since 0.1.0
@@ -12126,29 +13377,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @returns {*} Returns `value`.
 	 * @example
 	 *
-	 * var object = { 'a': 1 };
+	 * var object = { 'user': 'fred' };
 	 *
-	 * console.log(_.identity(object) === object);
+	 * _.identity(object) === object;
 	 * // => true
 	 */
 	function identity(value) {
 	  return value;
-	}
-
-	/**
-	 * This method returns `undefined`.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 2.3.0
-	 * @category Util
-	 * @example
-	 *
-	 * _.times(2, _.noop);
-	 * // => [undefined, undefined]
-	 */
-	function noop() {
-	  // No operation performed.
 	}
 
 	/**
@@ -12159,7 +13394,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @since 2.4.0
 	 * @category Util
 	 * @param {Array|string} path The path of the property to get.
-	 * @returns {Function} Returns the new accessor function.
+	 * @returns {Function} Returns the new function.
 	 * @example
 	 *
 	 * var objects = [
@@ -12174,23 +13409,1099 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * // => [1, 2]
 	 */
 	function property(path) {
-	  return isKey(path) ? baseProperty(toKey(path)) : basePropertyDeep(path);
+	  return isKey(path) ? baseProperty(path) : basePropertyDeep(path);
 	}
 
-	module.exports = uniqBy;
+	module.exports = baseIteratee;
 
-	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(33)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(22)(module), (function() { return this; }())))
 
 /***/ },
-/* 51 */
+/* 58 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/**
+	 * lodash 4.5.0 (Custom Build) <https://lodash.com/>
+	 * Build: `lodash modularize exports="npm" -o ./`
+	 * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
+	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+	 * Copyright 2009-2016 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+	 * Available under MIT license <https://lodash.com/license>
+	 */
+	var SetCache = __webpack_require__(59),
+	    createSet = __webpack_require__(60);
+
+	/** Used as the size to enable large array optimizations. */
+	var LARGE_ARRAY_SIZE = 200;
+
+	/** Used to stand-in for `undefined` hash values. */
+	var HASH_UNDEFINED = '__lodash_hash_undefined__';
+
+	/**
+	 * A specialized version of `_.includes` for arrays without support for
+	 * specifying an index to search from.
+	 *
+	 * @private
+	 * @param {Array} array The array to search.
+	 * @param {*} target The value to search for.
+	 * @returns {boolean} Returns `true` if `target` is found, else `false`.
+	 */
+	function arrayIncludes(array, value) {
+	  return !!array.length && baseIndexOf(array, value, 0) > -1;
+	}
+
+	/**
+	 * A specialized version of `_.includesWith` for arrays without support for
+	 * specifying an index to search from.
+	 *
+	 * @private
+	 * @param {Array} array The array to search.
+	 * @param {*} target The value to search for.
+	 * @param {Function} comparator The comparator invoked per element.
+	 * @returns {boolean} Returns `true` if `target` is found, else `false`.
+	 */
+	function arrayIncludesWith(array, value, comparator) {
+	  var index = -1,
+	      length = array.length;
+
+	  while (++index < length) {
+	    if (comparator(value, array[index])) {
+	      return true;
+	    }
+	  }
+	  return false;
+	}
+
+	/**
+	 * The base implementation of `_.indexOf` without `fromIndex` bounds checks.
+	 *
+	 * @private
+	 * @param {Array} array The array to search.
+	 * @param {*} value The value to search for.
+	 * @param {number} fromIndex The index to search from.
+	 * @returns {number} Returns the index of the matched value, else `-1`.
+	 */
+	function baseIndexOf(array, value, fromIndex) {
+	  if (value !== value) {
+	    return indexOfNaN(array, fromIndex);
+	  }
+	  var index = fromIndex - 1,
+	      length = array.length;
+
+	  while (++index < length) {
+	    if (array[index] === value) {
+	      return index;
+	    }
+	  }
+	  return -1;
+	}
+
+	/**
+	 * Gets the index at which the first occurrence of `NaN` is found in `array`.
+	 *
+	 * @private
+	 * @param {Array} array The array to search.
+	 * @param {number} fromIndex The index to search from.
+	 * @param {boolean} [fromRight] Specify iterating from right to left.
+	 * @returns {number} Returns the index of the matched `NaN`, else `-1`.
+	 */
+	function indexOfNaN(array, fromIndex, fromRight) {
+	  var length = array.length,
+	      index = fromIndex + (fromRight ? 0 : -1);
+
+	  while ((fromRight ? index-- : ++index < length)) {
+	    var other = array[index];
+	    if (other !== other) {
+	      return index;
+	    }
+	  }
+	  return -1;
+	}
+
+	/**
+	 * Converts `set` to an array.
+	 *
+	 * @private
+	 * @param {Object} set The set to convert.
+	 * @returns {Array} Returns the converted array.
+	 */
+	function setToArray(set) {
+	  var index = -1,
+	      result = Array(set.size);
+
+	  set.forEach(function(value) {
+	    result[++index] = value;
+	  });
+	  return result;
+	}
+
+	/**
+	 * Checks if `value` is in `cache`.
+	 *
+	 * @private
+	 * @param {Object} cache The set cache to search.
+	 * @param {*} value The value to search for.
+	 * @returns {number} Returns `true` if `value` is found, else `false`.
+	 */
+	function cacheHas(cache, value) {
+	  var map = cache.__data__;
+	  if (isKeyable(value)) {
+	    var data = map.__data__,
+	        hash = typeof value == 'string' ? data.string : data.hash;
+
+	    return hash[value] === HASH_UNDEFINED;
+	  }
+	  return map.has(value);
+	}
+
+	/**
+	 * The base implementation of `_.uniqBy` without support for iteratee shorthands.
+	 *
+	 * @private
+	 * @param {Array} array The array to inspect.
+	 * @param {Function} [iteratee] The iteratee invoked per element.
+	 * @param {Function} [comparator] The comparator invoked per element.
+	 * @returns {Array} Returns the new duplicate free array.
+	 */
+	function baseUniq(array, iteratee, comparator) {
+	  var index = -1,
+	      includes = arrayIncludes,
+	      length = array.length,
+	      isCommon = true,
+	      result = [],
+	      seen = result;
+
+	  if (comparator) {
+	    isCommon = false;
+	    includes = arrayIncludesWith;
+	  }
+	  else if (length >= LARGE_ARRAY_SIZE) {
+	    var set = iteratee ? null : createSet(array);
+	    if (set) {
+	      return setToArray(set);
+	    }
+	    isCommon = false;
+	    includes = cacheHas;
+	    seen = new SetCache;
+	  }
+	  else {
+	    seen = iteratee ? [] : result;
+	  }
+	  outer:
+	  while (++index < length) {
+	    var value = array[index],
+	        computed = iteratee ? iteratee(value) : value;
+
+	    if (isCommon && computed === computed) {
+	      var seenIndex = seen.length;
+	      while (seenIndex--) {
+	        if (seen[seenIndex] === computed) {
+	          continue outer;
+	        }
+	      }
+	      if (iteratee) {
+	        seen.push(computed);
+	      }
+	      result.push(value);
+	    }
+	    else if (!includes(seen, computed, comparator)) {
+	      if (seen !== result) {
+	        seen.push(computed);
+	      }
+	      result.push(value);
+	    }
+	  }
+	  return result;
+	}
+
+	/**
+	 * Checks if `value` is suitable for use as unique object key.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is suitable, else `false`.
+	 */
+	function isKeyable(value) {
+	  var type = typeof value;
+	  return type == 'number' || type == 'boolean' ||
+	    (type == 'string' && value != '__proto__') || value == null;
+	}
+
+	module.exports = baseUniq;
+
+
+/***/ },
+/* 59 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(module, global) {/**
+	 * lodash 4.1.0 (Custom Build) <https://lodash.com/>
+	 * Build: `lodash modularize exports="npm" -o ./`
+	 * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
+	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+	 * Copyright 2009-2016 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+	 * Available under MIT license <https://lodash.com/license>
+	 */
+
+	/** Used to stand-in for `undefined` hash values. */
+	var HASH_UNDEFINED = '__lodash_hash_undefined__';
+
+	/** `Object#toString` result references. */
+	var funcTag = '[object Function]',
+	    genTag = '[object GeneratorFunction]';
+
+	/** Used to match `RegExp` [syntax characters](http://ecma-international.org/ecma-262/6.0/#sec-patterns). */
+	var reRegExpChar = /[\\^$.*+?()[\]{}|]/g;
+
+	/** Used to detect host constructors (Safari > 5). */
+	var reIsHostCtor = /^\[object .+?Constructor\]$/;
+
+	/** Used to determine if values are of the language type `Object`. */
+	var objectTypes = {
+	  'function': true,
+	  'object': true
+	};
+
+	/** Detect free variable `exports`. */
+	var freeExports = (objectTypes[typeof exports] && exports && !exports.nodeType)
+	  ? exports
+	  : undefined;
+
+	/** Detect free variable `module`. */
+	var freeModule = (objectTypes[typeof module] && module && !module.nodeType)
+	  ? module
+	  : undefined;
+
+	/** Detect free variable `global` from Node.js. */
+	var freeGlobal = checkGlobal(freeExports && freeModule && typeof global == 'object' && global);
+
+	/** Detect free variable `self`. */
+	var freeSelf = checkGlobal(objectTypes[typeof self] && self);
+
+	/** Detect free variable `window`. */
+	var freeWindow = checkGlobal(objectTypes[typeof window] && window);
+
+	/** Detect `this` as the global object. */
+	var thisGlobal = checkGlobal(objectTypes[typeof this] && this);
+
+	/**
+	 * Used as a reference to the global object.
+	 *
+	 * The `this` value is used if it's the global object to avoid Greasemonkey's
+	 * restricted `window` object, otherwise the `window` object is used.
+	 */
+	var root = freeGlobal ||
+	  ((freeWindow !== (thisGlobal && thisGlobal.window)) && freeWindow) ||
+	    freeSelf || thisGlobal || Function('return this')();
+
+	/**
+	 * Checks if `value` is a global object.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {null|Object} Returns `value` if it's a global object, else `null`.
+	 */
+	function checkGlobal(value) {
+	  return (value && value.Object === Object) ? value : null;
+	}
+
+	/**
+	 * Checks if `value` is a host object in IE < 9.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is a host object, else `false`.
+	 */
+	function isHostObject(value) {
+	  // Many host objects are `Object` objects that can coerce to strings
+	  // despite having improperly defined `toString` methods.
+	  var result = false;
+	  if (value != null && typeof value.toString != 'function') {
+	    try {
+	      result = !!(value + '');
+	    } catch (e) {}
+	  }
+	  return result;
+	}
+
+	/** Used for built-in method references. */
+	var arrayProto = Array.prototype,
+	    objectProto = Object.prototype;
+
+	/** Used to resolve the decompiled source of functions. */
+	var funcToString = Function.prototype.toString;
+
+	/** Used to check objects for own properties. */
+	var hasOwnProperty = objectProto.hasOwnProperty;
+
+	/**
+	 * Used to resolve the [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
+	 * of values.
+	 */
+	var objectToString = objectProto.toString;
+
+	/** Used to detect if a method is native. */
+	var reIsNative = RegExp('^' +
+	  funcToString.call(hasOwnProperty).replace(reRegExpChar, '\\$&')
+	  .replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, '$1.*?') + '$'
+	);
+
+	/** Built-in value references. */
+	var splice = arrayProto.splice;
+
+	/* Built-in method references that are verified to be native. */
+	var Map = getNative(root, 'Map'),
+	    nativeCreate = getNative(Object, 'create');
+
+	/**
+	 * Creates an hash object.
+	 *
+	 * @private
+	 * @constructor
+	 * @returns {Object} Returns the new hash object.
+	 */
+	function Hash() {}
+
+	/**
+	 * Removes `key` and its value from the hash.
+	 *
+	 * @private
+	 * @param {Object} hash The hash to modify.
+	 * @param {string} key The key of the value to remove.
+	 * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+	 */
+	function hashDelete(hash, key) {
+	  return hashHas(hash, key) && delete hash[key];
+	}
+
+	/**
+	 * Gets the hash value for `key`.
+	 *
+	 * @private
+	 * @param {Object} hash The hash to query.
+	 * @param {string} key The key of the value to get.
+	 * @returns {*} Returns the entry value.
+	 */
+	function hashGet(hash, key) {
+	  if (nativeCreate) {
+	    var result = hash[key];
+	    return result === HASH_UNDEFINED ? undefined : result;
+	  }
+	  return hasOwnProperty.call(hash, key) ? hash[key] : undefined;
+	}
+
+	/**
+	 * Checks if a hash value for `key` exists.
+	 *
+	 * @private
+	 * @param {Object} hash The hash to query.
+	 * @param {string} key The key of the entry to check.
+	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+	 */
+	function hashHas(hash, key) {
+	  return nativeCreate ? hash[key] !== undefined : hasOwnProperty.call(hash, key);
+	}
+
+	/**
+	 * Sets the hash `key` to `value`.
+	 *
+	 * @private
+	 * @param {Object} hash The hash to modify.
+	 * @param {string} key The key of the value to set.
+	 * @param {*} value The value to set.
+	 */
+	function hashSet(hash, key, value) {
+	  hash[key] = (nativeCreate && value === undefined) ? HASH_UNDEFINED : value;
+	}
+
+	/**
+	 * Creates a map cache object to store key-value pairs.
+	 *
+	 * @private
+	 * @constructor
+	 * @param {Array} [values] The values to cache.
+	 */
+	function MapCache(values) {
+	  var index = -1,
+	      length = values ? values.length : 0;
+
+	  this.clear();
+	  while (++index < length) {
+	    var entry = values[index];
+	    this.set(entry[0], entry[1]);
+	  }
+	}
+
+	/**
+	 * Removes all key-value entries from the map.
+	 *
+	 * @private
+	 * @name clear
+	 * @memberOf MapCache
+	 */
+	function mapClear() {
+	  this.__data__ = {
+	    'hash': new Hash,
+	    'map': Map ? new Map : [],
+	    'string': new Hash
+	  };
+	}
+
+	/**
+	 * Removes `key` and its value from the map.
+	 *
+	 * @private
+	 * @name delete
+	 * @memberOf MapCache
+	 * @param {string} key The key of the value to remove.
+	 * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+	 */
+	function mapDelete(key) {
+	  var data = this.__data__;
+	  if (isKeyable(key)) {
+	    return hashDelete(typeof key == 'string' ? data.string : data.hash, key);
+	  }
+	  return Map ? data.map['delete'](key) : assocDelete(data.map, key);
+	}
+
+	/**
+	 * Gets the map value for `key`.
+	 *
+	 * @private
+	 * @name get
+	 * @memberOf MapCache
+	 * @param {string} key The key of the value to get.
+	 * @returns {*} Returns the entry value.
+	 */
+	function mapGet(key) {
+	  var data = this.__data__;
+	  if (isKeyable(key)) {
+	    return hashGet(typeof key == 'string' ? data.string : data.hash, key);
+	  }
+	  return Map ? data.map.get(key) : assocGet(data.map, key);
+	}
+
+	/**
+	 * Checks if a map value for `key` exists.
+	 *
+	 * @private
+	 * @name has
+	 * @memberOf MapCache
+	 * @param {string} key The key of the entry to check.
+	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+	 */
+	function mapHas(key) {
+	  var data = this.__data__;
+	  if (isKeyable(key)) {
+	    return hashHas(typeof key == 'string' ? data.string : data.hash, key);
+	  }
+	  return Map ? data.map.has(key) : assocHas(data.map, key);
+	}
+
+	/**
+	 * Sets the map `key` to `value`.
+	 *
+	 * @private
+	 * @name set
+	 * @memberOf MapCache
+	 * @param {string} key The key of the value to set.
+	 * @param {*} value The value to set.
+	 * @returns {Object} Returns the map cache object.
+	 */
+	function mapSet(key, value) {
+	  var data = this.__data__;
+	  if (isKeyable(key)) {
+	    hashSet(typeof key == 'string' ? data.string : data.hash, key, value);
+	  } else if (Map) {
+	    data.map.set(key, value);
+	  } else {
+	    assocSet(data.map, key, value);
+	  }
+	  return this;
+	}
+
+	/**
+	 *
+	 * Creates a set cache object to store unique values.
+	 *
+	 * @private
+	 * @constructor
+	 * @param {Array} [values] The values to cache.
+	 */
+	function SetCache(values) {
+	  var index = -1,
+	      length = values ? values.length : 0;
+
+	  this.__data__ = new MapCache;
+	  while (++index < length) {
+	    this.push(values[index]);
+	  }
+	}
+
+	/**
+	 * Adds `value` to the set cache.
+	 *
+	 * @private
+	 * @name push
+	 * @memberOf SetCache
+	 * @param {*} value The value to cache.
+	 */
+	function cachePush(value) {
+	  var map = this.__data__;
+	  if (isKeyable(value)) {
+	    var data = map.__data__,
+	        hash = typeof value == 'string' ? data.string : data.hash;
+
+	    hash[value] = HASH_UNDEFINED;
+	  }
+	  else {
+	    map.set(value, HASH_UNDEFINED);
+	  }
+	}
+
+	/**
+	 * Removes `key` and its value from the associative array.
+	 *
+	 * @private
+	 * @param {Array} array The array to query.
+	 * @param {string} key The key of the value to remove.
+	 * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+	 */
+	function assocDelete(array, key) {
+	  var index = assocIndexOf(array, key);
+	  if (index < 0) {
+	    return false;
+	  }
+	  var lastIndex = array.length - 1;
+	  if (index == lastIndex) {
+	    array.pop();
+	  } else {
+	    splice.call(array, index, 1);
+	  }
+	  return true;
+	}
+
+	/**
+	 * Gets the associative array value for `key`.
+	 *
+	 * @private
+	 * @param {Array} array The array to query.
+	 * @param {string} key The key of the value to get.
+	 * @returns {*} Returns the entry value.
+	 */
+	function assocGet(array, key) {
+	  var index = assocIndexOf(array, key);
+	  return index < 0 ? undefined : array[index][1];
+	}
+
+	/**
+	 * Checks if an associative array value for `key` exists.
+	 *
+	 * @private
+	 * @param {Array} array The array to query.
+	 * @param {string} key The key of the entry to check.
+	 * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+	 */
+	function assocHas(array, key) {
+	  return assocIndexOf(array, key) > -1;
+	}
+
+	/**
+	 * Gets the index at which the first occurrence of `key` is found in `array`
+	 * of key-value pairs.
+	 *
+	 * @private
+	 * @param {Array} array The array to search.
+	 * @param {*} key The key to search for.
+	 * @returns {number} Returns the index of the matched value, else `-1`.
+	 */
+	function assocIndexOf(array, key) {
+	  var length = array.length;
+	  while (length--) {
+	    if (eq(array[length][0], key)) {
+	      return length;
+	    }
+	  }
+	  return -1;
+	}
+
+	/**
+	 * Sets the associative array `key` to `value`.
+	 *
+	 * @private
+	 * @param {Array} array The array to modify.
+	 * @param {string} key The key of the value to set.
+	 * @param {*} value The value to set.
+	 */
+	function assocSet(array, key, value) {
+	  var index = assocIndexOf(array, key);
+	  if (index < 0) {
+	    array.push([key, value]);
+	  } else {
+	    array[index][1] = value;
+	  }
+	}
+
+	/**
+	 * Gets the native function at `key` of `object`.
+	 *
+	 * @private
+	 * @param {Object} object The object to query.
+	 * @param {string} key The key of the method to get.
+	 * @returns {*} Returns the function if it's native, else `undefined`.
+	 */
+	function getNative(object, key) {
+	  var value = object == null ? undefined : object[key];
+	  return isNative(value) ? value : undefined;
+	}
+
+	/**
+	 * Checks if `value` is suitable for use as unique object key.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is suitable, else `false`.
+	 */
+	function isKeyable(value) {
+	  var type = typeof value;
+	  return type == 'number' || type == 'boolean' ||
+	    (type == 'string' && value != '__proto__') || value == null;
+	}
+
+	/**
+	 * Performs a [`SameValueZero`](http://ecma-international.org/ecma-262/6.0/#sec-samevaluezero)
+	 * comparison between two values to determine if they are equivalent.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to compare.
+	 * @param {*} other The other value to compare.
+	 * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
+	 * @example
+	 *
+	 * var object = { 'user': 'fred' };
+	 * var other = { 'user': 'fred' };
+	 *
+	 * _.eq(object, object);
+	 * // => true
+	 *
+	 * _.eq(object, other);
+	 * // => false
+	 *
+	 * _.eq('a', 'a');
+	 * // => true
+	 *
+	 * _.eq('a', Object('a'));
+	 * // => false
+	 *
+	 * _.eq(NaN, NaN);
+	 * // => true
+	 */
+	function eq(value, other) {
+	  return value === other || (value !== value && other !== other);
+	}
+
+	/**
+	 * Checks if `value` is classified as a `Function` object.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+	 * @example
+	 *
+	 * _.isFunction(_);
+	 * // => true
+	 *
+	 * _.isFunction(/abc/);
+	 * // => false
+	 */
+	function isFunction(value) {
+	  // The use of `Object#toString` avoids issues with the `typeof` operator
+	  // in Safari 8 which returns 'object' for typed array constructors, and
+	  // PhantomJS 1.9 which returns 'function' for `NodeList` instances.
+	  var tag = isObject(value) ? objectToString.call(value) : '';
+	  return tag == funcTag || tag == genTag;
+	}
+
+	/**
+	 * Checks if `value` is the [language type](https://es5.github.io/#x8) of `Object`.
+	 * (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+	 * @example
+	 *
+	 * _.isObject({});
+	 * // => true
+	 *
+	 * _.isObject([1, 2, 3]);
+	 * // => true
+	 *
+	 * _.isObject(_.noop);
+	 * // => true
+	 *
+	 * _.isObject(null);
+	 * // => false
+	 */
+	function isObject(value) {
+	  var type = typeof value;
+	  return !!value && (type == 'object' || type == 'function');
+	}
+
+	/**
+	 * Checks if `value` is object-like. A value is object-like if it's not `null`
+	 * and has a `typeof` result of "object".
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+	 * @example
+	 *
+	 * _.isObjectLike({});
+	 * // => true
+	 *
+	 * _.isObjectLike([1, 2, 3]);
+	 * // => true
+	 *
+	 * _.isObjectLike(_.noop);
+	 * // => false
+	 *
+	 * _.isObjectLike(null);
+	 * // => false
+	 */
+	function isObjectLike(value) {
+	  return !!value && typeof value == 'object';
+	}
+
+	/**
+	 * Checks if `value` is a native function.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is a native function, else `false`.
+	 * @example
+	 *
+	 * _.isNative(Array.prototype.push);
+	 * // => true
+	 *
+	 * _.isNative(_);
+	 * // => false
+	 */
+	function isNative(value) {
+	  if (value == null) {
+	    return false;
+	  }
+	  if (isFunction(value)) {
+	    return reIsNative.test(funcToString.call(value));
+	  }
+	  return isObjectLike(value) &&
+	    (isHostObject(value) ? reIsNative : reIsHostCtor).test(value);
+	}
+
+	// Avoid inheriting from `Object.prototype` when possible.
+	Hash.prototype = nativeCreate ? nativeCreate(null) : objectProto;
+
+	// Add functions to the `MapCache`.
+	MapCache.prototype.clear = mapClear;
+	MapCache.prototype['delete'] = mapDelete;
+	MapCache.prototype.get = mapGet;
+	MapCache.prototype.has = mapHas;
+	MapCache.prototype.set = mapSet;
+
+	// Add functions to the `SetCache`.
+	SetCache.prototype.push = cachePush;
+
+	module.exports = SetCache;
+
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(22)(module), (function() { return this; }())))
+
+/***/ },
+/* 60 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(module, global) {/**
+	 * lodash 4.0.0 (Custom Build) <https://lodash.com/>
+	 * Build: `lodash modularize exports="npm" -o ./`
+	 * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
+	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+	 * Copyright 2009-2016 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+	 * Available under MIT license <https://lodash.com/license>
+	 */
+
+	/** `Object#toString` result references. */
+	var funcTag = '[object Function]',
+	    genTag = '[object GeneratorFunction]';
+
+	/** Used to match `RegExp` [syntax characters](http://ecma-international.org/ecma-262/6.0/#sec-patterns). */
+	var reRegExpChar = /[\\^$.*+?()[\]{}|]/g;
+
+	/** Used to detect host constructors (Safari > 5). */
+	var reIsHostCtor = /^\[object .+?Constructor\]$/;
+
+	/** Used to determine if values are of the language type `Object`. */
+	var objectTypes = {
+	  'function': true,
+	  'object': true
+	};
+
+	/** Detect free variable `exports`. */
+	var freeExports = (objectTypes[typeof exports] && exports && !exports.nodeType)
+	  ? exports
+	  : undefined;
+
+	/** Detect free variable `module`. */
+	var freeModule = (objectTypes[typeof module] && module && !module.nodeType)
+	  ? module
+	  : undefined;
+
+	/** Detect free variable `global` from Node.js. */
+	var freeGlobal = checkGlobal(freeExports && freeModule && typeof global == 'object' && global);
+
+	/** Detect free variable `self`. */
+	var freeSelf = checkGlobal(objectTypes[typeof self] && self);
+
+	/** Detect free variable `window`. */
+	var freeWindow = checkGlobal(objectTypes[typeof window] && window);
+
+	/** Detect `this` as the global object. */
+	var thisGlobal = checkGlobal(objectTypes[typeof this] && this);
+
+	/**
+	 * Used as a reference to the global object.
+	 *
+	 * The `this` value is used if it's the global object to avoid Greasemonkey's
+	 * restricted `window` object, otherwise the `window` object is used.
+	 */
+	var root = freeGlobal ||
+	  ((freeWindow !== (thisGlobal && thisGlobal.window)) && freeWindow) ||
+	    freeSelf || thisGlobal || Function('return this')();
+
+	/**
+	 * Checks if `value` is a global object.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {null|Object} Returns `value` if it's a global object, else `null`.
+	 */
+	function checkGlobal(value) {
+	  return (value && value.Object === Object) ? value : null;
+	}
+
+	/**
+	 * Checks if `value` is a host object in IE < 9.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is a host object, else `false`.
+	 */
+	function isHostObject(value) {
+	  // Many host objects are `Object` objects that can coerce to strings
+	  // despite having improperly defined `toString` methods.
+	  var result = false;
+	  if (value != null && typeof value.toString != 'function') {
+	    try {
+	      result = !!(value + '');
+	    } catch (e) {}
+	  }
+	  return result;
+	}
+
+	/** Used for built-in method references. */
+	var objectProto = Object.prototype;
+
+	/** Used to resolve the decompiled source of functions. */
+	var funcToString = Function.prototype.toString;
+
+	/** Used to check objects for own properties. */
+	var hasOwnProperty = objectProto.hasOwnProperty;
+
+	/**
+	 * Used to resolve the [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
+	 * of values.
+	 */
+	var objectToString = objectProto.toString;
+
+	/** Used to detect if a method is native. */
+	var reIsNative = RegExp('^' +
+	  funcToString.call(hasOwnProperty).replace(reRegExpChar, '\\$&')
+	  .replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, '$1.*?') + '$'
+	);
+
+	/* Built-in method references that are verified to be native. */
+	var Set = getNative(root, 'Set');
+
+	/**
+	 * Creates a set of `values`.
+	 *
+	 * @private
+	 * @param {Array} values The values to add to the set.
+	 * @returns {Object} Returns the new set.
+	 */
+	var createSet = !(Set && new Set([1, 2]).size === 2) ? noop : function(values) {
+	  return new Set(values);
+	};
+
+	/**
+	 * Gets the native function at `key` of `object`.
+	 *
+	 * @private
+	 * @param {Object} object The object to query.
+	 * @param {string} key The key of the method to get.
+	 * @returns {*} Returns the function if it's native, else `undefined`.
+	 */
+	function getNative(object, key) {
+	  var value = object == null ? undefined : object[key];
+	  return isNative(value) ? value : undefined;
+	}
+
+	/**
+	 * Checks if `value` is classified as a `Function` object.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+	 * @example
+	 *
+	 * _.isFunction(_);
+	 * // => true
+	 *
+	 * _.isFunction(/abc/);
+	 * // => false
+	 */
+	function isFunction(value) {
+	  // The use of `Object#toString` avoids issues with the `typeof` operator
+	  // in Safari 8 which returns 'object' for typed array constructors, and
+	  // PhantomJS 1.9 which returns 'function' for `NodeList` instances.
+	  var tag = isObject(value) ? objectToString.call(value) : '';
+	  return tag == funcTag || tag == genTag;
+	}
+
+	/**
+	 * Checks if `value` is the [language type](https://es5.github.io/#x8) of `Object`.
+	 * (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+	 * @example
+	 *
+	 * _.isObject({});
+	 * // => true
+	 *
+	 * _.isObject([1, 2, 3]);
+	 * // => true
+	 *
+	 * _.isObject(_.noop);
+	 * // => true
+	 *
+	 * _.isObject(null);
+	 * // => false
+	 */
+	function isObject(value) {
+	  var type = typeof value;
+	  return !!value && (type == 'object' || type == 'function');
+	}
+
+	/**
+	 * Checks if `value` is object-like. A value is object-like if it's not `null`
+	 * and has a `typeof` result of "object".
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+	 * @example
+	 *
+	 * _.isObjectLike({});
+	 * // => true
+	 *
+	 * _.isObjectLike([1, 2, 3]);
+	 * // => true
+	 *
+	 * _.isObjectLike(_.noop);
+	 * // => false
+	 *
+	 * _.isObjectLike(null);
+	 * // => false
+	 */
+	function isObjectLike(value) {
+	  return !!value && typeof value == 'object';
+	}
+
+	/**
+	 * Checks if `value` is a native function.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is a native function, else `false`.
+	 * @example
+	 *
+	 * _.isNative(Array.prototype.push);
+	 * // => true
+	 *
+	 * _.isNative(_);
+	 * // => false
+	 */
+	function isNative(value) {
+	  if (value == null) {
+	    return false;
+	  }
+	  if (isFunction(value)) {
+	    return reIsNative.test(funcToString.call(value));
+	  }
+	  return isObjectLike(value) &&
+	    (isHostObject(value) ? reIsNative : reIsHostCtor).test(value);
+	}
+
+	/**
+	 * A no-operation function that returns `undefined` regardless of the
+	 * arguments it receives.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Util
+	 * @example
+	 *
+	 * var object = { 'user': 'fred' };
+	 *
+	 * _.noop(object) === undefined;
+	 * // => true
+	 */
+	function noop() {
+	  // No operation performed.
+	}
+
+	module.exports = createSet;
+
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(22)(module), (function() { return this; }())))
+
+/***/ },
+/* 61 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(52);
+	module.exports = __webpack_require__(62);
 
 /***/ },
-/* 52 */
+/* 62 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -12203,11 +14514,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _utils = __webpack_require__(2);
 
-	var _playback = __webpack_require__(31);
+	var _playback = __webpack_require__(34);
 
 	var _playback2 = _interopRequireDefault(_playback);
 
-	var _styler = __webpack_require__(15);
+	var _styler = __webpack_require__(16);
 
 	var _styler2 = _interopRequireDefault(_styler);
 
@@ -12219,11 +14530,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _style = __webpack_require__(53);
+	var _style = __webpack_require__(63);
 
 	var _style2 = _interopRequireDefault(_style);
 
-	var _clapprZepto = __webpack_require__(16);
+	var _clapprZepto = __webpack_require__(17);
 
 	var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
 
@@ -12350,6 +14661,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    var _this = _possibleConstructorReturn(this, _Playback.call.apply(_Playback, [this].concat(args)));
 
+	    _this._destroyed = false;
 	    _this._loadStarted = false;
 	    _this._playheadMoving = false;
 	    _this._playheadMovingTimer = null;
@@ -12378,7 +14690,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    // https://github.com/clappr/clappr/issues/1076
 	    _this.options.autoPlay && process.nextTick(function () {
-	      return _this.play();
+	      return !_this._destroyed && _this.play();
 	    });
 	    return _this;
 	  }
@@ -12587,6 +14899,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 
 	  HTML5Video.prototype.destroy = function destroy() {
+	    this._destroyed = true;
 	    this.$el.remove();
 	    this.el.src = '';
 	    this._src = null;
@@ -12709,13 +15022,13 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = HTML5Video;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(29)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(32)))
 
 /***/ },
-/* 53 */
+/* 63 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(25)();
+	exports = module.exports = __webpack_require__(28)();
 	// imports
 
 
@@ -12726,15 +15039,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 54 */
+/* 64 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(55);
+	module.exports = __webpack_require__(65);
 
 /***/ },
-/* 55 */
+/* 65 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12747,7 +15060,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _utils = __webpack_require__(2);
 
-	var _base_flash_playback = __webpack_require__(56);
+	var _base_flash_playback = __webpack_require__(66);
 
 	var _base_flash_playback2 = _interopRequireDefault(_base_flash_playback);
 
@@ -12755,15 +15068,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _browser2 = _interopRequireDefault(_browser);
 
-	var _mediator = __webpack_require__(30);
+	var _mediator = __webpack_require__(33);
 
 	var _mediator2 = _interopRequireDefault(_mediator);
 
-	var _template = __webpack_require__(17);
+	var _template = __webpack_require__(18);
 
 	var _template2 = _interopRequireDefault(_template);
 
-	var _clapprZepto = __webpack_require__(16);
+	var _clapprZepto = __webpack_require__(17);
 
 	var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
 
@@ -12771,11 +15084,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _playback = __webpack_require__(31);
+	var _playback = __webpack_require__(34);
 
 	var _playback2 = _interopRequireDefault(_playback);
 
-	var _Player = __webpack_require__(60);
+	var _Player = __webpack_require__(70);
 
 	var _Player2 = _interopRequireDefault(_Player);
 
@@ -13071,7 +15384,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 56 */
+/* 66 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13079,11 +15392,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	exports.default = __webpack_require__(57);
+	exports.default = __webpack_require__(67);
 	module.exports = exports['default'];
 
 /***/ },
-/* 57 */
+/* 67 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13094,15 +15407,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _playback = __webpack_require__(31);
+	var _playback = __webpack_require__(34);
 
 	var _playback2 = _interopRequireDefault(_playback);
 
-	var _styler = __webpack_require__(15);
+	var _styler = __webpack_require__(16);
 
 	var _styler2 = _interopRequireDefault(_styler);
 
-	var _template = __webpack_require__(17);
+	var _template = __webpack_require__(18);
 
 	var _template2 = _interopRequireDefault(_template);
 
@@ -13110,11 +15423,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _browser2 = _interopRequireDefault(_browser);
 
-	var _flash = __webpack_require__(58);
+	var _flash = __webpack_require__(68);
 
 	var _flash2 = _interopRequireDefault(_flash);
 
-	var _flash3 = __webpack_require__(59);
+	var _flash3 = __webpack_require__(69);
 
 	var _flash4 = _interopRequireDefault(_flash3);
 
@@ -13224,16 +15537,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 58 */
+/* 68 */
 /***/ function(module, exports) {
 
 	module.exports = "<param name=\"movie\" value=\"<%= swfPath %>?inline=1\">\n<param name=\"quality\" value=\"autohigh\">\n<param name=\"swliveconnect\" value=\"true\">\n<param name=\"allowScriptAccess\" value=\"always\">\n<param name=\"bgcolor\" value=\"#000000\">\n<param name=\"allowFullScreen\" value=\"false\">\n<param name=\"wmode\" value=\"<%= wmode %>\">\n<param name=\"tabindex\" value=\"1\">\n<param name=\"FlashVars\" value=\"playbackId=<%= playbackId %>&callback=<%= callbackName %>\">\n<embed\n  name=\"<%= cid %>\"\n  type=\"application/x-shockwave-flash\"\n  disabled=\"disabled\"\n  tabindex=\"-1\"\n  enablecontextmenu=\"false\"\n  allowScriptAccess=\"always\"\n  quality=\"autohigh\"\n  pluginspage=\"http://www.macromedia.com/go/getflashplayer\"\n  wmode=\"<%= wmode %>\"\n  swliveconnect=\"true\"\n  allowfullscreen=\"false\"\n  bgcolor=\"#000000\"\n  FlashVars=\"playbackId=<%= playbackId %>&callback=<%= callbackName %>\"\n  src=\"<%= swfPath %>\"\n  width=\"100%\"\n  height=\"100%\">\n</embed>\n";
 
 /***/ },
-/* 59 */
+/* 69 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(25)();
+	exports = module.exports = __webpack_require__(28)();
 	// imports
 
 
@@ -13244,21 +15557,21 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 60 */
+/* 70 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "4b76590b32dab62bc95c1b7951efae78.swf";
 
 /***/ },
-/* 61 */
+/* 71 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(62);
+	module.exports = __webpack_require__(72);
 
 /***/ },
-/* 62 */
+/* 72 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13273,11 +15586,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _playback = __webpack_require__(31);
+	var _playback = __webpack_require__(34);
 
 	var _playback2 = _interopRequireDefault(_playback);
 
-	var _html5_video = __webpack_require__(51);
+	var _html5_video = __webpack_require__(61);
 
 	var _html5_video2 = _interopRequireDefault(_html5_video);
 
@@ -13346,15 +15659,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 63 */
+/* 73 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(64);
+	module.exports = __webpack_require__(74);
 
 /***/ },
-/* 64 */
+/* 74 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13365,7 +15678,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _base_flash_playback = __webpack_require__(56);
+	var _base_flash_playback = __webpack_require__(66);
 
 	var _base_flash_playback2 = _interopRequireDefault(_base_flash_playback);
 
@@ -13373,15 +15686,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _template = __webpack_require__(17);
+	var _template = __webpack_require__(18);
 
 	var _template2 = _interopRequireDefault(_template);
 
-	var _playback = __webpack_require__(31);
+	var _playback = __webpack_require__(34);
 
 	var _playback2 = _interopRequireDefault(_playback);
 
-	var _mediator = __webpack_require__(30);
+	var _mediator = __webpack_require__(33);
 
 	var _mediator2 = _interopRequireDefault(_mediator);
 
@@ -13389,15 +15702,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _browser2 = _interopRequireDefault(_browser);
 
-	var _flashls_events = __webpack_require__(65);
+	var _flashls_events = __webpack_require__(75);
 
 	var _flashls_events2 = _interopRequireDefault(_flashls_events);
 
-	var _HLSPlayer = __webpack_require__(66);
+	var _HLSPlayer = __webpack_require__(76);
 
 	var _HLSPlayer2 = _interopRequireDefault(_HLSPlayer);
 
-	var _clapprZepto = __webpack_require__(16);
+	var _clapprZepto = __webpack_require__(17);
 
 	var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
 
@@ -14173,7 +16486,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 65 */
+/* 75 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -14182,7 +16495,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 
-	var _mediator = __webpack_require__(30);
+	var _mediator = __webpack_require__(33);
 
 	var _mediator2 = _interopRequireDefault(_mediator);
 
@@ -14268,21 +16581,21 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 66 */
+/* 76 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "809981e5b09d5336c45d72d0869ada2a.swf";
 
 /***/ },
-/* 67 */
+/* 77 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(68);
+	module.exports = __webpack_require__(78);
 
 /***/ },
-/* 68 */
+/* 78 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -14293,15 +16606,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _html5_video = __webpack_require__(51);
+	var _html5_video = __webpack_require__(61);
 
 	var _html5_video2 = _interopRequireDefault(_html5_video);
 
-	var _hls = __webpack_require__(69);
+	var _hls = __webpack_require__(79);
 
 	var _hls2 = _interopRequireDefault(_hls);
 
-	var _lodash = __webpack_require__(70);
+	var _lodash = __webpack_require__(80);
 
 	var _lodash2 = _interopRequireDefault(_lodash);
 
@@ -14309,7 +16622,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _playback = __webpack_require__(31);
+	var _playback = __webpack_require__(34);
 
 	var _playback2 = _interopRequireDefault(_playback);
 
@@ -14825,10 +17138,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	        };
 	      } else {
 	        // check if the correlation still works
-	        var _corr = this._localEndTimeCorrelation;
-	        var _timePassed = this._now - _corr.local;
+	        var corr = this._localEndTimeCorrelation;
+	        var timePassed = this._now - corr.local;
 	        // this should point to a time within the extrapolation window from the end
-	        var extrapolatedEndTime = (_corr.remote + _timePassed) / 1000;
+	        var extrapolatedEndTime = (corr.remote + timePassed) / 1000;
 	        if (extrapolatedEndTime > endTime) {
 	          this._localEndTimeCorrelation = {
 	            local: this._now,
@@ -14918,7 +17231,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 69 */
+/* 79 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var require;var require;(function(f){if(true){module.exports=f()}else if(typeof define==="function"&&define.amd){define([],f)}else{var g;if(typeof window!=="undefined"){g=window}else if(typeof global!=="undefined"){g=global}else if(typeof self!=="undefined"){g=self}else{g=this}g.Hls = f()}})(function(){var define,module,exports;return (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return require(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(_dereq_,module,exports){
@@ -14981,8 +17294,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	      er = arguments[1];
 	      if (er instanceof Error) {
 	        throw er; // Unhandled 'error' event
+	      } else {
+	        // At least give some kind of context to the user
+	        var err = new Error('Uncaught, unspecified "error" event. (' + er + ')');
+	        err.context = er;
+	        throw err;
 	      }
-	      throw TypeError('Uncaught, unspecified "error" event.');
 	    }
 	  }
 
@@ -15222,6 +17539,105 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	},{}],2:[function(_dereq_,module,exports){
+	/* jshint ignore:start */
+	(function(root) { 
+	/* jshint ignore:end */
+	  var URLToolkit = {
+	    // build an absolute URL from a relative one using the provided baseURL
+	    // if relativeURL is an absolute URL it will be returned as is.
+	    buildAbsoluteURL: function(baseURL, relativeURL) {
+	      // remove any remaining space and CRLF
+	      relativeURL = relativeURL.trim();
+	      if (/^[a-z]+:/i.test(relativeURL)) {
+	        // complete url, not relative
+	        return relativeURL;
+	      }
+
+	      var relativeURLQuery = null;
+	      var relativeURLHash = null;
+
+	      var relativeURLHashSplit = /^([^#]*)(.*)$/.exec(relativeURL);
+	      if (relativeURLHashSplit) {
+	        relativeURLHash = relativeURLHashSplit[2];
+	        relativeURL = relativeURLHashSplit[1];
+	      }
+	      var relativeURLQuerySplit = /^([^\?]*)(.*)$/.exec(relativeURL);
+	      if (relativeURLQuerySplit) {
+	        relativeURLQuery = relativeURLQuerySplit[2];
+	        relativeURL = relativeURLQuerySplit[1];
+	      }
+
+	      var baseURLHashSplit = /^([^#]*)(.*)$/.exec(baseURL);
+	      if (baseURLHashSplit) {
+	        baseURL = baseURLHashSplit[1];
+	      }
+	      var baseURLQuerySplit = /^([^\?]*)(.*)$/.exec(baseURL);
+	      if (baseURLQuerySplit) {
+	        baseURL = baseURLQuerySplit[1];
+	      }
+
+	      var baseURLDomainSplit = /^(([a-z]+:)?\/\/[a-z0-9\.\-_~]+(:[0-9]+)?)?(\/.*)$/i.exec(baseURL);
+	      if (!baseURLDomainSplit) {
+	        throw new Error('Error trying to parse base URL.');
+	      }
+	      
+	      // e.g. 'http:', 'https:', ''
+	      var baseURLProtocol = baseURLDomainSplit[2] || '';
+	      // e.g. 'http://example.com', '//example.com', ''
+	      var baseURLProtocolDomain = baseURLDomainSplit[1] || '';
+	      // e.g. '/a/b/c/playlist.m3u8'
+	      var baseURLPath = baseURLDomainSplit[4];
+
+	      var builtURL = null;
+	      if (/^\/\//.test(relativeURL)) {
+	        // relative url starts wth '//' so copy protocol (which may be '' if baseUrl didn't provide one)
+	        builtURL = baseURLProtocol+'//'+URLToolkit.buildAbsolutePath('', relativeURL.substring(2));
+	      }
+	      else if (/^\//.test(relativeURL)) {
+	        // relative url starts with '/' so start from root of domain
+	        builtURL = baseURLProtocolDomain+'/'+URLToolkit.buildAbsolutePath('', relativeURL.substring(1));
+	      }
+	      else {
+	        builtURL = URLToolkit.buildAbsolutePath(baseURLProtocolDomain+baseURLPath, relativeURL);
+	      }
+
+	      // put the query and hash parts back
+	      if (relativeURLQuery) {
+	        builtURL += relativeURLQuery;
+	      }
+	      if (relativeURLHash) {
+	        builtURL += relativeURLHash;
+	      }
+	      return builtURL;
+	    },
+
+	    // build an absolute path using the provided basePath
+	    // adapted from https://developer.mozilla.org/en-US/docs/Web/API/document/cookie#Using_relative_URLs_in_the_path_parameter
+	    // this does not handle the case where relativePath is "/" or "//". These cases should be handled outside this.
+	    buildAbsolutePath: function(basePath, relativePath) {
+	      var sRelPath = relativePath;
+	      var nUpLn, sDir = '', sPath = basePath.replace(/[^\/]*$/, sRelPath.replace(/(\/|^)(?:\.?\/+)+/g, '$1'));
+	      for (var nEnd, nStart = 0; nEnd = sPath.indexOf('/../', nStart), nEnd > -1; nStart = nEnd + nUpLn) {
+	        nUpLn = /^\/(?:\.\.\/)*/.exec(sPath.slice(nEnd))[0].length;
+	        sDir = (sDir + sPath.substring(nStart, nEnd)).replace(new RegExp('(?:\\\/+[^\\\/]*){0,' + ((nUpLn - 1) / 3) + '}$'), '/');
+	      }
+	      return sDir + sPath.substr(nStart);
+	    }
+	  };
+
+	/* jshint ignore:start */
+	  if(typeof exports === 'object' && typeof module === 'object')
+	    module.exports = URLToolkit;
+	  else if(typeof define === 'function' && define.amd)
+	    define([], function() { return URLToolkit; });
+	  else if(typeof exports === 'object')
+	    exports["URLToolkit"] = URLToolkit;
+	  else
+	    root["URLToolkit"] = URLToolkit;
+	})(this);
+	/* jshint ignore:end */
+
+	},{}],3:[function(_dereq_,module,exports){
 	var bundleFn = arguments[3];
 	var sources = arguments[4];
 	var cache = arguments[5];
@@ -15304,7 +17720,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return worker;
 	};
 
-	},{}],3:[function(_dereq_,module,exports){
+	},{}],4:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -15313,23 +17729,23 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _events = _dereq_(26);
+	var _events = _dereq_(28);
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _eventHandler = _dereq_(25);
+	var _eventHandler = _dereq_(27);
 
 	var _eventHandler2 = _interopRequireDefault(_eventHandler);
 
-	var _bufferHelper = _dereq_(28);
+	var _bufferHelper = _dereq_(30);
 
 	var _bufferHelper2 = _interopRequireDefault(_bufferHelper);
 
-	var _errors = _dereq_(24);
+	var _errors = _dereq_(26);
 
-	var _logger = _dereq_(43);
+	var _logger = _dereq_(45);
 
-	var _ewmaBandwidthEstimator = _dereq_(8);
+	var _ewmaBandwidthEstimator = _dereq_(9);
 
 	var _ewmaBandwidthEstimator2 = _interopRequireDefault(_ewmaBandwidthEstimator);
 
@@ -15351,7 +17767,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  function AbrController(hls) {
 	    _classCallCheck(this, AbrController);
 
-	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(AbrController).call(this, hls, _events2.default.FRAG_LOADING, _events2.default.FRAG_LOADED, _events2.default.FRAG_BUFFERED, _events2.default.ERROR));
+	    var _this = _possibleConstructorReturn(this, (AbrController.__proto__ || Object.getPrototypeOf(AbrController)).call(this, hls, _events2.default.FRAG_LOADING, _events2.default.FRAG_LOADED, _events2.default.FRAG_BUFFERED, _events2.default.ERROR));
 
 	    _this.lastLoadedFragLevel = 0;
 	    _this._autoLevelCapping = -1;
@@ -15408,7 +17824,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var hls = this.hls,
 	          v = hls.media,
 	          frag = this.fragCurrent,
-	          loader = frag.loader;
+	          loader = frag.loader,
+	          minAutoLevel = this.minAutoLevel;
 
 	      // if loader has been destroyed or loading has been aborted, stop timer and return
 	      if (!loader || loader.stats && loader.stats.aborted) {
@@ -15440,7 +17857,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                nextLoadLevel = void 0;
 	            // lets iterate through lower level and try to find the biggest one that could avoid rebuffering
 	            // we start from current level - 1 and we step down , until we find a matching level
-	            for (nextLoadLevel = frag.level - 1; nextLoadLevel >= 0; nextLoadLevel--) {
+	            for (nextLoadLevel = frag.level - 1; nextLoadLevel > minAutoLevel; nextLoadLevel--) {
 	              // compute time to load next fragment at lower level
 	              // 0.8 : consider only 80% of current bw to be conservative
 	              // 8 = bits per byte (bps/Bps)
@@ -15453,8 +17870,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	            // only emergency switch down if it takes less time to load new fragment at lowest level instead
 	            // of finishing loading current one ...
 	            if (fragLevelNextLoadedDelay < fragLoadedDelay) {
-	              // ensure nextLoadLevel is not negative
-	              nextLoadLevel = Math.max(0, nextLoadLevel);
 	              _logger.logger.warn('loading too slow, abort fragment loading and switch to level ' + nextLoadLevel + ':fragLoadedDelay[' + nextLoadLevel + ']<fragLoadedDelay[' + (frag.level - 1) + '];bufferStarvationDelay:' + fragLevelNextLoadedDelay.toFixed(1) + '<' + fragLoadedDelay.toFixed(1) + ':' + bufferStarvationDelay.toFixed(1));
 	              // force next load level in auto mode
 	              hls.nextLoadLevel = nextLoadLevel;
@@ -15499,7 +17914,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	      // and leading to wrong bw estimation
 	      // on bitrate test, also only update stats once (if tload = tbuffered == on FRAG_LOADED)
 	      if (stats.aborted !== true && frag.loadCounter === 1 && frag.type === 'main' && (!frag.bitrateTest || stats.tload === stats.tbuffered)) {
-	        var fragLoadingProcessingMs = stats.tbuffered - stats.trequest;
+	        // use tparsed-trequest instead of tbuffered-trequest to compute fragLoadingProcessing; rationale is that  buffer appending only happens once media is attached
+	        // in case we use config.startFragPrefetch while media is not attached yet, fragment might be parsed while media not attached yet, but it will only be buffered on media attached
+	        // as a consequence it could happen really late in the process. meaning that appending duration might appears huge ... leading to underestimated throughput estimation
+	        var fragLoadingProcessingMs = stats.tparsed - stats.trequest;
 	        _logger.logger.log('latency/loading/parsing/append/kbps:' + Math.round(stats.tfirst - stats.trequest) + '/' + Math.round(stats.tload - stats.tfirst) + '/' + Math.round(stats.tparsed - stats.tload) + '/' + Math.round(stats.tbuffered - stats.tparsed) + '/' + Math.round(8 * stats.loaded / (stats.tbuffered - stats.trequest)));
 	        this.bwEstimator.sample(fragLoadingProcessingMs, stats.loaded);
 	        // if fragment has been loaded to perform a bitrate test, (hls.startLevel = -1), store bitrate test delay duration
@@ -15541,6 +17959,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        var levelInfo = levels[i],
 	            levelDetails = levelInfo.details,
 	            avgDuration = levelDetails ? levelDetails.totalduration / levelDetails.fragments.length : currentFragDuration,
+	            live = levelDetails ? levelDetails.live : false,
 	            adjustedbw = void 0;
 	        // follow algorithm captured from stagefright :
 	        // https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp
@@ -15559,8 +17978,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	        _logger.logger.trace('level/adjustedbw/bitrate/avgDuration/maxFetchDuration/fetchDuration: ' + i + '/' + Math.round(adjustedbw) + '/' + bitrate + '/' + avgDuration + '/' + maxFetchDuration + '/' + fetchDuration);
 	        // if adjusted bw is greater than level bitrate AND
 	        if (adjustedbw > bitrate && (
-	        // fragment fetchDuration unknown or fragment fetchDuration less than max allowed fetch duration, then this level matches
-	        !fetchDuration || fetchDuration < maxFetchDuration)) {
+	        // fragment fetchDuration unknown OR live stream OR fragment fetchDuration less than max allowed fetch duration, then this level matches
+	        // we don't account for max Fetch Duration for live streams, this is to avoid switching down when near the edge of live sliding window ...
+	        !fetchDuration || live || fetchDuration < maxFetchDuration)) {
 	          // as we are looping from highest to lowest, this will return the best achievable quality level
 
 	          return i;
@@ -15614,8 +18034,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    get: function get() {
 	      var hls = this.hls,
 	          levels = hls.levels,
-	          minAutoBitrate = hls.config.minAutoBitrate;
-	      for (var i = 0; i < levels.length; i++) {
+	          minAutoBitrate = hls.config.minAutoBitrate,
+	          len = levels ? levels.length : 0;
+	      for (var i = 0; i < len; i++) {
 	        if (levels[i].bitrate > minAutoBitrate) {
 	          return i;
 	        }
@@ -15692,7 +18113,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = AbrController;
 
-	},{"24":24,"25":25,"26":26,"28":28,"43":43,"8":8}],4:[function(_dereq_,module,exports){
+	},{"26":26,"27":27,"28":28,"30":30,"45":45,"9":9}],5:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -15701,37 +18122,37 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _binarySearch = _dereq_(39);
+	var _binarySearch = _dereq_(41);
 
 	var _binarySearch2 = _interopRequireDefault(_binarySearch);
 
-	var _bufferHelper = _dereq_(28);
+	var _bufferHelper = _dereq_(30);
 
 	var _bufferHelper2 = _interopRequireDefault(_bufferHelper);
 
-	var _demuxer = _dereq_(20);
+	var _demuxer = _dereq_(22);
 
 	var _demuxer2 = _interopRequireDefault(_demuxer);
 
-	var _events = _dereq_(26);
+	var _events = _dereq_(28);
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _eventHandler = _dereq_(25);
+	var _eventHandler = _dereq_(27);
 
 	var _eventHandler2 = _interopRequireDefault(_eventHandler);
 
-	var _levelHelper = _dereq_(29);
+	var _levelHelper = _dereq_(31);
 
 	var _levelHelper2 = _interopRequireDefault(_levelHelper);
 
-	var _timeRanges = _dereq_(45);
+	var _timeRanges = _dereq_(46);
 
 	var _timeRanges2 = _interopRequireDefault(_timeRanges);
 
-	var _errors = _dereq_(24);
+	var _errors = _dereq_(26);
 
-	var _logger = _dereq_(43);
+	var _logger = _dereq_(45);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -15764,7 +18185,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  function AudioStreamController(hls) {
 	    _classCallCheck(this, AudioStreamController);
 
-	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(AudioStreamController).call(this, hls, _events2.default.MEDIA_ATTACHED, _events2.default.MEDIA_DETACHING, _events2.default.AUDIO_TRACKS_UPDATED, _events2.default.AUDIO_TRACK_SWITCH, _events2.default.AUDIO_TRACK_LOADED, _events2.default.KEY_LOADED, _events2.default.FRAG_LOADED, _events2.default.FRAG_PARSING_INIT_SEGMENT, _events2.default.FRAG_PARSING_DATA, _events2.default.FRAG_PARSED, _events2.default.ERROR, _events2.default.BUFFER_CREATED, _events2.default.BUFFER_APPENDED, _events2.default.BUFFER_FLUSHED));
+	    var _this = _possibleConstructorReturn(this, (AudioStreamController.__proto__ || Object.getPrototypeOf(AudioStreamController)).call(this, hls, _events2.default.MEDIA_ATTACHED, _events2.default.MEDIA_DETACHING, _events2.default.AUDIO_TRACKS_UPDATED, _events2.default.AUDIO_TRACK_SWITCH, _events2.default.AUDIO_TRACK_LOADED, _events2.default.KEY_LOADED, _events2.default.FRAG_LOADED, _events2.default.FRAG_PARSING_INIT_SEGMENT, _events2.default.FRAG_PARSING_DATA, _events2.default.FRAG_PARSED, _events2.default.ERROR, _events2.default.BUFFER_CREATED, _events2.default.BUFFER_APPENDED, _events2.default.BUFFER_FLUSHED));
 
 	    _this.config = hls.config;
 	    _this.audioCodecSwap = false;
@@ -15788,15 +18209,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	    key: 'startLoad',
 	    value: function startLoad(startPosition) {
 	      if (this.tracks) {
-	        var media = this.media,
-	            lastCurrentTime = this.lastCurrentTime;
+	        var lastCurrentTime = this.lastCurrentTime;
 	        this.stopLoad();
 	        if (!this.timer) {
 	          this.timer = setInterval(this.ontick, 100);
 	        }
 	        this.fragLoadError = 0;
-	        if (media && lastCurrentTime) {
-	          _logger.logger.log('configure startPosition @' + lastCurrentTime);
+	        if (lastCurrentTime > 0 && startPosition === -1) {
+	          _logger.logger.log('audio:override startPosition with lastCurrentTime @' + lastCurrentTime.toFixed(3));
 	          this.state = State.IDLE;
 	        } else {
 	          this.lastCurrentTime = this.startPosition ? this.startPosition : startPosition;
@@ -15988,6 +18408,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                frag.loadIdx = this.fragLoadIdx;
 	                this.fragCurrent = frag;
 	                this.startFragRequested = true;
+	                this.nextLoadPosition = frag.start + frag.duration;
 	                hls.trigger(_events2.default.FRAG_LOADING, { frag: frag });
 	                this.state = State.FRAG_LOADING;
 	              }
@@ -16062,7 +18483,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        media.removeEventListener('ended', this.onvended);
 	        this.onvseeking = this.onvseeked = this.onvended = null;
 	      }
-	      this.media = null;
+	      this.media = this.mediaBuffer = null;
 	      this.loadedmetadata = false;
 	      this.stopLoad();
 	    }
@@ -16233,7 +18654,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	            _this2.hls.trigger(_events2.default.BUFFER_APPENDING, { type: data.type, data: buffer, parent: 'audio', content: 'data' });
 	          }
 	        });
-	        this.nextLoadPosition = data.endPTS;
 	        //trigger handler right now
 	        this.tick();
 	      }
@@ -16362,7 +18782,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = AudioStreamController;
 
-	},{"20":20,"24":24,"25":25,"26":26,"28":28,"29":29,"39":39,"43":43,"45":45}],5:[function(_dereq_,module,exports){
+	},{"22":22,"26":26,"27":27,"28":28,"30":30,"31":31,"41":41,"45":45,"46":46}],6:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -16371,15 +18791,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _events = _dereq_(26);
+	var _events = _dereq_(28);
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _eventHandler = _dereq_(25);
+	var _eventHandler = _dereq_(27);
 
 	var _eventHandler2 = _interopRequireDefault(_eventHandler);
 
-	var _logger = _dereq_(43);
+	var _logger = _dereq_(45);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -16397,7 +18817,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  function AudioTrackController(hls) {
 	    _classCallCheck(this, AudioTrackController);
 
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(AudioTrackController).call(this, hls, _events2.default.MANIFEST_LOADING, _events2.default.MANIFEST_LOADED, _events2.default.AUDIO_TRACK_LOADED));
+	    return _possibleConstructorReturn(this, (AudioTrackController.__proto__ || Object.getPrototypeOf(AudioTrackController)).call(this, hls, _events2.default.MANIFEST_LOADING, _events2.default.MANIFEST_LOADED, _events2.default.AUDIO_TRACK_LOADED));
 	  }
 
 	  _createClass(AudioTrackController, [{
@@ -16511,7 +18931,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = AudioTrackController;
 
-	},{"25":25,"26":26,"43":43}],6:[function(_dereq_,module,exports){
+	},{"27":27,"28":28,"45":45}],7:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -16520,17 +18940,17 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _events = _dereq_(26);
+	var _events = _dereq_(28);
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _eventHandler = _dereq_(25);
+	var _eventHandler = _dereq_(27);
 
 	var _eventHandler2 = _interopRequireDefault(_eventHandler);
 
-	var _logger = _dereq_(43);
+	var _logger = _dereq_(45);
 
-	var _errors = _dereq_(24);
+	var _errors = _dereq_(26);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -16550,8 +18970,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    // the value that we have set mediasource.duration to
 	    // (the actual duration may be tweaked slighly by the browser)
-
-	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(BufferController).call(this, hls, _events2.default.MEDIA_ATTACHING, _events2.default.MEDIA_DETACHING, _events2.default.MANIFEST_PARSED, _events2.default.BUFFER_RESET, _events2.default.BUFFER_APPENDING, _events2.default.BUFFER_CODECS, _events2.default.BUFFER_EOS, _events2.default.BUFFER_FLUSHING, _events2.default.LEVEL_UPDATED));
+	    var _this = _possibleConstructorReturn(this, (BufferController.__proto__ || Object.getPrototypeOf(BufferController)).call(this, hls, _events2.default.MEDIA_ATTACHING, _events2.default.MEDIA_DETACHING, _events2.default.MANIFEST_PARSED, _events2.default.BUFFER_RESET, _events2.default.BUFFER_APPENDING, _events2.default.BUFFER_CODECS, _events2.default.BUFFER_EOS, _events2.default.BUFFER_FLUSHING, _events2.default.LEVEL_PTS_UPDATED, _events2.default.LEVEL_UPDATED));
 
 	    _this._msDuration = null;
 	    // the value that we want to set mediaSource.duration to
@@ -16561,6 +18980,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    _this.onsbue = _this.onSBUpdateEnd.bind(_this);
 	    _this.onsbe = _this.onSBUpdateError.bind(_this);
 	    _this.pendingTracks = {};
+	    _this.tracks = {};
 	    return _this;
 	  }
 
@@ -16568,6 +18988,44 @@ return /******/ (function(modules) { // webpackBootstrap
 	    key: 'destroy',
 	    value: function destroy() {
 	      _eventHandler2.default.prototype.destroy.call(this);
+	    }
+	  }, {
+	    key: 'onLevelPtsUpdated',
+	    value: function onLevelPtsUpdated(data) {
+	      var type = data.type;
+	      var audioTrack = this.tracks.audio;
+
+	      // Adjusting `SourceBuffer.timestampOffset` (desired point in the timeline where the next frames should be appended)
+	      // in Chrome browser when we detect MPEG audio container and time delta between level PTS and `SourceBuffer.timestampOffset`
+	      // is greater than 100ms (this is enough to handle seek for VOD or level change for LIVE videos). At the time of change we issue
+	      // `SourceBuffer.abort()` and adjusting `SourceBuffer.timestampOffset` if `SourceBuffer.updating` is false or awaiting `updateend`
+	      // event if SB is in updating state.
+	      // More info here: https://github.com/dailymotion/hls.js/issues/332#issuecomment-257986486
+
+	      if (type === 'audio' && audioTrack && audioTrack.container === 'audio/mpeg') {
+	        // Chrome audio mp3 track
+	        var audioBuffer = this.sourceBuffer.audio;
+	        var delta = Math.abs(audioBuffer.timestampOffset - data.start);
+
+	        // adjust timestamp offset if time delta is greater than 100ms
+	        if (delta > 0.1) {
+	          var updating = audioBuffer.updating;
+
+	          try {
+	            audioBuffer.abort();
+	          } catch (err) {
+	            updating = true;
+	            _logger.logger.warn('can not abort audio buffer: ' + err);
+	          }
+
+	          if (!updating) {
+	            _logger.logger.warn('change mpeg audio timestamp offset from ' + audioBuffer.timestampOffset + ' to ' + data.start);
+	            audioBuffer.timestampOffset = data.start;
+	          } else {
+	            this.audioTimestampOffset = data.start;
+	          }
+	        }
+	      }
 	    }
 	  }, {
 	    key: 'onManifestParsed',
@@ -16627,6 +19085,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        // Detach properly the MediaSource from the HTMLMediaElement as
 	        // suggested in https://github.com/w3c/media-source/issues/53.
 	        if (this.media) {
+	          URL.revokeObjectURL(this.media.src);
 	          this.media.removeAttribute('src');
 	          this.media.load();
 	        }
@@ -16634,6 +19093,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        this.mediaSource = null;
 	        this.media = null;
 	        this.pendingTracks = {};
+	        this.tracks = {};
 	        this.sourceBuffer = {};
 	        this.flushRange = [];
 	        this.segments = [];
@@ -16682,6 +19142,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'onSBUpdateEnd',
 	    value: function onSBUpdateEnd() {
+	      // update timestampOffset
+	      if (this.audioTimestampOffset) {
+	        var audioBuffer = this.sourceBuffer.audio;
+	        _logger.logger.warn('change mpeg audio timestamp offset from ' + audioBuffer.timestampOffset + ' to ' + this.audioTimestampOffset);
+	        audioBuffer.timestampOffset = this.audioTimestampOffset;
+	        delete this.audioTimestampOffset;
+	      }
 
 	      if (this._needsFlush) {
 	        this.doFlush();
@@ -16760,6 +19227,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            var sb = sourceBuffer[trackName] = mediaSource.addSourceBuffer(mimeType);
 	            sb.addEventListener('updateend', this.onsbue);
 	            sb.addEventListener('error', this.onsbe);
+	            this.tracks[trackName] = { codec: codec, container: track.container };
 	            track.buffer = sb;
 	          } catch (err) {
 	            _logger.logger.error('error while trying to add sourceBuffer:' + err.message);
@@ -16821,17 +19289,22 @@ return /******/ (function(modules) { // webpackBootstrap
 	        return;
 	      }
 	      for (var type in sb) {
-	        if (!sb[type].ended) {
+	        var sbobj = sb[type];
+	        if (!sbobj.ended) {
 	          return;
 	        }
-	        if (sb[type].updating) {
+	        if (sbobj.updating) {
 	          this._needsEos = true;
 	          return;
 	        }
 	      }
 	      _logger.logger.log('all media data available, signal endOfStream() to MediaSource and stop loading fragment');
 	      //Notify the media element that it now has all of the media data
-	      mediaSource.endOfStream();
+	      try {
+	        mediaSource.endOfStream();
+	      } catch (e) {
+	        _logger.logger.warn('exception while calling mediaSource.endOfStream()');
+	      }
 	      this._needsEos = false;
 	    }
 	  }, {
@@ -16858,13 +19331,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'updateMediaElementDuration',
 	    value: function updateMediaElementDuration() {
-	      if (this._levelDuration === null) {
-	        return;
-	      }
 	      var media = this.media,
 	          mediaSource = this.mediaSource,
-	          sourceBuffer = this.sourceBuffer;
-	      if (!media || !mediaSource || !sourceBuffer || media.readyState === 0 || mediaSource.readyState !== 'open') {
+	          sourceBuffer = this.sourceBuffer,
+	          levelDuration = this._levelDuration;
+	      if (levelDuration === null || !media || !mediaSource || !sourceBuffer || media.readyState === 0 || mediaSource.readyState !== 'open') {
 	        return;
 	      }
 	      for (var type in sourceBuffer) {
@@ -16877,14 +19348,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	        // initialise to the value that the media source is reporting
 	        this._msDuration = mediaSource.duration;
 	      }
-	      // this._levelDuration was the last value we set.
+	      // levelDuration was the last value we set.
 	      // not using mediaSource.duration as the browser may tweak this value
 	      // only update mediasource duration if its value increase, this is to avoid
-	      // flushing already buffered portion when switching between quality level, as they
-	      if (this._levelDuration > this._msDuration) {
-	        _logger.logger.log('Updating mediasource duration to ' + this._levelDuration);
-	        mediaSource.duration = this._levelDuration;
-	        this._msDuration = this._levelDuration;
+	      // flushing already buffered portion when switching between quality level
+	      if (levelDuration > this._msDuration && levelDuration > media.duration) {
+	        _logger.logger.log('Updating mediasource duration to ' + levelDuration.toFixed(3));
+	        this._msDuration = mediaSource.duration = levelDuration;
 	      }
 	    }
 	  }, {
@@ -17022,28 +19492,32 @@ return /******/ (function(modules) { // webpackBootstrap
 	            // we are going to flush buffer, mark source buffer as 'not ended'
 	            sb.ended = false;
 	            if (!sb.updating) {
-	              for (i = 0; i < sb.buffered.length; i++) {
-	                bufStart = sb.buffered.start(i);
-	                bufEnd = sb.buffered.end(i);
-	                // workaround firefox not able to properly flush multiple buffered range.
-	                if (navigator.userAgent.toLowerCase().indexOf('firefox') !== -1 && endOffset === Number.POSITIVE_INFINITY) {
-	                  flushStart = startOffset;
-	                  flushEnd = endOffset;
-	                } else {
-	                  flushStart = Math.max(bufStart, startOffset);
-	                  flushEnd = Math.min(bufEnd, endOffset);
+	              try {
+	                for (i = 0; i < sb.buffered.length; i++) {
+	                  bufStart = sb.buffered.start(i);
+	                  bufEnd = sb.buffered.end(i);
+	                  // workaround firefox not able to properly flush multiple buffered range.
+	                  if (navigator.userAgent.toLowerCase().indexOf('firefox') !== -1 && endOffset === Number.POSITIVE_INFINITY) {
+	                    flushStart = startOffset;
+	                    flushEnd = endOffset;
+	                  } else {
+	                    flushStart = Math.max(bufStart, startOffset);
+	                    flushEnd = Math.min(bufEnd, endOffset);
+	                  }
+	                  /* sometimes sourcebuffer.remove() does not flush
+	                     the exact expected time range.
+	                     to avoid rounding issues/infinite loop,
+	                     only flush buffer range of length greater than 500ms.
+	                  */
+	                  if (Math.min(flushEnd, bufEnd) - flushStart > 0.5) {
+	                    this.flushBufferCounter++;
+	                    _logger.logger.log('flush ' + type + ' [' + flushStart + ',' + flushEnd + '], of [' + bufStart + ',' + bufEnd + '], pos:' + this.media.currentTime);
+	                    sb.remove(flushStart, flushEnd);
+	                    return false;
+	                  }
 	                }
-	                /* sometimes sourcebuffer.remove() does not flush
-	                   the exact expected time range.
-	                   to avoid rounding issues/infinite loop,
-	                   only flush buffer range of length greater than 500ms.
-	                */
-	                if (Math.min(flushEnd, bufEnd) - flushStart > 0.5) {
-	                  this.flushBufferCounter++;
-	                  _logger.logger.log('flush ' + type + ' [' + flushStart + ',' + flushEnd + '], of [' + bufStart + ',' + bufEnd + '], pos:' + this.media.currentTime);
-	                  sb.remove(flushStart, flushEnd);
-	                  return false;
-	                }
+	              } catch (e) {
+	                _logger.logger.warn('exception while accessing sourcebuffer, it might have been removed from MediaSource');
 	              }
 	            } else {
 	              //logger.log('abort ' + type + ' append in progress');
@@ -17068,7 +19542,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = BufferController;
 
-	},{"24":24,"25":25,"26":26,"43":43}],7:[function(_dereq_,module,exports){
+	},{"26":26,"27":27,"28":28,"45":45}],8:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -17077,11 +19551,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _events = _dereq_(26);
+	var _events = _dereq_(28);
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _eventHandler = _dereq_(25);
+	var _eventHandler = _dereq_(27);
 
 	var _eventHandler2 = _interopRequireDefault(_eventHandler);
 
@@ -17101,7 +19575,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  function CapLevelController(hls) {
 	    _classCallCheck(this, CapLevelController);
 
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(CapLevelController).call(this, hls, _events2.default.FPS_DROP_LEVEL_CAPPING, _events2.default.MEDIA_ATTACHING, _events2.default.MANIFEST_PARSED));
+	    return _possibleConstructorReturn(this, (CapLevelController.__proto__ || Object.getPrototypeOf(CapLevelController)).call(this, hls, _events2.default.FPS_DROP_LEVEL_CAPPING, _events2.default.MEDIA_ATTACHING, _events2.default.MANIFEST_PARSED));
 	  }
 
 	  _createClass(CapLevelController, [{
@@ -17229,7 +19703,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = CapLevelController;
 
-	},{"25":25,"26":26}],8:[function(_dereq_,module,exports){
+	},{"27":27,"28":28}],9:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -17244,7 +19718,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * different half-lives.
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      */
 
-	var _ewma = _dereq_(42);
+	var _ewma = _dereq_(44);
 
 	var _ewma2 = _interopRequireDefault(_ewma);
 
@@ -17305,7 +19779,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = EwmaBandWidthEstimator;
 
-	},{"42":42}],9:[function(_dereq_,module,exports){
+	},{"44":44}],10:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -17314,15 +19788,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _events = _dereq_(26);
+	var _events = _dereq_(28);
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _eventHandler = _dereq_(25);
+	var _eventHandler = _dereq_(27);
 
 	var _eventHandler2 = _interopRequireDefault(_eventHandler);
 
-	var _logger = _dereq_(43);
+	var _logger = _dereq_(45);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -17340,7 +19814,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  function FPSController(hls) {
 	    _classCallCheck(this, FPSController);
 
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(FPSController).call(this, hls, _events2.default.MEDIA_ATTACHING));
+	    return _possibleConstructorReturn(this, (FPSController.__proto__ || Object.getPrototypeOf(FPSController)).call(this, hls, _events2.default.MEDIA_ATTACHING));
 	  }
 
 	  _createClass(FPSController, [{
@@ -17412,7 +19886,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = FPSController;
 
-	},{"25":25,"26":26,"43":43}],10:[function(_dereq_,module,exports){
+	},{"27":27,"28":28,"45":45}],11:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -17421,19 +19895,19 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _events = _dereq_(26);
+	var _events = _dereq_(28);
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _eventHandler = _dereq_(25);
+	var _eventHandler = _dereq_(27);
 
 	var _eventHandler2 = _interopRequireDefault(_eventHandler);
 
-	var _logger = _dereq_(43);
+	var _logger = _dereq_(45);
 
-	var _errors = _dereq_(24);
+	var _errors = _dereq_(26);
 
-	var _bufferHelper = _dereq_(28);
+	var _bufferHelper = _dereq_(30);
 
 	var _bufferHelper2 = _interopRequireDefault(_bufferHelper);
 
@@ -17453,7 +19927,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  function LevelController(hls) {
 	    _classCallCheck(this, LevelController);
 
-	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(LevelController).call(this, hls, _events2.default.MANIFEST_LOADED, _events2.default.LEVEL_LOADED, _events2.default.ERROR));
+	    var _this = _possibleConstructorReturn(this, (LevelController.__proto__ || Object.getPrototypeOf(LevelController)).call(this, hls, _events2.default.MANIFEST_LOADED, _events2.default.LEVEL_LOADED, _events2.default.ERROR));
 
 	    _this.ontick = _this.tick.bind(_this);
 	    _this._manualLevel = _this._autoLevelCapping = -1;
@@ -17489,16 +19963,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var levels0 = [],
 	          levels = [],
 	          bitrateStart,
-	          i,
 	          bitrateSet = {},
 	          videoCodecFound = false,
 	          audioCodecFound = false,
-	          hls = this.hls;
+	          hls = this.hls,
+	          brokenmp4inmp3 = /chrome|firefox/.test(navigator.userAgent.toLowerCase()),
+	          checkSupported = function checkSupported(type, codec) {
+	        return MediaSource.isTypeSupported(type + '/mp4;codecs=' + codec);
+	      };
 
 	      // regroup redundant level together
 	      data.levels.forEach(function (level) {
 	        if (level.videoCodec) {
 	          videoCodecFound = true;
+	        }
+	        // erase audio codec info if browser does not support mp4a.40.34. demuxer will autodetect codec and fallback to mpeg/audio
+	        if (brokenmp4inmp3 && level.audioCodec && level.audioCodec.indexOf('mp4a.40.34') !== -1) {
+	          level.audioCodec = undefined;
 	        }
 	        if (level.audioCodec || level.attrs && level.attrs.AUDIO) {
 	          audioCodecFound = true;
@@ -17524,19 +20005,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	      } else {
 	        levels = levels0;
 	      }
-
 	      // only keep level with supported audio/video codecs
 	      levels = levels.filter(function (level) {
-	        var checkSupportedAudio = function checkSupportedAudio(codec) {
-	          return MediaSource.isTypeSupported('audio/mp4;codecs=' + codec);
-	        };
-	        var checkSupportedVideo = function checkSupportedVideo(codec) {
-	          return MediaSource.isTypeSupported('video/mp4;codecs=' + codec);
-	        };
 	        var audioCodec = level.audioCodec,
 	            videoCodec = level.videoCodec;
-
-	        return (!audioCodec || checkSupportedAudio(audioCodec)) && (!videoCodec || checkSupportedVideo(videoCodec));
+	        return (!audioCodec || checkSupported('audio', audioCodec)) && (!videoCodec || checkSupported('video', videoCodec));
 	      });
 
 	      if (levels.length) {
@@ -17548,14 +20021,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	        });
 	        this._levels = levels;
 	        // find index of first level in sorted levels
-	        for (i = 0; i < levels.length; i++) {
+	        for (var i = 0; i < levels.length; i++) {
 	          if (levels[i].bitrate === bitrateStart) {
 	            this._firstLevel = i;
 	            _logger.logger.log('manifest loaded,' + levels.length + ' level(s) found, first bitrate:' + bitrateStart);
 	            break;
 	          }
 	        }
-	        hls.trigger(_events2.default.MANIFEST_PARSED, { levels: this._levels, firstLevel: this._firstLevel, stats: data.stats, audio: audioCodecFound, video: videoCodecFound, altAudio: data.audioTracks.length > 0 });
+	        hls.trigger(_events2.default.MANIFEST_PARSED, { levels: levels, firstLevel: this._firstLevel, stats: data.stats, audio: audioCodecFound, video: videoCodecFound, altAudio: data.audioTracks.length > 0 });
 	      } else {
 	        hls.trigger(_events2.default.ERROR, { type: _errors.ErrorTypes.MEDIA_ERROR, details: _errors.ErrorDetails.MANIFEST_INCOMPATIBLE_CODECS_ERROR, fatal: true, url: hls.url, reason: 'no level with compatible codecs found in manifest' });
 	      }
@@ -17575,8 +20048,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	        if (this._level !== newLevel) {
 	          _logger.logger.log('switching to level ' + newLevel);
 	          this._level = newLevel;
+	          this.hls.trigger(_events2.default.LEVEL_SWITCH, { level: newLevel });
 	        }
-	        this.hls.trigger(_events2.default.LEVEL_SWITCH, { level: newLevel });
 	        var level = levels[newLevel],
 	            levelDetails = level.details;
 	        // check if we need to load playlist for this level
@@ -17601,7 +20074,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	          hls = this.hls,
 	          levelId = void 0,
 	          level = void 0,
-	          levelError = false;
+	          levelError = false,
+	          abrController = hls.abrController,
+	          minAutoLevel = abrController.minAutoLevel;
 	      // try to recover not fatal errors
 	      switch (details) {
 	        case _errors.ErrorDetails.FRAG_LOAD_ERROR:
@@ -17634,7 +20109,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	          var recoverable = this._manualLevel === -1 && levelId;
 	          if (recoverable) {
 	            _logger.logger.warn('level controller,' + details + ': emergency switch-down for next fragment');
-	            hls.abrController.nextAutoLevel = 0;
+	            abrController.nextAutoLevel = minAutoLevel;
 	          } else if (level && level.details && level.details.live) {
 	            _logger.logger.warn('level controller,' + details + ' on live stream, discard');
 	            if (levelError) {
@@ -17643,28 +20118,27 @@ return /******/ (function(modules) { // webpackBootstrap
 	            }
 	            // other errors are handled by stream controller
 	          } else if (details === _errors.ErrorDetails.LEVEL_LOAD_ERROR || details === _errors.ErrorDetails.LEVEL_LOAD_TIMEOUT) {
-	              var _hls = this.hls,
-	                  media = _hls.media,
+	            var media = hls.media,
 
-	              // 0.5 : tolerance needed as some browsers stalls playback before reaching buffered end
-	              mediaBuffered = media && _bufferHelper2.default.isBuffered(media, media.currentTime) && _bufferHelper2.default.isBuffered(media, media.currentTime + 0.5);
-	              if (mediaBuffered) {
-	                var retryDelay = _hls.config.levelLoadingRetryDelay;
-	                _logger.logger.warn('level controller,' + details + ', but media buffered, retry in ' + retryDelay + 'ms');
-	                this.timer = setTimeout(this.ontick, retryDelay);
-	              } else {
-	                _logger.logger.error('cannot recover ' + details + ' error');
-	                this._level = undefined;
-	                // stopping live reloading timer if any
-	                if (this.timer) {
-	                  clearTimeout(this.timer);
-	                  this.timer = null;
-	                }
-	                // redispatch same error but with fatal set to true
-	                data.fatal = true;
-	                _hls.trigger(_events2.default.ERROR, data);
+	            // 0.5 : tolerance needed as some browsers stalls playback before reaching buffered end
+	            mediaBuffered = media && _bufferHelper2.default.isBuffered(media, media.currentTime) && _bufferHelper2.default.isBuffered(media, media.currentTime + 0.5);
+	            if (mediaBuffered) {
+	              var retryDelay = hls.config.levelLoadingRetryDelay;
+	              _logger.logger.warn('level controller,' + details + ', but media buffered, retry in ' + retryDelay + 'ms');
+	              this.timer = setTimeout(this.ontick, retryDelay);
+	            } else {
+	              _logger.logger.error('cannot recover ' + details + ' error');
+	              this._level = undefined;
+	              // stopping live reloading timer if any
+	              if (this.timer) {
+	                clearTimeout(this.timer);
+	                this.timer = null;
 	              }
+	              // redispatch same error but with fatal set to true
+	              data.fatal = true;
+	              hls.trigger(_events2.default.ERROR, data);
 	            }
+	          }
 	        }
 	      }
 	    }
@@ -17764,6 +20238,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }
 	    },
 	    set: function set(newLevel) {
+	      // if not in autostart level, ensure startLevel is greater than minAutoLevel
+	      if (newLevel !== -1) {
+	        newLevel = Math.max(newLevel, this.hls.abrController.minAutoLevel);
+	      }
 	      this._startLevel = newLevel;
 	    }
 	  }, {
@@ -17788,7 +20266,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = LevelController;
 
-	},{"24":24,"25":25,"26":26,"28":28,"43":43}],11:[function(_dereq_,module,exports){
+	},{"26":26,"27":27,"28":28,"30":30,"45":45}],12:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -17797,37 +20275,37 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _binarySearch = _dereq_(39);
+	var _binarySearch = _dereq_(41);
 
 	var _binarySearch2 = _interopRequireDefault(_binarySearch);
 
-	var _bufferHelper = _dereq_(28);
+	var _bufferHelper = _dereq_(30);
 
 	var _bufferHelper2 = _interopRequireDefault(_bufferHelper);
 
-	var _demuxer = _dereq_(20);
+	var _demuxer = _dereq_(22);
 
 	var _demuxer2 = _interopRequireDefault(_demuxer);
 
-	var _events = _dereq_(26);
+	var _events = _dereq_(28);
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _eventHandler = _dereq_(25);
+	var _eventHandler = _dereq_(27);
 
 	var _eventHandler2 = _interopRequireDefault(_eventHandler);
 
-	var _levelHelper = _dereq_(29);
+	var _levelHelper = _dereq_(31);
 
 	var _levelHelper2 = _interopRequireDefault(_levelHelper);
 
-	var _timeRanges = _dereq_(45);
+	var _timeRanges = _dereq_(46);
 
 	var _timeRanges2 = _interopRequireDefault(_timeRanges);
 
-	var _errors = _dereq_(24);
+	var _errors = _dereq_(26);
 
-	var _logger = _dereq_(43);
+	var _logger = _dereq_(45);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -17842,13 +20320,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	var State = {
 	  STOPPED: 'STOPPED',
 	  IDLE: 'IDLE',
-	  PAUSED: 'PAUSED',
 	  KEY_LOADING: 'KEY_LOADING',
 	  FRAG_LOADING: 'FRAG_LOADING',
 	  FRAG_LOADING_WAITING_RETRY: 'FRAG_LOADING_WAITING_RETRY',
 	  WAITING_LEVEL: 'WAITING_LEVEL',
 	  PARSING: 'PARSING',
 	  PARSED: 'PARSED',
+	  BUFFER_FLUSHING: 'BUFFER_FLUSHING',
 	  ENDED: 'ENDED',
 	  ERROR: 'ERROR'
 	};
@@ -17859,7 +20337,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  function StreamController(hls) {
 	    _classCallCheck(this, StreamController);
 
-	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(StreamController).call(this, hls, _events2.default.MEDIA_ATTACHED, _events2.default.MEDIA_DETACHING, _events2.default.MANIFEST_LOADING, _events2.default.MANIFEST_PARSED, _events2.default.LEVEL_LOADED, _events2.default.KEY_LOADED, _events2.default.FRAG_LOADED, _events2.default.FRAG_LOAD_EMERGENCY_ABORTED, _events2.default.FRAG_PARSING_INIT_SEGMENT, _events2.default.FRAG_PARSING_DATA, _events2.default.FRAG_PARSED, _events2.default.ERROR, _events2.default.AUDIO_TRACK_SWITCH, _events2.default.BUFFER_CREATED, _events2.default.BUFFER_APPENDED, _events2.default.BUFFER_FLUSHED));
+	    var _this = _possibleConstructorReturn(this, (StreamController.__proto__ || Object.getPrototypeOf(StreamController)).call(this, hls, _events2.default.MEDIA_ATTACHED, _events2.default.MEDIA_DETACHING, _events2.default.MANIFEST_LOADING, _events2.default.MANIFEST_PARSED, _events2.default.LEVEL_LOADED, _events2.default.KEY_LOADED, _events2.default.FRAG_LOADED, _events2.default.FRAG_LOAD_EMERGENCY_ABORTED, _events2.default.FRAG_PARSING_INIT_SEGMENT, _events2.default.FRAG_PARSING_DATA, _events2.default.FRAG_PARSED, _events2.default.ERROR, _events2.default.AUDIO_TRACK_SWITCH, _events2.default.BUFFER_CREATED, _events2.default.BUFFER_APPENDED, _events2.default.BUFFER_FLUSHED));
 
 	    _this.config = hls.config;
 	    _this.audioCodecSwap = false;
@@ -17883,8 +20361,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    key: 'startLoad',
 	    value: function startLoad(startPosition) {
 	      if (this.levels) {
-	        var media = this.media,
-	            lastCurrentTime = this.lastCurrentTime,
+	        var lastCurrentTime = this.lastCurrentTime,
 	            hls = this.hls;
 	        this.stopLoad();
 	        if (!this.timer) {
@@ -17892,15 +20369,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	        }
 	        this.level = -1;
 	        this.fragLoadError = 0;
-	        if (media && lastCurrentTime > 0) {
-	          _logger.logger.log('configure startPosition @' + lastCurrentTime.toFixed(3));
-	          if (!this.lastPaused) {
-	            _logger.logger.log('resuming video');
-	            media.play();
-	          }
-	        } else {
-	          this.lastCurrentTime = this.startPosition ? this.startPosition : startPosition;
-	        }
 	        if (!this.startFragRequested) {
 	          // determine load level
 	          var startLevel = hls.startLevel;
@@ -17914,8 +20382,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	          this.level = hls.nextLoadLevel = startLevel;
 	          this.loadedmetadata = false;
 	        }
+	        // if startPosition undefined but lastCurrentTime set, set startPosition to last currentTime
+	        if (lastCurrentTime > 0 && startPosition === -1) {
+	          _logger.logger.log('override startPosition with lastCurrentTime @' + lastCurrentTime.toFixed(3));
+	          startPosition = lastCurrentTime;
+	        }
 	        this.state = State.IDLE;
-	        this.nextLoadPosition = this.startPosition = this.lastCurrentTime;
+	        this.nextLoadPosition = this.startPosition = this.lastCurrentTime = startPosition;
 	        this.tick();
 	      } else {
 	        _logger.logger.warn('cannot start loading as manifest not parsed yet');
@@ -17956,9 +20429,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: function doTick() {
 	      switch (this.state) {
 	        case State.ERROR:
-	        //don't do anything in error state to avoid breaking further ...
-	        case State.PAUSED:
-	          //don't do anything in paused state either ...
+	          //don't do anything in error state to avoid breaking further ...
+	          break;
+	        case State.BUFFER_FLUSHING:
+	          // in buffer flushing state, reset fragLoadError counter
+	          this.fragLoadError = 0;
 	          break;
 	        case State.IDLE:
 	          // when this returns false there was an error and we shall return immediatly
@@ -18014,8 +20489,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	      // if video not attached AND
 	      // start fragment already requested OR start frag prefetch disable
 	      // exit loop
-	      // => if media not attached but start frag prefetch is enabled and start frag not requested yet, we will not exit loop
-	      if (!media && (this.startFragRequested || !config.startFragPrefetch)) {
+	      // => if start level loaded and media not attached but start frag prefetch is enabled and start frag not requested yet, we will not exit loop
+	      if (this.levelLastLoaded !== undefined && !media && (this.startFragRequested || !config.startFragPrefetch)) {
 	        return true;
 	      }
 
@@ -18027,12 +20502,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	        pos = this.nextLoadPosition;
 	      }
 	      // determine next load level
-	      var level = hls.nextLoadLevel;
+	      var level = hls.nextLoadLevel,
+	          levelInfo = this.levels[level],
+	          levelBitrate = levelInfo.bitrate,
+	          maxBufLen = void 0;
 
 	      // compute max Buffer Length that we could get from this load level, based on level bitrate. don't buffer more than 60 MB and more than 30s
-	      var maxBufLen = void 0;
-	      if (this.levels[level].hasOwnProperty('bitrate')) {
-	        maxBufLen = Math.max(8 * config.maxBufferSize / this.levels[level].bitrate, config.maxBufferLength);
+	      if (levelBitrate) {
+	        maxBufLen = Math.max(8 * config.maxBufferSize / levelBitrate, config.maxBufferLength);
 	      } else {
 	        maxBufLen = config.maxBufferLength;
 	      }
@@ -18052,10 +20529,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	      _logger.logger.trace('buffer length of ' + bufferLen.toFixed(3) + ' is below max of ' + maxBufLen.toFixed(3) + '. checking for more payload ...');
 
 	      // set next load level : this will trigger a playlist load if needed
-	      hls.nextLoadLevel = level;
-	      this.level = level;
+	      this.level = hls.nextLoadLevel = level;
 
-	      var levelDetails = this.levels[level].details;
+	      var levelDetails = levelInfo.details;
 	      // if level info not retrieved yet, switch state and wait for level retrieval
 	      // if live playlist, ensure that new playlist has been refreshed to avoid loading/try to load
 	      // a useless and outdated fragment (that might even introduce load error if it is already out of the live playlist)
@@ -18088,9 +20564,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: '_fetchPayloadOrEos',
 	    value: function _fetchPayloadOrEos(_ref) {
-	      var pos = _ref.pos;
-	      var bufferInfo = _ref.bufferInfo;
-	      var levelDetails = _ref.levelDetails;
+	      var pos = _ref.pos,
+	          bufferInfo = _ref.bufferInfo,
+	          levelDetails = _ref.levelDetails;
 
 	      var fragPrevious = this.fragPrevious,
 	          level = this.level,
@@ -18110,6 +20586,12 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      // in case of live playlist we need to ensure that requested position is not located before playlist start
 	      if (levelDetails.live) {
+	        var initialLiveManifestSize = this.config.initialLiveManifestSize;
+	        if (fragLen < initialLiveManifestSize) {
+	          _logger.logger.warn('Can not start playback of a level, reason: not enough fragments ' + fragLen + ' < ' + initialLiveManifestSize);
+	          return false;
+	        }
+
 	        frag = this._ensureFragmentAtLivePoint({ levelDetails: levelDetails, bufferEnd: bufferEnd, start: start, end: end, fragPrevious: fragPrevious, fragments: fragments, fragLen: fragLen });
 	        // if it explicitely returns null don't load any fragment and exit function now
 	        if (frag === null) {
@@ -18132,13 +20614,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: '_ensureFragmentAtLivePoint',
 	    value: function _ensureFragmentAtLivePoint(_ref2) {
-	      var levelDetails = _ref2.levelDetails;
-	      var bufferEnd = _ref2.bufferEnd;
-	      var start = _ref2.start;
-	      var end = _ref2.end;
-	      var fragPrevious = _ref2.fragPrevious;
-	      var fragments = _ref2.fragments;
-	      var fragLen = _ref2.fragLen;
+	      var levelDetails = _ref2.levelDetails,
+	          bufferEnd = _ref2.bufferEnd,
+	          start = _ref2.start,
+	          end = _ref2.end,
+	          fragPrevious = _ref2.fragPrevious,
+	          fragments = _ref2.fragments,
+	          fragLen = _ref2.fragLen;
 
 	      var config = this.hls.config,
 	          media = this.media;
@@ -18197,13 +20679,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: '_findFragment',
 	    value: function _findFragment(_ref3) {
-	      var start = _ref3.start;
-	      var fragPrevious = _ref3.fragPrevious;
-	      var fragLen = _ref3.fragLen;
-	      var fragments = _ref3.fragments;
-	      var bufferEnd = _ref3.bufferEnd;
-	      var end = _ref3.end;
-	      var levelDetails = _ref3.levelDetails;
+	      var start = _ref3.start,
+	          fragPrevious = _ref3.fragPrevious,
+	          fragLen = _ref3.fragLen,
+	          fragments = _ref3.fragments,
+	          bufferEnd = _ref3.bufferEnd,
+	          end = _ref3.end,
+	          levelDetails = _ref3.levelDetails;
 
 	      var config = this.hls.config;
 
@@ -18272,11 +20754,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: '_loadFragmentOrKey',
 	    value: function _loadFragmentOrKey(_ref4) {
-	      var frag = _ref4.frag;
-	      var level = _ref4.level;
-	      var levelDetails = _ref4.levelDetails;
-	      var pos = _ref4.pos;
-	      var bufferEnd = _ref4.bufferEnd;
+	      var frag = _ref4.frag,
+	          level = _ref4.level,
+	          levelDetails = _ref4.levelDetails,
+	          pos = _ref4.pos,
+	          bufferEnd = _ref4.bufferEnd;
 
 	      var hls = this.hls,
 	          config = hls.config;
@@ -18308,6 +20790,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        frag.loadIdx = this.fragLoadIdx;
 	        this.fragCurrent = frag;
 	        this.startFragRequested = true;
+	        this.nextLoadPosition = frag.start + frag.duration;
 	        frag.autoLevel = hls.autoLevelEnabled;
 	        frag.bitrateTest = this.bitrateTest;
 	        hls.trigger(_events2.default.FRAG_LOADING, { frag: frag });
@@ -18406,7 +20889,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	        fragCurrent.loader.abort();
 	      }
 	      this.fragCurrent = null;
-	      this.state = State.PAUSED;
+	      // increase fragment load Index to avoid frag loop loading error after buffer flush
+	      this.fragLoadIdx += 2 * this.config.fragLoadingLoopThreshold;
+	      this.state = State.BUFFER_FLUSHING;
 	      // flush everything
 	      this.hls.trigger(_events2.default.BUFFER_FLUSHING, { startOffset: 0, endOffset: Number.POSITIVE_INFINITY });
 	    }
@@ -18452,7 +20937,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        if (currentRange && currentRange.start > 1) {
 	          // flush buffer preceding current fragment (flush until current fragment start offset)
 	          // minus 1s to avoid video freezing, that could happen if we flush keyframe of current video ...
-	          this.state = State.PAUSED;
+	          this.state = State.BUFFER_FLUSHING;
 	          this.hls.trigger(_events2.default.BUFFER_FLUSHING, { startOffset: 0, endOffset: currentRange.start - 1 });
 	        }
 	        if (!media.paused) {
@@ -18482,7 +20967,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            }
 	            this.fragCurrent = null;
 	            // flush position is the start position of this new buffer
-	            this.state = State.PAUSED;
+	            this.state = State.BUFFER_FLUSHING;
 	            this.hls.trigger(_events2.default.BUFFER_FLUSHING, { startOffset: nextRange.start, endOffset: Number.POSITIVE_INFINITY });
 	          }
 	        }
@@ -18531,7 +21016,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        media.removeEventListener('ended', this.onvended);
 	        this.onvseeking = this.onvseeked = this.onvended = null;
 	      }
-	      this.media = null;
+	      this.media = this.mediaBuffer = null;
 	      this.loadedmetadata = false;
 	      this.stopLoad();
 	    }
@@ -18574,6 +21059,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	      // avoid reporting fragment loop loading error in case user is seeking several times on same position
 	      if (this.state !== State.FRAG_LOADING && this.fragLoadIdx !== undefined) {
 	        this.fragLoadIdx += 2 * config.fragLoadingLoopThreshold;
+	      }
+	      // in case seeking occurs although no media buffered, adjust startPosition and nextLoadPosition to seek target
+	      if (!this.loadedmetadata) {
+	        this.nextLoadPosition = this.startPosition = currentTime;
 	      }
 	      // tick to speed up processing
 	      this.tick();
@@ -18688,6 +21177,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	              this.startPosition = 0;
 	            }
 	          }
+	          this.lastCurrentTime = this.startPosition;
 	        }
 	        this.nextLoadPosition = this.startPosition;
 	      }
@@ -18801,7 +21291,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	            }
 	          }
 	          // HE-AAC is broken on Android, always signal audio codec as AAC even if variant manifest states otherwise
-	          if (ua.indexOf('android') !== -1) {
+	          if (ua.indexOf('android') !== -1 && track.container !== 'audio/mpeg') {
+	            // Exclude mpeg audio
 	            audioCodec = 'mp4a.40.2';
 	            _logger.logger.log('Android: force audio codec to' + audioCodec);
 	          }
@@ -18867,7 +21358,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	        var drift = _levelHelper2.default.updateFragPTSDTS(level.details, frag.sn, data.startPTS, data.endPTS, data.startDTS, data.endDTS),
 	            hls = this.hls;
-	        hls.trigger(_events2.default.LEVEL_PTS_UPDATED, { details: level.details, level: this.level, drift: drift });
+	        hls.trigger(_events2.default.LEVEL_PTS_UPDATED, { details: level.details, level: this.level, drift: drift, type: data.type, start: data.startPTS, end: data.endPTS });
 
 	        // has remuxer dropped video frames located before first keyframe ?
 	        if (data.type === 'video') {
@@ -18881,7 +21372,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	          }
 	        });
 
-	        this.nextLoadPosition = data.endPTS;
 	        this.bufferRange.push({ type: data.type, start: data.startPTS, end: data.endPTS, frag: frag });
 
 	        //trigger handler right now
@@ -19010,6 +21500,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	      switch (data.details) {
 	        case _errors.ErrorDetails.FRAG_LOAD_ERROR:
 	        case _errors.ErrorDetails.FRAG_LOAD_TIMEOUT:
+	        case _errors.ErrorDetails.KEY_LOAD_ERROR:
+	        case _errors.ErrorDetails.KEY_LOAD_TIMEOUT:
 	          if (!data.fatal) {
 	            var loadError = this.fragLoadError;
 	            if (loadError) {
@@ -19018,8 +21510,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	              loadError = 1;
 	            }
 	            var config = this.config;
-	            // keep retrying / don't raise fatal network error if current position is buffered
-	            if (loadError <= config.fragLoadingMaxRetry || mediaBuffered) {
+	            // keep retrying / don't raise fatal network error if current position is buffered or if in automode with current level not 0
+	            if (loadError <= config.fragLoadingMaxRetry || mediaBuffered || frag.autoLevel && frag.level) {
 	              this.fragLoadError = loadError;
 	              // reset load counter to avoid frag loop loading error
 	              frag.loadCounter = 0;
@@ -19060,13 +21552,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	          break;
 	        case _errors.ErrorDetails.LEVEL_LOAD_ERROR:
 	        case _errors.ErrorDetails.LEVEL_LOAD_TIMEOUT:
-	        case _errors.ErrorDetails.KEY_LOAD_ERROR:
-	        case _errors.ErrorDetails.KEY_LOAD_TIMEOUT:
-	          //  when in ERROR state, don't switch back to IDLE state in case a non-fatal error is received
 	          if (this.state !== State.ERROR) {
-	            // if fatal error, stop processing, otherwise move to IDLE to retry loading
-	            this.state = data.fatal ? State.ERROR : State.IDLE;
-	            _logger.logger.warn('mediaController: ' + data.details + ' while loading frag,switch to ' + this.state + ' state ...');
+	            if (data.fatal) {
+	              // if fatal error, stop processing
+	              this.state = State.ERROR;
+	              _logger.logger.warn('streamController: ' + data.details + ',switch to ' + this.state + ' state ...');
+	            } else {
+	              // in cas of non fatal error while waiting level load to be completed, switch back to IDLE
+	              if (this.state === State.WAITING_LEVEL) {
+	                this.state = State.IDLE;
+	              }
+	            }
 	          }
 	          break;
 	        case _errors.ErrorDetails.BUFFER_FULL_ERROR:
@@ -19113,7 +21609,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        var currentTime = media.currentTime,
 	            buffered = media.buffered;
 	        // adjust currentTime to start position on loaded metadata
-	        if (!this.loadedmetadata && buffered.length) {
+	        if (!this.loadedmetadata && buffered.length && !media.seeking) {
 	          this.loadedmetadata = true;
 	          // only adjust currentTime if different from startPosition or if startPosition not buffered
 	          // at that stage, there should be only one buffered range, as we reach that code after first fragment has been buffered
@@ -19294,7 +21790,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = StreamController;
 
-	},{"20":20,"24":24,"25":25,"26":26,"28":28,"29":29,"39":39,"43":43,"45":45}],12:[function(_dereq_,module,exports){
+	},{"22":22,"26":26,"27":27,"28":28,"30":30,"31":31,"41":41,"45":45,"46":46}],13:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -19303,15 +21799,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _events = _dereq_(26);
+	var _events = _dereq_(28);
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _eventHandler = _dereq_(25);
+	var _eventHandler = _dereq_(27);
 
 	var _eventHandler2 = _interopRequireDefault(_eventHandler);
 
-	var _cea608Parser = _dereq_(40);
+	var _cea608Parser = _dereq_(42);
 
 	var _cea608Parser2 = _interopRequireDefault(_cea608Parser);
 
@@ -19331,7 +21827,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  function TimelineController(hls) {
 	    _classCallCheck(this, TimelineController);
 
-	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(TimelineController).call(this, hls, _events2.default.MEDIA_ATTACHING, _events2.default.MEDIA_DETACHING, _events2.default.FRAG_PARSING_USERDATA, _events2.default.MANIFEST_LOADING, _events2.default.FRAG_LOADED, _events2.default.LEVEL_SWITCH));
+	    var _this = _possibleConstructorReturn(this, (TimelineController.__proto__ || Object.getPrototypeOf(TimelineController)).call(this, hls, _events2.default.MEDIA_ATTACHING, _events2.default.MEDIA_DETACHING, _events2.default.FRAG_PARSING_USERDATA, _events2.default.MANIFEST_LOADING, _events2.default.FRAG_LOADED, _events2.default.LEVEL_SWITCH));
 
 	    _this.hls = hls;
 	    _this.config = hls.config;
@@ -19433,7 +21929,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  }, {
 	    key: 'onMediaDetaching',
-	    value: function onMediaDetaching() {}
+	    value: function onMediaDetaching() {
+	      this.clearCurrentCues(this.textTrack1);
+	      this.clearCurrentCues(this.textTrack2);
+	    }
 	  }, {
 	    key: 'onManifestLoading',
 	    value: function onManifestLoading() {
@@ -19467,7 +21966,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: function onFragParsingUserdata(data) {
 	      // push all of the CEA-708 messages into the interpreter
 	      // immediately. It will create the proper timestamps based on our PTS value
-	      if (this.enabled) {
+	      if (this.enabled && this.config.enableCEA708Captions) {
 	        for (var i = 0; i < data.samples.length; i++) {
 	          var ccdatas = this.extractCea608Data(data.samples[i].bytes);
 	          this.cea608Parser.addData(data.samples[i].pts, ccdatas);
@@ -19510,7 +22009,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = TimelineController;
 
-	},{"25":25,"26":26,"40":40}],13:[function(_dereq_,module,exports){
+	},{"27":27,"28":28,"42":42}],14:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -19521,443 +22020,362 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-	/*
-	 *
-	 * This file contains an adaptation of the AES decryption algorithm
-	 * from the Standford Javascript Cryptography Library. That work is
-	 * covered by the following copyright and permissions notice:
-	 *
-	 * Copyright 2009-2010 Emily Stark, Mike Hamburg, Dan Boneh.
-	 * All rights reserved.
-	 *
-	 * Redistribution and use in source and binary forms, with or without
-	 * modification, are permitted provided that the following conditions are
-	 * met:
-	 *
-	 * 1. Redistributions of source code must retain the above copyright
-	 *    notice, this list of conditions and the following disclaimer.
-	 *
-	 * 2. Redistributions in binary form must reproduce the above
-	 *    copyright notice, this list of conditions and the following
-	 *    disclaimer in the documentation and/or other materials provided
-	 *    with the distribution.
-	 *
-	 * THIS SOFTWARE IS PROVIDED BY THE AUTHORS ``AS IS'' AND ANY EXPRESS OR
-	 * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-	 * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-	 * DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> OR CONTRIBUTORS BE
-	 * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
-	 * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
-	 * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
-	 * BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
-	 * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
-	 * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
-	 * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-	 *
-	 * The views and conclusions contained in the software and documentation
-	 * are those of the authors and should not be interpreted as representing
-	 * official policies, either expressed or implied, of the authors.
-	 */
+	var AESCrypto = function () {
+	  function AESCrypto(iv) {
+	    _classCallCheck(this, AESCrypto);
 
-	var AES = function () {
-
-	  /**
-	   * Schedule out an AES key for both encryption and decryption. This
-	   * is a low-level class. Use a cipher mode to do bulk encryption.
-	   *
-	   * @constructor
-	   * @param key {Array} The key as an array of 4, 6 or 8 words.
-	   */
-
-	  function AES(key) {
-	    _classCallCheck(this, AES);
-
-	    /**
-	     * The expanded S-box and inverse S-box tables. These will be computed
-	     * on the client so that we don't have to send them down the wire.
-	     *
-	     * There are two tables, _tables[0] is for encryption and
-	     * _tables[1] is for decryption.
-	     *
-	     * The first 4 sub-tables are the expanded S-box with MixColumns. The
-	     * last (_tables[01][4]) is the S-box itself.
-	     *
-	     * @private
-	     */
-	    this._tables = [[[], [], [], [], []], [[], [], [], [], []]];
-
-	    this._precompute();
-
-	    var i,
-	        j,
-	        tmp,
-	        encKey,
-	        decKey,
-	        sbox = this._tables[0][4],
-	        decTable = this._tables[1],
-	        keyLen = key.length,
-	        rcon = 1;
-
-	    if (keyLen !== 4 && keyLen !== 6 && keyLen !== 8) {
-	      throw new Error('Invalid aes key size=' + keyLen);
-	    }
-
-	    encKey = key.slice(0);
-	    decKey = [];
-	    this._key = [encKey, decKey];
-
-	    // schedule encryption keys
-	    for (i = keyLen; i < 4 * keyLen + 28; i++) {
-	      tmp = encKey[i - 1];
-
-	      // apply sbox
-	      if (i % keyLen === 0 || keyLen === 8 && i % keyLen === 4) {
-	        tmp = sbox[tmp >>> 24] << 24 ^ sbox[tmp >> 16 & 255] << 16 ^ sbox[tmp >> 8 & 255] << 8 ^ sbox[tmp & 255];
-
-	        // shift rows and add rcon
-	        if (i % keyLen === 0) {
-	          tmp = tmp << 8 ^ tmp >>> 24 ^ rcon << 24;
-	          rcon = rcon << 1 ^ (rcon >> 7) * 283;
-	        }
-	      }
-
-	      encKey[i] = encKey[i - keyLen] ^ tmp;
-	    }
-
-	    // schedule decryption keys
-	    for (j = 0; i; j++, i--) {
-	      tmp = encKey[j & 3 ? i : i - 4];
-	      if (i <= 4 || j < 4) {
-	        decKey[j] = tmp;
-	      } else {
-	        decKey[j] = decTable[0][sbox[tmp >>> 24]] ^ decTable[1][sbox[tmp >> 16 & 255]] ^ decTable[2][sbox[tmp >> 8 & 255]] ^ decTable[3][sbox[tmp & 255]];
-	      }
-	    }
+	    this.aesIV = iv;
 	  }
 
-	  /**
-	   * Expand the S-box tables.
-	   *
-	   * @private
-	   */
-
-
-	  _createClass(AES, [{
-	    key: '_precompute',
-	    value: function _precompute() {
-	      var encTable = this._tables[0],
-	          decTable = this._tables[1],
-	          sbox = encTable[4],
-	          sboxInv = decTable[4],
-	          i,
-	          x,
-	          xInv,
-	          d = [],
-	          th = [],
-	          x2,
-	          x4,
-	          x8,
-	          s,
-	          tEnc,
-	          tDec;
-
-	      // Compute double and third tables
-	      for (i = 0; i < 256; i++) {
-	        th[(d[i] = i << 1 ^ (i >> 7) * 283) ^ i] = i;
-	      }
-
-	      for (x = xInv = 0; !sbox[x]; x ^= x2 || 1, xInv = th[xInv] || 1) {
-	        // Compute sbox
-	        s = xInv ^ xInv << 1 ^ xInv << 2 ^ xInv << 3 ^ xInv << 4;
-	        s = s >> 8 ^ s & 255 ^ 99;
-	        sbox[x] = s;
-	        sboxInv[s] = x;
-
-	        // Compute MixColumns
-	        x8 = d[x4 = d[x2 = d[x]]];
-	        tDec = x8 * 0x1010101 ^ x4 * 0x10001 ^ x2 * 0x101 ^ x * 0x1010100;
-	        tEnc = d[s] * 0x101 ^ s * 0x1010100;
-
-	        for (i = 0; i < 4; i++) {
-	          encTable[i][x] = tEnc = tEnc << 24 ^ tEnc >>> 8;
-	          decTable[i][s] = tDec = tDec << 24 ^ tDec >>> 8;
-	        }
-	      }
-
-	      // Compactify. Considerable speedup on Firefox.
-	      for (i = 0; i < 5; i++) {
-	        encTable[i] = encTable[i].slice(0);
-	        decTable[i] = decTable[i].slice(0);
-	      }
-	    }
-
-	    /**
-	     * Decrypt 16 bytes, specified as four 32-bit words.
-	     * @param encrypted0 {number} the first word to decrypt
-	     * @param encrypted1 {number} the second word to decrypt
-	     * @param encrypted2 {number} the third word to decrypt
-	     * @param encrypted3 {number} the fourth word to decrypt
-	     * @param out {Int32Array} the array to write the decrypted words
-	     * into
-	     * @param offset {number} the offset into the output array to start
-	     * writing results
-	     * @return {Array} The plaintext.
-	     */
-
-	  }, {
+	  _createClass(AESCrypto, [{
 	    key: 'decrypt',
-	    value: function decrypt(encrypted0, encrypted1, encrypted2, encrypted3, out, offset) {
-	      var key = this._key[1],
-
-	      // state variables a,b,c,d are loaded with pre-whitened data
-	      a = encrypted0 ^ key[0],
-	          b = encrypted3 ^ key[1],
-	          c = encrypted2 ^ key[2],
-	          d = encrypted1 ^ key[3],
-	          a2,
-	          b2,
-	          c2,
-	          nInnerRounds = key.length / 4 - 2,
-	          // key.length === 2 ?
-	      i,
-	          kIndex = 4,
-	          table = this._tables[1],
-
-
-	      // load up the tables
-	      table0 = table[0],
-	          table1 = table[1],
-	          table2 = table[2],
-	          table3 = table[3],
-	          sbox = table[4];
-
-	      // Inner rounds. Cribbed from OpenSSL.
-	      for (i = 0; i < nInnerRounds; i++) {
-	        a2 = table0[a >>> 24] ^ table1[b >> 16 & 255] ^ table2[c >> 8 & 255] ^ table3[d & 255] ^ key[kIndex];
-	        b2 = table0[b >>> 24] ^ table1[c >> 16 & 255] ^ table2[d >> 8 & 255] ^ table3[a & 255] ^ key[kIndex + 1];
-	        c2 = table0[c >>> 24] ^ table1[d >> 16 & 255] ^ table2[a >> 8 & 255] ^ table3[b & 255] ^ key[kIndex + 2];
-	        d = table0[d >>> 24] ^ table1[a >> 16 & 255] ^ table2[b >> 8 & 255] ^ table3[c & 255] ^ key[kIndex + 3];
-	        kIndex += 4;
-	        a = a2;b = b2;c = c2;
-	      }
-
-	      // Last round.
-	      for (i = 0; i < 4; i++) {
-	        out[(3 & -i) + offset] = sbox[a >>> 24] << 24 ^ sbox[b >> 16 & 255] << 16 ^ sbox[c >> 8 & 255] << 8 ^ sbox[d & 255] ^ key[kIndex++];
-	        a2 = a;a = b;b = c;c = d;d = a2;
-	      }
+	    value: function decrypt(data, key) {
+	      return window.crypto.subtle.decrypt({ name: 'AES-CBC', iv: this.aesIV }, key, data);
 	    }
 	  }]);
 
-	  return AES;
+	  return AESCrypto;
 	}();
 
-	exports.default = AES;
+	exports.default = AESCrypto;
 
-	},{}],14:[function(_dereq_,module,exports){
+	},{}],15:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }(); /*
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      *
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * This file contains an adaptation of the AES decryption algorithm
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * from the Standford Javascript Cryptography Library. That work is
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * covered by the following copyright and permissions notice:
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      *
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * Copyright 2009-2010 Emily Stark, Mike Hamburg, Dan Boneh.
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * All rights reserved.
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      *
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * Redistribution and use in source and binary forms, with or without
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * modification, are permitted provided that the following conditions are
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * met:
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      *
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * 1. Redistributions of source code must retain the above copyright
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      *    notice, this list of conditions and the following disclaimer.
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      *
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * 2. Redistributions in binary form must reproduce the above
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      *    copyright notice, this list of conditions and the following
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      *    disclaimer in the documentation and/or other materials provided
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      *    with the distribution.
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      *
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * THIS SOFTWARE IS PROVIDED BY THE AUTHORS ``AS IS'' AND ANY EXPRESS OR
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> OR CONTRIBUTORS BE
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      *
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * The views and conclusions contained in the software and documentation
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * are those of the authors and should not be interpreted as representing
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * official policies, either expressed or implied, of the authors.
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      */
-
-	var _aes = _dereq_(13);
-
-	var _aes2 = _interopRequireDefault(_aes);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-	var AES128Decrypter = function () {
-	  function AES128Decrypter(key, initVector) {
-	    _classCallCheck(this, AES128Decrypter);
+	var AESDecryptor = function () {
+	  function AESDecryptor() {
+	    _classCallCheck(this, AESDecryptor);
 
-	    this.key = key;
-	    this.iv = initVector;
+	    // Static after running initTable
+	    this.rcon = [0x0, 0x1, 0x2, 0x4, 0x8, 0x10, 0x20, 0x40, 0x80, 0x1b, 0x36];
+
+	    this.subMix = [];
+	    this.subMix[0] = new Uint32Array(256);
+	    this.subMix[1] = new Uint32Array(256);
+	    this.subMix[2] = new Uint32Array(256);
+	    this.subMix[3] = new Uint32Array(256);
+
+	    this.invSubMix = [];
+	    this.invSubMix[0] = new Uint32Array(256);
+	    this.invSubMix[1] = new Uint32Array(256);
+	    this.invSubMix[2] = new Uint32Array(256);
+	    this.invSubMix[3] = new Uint32Array(256);
+
+	    this.sBox = new Uint32Array(256);
+	    this.invSBox = new Uint32Array(256);
+
+	    // Changes during runtime
+	    this.key = new Uint32Array(0);
+
+	    this.initTable();
 	  }
 
-	  /**
-	   * Convert network-order (big-endian) bytes into their little-endian
-	   * representation.
-	   */
+	  // Using view.getUint32() also swaps the byte order.
 
 
-	  _createClass(AES128Decrypter, [{
-	    key: 'ntoh',
-	    value: function ntoh(word) {
-	      return word << 24 | (word & 0xff00) << 8 | (word & 0xff0000) >> 8 | word >>> 24;
+	  _createClass(AESDecryptor, [{
+	    key: 'uint8ArrayToUint32Array_',
+	    value: function uint8ArrayToUint32Array_(arrayBuffer) {
+	      var view = new DataView(arrayBuffer);
+	      var newArray = new Uint32Array(4);
+	      for (var i = 0; i < newArray.length; i++) {
+	        newArray[i] = view.getUint32(i * 4);
+	      }
+	      return newArray;
 	    }
-
-	    /**
-	     * Decrypt bytes using AES-128 with CBC and PKCS#7 padding.
-	     * @param encrypted {Uint8Array} the encrypted bytes
-	     * @param key {Uint32Array} the bytes of the decryption key
-	     * @param initVector {Uint32Array} the initialization vector (IV) to
-	     * use for the first round of CBC.
-	     * @return {Uint8Array} the decrypted bytes
-	     *
-	     * @see http://en.wikipedia.org/wiki/Advanced_Encryption_Standard
-	     * @see http://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Cipher_Block_Chaining_.28CBC.29
-	     * @see https://tools.ietf.org/html/rfc2315
-	     */
-
 	  }, {
-	    key: 'doDecrypt',
-	    value: function doDecrypt(encrypted, key, initVector) {
-	      var
-	      // word-level access to the encrypted bytes
-	      encrypted32 = new Int32Array(encrypted.buffer, encrypted.byteOffset, encrypted.byteLength >> 2),
-	          decipher = new _aes2.default(Array.prototype.slice.call(key)),
+	    key: 'initTable',
+	    value: function initTable() {
+	      var sBox = this.sBox;
+	      var invSBox = this.invSBox;
+	      var subMix0 = this.subMix[0];
+	      var subMix1 = this.subMix[1];
+	      var subMix2 = this.subMix[2];
+	      var subMix3 = this.subMix[3];
+	      var invSubMix0 = this.invSubMix[0];
+	      var invSubMix1 = this.invSubMix[1];
+	      var invSubMix2 = this.invSubMix[2];
+	      var invSubMix3 = this.invSubMix[3];
 
-
-	      // byte and word-level access for the decrypted output
-	      decrypted = new Uint8Array(encrypted.byteLength),
-	          decrypted32 = new Int32Array(decrypted.buffer),
-
-
-	      // temporary variables for working with the IV, encrypted, and
-	      // decrypted data
-	      init0,
-	          init1,
-	          init2,
-	          init3,
-	          encrypted0,
-	          encrypted1,
-	          encrypted2,
-	          encrypted3,
-
-
-	      // iteration variable
-	      wordIx;
-
-	      // pull out the words of the IV to ensure we don't modify the
-	      // passed-in reference and easier access
-	      init0 = ~ ~initVector[0];
-	      init1 = ~ ~initVector[1];
-	      init2 = ~ ~initVector[2];
-	      init3 = ~ ~initVector[3];
-
-	      // decrypt four word sequences, applying cipher-block chaining (CBC)
-	      // to each decrypted block
-	      for (wordIx = 0; wordIx < encrypted32.length; wordIx += 4) {
-	        // convert big-endian (network order) words into little-endian
-	        // (javascript order)
-	        encrypted0 = ~ ~this.ntoh(encrypted32[wordIx]);
-	        encrypted1 = ~ ~this.ntoh(encrypted32[wordIx + 1]);
-	        encrypted2 = ~ ~this.ntoh(encrypted32[wordIx + 2]);
-	        encrypted3 = ~ ~this.ntoh(encrypted32[wordIx + 3]);
-
-	        // decrypt the block
-	        decipher.decrypt(encrypted0, encrypted1, encrypted2, encrypted3, decrypted32, wordIx);
-
-	        // XOR with the IV, and restore network byte-order to obtain the
-	        // plaintext
-	        decrypted32[wordIx] = this.ntoh(decrypted32[wordIx] ^ init0);
-	        decrypted32[wordIx + 1] = this.ntoh(decrypted32[wordIx + 1] ^ init1);
-	        decrypted32[wordIx + 2] = this.ntoh(decrypted32[wordIx + 2] ^ init2);
-	        decrypted32[wordIx + 3] = this.ntoh(decrypted32[wordIx + 3] ^ init3);
-
-	        // setup the IV for the next round
-	        init0 = encrypted0;
-	        init1 = encrypted1;
-	        init2 = encrypted2;
-	        init3 = encrypted3;
+	      var d = new Uint32Array(256);
+	      var x = 0;
+	      var xi = 0;
+	      var i = 0;
+	      for (i = 0; i < 256; i++) {
+	        if (i < 128) {
+	          d[i] = i << 1;
+	        } else {
+	          d[i] = i << 1 ^ 0x11b;
+	        }
 	      }
 
-	      return decrypted;
+	      for (i = 0; i < 256; i++) {
+	        var sx = xi ^ xi << 1 ^ xi << 2 ^ xi << 3 ^ xi << 4;
+	        sx = sx >>> 8 ^ sx & 0xff ^ 0x63;
+	        sBox[x] = sx;
+	        invSBox[sx] = x;
+
+	        // Compute multiplication
+	        var x2 = d[x];
+	        var x4 = d[x2];
+	        var x8 = d[x4];
+
+	        // Compute sub/invSub bytes, mix columns tables
+	        var t = d[sx] * 0x101 ^ sx * 0x1010100;
+	        subMix0[x] = t << 24 | t >>> 8;
+	        subMix1[x] = t << 16 | t >>> 16;
+	        subMix2[x] = t << 8 | t >>> 24;
+	        subMix3[x] = t;
+
+	        // Compute inv sub bytes, inv mix columns tables
+	        t = x8 * 0x1010101 ^ x4 * 0x10001 ^ x2 * 0x101 ^ x * 0x1010100;
+	        invSubMix0[sx] = t << 24 | t >>> 8;
+	        invSubMix1[sx] = t << 16 | t >>> 16;
+	        invSubMix2[sx] = t << 8 | t >>> 24;
+	        invSubMix3[sx] = t;
+
+	        // Compute next counter
+	        if (!x) {
+	          x = xi = 1;
+	        } else {
+	          x = x2 ^ d[d[d[x8 ^ x2]]];
+	          xi ^= d[d[xi]];
+	        }
+	      }
 	    }
 	  }, {
-	    key: 'localDecrypt',
-	    value: function localDecrypt(encrypted, key, initVector, decrypted) {
-	      var bytes = this.doDecrypt(encrypted, key, initVector);
-	      decrypted.set(bytes, encrypted.byteOffset);
+	    key: 'expandKey',
+	    value: function expandKey(keyBuffer) {
+	      // convert keyBuffer to Uint32Array
+	      var key = this.uint8ArrayToUint32Array_(keyBuffer);
+	      var sameKey = true;
+	      var offset = 0;
+
+	      while (offset < key.length && sameKey) {
+	        sameKey = key[offset] === this.key[offset];
+	        offset++;
+	      }
+
+	      if (sameKey) {
+	        return;
+	      }
+
+	      this.key = key;
+	      var keySize = this.keySize = key.length;
+
+	      if (keySize !== 4 && keySize !== 6 && keySize !== 8) {
+	        throw new Error('Invalid aes key size=' + keySize);
+	      }
+
+	      var ksRows = this.ksRows = (keySize + 6 + 1) * 4;
+	      var ksRow = void 0;
+	      var invKsRow = void 0;
+
+	      var keySchedule = this.keySchedule = new Uint32Array(this.ksRows);
+	      var invKeySchedule = this.invKeySchedule = new Uint32Array(this.ksRows);
+	      var sbox = this.sBox;
+	      var rcon = this.rcon;
+
+	      var invSubMix0 = this.invSubMix[0];
+	      var invSubMix1 = this.invSubMix[1];
+	      var invSubMix2 = this.invSubMix[2];
+	      var invSubMix3 = this.invSubMix[3];
+
+	      var prev = void 0;
+	      var t = void 0;
+
+	      for (ksRow = 0; ksRow < ksRows; ksRow++) {
+	        if (ksRow < keySize) {
+	          prev = keySchedule[ksRow] = key[ksRow];
+	          continue;
+	        }
+	        t = prev;
+
+	        if (ksRow % keySize === 0) {
+	          // Rot word
+	          t = t << 8 | t >>> 24;
+
+	          // Sub word
+	          t = sbox[t >>> 24] << 24 | sbox[t >>> 16 & 0xff] << 16 | sbox[t >>> 8 & 0xff] << 8 | sbox[t & 0xff];
+
+	          // Mix Rcon
+	          t ^= rcon[ksRow / keySize | 0] << 24;
+	        } else if (keySize > 6 && ksRow % keySize === 4) {
+	          // Sub word
+	          t = sbox[t >>> 24] << 24 | sbox[t >>> 16 & 0xff] << 16 | sbox[t >>> 8 & 0xff] << 8 | sbox[t & 0xff];
+	        }
+
+	        keySchedule[ksRow] = prev = (keySchedule[ksRow - keySize] ^ t) >>> 0;
+	      }
+
+	      for (invKsRow = 0; invKsRow < ksRows; invKsRow++) {
+	        ksRow = ksRows - invKsRow;
+	        if (invKsRow & 3) {
+	          t = keySchedule[ksRow];
+	        } else {
+	          t = keySchedule[ksRow - 4];
+	        }
+
+	        if (invKsRow < 4 || ksRow <= 4) {
+	          invKeySchedule[invKsRow] = t;
+	        } else {
+	          invKeySchedule[invKsRow] = invSubMix0[sbox[t >>> 24]] ^ invSubMix1[sbox[t >>> 16 & 0xff]] ^ invSubMix2[sbox[t >>> 8 & 0xff]] ^ invSubMix3[sbox[t & 0xff]];
+	        }
+
+	        invKeySchedule[invKsRow] = invKeySchedule[invKsRow] >>> 0;
+	      }
+	    }
+
+	    // Adding this as a method greatly improves performance.
+
+	  }, {
+	    key: 'networkToHostOrderSwap',
+	    value: function networkToHostOrderSwap(word) {
+	      return word << 24 | (word & 0xff00) << 8 | (word & 0xff0000) >> 8 | word >>> 24;
 	    }
 	  }, {
 	    key: 'decrypt',
-	    value: function decrypt(encrypted) {
-	      var step = 4 * 8000,
+	    value: function decrypt(inputArrayBuffer, offset, aesIV) {
+	      var nRounds = this.keySize + 6;
+	      var invKeySchedule = this.invKeySchedule;
+	      var invSBOX = this.invSBox;
 
-	      //encrypted32 = new Int32Array(encrypted.buffer),
-	      encrypted32 = new Int32Array(encrypted),
-	          decrypted = new Uint8Array(encrypted.byteLength),
-	          i = 0;
+	      var invSubMix0 = this.invSubMix[0];
+	      var invSubMix1 = this.invSubMix[1];
+	      var invSubMix2 = this.invSubMix[2];
+	      var invSubMix3 = this.invSubMix[3];
 
-	      // split up the encryption job and do the individual chunks asynchronously
-	      var key = this.key;
-	      var initVector = this.iv;
-	      this.localDecrypt(encrypted32.subarray(i, i + step), key, initVector, decrypted);
+	      var initVector = this.uint8ArrayToUint32Array_(aesIV);
+	      var initVector0 = initVector[0];
+	      var initVector1 = initVector[1];
+	      var initVector2 = initVector[2];
+	      var initVector3 = initVector[3];
 
-	      for (i = step; i < encrypted32.length; i += step) {
-	        initVector = new Uint32Array([this.ntoh(encrypted32[i - 4]), this.ntoh(encrypted32[i - 3]), this.ntoh(encrypted32[i - 2]), this.ntoh(encrypted32[i - 1])]);
-	        this.localDecrypt(encrypted32.subarray(i, i + step), key, initVector, decrypted);
+	      var inputInt32 = new Int32Array(inputArrayBuffer);
+	      var outputInt32 = new Int32Array(inputInt32.length);
+
+	      var t0 = void 0,
+	          t1 = void 0,
+	          t2 = void 0,
+	          t3 = void 0;
+	      var s0 = void 0,
+	          s1 = void 0,
+	          s2 = void 0,
+	          s3 = void 0;
+	      var inputWords0 = void 0,
+	          inputWords1 = void 0,
+	          inputWords2 = void 0,
+	          inputWords3 = void 0;
+
+	      var ksRow, i;
+
+	      while (offset < inputInt32.length) {
+	        inputWords0 = this.networkToHostOrderSwap(inputInt32[offset]);
+	        inputWords1 = this.networkToHostOrderSwap(inputInt32[offset + 1]);
+	        inputWords2 = this.networkToHostOrderSwap(inputInt32[offset + 2]);
+	        inputWords3 = this.networkToHostOrderSwap(inputInt32[offset + 3]);
+
+	        s0 = inputWords0 ^ invKeySchedule[0];
+	        s1 = inputWords3 ^ invKeySchedule[1];
+	        s2 = inputWords2 ^ invKeySchedule[2];
+	        s3 = inputWords1 ^ invKeySchedule[3];
+
+	        ksRow = 4;
+
+	        // Iterate through the rounds of decryption
+	        for (i = 1; i < nRounds; i++) {
+	          t0 = invSubMix0[s0 >>> 24] ^ invSubMix1[s1 >> 16 & 0xff] ^ invSubMix2[s2 >> 8 & 0xff] ^ invSubMix3[s3 & 0xff] ^ invKeySchedule[ksRow];
+	          t1 = invSubMix0[s1 >>> 24] ^ invSubMix1[s2 >> 16 & 0xff] ^ invSubMix2[s3 >> 8 & 0xff] ^ invSubMix3[s0 & 0xff] ^ invKeySchedule[ksRow + 1];
+	          t2 = invSubMix0[s2 >>> 24] ^ invSubMix1[s3 >> 16 & 0xff] ^ invSubMix2[s0 >> 8 & 0xff] ^ invSubMix3[s1 & 0xff] ^ invKeySchedule[ksRow + 2];
+	          t3 = invSubMix0[s3 >>> 24] ^ invSubMix1[s0 >> 16 & 0xff] ^ invSubMix2[s1 >> 8 & 0xff] ^ invSubMix3[s2 & 0xff] ^ invKeySchedule[ksRow + 3];
+	          // Update state
+	          s0 = t0;
+	          s1 = t1;
+	          s2 = t2;
+	          s3 = t3;
+
+	          ksRow = ksRow + 4;
+	        }
+
+	        // Shift rows, sub bytes, add round key
+	        t0 = invSBOX[s0 >>> 24] << 24 ^ invSBOX[s1 >> 16 & 0xff] << 16 ^ invSBOX[s2 >> 8 & 0xff] << 8 ^ invSBOX[s3 & 0xff] ^ invKeySchedule[ksRow];
+	        t1 = invSBOX[s1 >>> 24] << 24 ^ invSBOX[s2 >> 16 & 0xff] << 16 ^ invSBOX[s3 >> 8 & 0xff] << 8 ^ invSBOX[s0 & 0xff] ^ invKeySchedule[ksRow + 1];
+	        t2 = invSBOX[s2 >>> 24] << 24 ^ invSBOX[s3 >> 16 & 0xff] << 16 ^ invSBOX[s0 >> 8 & 0xff] << 8 ^ invSBOX[s1 & 0xff] ^ invKeySchedule[ksRow + 2];
+	        t3 = invSBOX[s3 >>> 24] << 24 ^ invSBOX[s0 >> 16 & 0xff] << 16 ^ invSBOX[s1 >> 8 & 0xff] << 8 ^ invSBOX[s2 & 0xff] ^ invKeySchedule[ksRow + 3];
+	        ksRow = ksRow + 3;
+
+	        // Write
+	        outputInt32[offset] = this.networkToHostOrderSwap(t0 ^ initVector0);
+	        outputInt32[offset + 1] = this.networkToHostOrderSwap(t3 ^ initVector1);
+	        outputInt32[offset + 2] = this.networkToHostOrderSwap(t2 ^ initVector2);
+	        outputInt32[offset + 3] = this.networkToHostOrderSwap(t1 ^ initVector3);
+
+	        // reset initVector to last 4 unsigned int
+	        initVector0 = inputWords0;
+	        initVector1 = inputWords1;
+	        initVector2 = inputWords2;
+	        initVector3 = inputWords3;
+
+	        offset = offset + 4;
 	      }
 
-	      return decrypted;
+	      return outputInt32.buffer;
+	    }
+	  }, {
+	    key: 'destroy',
+	    value: function destroy() {
+	      this.key = undefined;
+	      this.keySize = undefined;
+	      this.ksRows = undefined;
+
+	      this.sBox = undefined;
+	      this.invSBox = undefined;
+	      this.subMix = undefined;
+	      this.invSubMix = undefined;
+	      this.keySchedule = undefined;
+	      this.invKeySchedule = undefined;
+
+	      this.rcon = undefined;
 	    }
 	  }]);
 
-	  return AES128Decrypter;
+	  return AESDecryptor;
 	}();
 
-	exports.default = AES128Decrypter;
+	exports.default = AESDecryptor;
 
-	},{"13":13}],15:[function(_dereq_,module,exports){
+	},{}],16:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }(); /*
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * AES128 decryption.
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      */
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _aes128Decrypter = _dereq_(14);
+	var _aesCrypto = _dereq_(14);
 
-	var _aes128Decrypter2 = _interopRequireDefault(_aes128Decrypter);
+	var _aesCrypto2 = _interopRequireDefault(_aesCrypto);
 
-	var _errors = _dereq_(24);
+	var _fastAesKey = _dereq_(17);
 
-	var _logger = _dereq_(43);
+	var _fastAesKey2 = _interopRequireDefault(_fastAesKey);
+
+	var _aesDecryptor = _dereq_(15);
+
+	var _aesDecryptor2 = _interopRequireDefault(_aesDecryptor);
+
+	var _errors = _dereq_(26);
+
+	var _logger = _dereq_(45);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -19971,52 +22389,46 @@ return /******/ (function(modules) { // webpackBootstrap
 	    try {
 	      var browserCrypto = window ? window.crypto : crypto;
 	      this.subtle = browserCrypto.subtle || browserCrypto.webkitSubtle;
-	      this.disableWebCrypto = !this.subtle;
-	    } catch (e) {
-	      this.disableWebCrypto = true;
-	    }
+	    } catch (e) {}
+
+	    this.disableWebCrypto = !this.supportsWebCrypto();
 	  }
 
 	  _createClass(Decrypter, [{
-	    key: 'destroy',
-	    value: function destroy() {}
+	    key: 'supportsWebCrypto',
+	    value: function supportsWebCrypto() {
+	      return this.subtle && window.location.protocol === 'https:';
+	    }
 	  }, {
 	    key: 'decrypt',
 	    value: function decrypt(data, key, iv, callback) {
-	      if (this.disableWebCrypto && this.hls.config.enableSoftwareAES) {
-	        this.decryptBySoftware(data, key, iv, callback);
-	      } else {
-	        this.decryptByWebCrypto(data, key, iv, callback);
-	      }
-	    }
-	  }, {
-	    key: 'decryptByWebCrypto',
-	    value: function decryptByWebCrypto(data, key, iv, callback) {
 	      var _this = this;
 
-	      _logger.logger.log('decrypting by WebCrypto API');
+	      if (this.disableWebCrypto && this.hls.config.enableSoftwareAES) {
+	        _logger.logger.log('decrypting by JavaScript Implementation');
+	        if (!this.decryptor) {
+	          this.decryptor = new _aesDecryptor2.default();
+	        }
+	        this.decryptor.expandKey(key);
+	        callback(this.decryptor.decrypt(data, 0, iv));
+	      } else {
+	        _logger.logger.log('decrypting by WebCrypto API');
 
-	      this.subtle.importKey('raw', key, { name: 'AES-CBC', length: 128 }, false, ['decrypt']).then(function (importedKey) {
-	        _this.subtle.decrypt({ name: 'AES-CBC', iv: iv.buffer }, importedKey, data).then(callback).catch(function (err) {
+	        if (this.key !== key) {
+	          this.key = key;
+	          this.fastAesKey = new _fastAesKey2.default(key);
+	        }
+
+	        this.fastAesKey.expandKey().then(function (aesKey) {
+	          // decrypt using web crypto
+	          var crypto = new _aesCrypto2.default(iv);
+	          crypto.decrypt(data, aesKey).then(function (result) {
+	            callback(result);
+	          });
+	        }).catch(function (err) {
 	          _this.onWebCryptoError(err, data, key, iv, callback);
 	        });
-	      }).catch(function (err) {
-	        _this.onWebCryptoError(err, data, key, iv, callback);
-	      });
-	    }
-	  }, {
-	    key: 'decryptBySoftware',
-	    value: function decryptBySoftware(data, key8, iv8, callback) {
-	      _logger.logger.log('decrypting by JavaScript Implementation');
-
-	      var view = new DataView(key8.buffer);
-	      var key = new Uint32Array([view.getUint32(0), view.getUint32(4), view.getUint32(8), view.getUint32(12)]);
-
-	      view = new DataView(iv8.buffer);
-	      var iv = new Uint32Array([view.getUint32(0), view.getUint32(4), view.getUint32(8), view.getUint32(12)]);
-
-	      var decrypter = new _aes128Decrypter2.default(key, iv);
-	      callback(decrypter.decrypt(data).buffer);
+	      }
 	    }
 	  }, {
 	    key: 'onWebCryptoError',
@@ -20024,10 +22436,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	      if (this.hls.config.enableSoftwareAES) {
 	        _logger.logger.log('disabling to use WebCrypto API');
 	        this.disableWebCrypto = true;
-	        this.decryptBySoftware(data, key, iv, callback);
+	        this.decrypt(data, key, iv, callback);
 	      } else {
 	        _logger.logger.error('decrypting error : ' + err.message);
 	        this.hls.trigger(Event.ERROR, { type: _errors.ErrorTypes.MEDIA_ERROR, details: _errors.ErrorDetails.FRAG_DECRYPT_ERROR, fatal: true, reason: err.message });
+	      }
+	    }
+	  }, {
+	    key: 'destroy',
+	    value: function destroy() {
+	      if (this.decryptor) {
+	        this.decryptor.destroy();
+	        this.decryptor = undefined;
 	      }
 	    }
 	  }]);
@@ -20037,7 +22457,37 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = Decrypter;
 
-	},{"14":14,"24":24,"43":43}],16:[function(_dereq_,module,exports){
+	},{"14":14,"15":15,"17":17,"26":26,"45":45}],17:[function(_dereq_,module,exports){
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	var FastAESKey = function () {
+	  function FastAESKey(key) {
+	    _classCallCheck(this, FastAESKey);
+
+	    this.key = key;
+	  }
+
+	  _createClass(FastAESKey, [{
+	    key: 'expandKey',
+	    value: function expandKey() {
+	      return window.crypto.subtle.importKey('raw', this.key, { name: 'AES-CBC' }, false, ['encrypt', 'decrypt']);
+	    }
+	  }]);
+
+	  return FastAESKey;
+	}();
+
+	exports.default = FastAESKey;
+
+	},{}],18:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -20049,13 +22499,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      */
 
 
-	var _adts = _dereq_(17);
+	var _adts = _dereq_(19);
 
 	var _adts2 = _interopRequireDefault(_adts);
 
-	var _logger = _dereq_(43);
+	var _logger = _dereq_(45);
 
-	var _id = _dereq_(22);
+	var _id = _dereq_(24);
 
 	var _id2 = _interopRequireDefault(_id);
 
@@ -20064,21 +22514,21 @@ return /******/ (function(modules) { // webpackBootstrap
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 	var AACDemuxer = function () {
-	  function AACDemuxer(observer, id, remuxerClass, config) {
+	  function AACDemuxer(observer, id, remuxerClass, config, typeSupported) {
 	    _classCallCheck(this, AACDemuxer);
 
 	    this.observer = observer;
 	    this.id = id;
 	    this.remuxerClass = remuxerClass;
 	    this.config = config;
-	    this.remuxer = new this.remuxerClass(observer, id, config);
+	    this.remuxer = new this.remuxerClass(observer, id, config, typeSupported);
 	    this.insertDiscontinuity();
 	  }
 
 	  _createClass(AACDemuxer, [{
 	    key: 'insertDiscontinuity',
 	    value: function insertDiscontinuity() {
-	      this._aacTrack = { container: 'audio/adts', type: 'audio', id: -1, sequenceNumber: 0, samples: [], len: 0 };
+	      this._aacTrack = { container: 'audio/adts', type: 'audio', id: -1, sequenceNumber: 0, isAAC: true, samples: [], len: 0 };
 	    }
 	  }, {
 	    key: 'push',
@@ -20192,7 +22642,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = AACDemuxer;
 
-	},{"17":17,"22":22,"43":43}],17:[function(_dereq_,module,exports){
+	},{"19":19,"24":24,"45":45}],19:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -20204,9 +22654,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      */
 
 
-	var _logger = _dereq_(43);
+	var _logger = _dereq_(45);
 
-	var _errors = _dereq_(24);
+	var _errors = _dereq_(26);
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -20256,31 +22706,31 @@ return /******/ (function(modules) { // webpackBootstrap
 	        }
 	        // Android : always use AAC
 	      } else if (userAgent.indexOf('android') !== -1) {
-	          adtsObjectType = 2;
-	          config = new Array(2);
-	          adtsExtensionSampleingIndex = adtsSampleingIndex;
+	        adtsObjectType = 2;
+	        config = new Array(2);
+	        adtsExtensionSampleingIndex = adtsSampleingIndex;
+	      } else {
+	        /*  for other browsers (Chrome/Vivaldi ...)
+	            always force audio type to be HE-AAC SBR, as some browsers do not support audio codec switch properly (like Chrome ...)
+	        */
+	        adtsObjectType = 5;
+	        config = new Array(4);
+	        // if (manifest codec is HE-AAC or HE-AACv2) OR (manifest codec not specified AND frequency less than 24kHz)
+	        if (audioCodec && (audioCodec.indexOf('mp4a.40.29') !== -1 || audioCodec.indexOf('mp4a.40.5') !== -1) || !audioCodec && adtsSampleingIndex >= 6) {
+	          // HE-AAC uses SBR (Spectral Band Replication) , high frequencies are constructed from low frequencies
+	          // there is a factor 2 between frame sample rate and output sample rate
+	          // multiply frequency by 2 (see table below, equivalent to substract 3)
+	          adtsExtensionSampleingIndex = adtsSampleingIndex - 3;
 	        } else {
-	          /*  for other browsers (Chrome/Vivaldi ...)
-	              always force audio type to be HE-AAC SBR, as some browsers do not support audio codec switch properly (like Chrome ...)
-	          */
-	          adtsObjectType = 5;
-	          config = new Array(4);
-	          // if (manifest codec is HE-AAC or HE-AACv2) OR (manifest codec not specified AND frequency less than 24kHz)
-	          if (audioCodec && (audioCodec.indexOf('mp4a.40.29') !== -1 || audioCodec.indexOf('mp4a.40.5') !== -1) || !audioCodec && adtsSampleingIndex >= 6) {
-	            // HE-AAC uses SBR (Spectral Band Replication) , high frequencies are constructed from low frequencies
-	            // there is a factor 2 between frame sample rate and output sample rate
-	            // multiply frequency by 2 (see table below, equivalent to substract 3)
-	            adtsExtensionSampleingIndex = adtsSampleingIndex - 3;
-	          } else {
-	            // if (manifest codec is AAC) AND (frequency less than 24kHz AND nb channel is 1) OR (manifest codec not specified and mono audio)
-	            // Chrome fails to play back with low frequency AAC LC mono when initialized with HE-AAC.  This is not a problem with stereo.
-	            if (audioCodec && audioCodec.indexOf('mp4a.40.2') !== -1 && adtsSampleingIndex >= 6 && adtsChanelConfig === 1 || !audioCodec && adtsChanelConfig === 1) {
-	              adtsObjectType = 2;
-	              config = new Array(2);
-	            }
-	            adtsExtensionSampleingIndex = adtsSampleingIndex;
+	          // if (manifest codec is AAC) AND (frequency less than 24kHz AND nb channel is 1) OR (manifest codec not specified and mono audio)
+	          // Chrome fails to play back with low frequency AAC LC mono when initialized with HE-AAC.  This is not a problem with stereo.
+	          if (audioCodec && audioCodec.indexOf('mp4a.40.2') !== -1 && adtsSampleingIndex >= 6 && adtsChanelConfig === 1 || !audioCodec && adtsChanelConfig === 1) {
+	            adtsObjectType = 2;
+	            config = new Array(2);
 	          }
+	          adtsExtensionSampleingIndex = adtsSampleingIndex;
 	        }
+	      }
 	      /* refer to http://wiki.multimedia.cx/index.php?title=MPEG-4_Audio#Audio_Specific_Config
 	          ISO 14496-3 (AAC).pdf - Table 1.13 — Syntax of AudioSpecificConfig()
 	        Audio Profile / Audio Object Type
@@ -20339,7 +22789,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = ADTS;
 
-	},{"24":24,"43":43}],18:[function(_dereq_,module,exports){
+	},{"26":26,"45":45}],20:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -20350,25 +22800,25 @@ return /******/ (function(modules) { // webpackBootstrap
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      *   probe fragments and instantiate appropriate demuxer depending on content type (TSDemuxer, AACDemuxer, ...)
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      */
 
-	var _events = _dereq_(26);
+	var _events = _dereq_(28);
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _errors = _dereq_(24);
+	var _errors = _dereq_(26);
 
-	var _aacdemuxer = _dereq_(16);
+	var _aacdemuxer = _dereq_(18);
 
 	var _aacdemuxer2 = _interopRequireDefault(_aacdemuxer);
 
-	var _tsdemuxer = _dereq_(23);
+	var _tsdemuxer = _dereq_(25);
 
 	var _tsdemuxer2 = _interopRequireDefault(_tsdemuxer);
 
-	var _mp4Remuxer = _dereq_(36);
+	var _mp4Remuxer = _dereq_(38);
 
 	var _mp4Remuxer2 = _interopRequireDefault(_mp4Remuxer);
 
-	var _passthroughRemuxer = _dereq_(37);
+	var _passthroughRemuxer = _dereq_(39);
 
 	var _passthroughRemuxer2 = _interopRequireDefault(_passthroughRemuxer);
 
@@ -20378,7 +22828,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var DemuxerInline = function () {
 	  function DemuxerInline(hls, id, typeSupported) {
-	    var config = arguments.length <= 3 || arguments[3] === undefined ? null : arguments[3];
+	    var config = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : null;
 
 	    _classCallCheck(this, DemuxerInline);
 
@@ -20402,16 +22852,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var demuxer = this.demuxer;
 	      if (!demuxer) {
 	        var hls = this.hls,
-	            id = this.id;
+	            id = this.id,
+	            config = this.config,
+	            typeSupported = this.typeSupported;
 	        // probe for content type
 	        if (_tsdemuxer2.default.probe(data)) {
 	          if (this.typeSupported.mp2t === true) {
-	            demuxer = new _tsdemuxer2.default(hls, id, _passthroughRemuxer2.default, this.config);
+	            demuxer = new _tsdemuxer2.default(hls, id, _passthroughRemuxer2.default, config, typeSupported);
 	          } else {
-	            demuxer = new _tsdemuxer2.default(hls, id, _mp4Remuxer2.default, this.config);
+	            demuxer = new _tsdemuxer2.default(hls, id, _mp4Remuxer2.default, config, typeSupported);
 	          }
 	        } else if (_aacdemuxer2.default.probe(data)) {
-	          demuxer = new _aacdemuxer2.default(hls, id, _mp4Remuxer2.default, this.config);
+	          demuxer = new _aacdemuxer2.default(hls, id, _mp4Remuxer2.default, config, typeSupported);
 	        } else {
 	          hls.trigger(_events2.default.ERROR, { type: _errors.ErrorTypes.MEDIA_ERROR, id: id, details: _errors.ErrorDetails.FRAG_PARSING_ERROR, fatal: true, reason: 'no demux matching with content found' });
 	          return;
@@ -20427,22 +22879,22 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = DemuxerInline;
 
-	},{"16":16,"23":23,"24":24,"26":26,"36":36,"37":37}],19:[function(_dereq_,module,exports){
+	},{"18":18,"25":25,"26":26,"28":28,"38":38,"39":39}],21:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _demuxerInline = _dereq_(18);
+	var _demuxerInline = _dereq_(20);
 
 	var _demuxerInline2 = _interopRequireDefault(_demuxerInline);
 
-	var _events = _dereq_(26);
+	var _events = _dereq_(28);
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _logger = _dereq_(43);
+	var _logger = _dereq_(45);
 
 	var _events3 = _dereq_(1);
 
@@ -20486,7 +22938,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        var config = JSON.parse(data.config);
 	        self.demuxer = new _demuxerInline2.default(observer, data.id, data.typeSupported, config);
 	        try {
-	          (0, _logger.enableLogs)(config.debug);
+	          (0, _logger.enableLogs)(config.debug === true);
 	        } catch (err) {
 	          console.warn('demuxerWorker: unable to enable logs');
 	        }
@@ -20521,7 +22973,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = DemuxerWorker;
 
-	},{"1":1,"18":18,"26":26,"43":43}],20:[function(_dereq_,module,exports){
+	},{"1":1,"20":20,"28":28,"45":45}],22:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -20530,25 +22982,25 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _events = _dereq_(26);
+	var _events = _dereq_(28);
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _demuxerInline = _dereq_(18);
+	var _demuxerInline = _dereq_(20);
 
 	var _demuxerInline2 = _interopRequireDefault(_demuxerInline);
 
-	var _demuxerWorker = _dereq_(19);
+	var _demuxerWorker = _dereq_(21);
 
 	var _demuxerWorker2 = _interopRequireDefault(_demuxerWorker);
 
-	var _logger = _dereq_(43);
+	var _logger = _dereq_(45);
 
-	var _decrypter = _dereq_(15);
+	var _decrypter = _dereq_(16);
 
 	var _decrypter2 = _interopRequireDefault(_decrypter);
 
-	var _errors = _dereq_(24);
+	var _errors = _dereq_(26);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -20562,13 +23014,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	    this.id = id;
 	    var typeSupported = {
 	      mp4: MediaSource.isTypeSupported('video/mp4'),
-	      mp2t: hls.config.enableMP2TPassThrough && MediaSource.isTypeSupported('video/mp2t')
+	      mp2t: hls.config.enableMP2TPassThrough && MediaSource.isTypeSupported('video/mp2t'),
+	      mpeg: MediaSource.isTypeSupported('audio/mpeg'),
+	      mp3: MediaSource.isTypeSupported('audio/mp4; codecs="mp3"')
 	    };
 	    if (hls.config.enableWorker && typeof Worker !== 'undefined') {
 	      _logger.logger.log('demuxing in webworker');
 	      var w = void 0;
 	      try {
-	        var work = _dereq_(2);
+	        var work = _dereq_(3);
 	        w = this.w = work(_demuxerWorker2.default);
 	        this.onwmsg = this.onWorkerMessage.bind(this);
 	        w.addEventListener('message', this.onwmsg);
@@ -20632,9 +23086,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	        if (this.decrypter == null) {
 	          this.decrypter = new _decrypter2.default(this.hls);
 	        }
-
 	        var localthis = this;
-	        this.decrypter.decrypt(data, decryptdata.key, decryptdata.iv, function (decryptedData) {
+	        var startTime = performance.now();
+	        this.decrypter.decrypt(data, decryptdata.key.buffer, decryptdata.iv.buffer, function (decryptedData) {
+	          localthis.hls.trigger(_events2.default.FRAG_DECRYPTED, { level: level, sn: sn, stats: { tstart: startTime, tdecrypt: performance.now() } });
 	          localthis.pushDecrypted(decryptedData, audioCodec, videoCodec, timeOffset, cc, level, sn, duration, accurateTimeOffset);
 	        });
 	      } else {
@@ -20669,7 +23124,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = Demuxer;
 
-	},{"15":15,"18":18,"19":19,"2":2,"24":24,"26":26,"43":43}],21:[function(_dereq_,module,exports){
+	},{"16":16,"20":20,"21":21,"26":26,"28":28,"3":3,"45":45}],23:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -20680,7 +23135,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * Parser for exponential Golomb codes, a variable-bitwidth number encoding scheme used by h264.
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     */
 
-	var _logger = _dereq_(43);
+	var _logger = _dereq_(45);
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -20690,7 +23145,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    this.data = data;
 	    // the number of bytes left to examine in this.data
-	    this.bytesAvailable = this.data.byteLength;
+	    this.bytesAvailable = data.byteLength;
 	    // the current word being examined
 	    this.word = 0; // :uint
 	    // the number of bits left to examine in the current word
@@ -20703,13 +23158,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	  _createClass(ExpGolomb, [{
 	    key: 'loadWord',
 	    value: function loadWord() {
-	      var position = this.data.byteLength - this.bytesAvailable,
+	      var data = this.data,
+	          bytesAvailable = this.bytesAvailable,
+	          position = data.byteLength - bytesAvailable,
 	          workingBytes = new Uint8Array(4),
-	          availableBytes = Math.min(4, this.bytesAvailable);
+	          availableBytes = Math.min(4, bytesAvailable);
 	      if (availableBytes === 0) {
 	        throw new Error('no bytes available');
 	      }
-	      workingBytes.set(this.data.subarray(position, position + availableBytes));
+	      workingBytes.set(data.subarray(position, position + availableBytes));
 	      this.word = new DataView(workingBytes.buffer).getUint32(0);
 	      // track the amount of this.data that has been processed
 	      this.bitsAvailable = availableBytes * 8;
@@ -20815,8 +23272,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	        // the number is odd if the low order bit is set
 	        return 1 + valu >>> 1; // add 1 to make it even, and divide by 2
 	      } else {
-	          return -1 * (valu >>> 1); // divide by two then make it negative
-	        }
+	        return -1 * (valu >>> 1); // divide by two then make it negative
+	      }
 	    }
 
 	    // Some convenience functions
@@ -20901,72 +23358,81 @@ return /******/ (function(modules) { // webpackBootstrap
 	          picHeightInMapUnitsMinus1,
 	          frameMbsOnlyFlag,
 	          scalingListCount,
-	          i;
-	      this.readUByte();
-	      profileIdc = this.readUByte(); // profile_idc
-	      profileCompat = this.readBits(5); // constraint_set[0-4]_flag, u(5)
-	      this.skipBits(3); // reserved_zero_3bits u(3),
-	      levelIdc = this.readUByte(); //level_idc u(8)
-	      this.skipUEG(); // seq_parameter_set_id
+	          i,
+	          readUByte = this.readUByte.bind(this),
+	          readBits = this.readBits.bind(this),
+	          readUEG = this.readUEG.bind(this),
+	          readBoolean = this.readBoolean.bind(this),
+	          skipBits = this.skipBits.bind(this),
+	          skipEG = this.skipEG.bind(this),
+	          skipUEG = this.skipUEG.bind(this),
+	          skipScalingList = this.skipScalingList.bind(this);
+
+	      readUByte();
+	      profileIdc = readUByte(); // profile_idc
+	      profileCompat = readBits(5); // constraint_set[0-4]_flag, u(5)
+	      skipBits(3); // reserved_zero_3bits u(3),
+	      levelIdc = readUByte(); //level_idc u(8)
+	      skipUEG(); // seq_parameter_set_id
 	      // some profiles have more optional data we don't need
 	      if (profileIdc === 100 || profileIdc === 110 || profileIdc === 122 || profileIdc === 244 || profileIdc === 44 || profileIdc === 83 || profileIdc === 86 || profileIdc === 118 || profileIdc === 128) {
-	        var chromaFormatIdc = this.readUEG();
+	        var chromaFormatIdc = readUEG();
 	        if (chromaFormatIdc === 3) {
-	          this.skipBits(1); // separate_colour_plane_flag
+	          skipBits(1); // separate_colour_plane_flag
 	        }
-	        this.skipUEG(); // bit_depth_luma_minus8
-	        this.skipUEG(); // bit_depth_chroma_minus8
-	        this.skipBits(1); // qpprime_y_zero_transform_bypass_flag
-	        if (this.readBoolean()) {
+	        skipUEG(); // bit_depth_luma_minus8
+	        skipUEG(); // bit_depth_chroma_minus8
+	        skipBits(1); // qpprime_y_zero_transform_bypass_flag
+	        if (readBoolean()) {
 	          // seq_scaling_matrix_present_flag
 	          scalingListCount = chromaFormatIdc !== 3 ? 8 : 12;
 	          for (i = 0; i < scalingListCount; i++) {
-	            if (this.readBoolean()) {
+	            if (readBoolean()) {
 	              // seq_scaling_list_present_flag[ i ]
 	              if (i < 6) {
-	                this.skipScalingList(16);
+	                skipScalingList(16);
 	              } else {
-	                this.skipScalingList(64);
+	                skipScalingList(64);
 	              }
 	            }
 	          }
 	        }
 	      }
-	      this.skipUEG(); // log2_max_frame_num_minus4
-	      var picOrderCntType = this.readUEG();
+	      skipUEG(); // log2_max_frame_num_minus4
+	      var picOrderCntType = readUEG();
 	      if (picOrderCntType === 0) {
-	        this.readUEG(); //log2_max_pic_order_cnt_lsb_minus4
+	        readUEG(); //log2_max_pic_order_cnt_lsb_minus4
 	      } else if (picOrderCntType === 1) {
-	          this.skipBits(1); // delta_pic_order_always_zero_flag
-	          this.skipEG(); // offset_for_non_ref_pic
-	          this.skipEG(); // offset_for_top_to_bottom_field
-	          numRefFramesInPicOrderCntCycle = this.readUEG();
-	          for (i = 0; i < numRefFramesInPicOrderCntCycle; i++) {
-	            this.skipEG(); // offset_for_ref_frame[ i ]
-	          }
+	        skipBits(1); // delta_pic_order_always_zero_flag
+	        skipEG(); // offset_for_non_ref_pic
+	        skipEG(); // offset_for_top_to_bottom_field
+	        numRefFramesInPicOrderCntCycle = readUEG();
+	        for (i = 0; i < numRefFramesInPicOrderCntCycle; i++) {
+	          skipEG(); // offset_for_ref_frame[ i ]
 	        }
-	      this.skipUEG(); // max_num_ref_frames
-	      this.skipBits(1); // gaps_in_frame_num_value_allowed_flag
-	      picWidthInMbsMinus1 = this.readUEG();
-	      picHeightInMapUnitsMinus1 = this.readUEG();
-	      frameMbsOnlyFlag = this.readBits(1);
+	      }
+	      skipUEG(); // max_num_ref_frames
+	      skipBits(1); // gaps_in_frame_num_value_allowed_flag
+	      picWidthInMbsMinus1 = readUEG();
+	      picHeightInMapUnitsMinus1 = readUEG();
+	      frameMbsOnlyFlag = readBits(1);
 	      if (frameMbsOnlyFlag === 0) {
-	        this.skipBits(1); // mb_adaptive_frame_field_flag
+	        skipBits(1); // mb_adaptive_frame_field_flag
 	      }
-	      this.skipBits(1); // direct_8x8_inference_flag
-	      if (this.readBoolean()) {
+	      skipBits(1); // direct_8x8_inference_flag
+	      if (readBoolean()) {
 	        // frame_cropping_flag
-	        frameCropLeftOffset = this.readUEG();
-	        frameCropRightOffset = this.readUEG();
-	        frameCropTopOffset = this.readUEG();
-	        frameCropBottomOffset = this.readUEG();
+	        frameCropLeftOffset = readUEG();
+	        frameCropRightOffset = readUEG();
+	        frameCropTopOffset = readUEG();
+	        frameCropBottomOffset = readUEG();
 	      }
-	      if (this.readBoolean()) {
+	      if (readBoolean()) {
 	        // vui_parameters_present_flag
-	        if (this.readBoolean()) {
+	        if (readBoolean()) {
 	          // aspect_ratio_info_present_flag
 	          var sarRatio = void 0;
-	          var aspectRatioIdc = this.readUByte();
+	          var aspectRatioIdc = readUByte();
 	          switch (aspectRatioIdc) {
 	            case 1:
 	              sarRatio = [1, 1];break;
@@ -21002,7 +23468,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	              sarRatio = [2, 1];break;
 	            case 255:
 	              {
-	                sarRatio = [this.readUByte() << 8 | this.readUByte(), this.readUByte() << 8 | this.readUByte()];
+	                sarRatio = [readUByte() << 8 | readUByte(), readUByte() << 8 | readUByte()];
 	                break;
 	              }
 	          }
@@ -21033,7 +23499,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = ExpGolomb;
 
-	},{"43":43}],22:[function(_dereq_,module,exports){
+	},{"45":45}],24:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -21045,7 +23511,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      */
 
 
-	var _logger = _dereq_(43);
+	var _logger = _dereq_(45);
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -21186,7 +23652,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = ID3;
 
-	},{"43":43}],23:[function(_dereq_,module,exports){
+	},{"45":45}],25:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -21207,36 +23673,37 @@ return /******/ (function(modules) { // webpackBootstrap
 	// import Hex from '../utils/hex';
 
 
-	var _adts = _dereq_(17);
+	var _adts = _dereq_(19);
 
 	var _adts2 = _interopRequireDefault(_adts);
 
-	var _events = _dereq_(26);
+	var _events = _dereq_(28);
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _expGolomb = _dereq_(21);
+	var _expGolomb = _dereq_(23);
 
 	var _expGolomb2 = _interopRequireDefault(_expGolomb);
 
-	var _logger = _dereq_(43);
+	var _logger = _dereq_(45);
 
-	var _errors = _dereq_(24);
+	var _errors = _dereq_(26);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 	var TSDemuxer = function () {
-	  function TSDemuxer(observer, id, remuxerClass, config) {
+	  function TSDemuxer(observer, id, remuxerClass, config, typeSupported) {
 	    _classCallCheck(this, TSDemuxer);
 
 	    this.observer = observer;
 	    this.id = id;
 	    this.remuxerClass = remuxerClass;
 	    this.config = config;
+	    this.typeSupported = typeSupported;
 	    this.lastCC = 0;
-	    this.remuxer = new this.remuxerClass(observer, id, config);
+	    this.remuxer = new this.remuxerClass(observer, id, config, typeSupported);
 	  }
 
 	  _createClass(TSDemuxer, [{
@@ -21245,7 +23712,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      this.pmtParsed = false;
 	      this._pmtId = -1;
 	      this._avcTrack = { container: 'video/mp2t', type: 'video', id: -1, sequenceNumber: 0, samples: [], len: 0, dropped: 0 };
-	      this._aacTrack = { container: 'video/mp2t', type: 'audio', id: -1, sequenceNumber: 0, samples: [], len: 0 };
+	      this._audioTrack = { container: 'video/mp2t', type: 'audio', id: -1, sequenceNumber: 0, samples: [], len: 0, isAAC: true };
 	      this._id3Track = { type: 'id3', id: -1, sequenceNumber: 0, samples: [], len: 0 };
 	      this._txtTrack = { type: 'text', id: -1, sequenceNumber: 0, samples: [], len: 0 };
 	      // flush any partial content
@@ -21297,20 +23764,21 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      var pmtParsed = this.pmtParsed,
 	          avcTrack = this._avcTrack,
-	          aacTrack = this._aacTrack,
+	          audioTrack = this._audioTrack,
 	          id3Track = this._id3Track,
 	          avcId = avcTrack.id,
-	          aacId = aacTrack.id,
+	          audioId = audioTrack.id,
 	          id3Id = id3Track.id,
 	          pmtId = this._pmtId,
 	          avcData = avcTrack.pesData,
-	          aacData = aacTrack.pesData,
+	          audioData = audioTrack.pesData,
 	          id3Data = id3Track.pesData,
 	          parsePAT = this._parsePAT,
 	          parsePMT = this._parsePMT,
 	          parsePES = this._parsePES,
 	          parseAVCPES = this._parseAVCPES.bind(this),
 	          parseAACPES = this._parseAACPES.bind(this),
+	          parseMPEGPES = this._parseMPEGPES.bind(this),
 	          parseID3PES = this._parseID3PES.bind(this);
 
 	      // don't parse last TS packet if incomplete
@@ -21341,7 +23809,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                    // if we have video codec info AND
 	                    // if audio PID is undefined OR if we have audio codec info,
 	                    // we have all codec info !
-	                    if (avcTrack.codec && (aacId === -1 || aacTrack.codec)) {
+	                    if (avcTrack.codec && (audioId === -1 || audioTrack.codec)) {
 	                      this.remux(level, sn, data, timeOffset);
 	                      return;
 	                    }
@@ -21354,25 +23822,29 @@ return /******/ (function(modules) { // webpackBootstrap
 	                avcData.size += start + 188 - offset;
 	              }
 	              break;
-	            case aacId:
+	            case audioId:
 	              if (stt) {
-	                if (aacData && (pes = parsePES(aacData))) {
-	                  parseAACPES(pes);
+	                if (audioData && (pes = parsePES(audioData))) {
+	                  if (audioTrack.isAAC) {
+	                    parseAACPES(pes);
+	                  } else {
+	                    parseMPEGPES(pes);
+	                  }
 	                  if (codecsOnly) {
 	                    // here we now that we have audio codec info
 	                    // if video PID is undefined OR if we have video codec info,
 	                    // we have all codec infos !
-	                    if (aacTrack.codec && (avcId === -1 || avcTrack.codec)) {
+	                    if (audioTrack.codec && (avcId === -1 || avcTrack.codec)) {
 	                      this.remux(level, sn, data, timeOffset);
 	                      return;
 	                    }
 	                  }
 	                }
-	                aacData = { data: [], size: 0 };
+	                audioData = { data: [], size: 0 };
 	              }
-	              if (aacData) {
-	                aacData.data.push(data.subarray(offset, start + 188));
-	                aacData.size += start + 188 - offset;
+	              if (audioData) {
+	                audioData.data.push(data.subarray(offset, start + 188));
+	                audioData.size += start + 188 - offset;
 	              }
 	              break;
 	            case id3Id:
@@ -21397,10 +23869,25 @@ return /******/ (function(modules) { // webpackBootstrap
 	              if (stt) {
 	                offset += data[offset] + 1;
 	              }
-	              var parsedPIDs = parsePMT(data, offset);
-	              avcId = avcTrack.id = parsedPIDs.avc;
-	              aacId = aacTrack.id = parsedPIDs.aac;
-	              id3Id = id3Track.id = parsedPIDs.id3;
+	              var parsedPIDs = parsePMT(data, offset, this.typeSupported.mpeg === true || this.typeSupported.mp3 === true);
+
+	              // only update track id if track PID found while parsing PMT
+	              // this is to avoid resetting the PID to -1 in case
+	              // track PID transiently disappears from the stream
+	              // this could happen in case of transient missing audio samples for example
+	              avcId = parsedPIDs.avc;
+	              if (avcId > 0) {
+	                avcTrack.id = avcId;
+	              }
+	              audioId = parsedPIDs.audio;
+	              if (audioId > 0) {
+	                audioTrack.id = audioId;
+	                audioTrack.isAAC = parsedPIDs.isAAC;
+	              }
+	              id3Id = parsedPIDs.id3;
+	              if (id3Id > 0) {
+	                id3Track.id = id3Id;
+	              }
 	              if (unknownPIDs && !pmtParsed) {
 	                _logger.logger.log('reparse from beginning');
 	                unknownPIDs = false;
@@ -21429,15 +23916,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	        avcTrack.pesData = avcData;
 	      }
 
-	      if (aacData && (pes = parsePES(aacData))) {
-	        parseAACPES(pes);
-	        aacTrack.pesData = null;
+	      if (audioData && (pes = parsePES(audioData))) {
+	        if (audioTrack.isAAC) {
+	          parseAACPES(pes);
+	        } else {
+	          parseMPEGPES(pes);
+	        }
+	        audioTrack.pesData = null;
 	      } else {
-	        if (aacData && aacData.size) {
+	        if (audioData && audioData.size) {
 	          _logger.logger.log('last AAC PES packet truncated,might overlap between fragments');
 	        }
-	        // either aacData null or PES truncated, keep it for next frag parsing
-	        aacTrack.pesData = aacData;
+	        // either audioData null or PES truncated, keep it for next frag parsing
+	        audioTrack.pesData = audioData;
 	      }
 
 	      if (id3Data && (pes = parsePES(id3Data))) {
@@ -21453,25 +23944,26 @@ return /******/ (function(modules) { // webpackBootstrap
 	    key: 'remux',
 	    value: function remux(level, sn, data, timeOffset) {
 	      var avcTrack = this._avcTrack,
-	          samples = avcTrack.samples;
+	          samples = avcTrack.samples,
+	          nbNalu = 0,
+	          naluLen = 0;
 
 	      // compute total/avc sample length and nb of NAL units
-	      var trackData = samples.reduce(function (prevSampleData, curSample) {
-	        var sampleData = curSample.units.units.reduce(function (prevUnitData, curUnit) {
-	          return {
-	            len: prevUnitData.len + curUnit.data.length,
-	            nbNalu: prevUnitData.nbNalu + 1
-	          };
-	        }, { len: 0, nbNalu: 0 });
-	        curSample.length = sampleData.len;
-	        return {
-	          len: prevSampleData.len + sampleData.len,
-	          nbNalu: prevSampleData.nbNalu + sampleData.nbNalu
-	        };
-	      }, { len: 0, nbNalu: 0 });
-	      avcTrack.len = trackData.len;
-	      avcTrack.nbNalu = trackData.nbNalu;
-	      this.remuxer.remux(level, sn, this._aacTrack, this._avcTrack, this._id3Track, this._txtTrack, timeOffset, this.contiguous, this.accurateTimeOffset, data);
+	      for (var i = 0; i < samples.length; i++) {
+	        var sample = samples[i],
+	            units = sample.units.units,
+	            nbUnits = units.length,
+	            sampleLen = 0;
+	        for (var j = 0; j < nbUnits; j++) {
+	          sampleLen += units[j].data.length;
+	        }
+	        naluLen += sampleLen;
+	        nbNalu += nbUnits;
+	        sample.length = sampleLen;
+	      }
+	      avcTrack.len = naluLen;
+	      avcTrack.nbNalu = nbNalu;
+	      this.remuxer.remux(level, sn, this._audioTrack, this._avcTrack, this._id3Track, this._txtTrack, timeOffset, this.contiguous, this.accurateTimeOffset, data);
 	    }
 	  }, {
 	    key: 'destroy',
@@ -21489,12 +23981,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  }, {
 	    key: '_parsePMT',
-	    value: function _parsePMT(data, offset) {
+	    value: function _parsePMT(data, offset, mpegSupported) {
 	      var sectionLength,
 	          tableEnd,
 	          programInfoLength,
 	          pid,
-	          result = { aac: -1, avc: -1, id3: -1 };
+	          result = { audio: -1, avc: -1, id3: -1, isAAC: true };
 	      sectionLength = (data[offset + 1] & 0x0f) << 8 | data[offset + 2];
 	      tableEnd = offset + 3 + sectionLength - 4;
 	      // to determine where the table is, we have to figure out how
@@ -21508,8 +24000,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	          // ISO/IEC 13818-7 ADTS AAC (MPEG-2 lower bit-rate audio)
 	          case 0x0f:
 	            //logger.log('AAC PID:'  + pid);
-	            if (result.aac === -1) {
-	              result.aac = pid;
+	            if (result.audio === -1) {
+	              result.audio = pid;
 	            }
 	            break;
 	          // Packetized metadata (ID3)
@@ -21524,6 +24016,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	            //logger.log('AVC PID:'  + pid);
 	            if (result.avc === -1) {
 	              result.avc = pid;
+	            }
+	            break;
+	          // ISO/IEC 11172-3 (MPEG-1 audio)
+	          // or ISO/IEC 13818-3 (MPEG-2 halved sample rate audio)
+	          case 0x03:
+	          case 0x04:
+	            //logger.log('MPEG PID:'  + pid);
+	            if (!mpegSupported) {
+	              _logger.logger.log('MPEG audio found, not supported in this browser for now');
+	            } else if (result.audio === -1) {
+	              result.audio = pid;
+	              result.isAAC = false;
 	            }
 	            break;
 	          case 0x24:
@@ -21573,9 +24077,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	      pesPrefix = (frag[0] << 16) + (frag[1] << 8) + frag[2];
 	      if (pesPrefix === 1) {
 	        pesLen = (frag[4] << 8) + frag[5];
-	        // if PES len is not zero and not matching with total len, stop parsing. PES might be truncated
+	        // if PES parsed length is not zero and greater than total received length, stop parsing. PES might be truncated
 	        // minus 6 : PES header size
-	        if (pesLen && pesLen !== stream.size - 6) {
+	        if (pesLen && pesLen > stream.size - 6) {
 	          return null;
 	        }
 	        pesFlags = frag[7];
@@ -21645,7 +24149,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'pushAccesUnit',
 	    value: function pushAccesUnit(avcSample, avcTrack) {
-	      if (avcSample.units.units.length) {
+	      if (avcSample.units.units.length && avcSample.frame) {
 	        // only push AVC sample if starting with a keyframe is not mandatory OR
 	        //    if keyframe already found in this fragment OR
 	        //       keyframe found in last fragment (track.sps) AND
@@ -21685,6 +24189,20 @@ return /******/ (function(modules) { // webpackBootstrap
 	            if (debug && avcSample) {
 	              avcSample.debug += 'NDR ';
 	            }
+	            avcSample.frame = true;
+	            // retrieve slice type by parsing beginning of NAL unit (follow H264 spec, slice_header definition) to detect keyframe embedded in NDR
+	            var data = unit.data;
+	            if (data.length > 1) {
+	              var sliceType = new _expGolomb2.default(data).readSliceType();
+	              // 2 : I slice, 4 : SI slice, 7 : I slice, 9: SI slice
+	              // SI slice : A slice that is coded using intra prediction only and using quantisation of the prediction samples.
+	              // An SI slice can be coded such that its decoded samples can be constructed identically to an SP slice.
+	              // I slice: A slice that is not an SI slice that is decoded using intra prediction only.
+	              //if (sliceType === 2 || sliceType === 7) {
+	              if (sliceType === 2 || sliceType === 4 || sliceType === 7 || sliceType === 9) {
+	                avcSample.key = true;
+	              }
+	            }
 	            break;
 	          //IDR
 	          case 5:
@@ -21697,6 +24215,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	              avcSample.debug += 'IDR ';
 	            }
 	            avcSample.key = true;
+	            avcSample.frame = true;
 	            break;
 	          //SEI
 	          case 6:
@@ -22040,7 +24559,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: '_parseAACPES',
 	    value: function _parseAACPES(pes) {
-	      var track = this._aacTrack,
+	      var track = this._audioTrack,
 	          data = pes.data,
 	          pts = pes.pts,
 	          startOffset = 0,
@@ -22136,10 +24655,93 @@ return /******/ (function(modules) { // webpackBootstrap
 	        aacOverFlow = data.subarray(offset, len);
 	        //logger.log(`AAC: overflow detected:${len-offset}`);
 	      } else {
-	          aacOverFlow = null;
-	        }
+	        aacOverFlow = null;
+	      }
 	      this.aacOverFlow = aacOverFlow;
 	      this.aacLastPTS = stamp;
+	    }
+	  }, {
+	    key: '_parseMPEGPES',
+	    value: function _parseMPEGPES(pes) {
+	      var data = pes.data;
+	      var pts = pes.pts;
+	      var length = data.length;
+	      var frameIndex = 0;
+	      var offset = 0;
+	      var parsed;
+
+	      while (offset < length && (parsed = this._parseMpeg(data, offset, length, frameIndex++, pts)) > 0) {
+	        offset += parsed;
+	      }
+	    }
+	  }, {
+	    key: '_onMpegFrame',
+	    value: function _onMpegFrame(data, bitRate, sampleRate, channelCount, frameIndex, pts) {
+	      var frameDuration = 1152 / sampleRate * 1000;
+	      var stamp = pts + frameIndex * frameDuration;
+	      var track = this._audioTrack;
+
+	      track.config = [];
+	      track.channelCount = channelCount;
+	      track.audiosamplerate = sampleRate;
+	      track.duration = this._duration;
+	      track.samples.push({ unit: data, pts: stamp, dts: stamp });
+	      track.len += data.length;
+	    }
+	  }, {
+	    key: '_onMpegNoise',
+	    value: function _onMpegNoise(data) {
+	      _logger.logger.warn('mpeg audio has noise: ' + data.length + ' bytes');
+	    }
+	  }, {
+	    key: '_parseMpeg',
+	    value: function _parseMpeg(data, start, end, frameIndex, pts) {
+	      var BitratesMap = [32, 64, 96, 128, 160, 192, 224, 256, 288, 320, 352, 384, 416, 448, 32, 48, 56, 64, 80, 96, 112, 128, 160, 192, 224, 256, 320, 384, 32, 40, 48, 56, 64, 80, 96, 112, 128, 160, 192, 224, 256, 320, 32, 48, 56, 64, 80, 96, 112, 128, 144, 160, 176, 192, 224, 256, 8, 16, 24, 32, 40, 48, 56, 64, 80, 96, 112, 128, 144, 160];
+	      var SamplingRateMap = [44100, 48000, 32000, 22050, 24000, 16000, 11025, 12000, 8000];
+
+	      if (start + 2 > end) {
+	        return -1; // we need at least 2 bytes to detect sync pattern
+	      }
+	      if (data[start] === 0xFF || (data[start + 1] & 0xE0) === 0xE0) {
+	        // Using http://www.datavoyage.com/mpgscript/mpeghdr.htm as a reference
+	        if (start + 24 > end) {
+	          return -1;
+	        }
+	        var headerB = data[start + 1] >> 3 & 3;
+	        var headerC = data[start + 1] >> 1 & 3;
+	        var headerE = data[start + 2] >> 4 & 15;
+	        var headerF = data[start + 2] >> 2 & 3;
+	        var headerG = !!(data[start + 2] & 2);
+	        if (headerB !== 1 && headerE !== 0 && headerE !== 15 && headerF !== 3) {
+	          var columnInBitrates = headerB === 3 ? 3 - headerC : headerC === 3 ? 3 : 4;
+	          var bitRate = BitratesMap[columnInBitrates * 14 + headerE - 1] * 1000;
+	          var columnInSampleRates = headerB === 3 ? 0 : headerB === 2 ? 1 : 2;
+	          var sampleRate = SamplingRateMap[columnInSampleRates * 3 + headerF];
+	          var padding = headerG ? 1 : 0;
+	          var channelCount = data[start + 3] >> 6 === 3 ? 1 : 2; // If bits of channel mode are `11` then it is a single channel (Mono)
+	          var frameLength = headerC === 3 ? (headerB === 3 ? 12 : 6) * bitRate / sampleRate + padding << 2 : (headerB === 3 ? 144 : 72) * bitRate / sampleRate + padding | 0;
+	          if (start + frameLength > end) {
+	            return -1;
+	          }
+	          if (this._onMpegFrame) {
+	            this._onMpegFrame(data.subarray(start, start + frameLength), bitRate, sampleRate, channelCount, frameIndex, pts);
+	          }
+	          return frameLength;
+	        }
+	      }
+	      // noise or ID3, trying to skip
+	      var offset = start + 2;
+	      while (offset < end) {
+	        if (data[offset - 1] === 0xFF && (data[offset] & 0xE0) === 0xE0) {
+	          // sync pattern is found
+	          if (this._onMpegNoise) {
+	            this._onMpegNoise(data.subarray(start, offset - 1));
+	          }
+	          return offset - start - 1;
+	        }
+	        offset++;
+	      }
+	      return -1;
 	    }
 	  }, {
 	    key: '_parseID3PES',
@@ -22163,7 +24765,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = TSDemuxer;
 
-	},{"17":17,"21":21,"24":24,"26":26,"43":43}],24:[function(_dereq_,module,exports){
+	},{"19":19,"23":23,"26":26,"28":28,"45":45}],26:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -22227,14 +24829,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	  INTERNAL_EXCEPTION: 'internalException'
 	};
 
-	},{}],25:[function(_dereq_,module,exports){
+	},{}],27:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
+	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }(); /*
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     *
@@ -22242,11 +24844,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     *
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     */
 
-	var _logger = _dereq_(43);
+	var _logger = _dereq_(45);
 
-	var _errors = _dereq_(24);
+	var _errors = _dereq_(26);
 
-	var _events = _dereq_(26);
+	var _events = _dereq_(28);
 
 	var _events2 = _interopRequireDefault(_events);
 
@@ -22336,7 +24938,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = EventHandler;
 
-	},{"24":24,"26":26,"43":43}],26:[function(_dereq_,module,exports){
+	},{"26":26,"28":28,"45":45}],28:[function(_dereq_,module,exports){
 	'use strict';
 
 	module.exports = {
@@ -22396,6 +24998,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  FRAG_LOAD_EMERGENCY_ABORTED: 'hlsFragLoadEmergencyAborted',
 	  // fired when a fragment loading is completed - data: { frag : fragment object, payload : fragment payload, stats : { trequest, tfirst, tload, length}}
 	  FRAG_LOADED: 'hlsFragLoaded',
+	  // fired when a fragment has finished decrypting - data: { level : levelId, sn : sequence number }
+	  FRAG_DECRYPTED: 'hlsFragDecrypted',
 	  // fired when Init Segment has been extracted from fragment - data: { id : demuxer id, level : levelId, sn : sequence number, moov : moov MP4 box, codecs : codecs found while parsing fragment}
 	  FRAG_PARSING_INIT_SEGMENT: 'hlsFragParsingInitSegment',
 	  // fired when parsing sei text is completed - data: { id : demuxer id, , level : levelId, sn : sequence number, samples : [ sei samples pes ] }
@@ -22426,7 +25030,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  STREAM_STATE_TRANSITION: 'hlsStreamStateTransition'
 	};
 
-	},{}],27:[function(_dereq_,module,exports){
+	},{}],29:[function(_dereq_,module,exports){
 	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
@@ -22471,7 +25075,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = AAC;
 
-	},{}],28:[function(_dereq_,module,exports){
+	},{}],30:[function(_dereq_,module,exports){
 	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
@@ -22587,7 +25191,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = BufferHelper;
 
-	},{}],29:[function(_dereq_,module,exports){
+	},{}],31:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -22598,7 +25202,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * Level Helper class, providing methods dealing with playlist sliding and drift
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     */
 
-	var _logger = _dereq_(43);
+	var _logger = _dereq_(45);
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -22748,7 +25352,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = LevelHelper;
 
-	},{"43":43}],30:[function(_dereq_,module,exports){
+	},{"45":45}],32:[function(_dereq_,module,exports){
 	/**
 	 * HLS interface
 	 */
@@ -22762,57 +25366,57 @@ return /******/ (function(modules) { // webpackBootstrap
 	//import FetchLoader from './utils/fetch-loader';
 
 
-	var _events = _dereq_(26);
+	var _events = _dereq_(28);
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _errors = _dereq_(24);
+	var _errors = _dereq_(26);
 
-	var _playlistLoader = _dereq_(34);
+	var _playlistLoader = _dereq_(36);
 
 	var _playlistLoader2 = _interopRequireDefault(_playlistLoader);
 
-	var _fragmentLoader = _dereq_(32);
+	var _fragmentLoader = _dereq_(34);
 
 	var _fragmentLoader2 = _interopRequireDefault(_fragmentLoader);
 
-	var _abrController = _dereq_(3);
+	var _abrController = _dereq_(4);
 
 	var _abrController2 = _interopRequireDefault(_abrController);
 
-	var _bufferController = _dereq_(6);
+	var _bufferController = _dereq_(7);
 
 	var _bufferController2 = _interopRequireDefault(_bufferController);
 
-	var _capLevelController = _dereq_(7);
+	var _capLevelController = _dereq_(8);
 
 	var _capLevelController2 = _interopRequireDefault(_capLevelController);
 
-	var _audioStreamController = _dereq_(4);
+	var _audioStreamController = _dereq_(5);
 
 	var _audioStreamController2 = _interopRequireDefault(_audioStreamController);
 
-	var _streamController = _dereq_(11);
+	var _streamController = _dereq_(12);
 
 	var _streamController2 = _interopRequireDefault(_streamController);
 
-	var _levelController = _dereq_(10);
+	var _levelController = _dereq_(11);
 
 	var _levelController2 = _interopRequireDefault(_levelController);
 
-	var _timelineController = _dereq_(12);
+	var _timelineController = _dereq_(13);
 
 	var _timelineController2 = _interopRequireDefault(_timelineController);
 
-	var _fpsController = _dereq_(9);
+	var _fpsController = _dereq_(10);
 
 	var _fpsController2 = _interopRequireDefault(_fpsController);
 
-	var _audioTrackController = _dereq_(5);
+	var _audioTrackController = _dereq_(6);
 
 	var _audioTrackController2 = _interopRequireDefault(_audioTrackController);
 
-	var _logger = _dereq_(43);
+	var _logger = _dereq_(45);
 
 	var _xhrLoader = _dereq_(47);
 
@@ -22822,11 +25426,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _events4 = _interopRequireDefault(_events3);
 
-	var _keyLoader = _dereq_(33);
+	var _keyLoader = _dereq_(35);
 
 	var _keyLoader2 = _interopRequireDefault(_keyLoader);
 
-	var _cues = _dereq_(41);
+	var _cues = _dereq_(43);
 
 	var _cues2 = _interopRequireDefault(_cues);
 
@@ -22838,13 +25442,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	  _createClass(Hls, null, [{
 	    key: 'isSupported',
 	    value: function isSupported() {
+	      window.MediaSource = window.MediaSource || window.WebKitMediaSource;
 	      return window.MediaSource && typeof window.MediaSource.isTypeSupported === 'function' && window.MediaSource.isTypeSupported('video/mp4; codecs="avc1.42E01E,mp4a.40.2"');
 	    }
 	  }, {
 	    key: 'version',
 	    get: function get() {
 	      // replaced with browserify-versionify transform
-	      return '0.6.7';
+	      return '0.6.13';
 	    }
 	  }, {
 	    key: 'Events',
@@ -22872,6 +25477,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	          debug: false,
 	          capLevelOnFPSDrop: false,
 	          capLevelToPlayerSize: false,
+	          initialLiveManifestSize: 1,
 	          maxBufferLength: 30,
 	          maxBufferSize: 60 * 1000 * 1000,
 	          maxBufferHole: 0.5,
@@ -22922,12 +25528,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	          enableMP2TPassThrough: false,
 	          stretchShortVideoTrack: false,
 	          forceKeyFrameOnDiscontinuity: true,
-	          abrEwmaFastLive: 5,
+	          abrEwmaFastLive: 3,
 	          abrEwmaSlowLive: 9,
 	          abrEwmaFastVoD: 3,
 	          abrEwmaSlowVoD: 9,
 	          abrEwmaDefaultEstimate: 5e5, // 500 kbps
-	          abrBandWidthFactor: 0.8,
+	          abrBandWidthFactor: 0.95,
 	          abrBandWidthUpFactor: 0.7,
 	          maxStarvationDelay: 4,
 	          maxLoadingDelay: 4,
@@ -22942,7 +25548,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }]);
 
 	  function Hls() {
-	    var config = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+	    var config = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
 
 	    _classCallCheck(this, Hls);
 
@@ -23049,9 +25655,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'startLoad',
 	    value: function startLoad() {
-	      var startPosition = arguments.length <= 0 || arguments[0] === undefined ? -1 : arguments[0];
+	      var startPosition = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : -1;
 
-	      _logger.logger.log('startLoad');
+	      _logger.logger.log('startLoad(' + startPosition + ')');
 	      this.levelController.startLoad();
 	      this.streamController.startLoad(startPosition);
 	      this.audioStreamController.startLoad(startPosition);
@@ -23154,7 +25760,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'firstLevel',
 	    get: function get() {
-	      return this.levelController.firstLevel;
+	      return Math.max(this.levelController.firstLevel, this.abrController.minAutoLevel);
 	    }
 
 	    /** set first level (index of first level referenced in manifest)
@@ -23250,15 +25856,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = Hls;
 
-	},{"1":1,"10":10,"11":11,"12":12,"24":24,"26":26,"3":3,"32":32,"33":33,"34":34,"4":4,"41":41,"43":43,"47":47,"5":5,"6":6,"7":7,"9":9}],31:[function(_dereq_,module,exports){
+	},{"1":1,"10":10,"11":11,"12":12,"13":13,"26":26,"28":28,"34":34,"35":35,"36":36,"4":4,"43":43,"45":45,"47":47,"5":5,"6":6,"7":7,"8":8}],33:[function(_dereq_,module,exports){
 	'use strict';
 
 	// This is mostly for support of the es6 module export
 	// syntax with the babel compiler, it looks like it doesnt support
 	// function exports like we are used to in node/commonjs
-	module.exports = _dereq_(30).default;
+	module.exports = _dereq_(32).default;
 
-	},{"30":30}],32:[function(_dereq_,module,exports){
+	},{"32":32}],34:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -23267,17 +25873,17 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _events = _dereq_(26);
+	var _events = _dereq_(28);
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _eventHandler = _dereq_(25);
+	var _eventHandler = _dereq_(27);
 
 	var _eventHandler2 = _interopRequireDefault(_eventHandler);
 
-	var _errors = _dereq_(24);
+	var _errors = _dereq_(26);
 
-	var _logger = _dereq_(43);
+	var _logger = _dereq_(45);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -23295,7 +25901,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  function FragmentLoader(hls) {
 	    _classCallCheck(this, FragmentLoader);
 
-	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(FragmentLoader).call(this, hls, _events2.default.FRAG_LOADING));
+	    var _this = _possibleConstructorReturn(this, (FragmentLoader.__proto__ || Object.getPrototypeOf(FragmentLoader)).call(this, hls, _events2.default.FRAG_LOADING));
 
 	    _this.loaders = {};
 	    return _this;
@@ -23391,7 +25997,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = FragmentLoader;
 
-	},{"24":24,"25":25,"26":26,"43":43}],33:[function(_dereq_,module,exports){
+	},{"26":26,"27":27,"28":28,"45":45}],35:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -23400,17 +26006,17 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _events = _dereq_(26);
+	var _events = _dereq_(28);
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _eventHandler = _dereq_(25);
+	var _eventHandler = _dereq_(27);
 
 	var _eventHandler2 = _interopRequireDefault(_eventHandler);
 
-	var _errors = _dereq_(24);
+	var _errors = _dereq_(26);
 
-	var _logger = _dereq_(43);
+	var _logger = _dereq_(45);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -23428,7 +26034,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  function KeyLoader(hls) {
 	    _classCallCheck(this, KeyLoader);
 
-	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(KeyLoader).call(this, hls, _events2.default.KEY_LOADING));
+	    var _this = _possibleConstructorReturn(this, (KeyLoader.__proto__ || Object.getPrototypeOf(KeyLoader)).call(this, hls, _events2.default.KEY_LOADING));
 
 	    _this.loaders = {};
 	    _this.decryptkey = null;
@@ -23461,7 +26067,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        var config = this.hls.config;
 
 	        if (loader) {
-	          _logger.logger.warn('abort previous fragment loader for type:' + type);
+	          _logger.logger.warn('abort previous key loader for type:' + type);
 	          loader.abort();
 	        }
 	        frag.loader = this.loaders[type] = new config.loader(config);
@@ -23488,7 +26094,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      this.decryptkey = frag.decryptdata.key = new Uint8Array(response.data);
 	      // detach fragment loader on load success
 	      frag.loader = undefined;
-	      this.loaders[context.type] = undefined;
+	      this.loaders[frag.type] = undefined;
 	      this.hls.trigger(_events2.default.KEY_LOADED, { frag: frag });
 	    }
 	  }, {
@@ -23520,7 +26126,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = KeyLoader;
 
-	},{"24":24,"25":25,"26":26,"43":43}],34:[function(_dereq_,module,exports){
+	},{"26":26,"27":27,"28":28,"45":45}],36:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -23529,25 +26135,25 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _events = _dereq_(26);
+	var _urlToolkit = _dereq_(2);
+
+	var _urlToolkit2 = _interopRequireDefault(_urlToolkit);
+
+	var _events = _dereq_(28);
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _eventHandler = _dereq_(25);
+	var _eventHandler = _dereq_(27);
 
 	var _eventHandler2 = _interopRequireDefault(_eventHandler);
 
-	var _errors = _dereq_(24);
+	var _errors = _dereq_(26);
 
-	var _url = _dereq_(46);
-
-	var _url2 = _interopRequireDefault(_url);
-
-	var _attrList = _dereq_(38);
+	var _attrList = _dereq_(40);
 
 	var _attrList2 = _interopRequireDefault(_attrList);
 
-	var _logger = _dereq_(43);
+	var _logger = _dereq_(45);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -23559,13 +26165,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Playlist Loader
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               */
 
+	// https://regex101.com is your friend
+	var MASTER_PLAYLIST_REGEX = /#EXT-X-STREAM-INF:([^\n\r]*)[\r\n]+([^\r\n]+)/g;
+	var MASTER_PLAYLIST_MEDIA_REGEX = /#EXT-X-MEDIA:(.*)/g;
+	var LEVEL_PLAYLIST_REGEX = /(?:(?:#(EXTM3U))|(?:#EXT-X-(PLAYLIST-TYPE):(.+))|(?:#EXT-X-(MEDIA-SEQUENCE): *(\d+))|(?:#EXT-X-(TARGETDURATION): *(\d+))|(?:#EXT-X-(KEY):(.+))|(?:#EXT-X-(START):(.+))|(?:#EXT(INF): *(\d*(?:\.\d+)?)(?:,(.*))?)|(?:(?!#)()(\S.+))|(?:#EXT-X-(BYTERANGE): *(\d+(?:@\d+(?:\.\d+)?)?)|(?:#EXT-X-(ENDLIST))|(?:#EXT-X-(DISCONTINUITY-SEQ)UENCE:(\d+))|(?:#EXT-X-(DIS)CONTINUITY))|(?:#EXT-X-(PROGRAM-DATE-TIME):(.+))|(?:#EXT-X-(VERSION):(\d+))|(?:(#)(.*):(.*))|(?:(#)(.*)))(?:.*)\r?\n?/g;
+
 	var PlaylistLoader = function (_EventHandler) {
 	  _inherits(PlaylistLoader, _EventHandler);
 
 	  function PlaylistLoader(hls) {
 	    _classCallCheck(this, PlaylistLoader);
 
-	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(PlaylistLoader).call(this, hls, _events2.default.MANIFEST_LOADING, _events2.default.LEVEL_LOADING, _events2.default.AUDIO_TRACK_LOADING));
+	    var _this = _possibleConstructorReturn(this, (PlaylistLoader.__proto__ || Object.getPrototypeOf(PlaylistLoader)).call(this, hls, _events2.default.MANIFEST_LOADING, _events2.default.LEVEL_LOADING, _events2.default.AUDIO_TRACK_LOADING));
 
 	    _this.loaders = {};
 	    return _this;
@@ -23621,12 +26232,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	        retry = config.manifestLoadingMaxRetry;
 	        timeout = config.manifestLoadingTimeOut;
 	        retryDelay = config.manifestLoadingRetryDelay;
-	        maxRetryDelay = config.manifestLoadingMaxRetryTimeOut;
+	        maxRetryDelay = config.manifestLoadingMaxRetryTimeout;
 	      } else {
 	        retry = config.levelLoadingMaxRetry;
 	        timeout = config.levelLoadingTimeOut;
 	        retryDelay = config.levelLoadingRetryDelay;
-	        maxRetryDelay = config.levelLoadingMaxRetryTimeOut;
+	        maxRetryDelay = config.levelLoadingMaxRetryTimeout;
 	        _logger.logger.log('loading playlist for level ' + context.level);
 	      }
 	      loader = this.loaders[context.type] = context.loader = typeof config.pLoader !== 'undefined' ? new config.pLoader(config) : new config.loader(config);
@@ -23642,17 +26253,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'resolve',
 	    value: function resolve(url, baseUrl) {
-	      return _url2.default.buildAbsoluteURL(baseUrl, url);
+	      return _urlToolkit2.default.buildAbsoluteURL(baseUrl, url);
 	    }
 	  }, {
 	    key: 'parseMasterPlaylist',
 	    value: function parseMasterPlaylist(string, baseurl) {
 	      var levels = [],
 	          result = void 0;
-
-	      // https://regex101.com is your friend
-	      var re = /#EXT-X-STREAM-INF:([^\n\r]*)[\r\n]+([^\r\n]+)/g;
-	      while ((result = re.exec(string)) != null) {
+	      MASTER_PLAYLIST_REGEX.lastIndex = 0;
+	      while ((result = MASTER_PLAYLIST_REGEX.exec(string)) != null) {
 	        var level = {};
 
 	        var attrs = level.attrs = new _attrList2.default(result[1]);
@@ -23668,7 +26277,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	        var codecs = attrs.CODECS;
 	        if (codecs) {
-	          codecs = codecs.split(',');
+	          codecs = codecs.split(/[ ,]+/);
 	          for (var i = 0; i < codecs.length; i++) {
 	            var codec = codecs[i];
 	            if (codec.indexOf('avc1') !== -1) {
@@ -23688,10 +26297,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: function parseMasterPlaylistMedia(string, baseurl, type) {
 	      var result = void 0,
 	          medias = [];
-
-	      // https://regex101.com is your friend
-	      var re = /#EXT-X-MEDIA:(.*)/g;
-	      while ((result = re.exec(string)) != null) {
+	      MASTER_PLAYLIST_MEDIA_REGEX.lastIndex = 0;
+	      while ((result = MASTER_PLAYLIST_MEDIA_REGEX.exec(string)) != null) {
 	        var media = {};
 	        var attrs = new _attrList2.default(result[1]);
 	        if (attrs.TYPE === type) {
@@ -23780,15 +26387,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	          programDateTime = null,
 	          frag = null,
 	          result,
-	          regexp,
 	          duration = null,
 	          title = null,
 	          byteRangeEndOffset = null,
 	          byteRangeStartOffset = null,
 	          tagList = [];
 
-	      regexp = /(?:(?:#(EXTM3U))|(?:#EXT-X-(PLAYLIST-TYPE):(.+))|(?:#EXT-X-(MEDIA-SEQUENCE):(\d+))|(?:#EXT-X-(TARGETDURATION):(\d+))|(?:#EXT-X-(KEY):(.+))|(?:#EXT-X-(START):(.+))|(?:#EXT(INF):(\d+(?:\.\d+)?)(?:,(.*))?)|(?:(?!#)()(\S.+))|(?:#EXT-X-(BYTERANGE):(\d+(?:@\d+(?:\.\d+)?)?)|(?:#EXT-X-(ENDLIST))|(?:#EXT-X-(DIS)CONTINUITY))|(?:#EXT-X-(PROGRAM-DATE-TIME):(.+))|(?:#EXT-X-(VERSION):(\d+))|(?:(#)(.*):(.*))|(?:(#)(.*)))(?:.*)\r?\n?/g;
-	      while ((result = regexp.exec(string)) !== null) {
+	      LEVEL_PLAYLIST_REGEX.lastIndex = 0;
+	      while ((result = LEVEL_PLAYLIST_REGEX.exec(string)) !== null) {
 	        result.shift();
 	        result = result.filter(function (n) {
 	          return n !== undefined;
@@ -23814,6 +26420,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	          case 'DIS':
 	            cc++;
 	            tagList.push(result);
+	            break;
+	          case 'DISCONTINUITY-SEQ':
+	            cc = parseInt(result[1]);
 	            break;
 	          case 'BYTERANGE':
 	            var params = result[1].split('@');
@@ -23939,10 +26548,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	            hls.trigger(_events2.default.MANIFEST_LOADED, { levels: [{ url: url, details: levelDetails }], audioTracks: [], url: url, stats: stats });
 	          }
 	          stats.tparsed = performance.now();
-	          if (isLevel) {
-	            hls.trigger(_events2.default.LEVEL_LOADED, { details: levelDetails, level: level || 0, id: id || 0, stats: stats });
+	          if (levelDetails.targetduration) {
+	            if (isLevel) {
+	              hls.trigger(_events2.default.LEVEL_LOADED, { details: levelDetails, level: level || 0, id: id || 0, stats: stats });
+	            } else {
+	              hls.trigger(_events2.default.AUDIO_TRACK_LOADED, { details: levelDetails, id: id, stats: stats });
+	            }
 	          } else {
-	            hls.trigger(_events2.default.AUDIO_TRACK_LOADED, { details: levelDetails, id: id, stats: stats });
+	            hls.trigger(_events2.default.ERROR, { type: _errors.ErrorTypes.NETWORK_ERROR, details: _errors.ErrorDetails.MANIFEST_PARSING_ERROR, fatal: true, url: url, reason: 'invalid targetduration' });
 	          }
 	        } else {
 	          var levels = this.parseMasterPlaylist(string, url);
@@ -24032,7 +26645,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = PlaylistLoader;
 
-	},{"24":24,"25":25,"26":26,"38":38,"43":43,"46":46}],35:[function(_dereq_,module,exports){
+	},{"2":2,"26":26,"27":27,"28":28,"40":40,"45":45}],37:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -24048,7 +26661,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	*/
 
 	//import Hex from '../utils/hex';
-
 	var MP4 = function () {
 	  function MP4() {
 	    _classCallCheck(this, MP4);
@@ -24074,6 +26686,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        moof: [],
 	        moov: [],
 	        mp4a: [],
+	        '.mp3': [],
 	        mvex: [],
 	        mvhd: [],
 	        sdtp: [],
@@ -24146,7 +26759,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	      0x00, 0x00, 0x00, // flags
 	      0x00, 0x00, 0x00, 0x00, // sample_size
 	      0x00, 0x00, 0x00, 0x00]);
-	      // sample_count
 	      MP4.VMHD = new Uint8Array([0x00, // version
 	      0x00, 0x00, 0x01, // flags
 	      0x00, 0x00, // graphicsmode
@@ -24231,7 +26843,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  }, {
 	    key: 'minf',
-	    // sequence_number
 	    value: function minf(track) {
 	      if (track.type === 'audio') {
 	        return MP4.box(MP4.types.minf, MP4.box(MP4.types.smhd, MP4.SMHD), MP4.DINF, MP4.stbl(track));
@@ -24411,9 +27022,26 @@ return /******/ (function(modules) { // webpackBootstrap
 	      0x00, 0x00]), MP4.box(MP4.types.esds, MP4.esds(track)));
 	    }
 	  }, {
+	    key: 'mp3',
+	    value: function mp3(track) {
+	      var audiosamplerate = track.audiosamplerate;
+	      return MP4.box(MP4.types['.mp3'], new Uint8Array([0x00, 0x00, 0x00, // reserved
+	      0x00, 0x00, 0x00, // reserved
+	      0x00, 0x01, // data_reference_index
+	      0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, // reserved
+	      0x00, track.channelCount, // channelcount
+	      0x00, 0x10, // sampleSize:16bits
+	      0x00, 0x00, 0x00, 0x00, // reserved2
+	      audiosamplerate >> 8 & 0xFF, audiosamplerate & 0xff, //
+	      0x00, 0x00]));
+	    }
+	  }, {
 	    key: 'stsd',
 	    value: function stsd(track) {
 	      if (track.type === 'audio') {
+	        if (!track.isAAC && track.codec === 'mp3') {
+	          return MP4.box(MP4.types.stsd, MP4.STSD, MP4.mp3(track));
+	        }
 	        return MP4.box(MP4.types.stsd, MP4.STSD, MP4.mp4a(track));
 	      } else {
 	        return MP4.box(MP4.types.stsd, MP4.STSD, MP4.avc1(track));
@@ -24450,11 +27078,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	          id = track.id;
 	      return MP4.box(MP4.types.traf, MP4.box(MP4.types.tfhd, new Uint8Array([0x00, // version 0
 	      0x00, 0x00, 0x00, // flags
-	      id >> 24, id >> 16 & 0XFF, id >> 8 & 0XFF, id & 0xFF])), // track_ID
-	      MP4.box(MP4.types.tfdt, new Uint8Array([0x00, // version 0
+	      id >> 24, id >> 16 & 0XFF, id >> 8 & 0XFF, id & 0xFF])), MP4.box(MP4.types.tfdt, new Uint8Array([0x00, // version 0
 	      0x00, 0x00, 0x00, // flags
-	      baseMediaDecodeTime >> 24, baseMediaDecodeTime >> 16 & 0XFF, baseMediaDecodeTime >> 8 & 0XFF, baseMediaDecodeTime & 0xFF])), // baseMediaDecodeTime
-	      MP4.trun(track, sampleDependencyTable.length + 16 + // tfhd
+	      baseMediaDecodeTime >> 24, baseMediaDecodeTime >> 16 & 0XFF, baseMediaDecodeTime >> 8 & 0XFF, baseMediaDecodeTime & 0xFF])), MP4.trun(track, sampleDependencyTable.length + 16 + // tfhd
 	      16 + // tfdt
 	      8 + // traf header
 	      16 + // mfhd
@@ -24541,7 +27167,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = MP4;
 
-	},{}],36:[function(_dereq_,module,exports){
+	},{}],38:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -24552,35 +27178,34 @@ return /******/ (function(modules) { // webpackBootstrap
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * fMP4 remuxer
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     */
 
-	var _aac = _dereq_(27);
+	var _aac = _dereq_(29);
 
 	var _aac2 = _interopRequireDefault(_aac);
 
-	var _events = _dereq_(26);
+	var _events = _dereq_(28);
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _logger = _dereq_(43);
+	var _logger = _dereq_(45);
 
-	var _mp4Generator = _dereq_(35);
+	var _mp4Generator = _dereq_(37);
 
 	var _mp4Generator2 = _interopRequireDefault(_mp4Generator);
 
-	var _errors = _dereq_(24);
-
-	_dereq_(44);
+	var _errors = _dereq_(26);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 	var MP4Remuxer = function () {
-	  function MP4Remuxer(observer, id, config) {
+	  function MP4Remuxer(observer, id, config, typeSupported) {
 	    _classCallCheck(this, MP4Remuxer);
 
 	    this.observer = observer;
 	    this.id = id;
 	    this.config = config;
+	    this.typeSupported = typeSupported;
 	    this.ISGenerated = false;
 	    this.PES2MP4SCALEFACTOR = 4;
 	    this.PES_TIMESCALE = 90000;
@@ -24653,6 +27278,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	          audioSamples = audioTrack.samples,
 	          videoSamples = videoTrack.samples,
 	          pesTimeScale = this.PES_TIMESCALE,
+	          typeSupported = this.typeSupported,
+	          container = 'audio/mp4',
 	          tracks = {},
 	          data = { id: this.id, level: this.level, sn: this.sn, tracks: tracks, unique: false },
 	          computePTSDTS = this._initPTS === undefined,
@@ -24676,12 +27303,22 @@ return /******/ (function(modules) { // webpackBootstrap
 	              }
 	              return greatestCommonDivisor(b, a % b);
 	            };
-	            audioTrack.timescale = audioTrack.audiosamplerate / greatestCommonDivisor(audioTrack.audiosamplerate, 1024);
+	            audioTrack.timescale = audioTrack.audiosamplerate / greatestCommonDivisor(audioTrack.audiosamplerate, audioTrack.isAAC ? 1024 : 1152);
 	          })();
 	        }
 	        _logger.logger.log('audio mp4 timescale :' + audioTrack.timescale);
+	        if (!audioTrack.isAAC) {
+	          if (typeSupported.mpeg === true) {
+	            // Chrome
+	            container = 'audio/mpeg';
+	            audioTrack.codec = '';
+	          } else if (typeSupported.mp3 === true) {
+	            // Firefox
+	            audioTrack.codec = 'mp3';
+	          }
+	        }
 	        tracks.audio = {
-	          container: 'audio/mp4',
+	          container: container,
 	          codec: audioTrack.codec,
 	          initSegment: _mp4Generator2.default.initSegment([audioTrack]),
 	          metadata: {
@@ -24737,7 +27374,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	          lastPTS,
 	          lastDTS,
 	          inputSamples = track.samples,
-	          outputSamples = [];
+	          outputSamples = [],
+	          ptsNormalize = this._PTSNormalize,
+	          initDTS = this._initDTS;
 
 	      // for (let i = 0; i < track.samples.length; i++) {
 	      //   let avcSample = track.samples[i];
@@ -24752,6 +27391,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	      //   logger.log(avcSample.pts + '/' + avcSample.dts + ',' + unitsString + avcSample.units.length);
 	      // }
 
+	      // sort video samples by DTS order
+	      inputSamples.sort(function (a, b) {
+	        return a.dts - b.dts;
+	      });
+
 	      // handle broken streams with PTS < DTS, tolerance up 200ms (18000 in 90kHz timescale)
 	      var PTSDTSshift = inputSamples.reduce(function (prev, curr) {
 	        return Math.max(Math.min(prev, curr.pts - curr.dts), -18000);
@@ -24764,7 +27408,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }
 
 	      // PTS is coded on 33bits, and can loop from -2^32 to 2^32
-	      // PTSNormalize will make PTS/DTS value monotonic, we use last known DTS value as reference value
+	      // ptsNormalize will make PTS/DTS value monotonic, we use last known DTS value as reference value
 	      var nextAvcDts = void 0;
 	      // contiguous fragments are consecutive fragments from same quality level (same level, new SN = old SN + 1)
 	      if (contiguous) {
@@ -24777,8 +27421,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      // compute first DTS and last DTS, normalize them against reference value
 	      var sample = inputSamples[0];
-	      firstDTS = Math.max(this._PTSNormalize(sample.dts - this._initDTS, nextAvcDts), 0);
-	      firstPTS = Math.max(this._PTSNormalize(sample.pts - this._initDTS, nextAvcDts), 0);
+	      firstDTS = Math.max(ptsNormalize(sample.dts - initDTS, nextAvcDts), 0);
+	      firstPTS = Math.max(ptsNormalize(sample.pts - initDTS, nextAvcDts), 0);
 
 	      // check timestamp continuity accross consecutive fragments (this is to remove inter-fragment gap/hole)
 	      var delta = Math.round((firstDTS - nextAvcDts) / 90);
@@ -24792,10 +27436,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	          }
 	          // remove hole/gap : set DTS to next expected DTS
 	          firstDTS = nextAvcDts;
-	          inputSamples[0].dts = firstDTS + this._initDTS;
+	          inputSamples[0].dts = firstDTS + initDTS;
 	          // offset PTS as well, ensure that PTS is smaller or equal than new DTS
 	          firstPTS = Math.max(firstPTS - delta, nextAvcDts);
-	          inputSamples[0].pts = firstPTS + this._initDTS;
+	          inputSamples[0].pts = firstPTS + initDTS;
 	          _logger.logger.log('Video/PTS/DTS adjusted: ' + Math.round(firstPTS / 90) + '/' + Math.round(firstDTS / 90) + ',delta:' + delta + ' ms');
 	        }
 	      }
@@ -24803,8 +27447,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      // compute lastPTS/lastDTS
 	      sample = inputSamples[inputSamples.length - 1];
-	      lastDTS = Math.max(this._PTSNormalize(sample.dts - this._initDTS, nextAvcDts), 0);
-	      lastPTS = Math.max(this._PTSNormalize(sample.pts - this._initDTS, nextAvcDts), 0);
+	      lastDTS = Math.max(ptsNormalize(sample.dts - initDTS, nextAvcDts), 0);
+	      lastPTS = Math.max(ptsNormalize(sample.pts - initDTS, nextAvcDts), 0);
 	      lastPTS = Math.max(lastPTS, lastDTS);
 
 	      var vendor = navigator.vendor,
@@ -24826,13 +27470,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	          _sample.dts = firstDTS + _i * pes2mp4ScaleFactor * mp4SampleDuration;
 	        } else {
 	          // ensure sample monotonic DTS
-	          _sample.dts = Math.max(this._PTSNormalize(_sample.dts - this._initDTS, nextAvcDts), firstDTS);
+	          _sample.dts = Math.max(ptsNormalize(_sample.dts - initDTS, nextAvcDts), firstDTS);
 	          // ensure dts is a multiple of scale factor to avoid rounding issues
 	          _sample.dts = Math.round(_sample.dts / pes2mp4ScaleFactor) * pes2mp4ScaleFactor;
 	        }
 	        // we normalize PTS against nextAvcDts, we also substract initDTS (some streams don't start @ PTS O)
 	        // and we ensure that computed value is greater or equal than sample DTS
-	        _sample.pts = Math.max(this._PTSNormalize(_sample.pts - this._initDTS, nextAvcDts), _sample.dts);
+	        _sample.pts = Math.max(ptsNormalize(_sample.pts - initDTS, nextAvcDts), _sample.dts);
 	        // ensure pts is a multiple of scale factor to avoid rounding issues
 	        _sample.pts = Math.round(_sample.pts / pes2mp4ScaleFactor) * pes2mp4ScaleFactor;
 	      }
@@ -24896,7 +27540,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	          compositionTimeOffset = Math.max(0, mp4SampleDuration * Math.round((avcSample.pts - avcSample.dts) / (pes2mp4ScaleFactor * mp4SampleDuration)));
 	        }
 
-	        //console.log('PTS/DTS/initDTS/normPTS/normDTS/relative PTS : ${avcSample.pts}/${avcSample.dts}/${this._initDTS}/${ptsnorm}/${dtsnorm}/${(avcSample.pts/4294967296).toFixed(3)}');
+	        //console.log('PTS/DTS/initDTS/normPTS/normDTS/relative PTS : ${avcSample.pts}/${avcSample.dts}/${initDTS}/${ptsnorm}/${dtsnorm}/${(avcSample.pts/4294967296).toFixed(3)}');
 	        outputSamples.push({
 	          size: mp4SampleLength,
 	          // constant duration
@@ -24952,7 +27596,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var pesTimeScale = this.PES_TIMESCALE,
 	          mp4timeScale = track.timescale,
 	          pes2mp4ScaleFactor = pesTimeScale / mp4timeScale,
-	          expectedSampleDuration = track.timescale * 1024 / track.audiosamplerate;
+	          expectedSampleDuration = track.timescale * (track.isAAC ? 1024 : 1152) / track.audiosamplerate,
+	          pesFrameDuration = expectedSampleDuration * pes2mp4ScaleFactor,
+	          ptsNormalize = this._PTSNormalize,
+	          initDTS = this._initDTS;
 	      var view,
 	          offset = 8,
 	          aacSample,
@@ -24970,7 +27617,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	          samples = [],
 	          samples0 = [],
 	          fillFrame,
-	          newStamp;
+	          newStamp,
+	          nextAacPts;
 
 	      track.samples.sort(function (a, b) {
 	        return a.pts - b.pts;
@@ -24979,29 +27627,32 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      // for audio samples, also consider consecutive fragments as being contiguous (even if a level switch occurs),
 	      // for sake of clarity:
-	      // consecutive fragments are frags with less than 100ms gaps between new time offset and next expected PTS
+	      // consecutive fragments are frags with
+	      //  - less than 100ms gaps between new time offset and next expected PTS OR
+	      //  - less than 20 audio frames distance
 	      // contiguous fragments are consecutive fragments from same quality level (same level, new SN = old SN + 1)
 	      // this helps ensuring audio continuity
 	      // and this also avoids audio glitches/cut when switching quality, or reporting wrong duration on first audio frame
 
-	      contiguous |= samples0.length && this.nextAacPts && Math.abs(timeOffset - this.nextAacPts / pesTimeScale) < 0.1;
+	      nextAacPts = this.nextAacPts;
+	      contiguous |= samples0.length && nextAacPts && (Math.abs(timeOffset - nextAacPts / pesTimeScale) < 0.1 || Math.abs(samples0[0].pts - nextAacPts - initDTS) < 20 * pesFrameDuration);
 
-	      var nextAacPts = contiguous ? this.nextAacPts : timeOffset * pesTimeScale;
-
+	      if (!contiguous) {
+	        // if fragments are not contiguous, let's use timeOffset to compute next AAC PTS
+	        nextAacPts = timeOffset * pesTimeScale;
+	      }
 	      // If the audio track is missing samples, the frames seem to get "left-shifted" within the
 	      // resulting mp4 segment, causing sync issues and leaving gaps at the end of the audio segment.
 	      // In an effort to prevent this from happening, we inject frames here where there are gaps.
 	      // When possible, we inject a silent frame; when that's not possible, we duplicate the last
 	      // frame.
-	      var pesFrameDuration = expectedSampleDuration * pes2mp4ScaleFactor;
-	      var nextPtsNorm = nextAacPts;
 
 	      // only inject/drop audio frames in case time offset is accurate
-	      if (accurateTimeOffset) {
-	        for (var i = 0; i < samples0.length;) {
+	      if (accurateTimeOffset && track.isAAC) {
+	        for (var i = 0, nextPtsNorm = nextAacPts; i < samples0.length;) {
 	          // First, let's see how far off this frame is from where we expect it to be
 	          var sample = samples0[i],
-	              ptsNorm = this._PTSNormalize(sample.pts - this._initDTS, nextAacPts),
+	              ptsNorm = ptsNormalize(sample.pts - initDTS, nextAacPts),
 	              delta = ptsNorm - nextPtsNorm;
 
 	          // If we're overlapping by more than a duration, drop this sample
@@ -25016,12 +27667,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	              var missing = Math.round(delta / pesFrameDuration);
 	              _logger.logger.warn('Injecting ' + missing + ' audio frame @ ' + Math.round(nextPtsNorm / 90) / 1000 + 's due to ' + Math.round(delta / 90) + ' ms gap.');
 	              for (var j = 0; j < missing; j++) {
-	                newStamp = nextPtsNorm + this._initDTS;
-	                newStamp = Math.max(newStamp, this._initDTS);
+	                newStamp = nextPtsNorm + initDTS;
+	                newStamp = Math.max(newStamp, initDTS);
 	                fillFrame = _aac2.default.getSilentFrame(track.channelCount);
 	                if (!fillFrame) {
 	                  _logger.logger.log('Unable to get silent frame for given audio codec; duplicating last frame instead.');
-	                  fillFrame = sample.unit.slice(0);
+	                  fillFrame = sample.unit.subarray();
 	                }
 	                samples0.splice(i, 0, { unit: fillFrame, pts: newStamp, dts: newStamp });
 	                track.len += fillFrame.length;
@@ -25030,7 +27681,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	              }
 
 	              // Adjust sample to next expected pts
-	              sample.pts = sample.dts = nextPtsNorm + this._initDTS;
+	              sample.pts = sample.dts = nextPtsNorm + initDTS;
 	              nextPtsNorm += pesFrameDuration;
 	              i += 1;
 	            }
@@ -25041,7 +27692,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                }
 	                nextPtsNorm += pesFrameDuration;
 	                if (i === 0) {
-	                  sample.pts = sample.dts = this._initDTS + nextAacPts;
+	                  sample.pts = sample.dts = initDTS + nextAacPts;
 	                } else {
 	                  sample.pts = sample.dts = samples0[i - 1].pts + pesFrameDuration;
 	                }
@@ -25053,17 +27704,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	      while (samples0.length) {
 	        aacSample = samples0.shift();
 	        unit = aacSample.unit;
-	        pts = aacSample.pts - this._initDTS;
-	        dts = aacSample.dts - this._initDTS;
+	        pts = aacSample.pts - initDTS;
+	        dts = aacSample.dts - initDTS;
 	        //logger.log(`Audio/PTS:${Math.round(pts/90)}`);
 	        // if not first sample
 	        if (lastDTS !== undefined) {
-	          ptsnorm = this._PTSNormalize(pts, lastDTS);
-	          dtsnorm = this._PTSNormalize(dts, lastDTS);
+	          ptsnorm = ptsNormalize(pts, lastDTS);
+	          dtsnorm = ptsNormalize(dts, lastDTS);
 	          mp4Sample.duration = Math.round((dtsnorm - lastDTS) / pes2mp4ScaleFactor);
 	        } else {
-	          ptsnorm = this._PTSNormalize(pts, nextAacPts);
-	          dtsnorm = this._PTSNormalize(dts, nextAacPts);
+	          ptsnorm = ptsNormalize(pts, nextAacPts);
+	          dtsnorm = ptsNormalize(dts, nextAacPts);
 	          var _delta = Math.round(1000 * (ptsnorm - nextAacPts) / pesTimeScale),
 	              numMissingFrames = 0;
 	          // if fragment are contiguous, detect hole/overlapping between fragments
@@ -25077,17 +27728,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	                if (numMissingFrames > 0) {
 	                  fillFrame = _aac2.default.getSilentFrame(track.channelCount);
 	                  if (!fillFrame) {
-	                    fillFrame = unit.slice(0);
+	                    fillFrame = unit.subarray();
 	                  }
 	                  track.len += numMissingFrames * fillFrame.length;
 	                }
 	                // if we have frame overlap, overlapping for more than half a frame duraion
 	              } else if (_delta < -12) {
-	                  // drop overlapping audio frames... browser will deal with it
-	                  _logger.logger.log(-_delta + ' ms overlapping between AAC samples detected, drop frame');
-	                  track.len -= unit.byteLength;
-	                  continue;
-	                }
+	                // drop overlapping audio frames... browser will deal with it
+	                _logger.logger.log(-_delta + ' ms overlapping between AAC samples detected, drop frame');
+	                track.len -= unit.byteLength;
+	                continue;
+	              }
 	              // set PTS/DTS to expected PTS/DTS
 	              ptsnorm = dtsnorm = nextAacPts;
 	            }
@@ -25111,14 +27762,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	            fillFrame = _aac2.default.getSilentFrame(track.channelCount);
 	            if (!fillFrame) {
 	              _logger.logger.log('Unable to get silent frame for given audio codec; duplicating this frame instead.');
-	              fillFrame = unit.slice(0);
+	              fillFrame = unit.subarray();
 	            }
 	            mdat.set(fillFrame, offset);
 	            offset += fillFrame.byteLength;
 	            mp4Sample = {
 	              size: fillFrame.byteLength,
 	              cts: 0,
-	              duration: 1024,
+	              duration: track.isAAC ? 1024 : 1152,
 	              flags: {
 	                isLeading: 0,
 	                isDependedOn: 0,
@@ -25132,7 +27783,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        }
 	        mdat.set(unit, offset);
 	        offset += unit.byteLength;
-	        //console.log('PTS/DTS/initDTS/normPTS/normDTS/relative PTS : ${aacSample.pts}/${aacSample.dts}/${this._initDTS}/${ptsnorm}/${dtsnorm}/${(aacSample.pts/4294967296).toFixed(3)}');
+	        //console.log('PTS/DTS/initDTS/normPTS/normDTS/relative PTS : ${aacSample.pts}/${aacSample.dts}/${initDTS}/${ptsnorm}/${dtsnorm}/${(aacSample.pts/4294967296).toFixed(3)}');
 	        mp4Sample = {
 	          size: unit.byteLength,
 	          cts: 0,
@@ -25187,12 +27838,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var pesTimeScale = this.PES_TIMESCALE,
 	          mp4timeScale = track.timescale ? track.timescale : track.audiosamplerate,
 	          pes2mp4ScaleFactor = pesTimeScale / mp4timeScale,
+	          nextAacPts = this.nextAacPts,
 
 
 	      // sync with video's timestamp
-	      startDTS = videoData.startDTS * pesTimeScale + this._initDTS,
+	      startDTS = (nextAacPts !== undefined ? nextAacPts : videoData.startDTS * pesTimeScale) + this._initDTS,
 	          endDTS = videoData.endDTS * pesTimeScale + this._initDTS,
-
 
 	      // one sample's duration value
 	      sampleDuration = 1024,
@@ -25206,6 +27857,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      // silent frame
 	      silentFrame = _aac2.default.getSilentFrame(track.channelCount);
 
+	      _logger.logger.warn('remux empty Audio');
 	      // Can't remux if we can't generate a silent frame...
 	      if (!silentFrame) {
 	        _logger.logger.trace('Unable to remuxEmptyAudio since we were unable to get a silent frame for given audio codec!');
@@ -25215,7 +27867,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var samples = [];
 	      for (var i = 0; i < nbSamples; i++) {
 	        var stamp = startDTS + i * frameDuration;
-	        samples.push({ unit: silentFrame.slice(0), pts: stamp, dts: stamp });
+	        samples.push({ unit: silentFrame, pts: stamp, dts: stamp });
 	        track.len += silentFrame.length;
 	      }
 	      track.samples = samples;
@@ -25309,7 +27961,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = MP4Remuxer;
 
-	},{"24":24,"26":26,"27":27,"35":35,"43":43,"44":44}],37:[function(_dereq_,module,exports){
+	},{"26":26,"28":28,"29":29,"37":37,"45":45}],39:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -25321,7 +27973,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     */
 
 
-	var _events = _dereq_(26);
+	var _events = _dereq_(28);
 
 	var _events2 = _interopRequireDefault(_events);
 
@@ -25407,7 +28059,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = PassThroughRemuxer;
 
-	},{"26":26}],38:[function(_dereq_,module,exports){
+	},{"28":28}],40:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -25417,6 +28069,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	var DECIMAL_RESOLUTION_REGEX = /^(\d+)x(\d+)$/;
+	var ATTR_LIST_REGEX = /\s*(.+?)\s*=((?:\".*?\")|.*?)(?:,|$)/g;
 
 	// adapted from https://github.com/kanongil/node-m3u8parse/blob/master/attrlist.js
 
@@ -25481,7 +28136,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'decimalResolution',
 	    value: function decimalResolution(attrName) {
-	      var res = /^(\d+)x(\d+)$/.exec(this[attrName]);
+	      var res = DECIMAL_RESOLUTION_REGEX.exec(this[attrName]);
 	      if (res === null) {
 	        return undefined;
 	      }
@@ -25493,10 +28148,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }], [{
 	    key: 'parseAttrList',
 	    value: function parseAttrList(input) {
-	      var re = /\s*(.+?)\s*=((?:\".*?\")|.*?)(?:,|$)/g;
 	      var match,
 	          attrs = {};
-	      while ((match = re.exec(input)) !== null) {
+	      ATTR_LIST_REGEX.lastIndex = 0;
+	      while ((match = ATTR_LIST_REGEX.exec(input)) !== null) {
 	        var value = match[2],
 	            quote = '"';
 
@@ -25514,7 +28169,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = AttrList;
 
-	},{}],39:[function(_dereq_,module,exports){
+	},{}],41:[function(_dereq_,module,exports){
 	"use strict";
 
 	var BinarySearch = {
@@ -25559,7 +28214,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = BinarySearch;
 
-	},{}],40:[function(_dereq_,module,exports){
+	},{}],42:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -26132,12 +28787,33 @@ return /******/ (function(modules) { // webpackBootstrap
 	        }
 	    }, {
 	        key: 'setPAC',
-	        value: function setPAC(pacData) {
+	        value: function setPAC(pacData, lastOutputScreen) {
 	            logger.log('INFO', 'pacData = ' + JSON.stringify(pacData));
 	            var newRow = pacData.row - 1;
 	            if (this.nrRollUpRows && newRow < this.nrRollUpRows - 1) {
 	                newRow = this.nrRollUpRows - 1;
 	            }
+
+	            //Make sure this only affects Roll-up Captions by checking this.nrRollUpRows
+	            if (this.nrRollUpRows && this.currRow !== newRow) {
+	                //clear all rows first
+	                for (var i = 0; i < NR_ROWS; i++) {
+	                    this.rows[i].clear();
+	                }
+
+	                //Copy this.nrRollUpRows rows from lastOutputScreen and place it in the newRow location
+	                //topRowIndex - the start of rows to copy (inclusive index)
+	                var topRowIndex = this.currRow + 1 - this.nrRollUpRows;
+	                //We only copy if the last position was already shown.
+	                //We use the cueStartTime value to check this.
+	                var prevLineTime = lastOutputScreen.rows[topRowIndex].cueStartTime;
+	                if (prevLineTime && prevLineTime < logger.time) {
+	                    for (i = 0; i < this.nrRollUpRows; i++) {
+	                        this.rows[newRow - this.nrRollUpRows + i + 1].copy(lastOutputScreen.rows[topRowIndex + i]);
+	                    }
+	                }
+	            }
+
 	            this.currRow = newRow;
 	            var row = this.rows[this.currRow];
 	            if (pacData.indent !== null) {
@@ -26270,7 +28946,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }, {
 	        key: 'setPAC',
 	        value: function setPAC(pacData) {
-	            this.writeScreen.setPAC(pacData);
+	            this.writeScreen.setPAC(pacData, this.lastOutputScreen);
 	        }
 	    }, {
 	        key: 'setBkgData',
@@ -26290,6 +28966,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            } else {
 	                this.writeScreen = this.displayedMemory;
 	                this.writeScreen.reset();
+	                this.lastOutputScreen.reset();
 	            }
 	            if (this.mode !== 'MODE_ROLL-UP') {
 	                this.displayedMemory.nrRollUpRows = null;
@@ -26862,7 +29539,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = Cea608Parser;
 
-	},{}],41:[function(_dereq_,module,exports){
+	},{}],43:[function(_dereq_,module,exports){
 	'use strict';
 
 	var Cues = {
@@ -26890,6 +29567,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	            indenting = false;
 	          }
 	        }
+	        //To be used for cleaning-up orphaned roll-up captions
+	        row.cueStartTime = startTime;
 	        cue = new VTTCue(startTime, endTime, text.trim());
 
 	        if (indent >= 16) {
@@ -26906,7 +29585,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	          cue.line = r > 7 ? r - 2 : r + 1;
 	        }
 	        cue.align = 'left';
-	        cue.position = 100 * (indent / 32) + (navigator.userAgent.match(/Firefox\//) ? 50 : 0);
+	        // Clamp the position between 0 and 100 - if out of these bounds, Firefox throws an exception and captions break
+	        cue.position = Math.max(0, Math.min(100, 100 * (indent / 32) + (navigator.userAgent.match(/Firefox\//) ? 50 : 0)));
 	        track.addCue(cue);
 	      }
 	    }
@@ -26916,7 +29596,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = Cues;
 
-	},{}],42:[function(_dereq_,module,exports){
+	},{}],44:[function(_dereq_,module,exports){
 	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
@@ -26936,7 +29616,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	var EWMA = function () {
 
 	  //  About half of the estimated value will be from the last |halfLife| samples by weight.
-
 	  function EWMA(halfLife) {
 	    _classCallCheck(this, EWMA);
 
@@ -26975,14 +29654,14 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = EWMA;
 
-	},{}],43:[function(_dereq_,module,exports){
+	},{}],45:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
+	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 	function noop() {}
 
@@ -27060,25 +29739,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var logger = exports.logger = exportedLogger;
 
-	},{}],44:[function(_dereq_,module,exports){
-	'use strict';
-
-	if (typeof ArrayBuffer !== 'undefined' && !ArrayBuffer.prototype.slice) {
-	  ArrayBuffer.prototype.slice = function (start, end) {
-	    var that = new Uint8Array(this);
-	    if (end === undefined) {
-	      end = that.length;
-	    }
-	    var result = new ArrayBuffer(end - start);
-	    var resultArray = new Uint8Array(result);
-	    for (var i = 0; i < resultArray.length; i++) {
-	      resultArray[i] = that[i + start];
-	    }
-	    return result;
-	  };
-	}
-
-	},{}],45:[function(_dereq_,module,exports){
+	},{}],46:[function(_dereq_,module,exports){
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -27115,94 +29776,6 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = TimeRanges;
 
-	},{}],46:[function(_dereq_,module,exports){
-	'use strict';
-
-	var URLHelper = {
-	  // build an absolute URL from a relative one using the provided baseURL
-	  // if relativeURL is an absolute URL it will be returned as is.
-	  buildAbsoluteURL: function buildAbsoluteURL(baseURL, relativeURL) {
-	    // remove any remaining space and CRLF
-	    relativeURL = relativeURL.trim();
-	    if (/^[a-z]+:/i.test(relativeURL)) {
-	      // complete url, not relative
-	      return relativeURL;
-	    }
-
-	    var relativeURLQuery = null;
-	    var relativeURLHash = null;
-
-	    var relativeURLHashSplit = /^([^#]*)(.*)$/.exec(relativeURL);
-	    if (relativeURLHashSplit) {
-	      relativeURLHash = relativeURLHashSplit[2];
-	      relativeURL = relativeURLHashSplit[1];
-	    }
-	    var relativeURLQuerySplit = /^([^\?]*)(.*)$/.exec(relativeURL);
-	    if (relativeURLQuerySplit) {
-	      relativeURLQuery = relativeURLQuerySplit[2];
-	      relativeURL = relativeURLQuerySplit[1];
-	    }
-
-	    var baseURLHashSplit = /^([^#]*)(.*)$/.exec(baseURL);
-	    if (baseURLHashSplit) {
-	      baseURL = baseURLHashSplit[1];
-	    }
-	    var baseURLQuerySplit = /^([^\?]*)(.*)$/.exec(baseURL);
-	    if (baseURLQuerySplit) {
-	      baseURL = baseURLQuerySplit[1];
-	    }
-
-	    var baseURLDomainSplit = /^(([a-z]+:)?\/\/[a-z0-9\.\-_~]+(:[0-9]+)?)?(\/.*)$/i.exec(baseURL);
-	    if (!baseURLDomainSplit) {
-	      throw new Error('Error trying to parse base URL.');
-	    }
-
-	    // e.g. 'http:', 'https:', ''
-	    var baseURLProtocol = baseURLDomainSplit[2] || '';
-	    // e.g. 'http://example.com', '//example.com', ''
-	    var baseURLProtocolDomain = baseURLDomainSplit[1] || '';
-	    // e.g. '/a/b/c/playlist.m3u8'
-	    var baseURLPath = baseURLDomainSplit[4];
-
-	    var builtURL = null;
-	    if (/^\/\//.test(relativeURL)) {
-	      // relative url starts wth '//' so copy protocol (which may be '' if baseUrl didn't provide one)
-	      builtURL = baseURLProtocol + '//' + URLHelper.buildAbsolutePath('', relativeURL.substring(2));
-	    } else if (/^\//.test(relativeURL)) {
-	      // relative url starts with '/' so start from root of domain
-	      builtURL = baseURLProtocolDomain + '/' + URLHelper.buildAbsolutePath('', relativeURL.substring(1));
-	    } else {
-	      builtURL = URLHelper.buildAbsolutePath(baseURLProtocolDomain + baseURLPath, relativeURL);
-	    }
-
-	    // put the query and hash parts back
-	    if (relativeURLQuery) {
-	      builtURL += relativeURLQuery;
-	    }
-	    if (relativeURLHash) {
-	      builtURL += relativeURLHash;
-	    }
-	    return builtURL;
-	  },
-
-	  // build an absolute path using the provided basePath
-	  // adapted from https://developer.mozilla.org/en-US/docs/Web/API/document/cookie#Using_relative_URLs_in_the_path_parameter
-	  // this does not handle the case where relativePath is "/" or "//". These cases should be handled outside this.
-	  buildAbsolutePath: function buildAbsolutePath(basePath, relativePath) {
-	    var sRelPath = relativePath;
-	    var nUpLn,
-	        sDir = '',
-	        sPath = basePath.replace(/[^\/]*$/, sRelPath.replace(/(\/|^)(?:\.?\/+)+/g, '$1'));
-	    for (var nEnd, nStart = 0; nEnd = sPath.indexOf('/../', nStart), nEnd > -1; nStart = nEnd + nUpLn) {
-	      nUpLn = /^\/(?:\.\.\/)*/.exec(sPath.slice(nEnd))[0].length;
-	      sDir = (sDir + sPath.substring(nStart, nEnd)).replace(new RegExp('(?:\\\/+[^\\\/]*){0,' + (nUpLn - 1) / 3 + '}$'), '/');
-	    }
-	    return sDir + sPath.substr(nStart);
-	  }
-	};
-
-	module.exports = URLHelper;
-
 	},{}],47:[function(_dereq_,module,exports){
 	'use strict';
 
@@ -27214,7 +29787,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * XHR based logger
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     */
 
-	var _logger = _dereq_(43);
+	var _logger = _dereq_(45);
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -27376,13 +29949,13 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = XhrLoader;
 
-	},{"43":43}]},{},[31])(31)
+	},{"45":45}]},{},[33])(33)
 	});
 	//# sourceMappingURL=hls.js.map
 
 
 /***/ },
-/* 70 */
+/* 80 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global, module) {/**
@@ -29035,18 +31608,18 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = isEqual;
 
-	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(33)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(22)(module)))
 
 /***/ },
-/* 71 */
+/* 81 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(72);
+	module.exports = __webpack_require__(82);
 
 /***/ },
-/* 72 */
+/* 82 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29057,15 +31630,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _playback = __webpack_require__(31);
+	var _playback = __webpack_require__(34);
 
 	var _playback2 = _interopRequireDefault(_playback);
 
-	var _styler = __webpack_require__(15);
+	var _styler = __webpack_require__(16);
 
 	var _styler2 = _interopRequireDefault(_styler);
 
-	var _style = __webpack_require__(73);
+	var _style = __webpack_require__(83);
 
 	var _style2 = _interopRequireDefault(_style);
 
@@ -29156,10 +31729,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 73 */
+/* 83 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(25)();
+	exports = module.exports = __webpack_require__(28)();
 	// imports
 
 
@@ -29170,15 +31743,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 74 */
+/* 84 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(75);
+	module.exports = __webpack_require__(85);
 
 /***/ },
-/* 75 */
+/* 85 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29191,15 +31764,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _utils = __webpack_require__(2);
 
-	var _playback = __webpack_require__(31);
+	var _playback = __webpack_require__(34);
 
 	var _playback2 = _interopRequireDefault(_playback);
 
-	var _template = __webpack_require__(17);
+	var _template = __webpack_require__(18);
 
 	var _template2 = _interopRequireDefault(_template);
 
-	var _styler = __webpack_require__(15);
+	var _styler = __webpack_require__(16);
 
 	var _styler2 = _interopRequireDefault(_styler);
 
@@ -29207,11 +31780,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _style = __webpack_require__(76);
+	var _style = __webpack_require__(86);
 
 	var _style2 = _interopRequireDefault(_style);
 
-	var _error = __webpack_require__(77);
+	var _error = __webpack_require__(87);
 
 	var _error2 = _interopRequireDefault(_error);
 
@@ -29301,14 +31874,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	        m = Math.random() * 6 + 4;
 	    var run = 0,
 	        color = 0;
-	    for (var _i = 0; _i < len;) {
+	    for (var i = 0; i < len;) {
 	      if (run < 0) {
 	        run = m * Math.random();
 	        var p = Math.pow(Math.random(), 0.4);
 	        color = 255 * p << 24;
 	      }
 	      run -= 1;
-	      buffer32[_i++] = color;
+	      buffer32[i++] = color;
 	    }
 	    this.context.putImageData(idata, 0, 0);
 	  };
@@ -29351,10 +31924,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 76 */
+/* 86 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(25)();
+	exports = module.exports = __webpack_require__(28)();
 	// imports
 
 
@@ -29365,21 +31938,21 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 77 */
+/* 87 */
 /***/ function(module, exports) {
 
 	module.exports = "<canvas data-no-op-canvas></canvas>\n<p data-no-op-msg><%=message%><p>\n";
 
 /***/ },
-/* 78 */
+/* 88 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(79);
+	module.exports = __webpack_require__(89);
 
 /***/ },
-/* 79 */
+/* 89 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29390,7 +31963,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _ui_container_plugin = __webpack_require__(80);
+	var _ui_container_plugin = __webpack_require__(90);
 
 	var _ui_container_plugin2 = _interopRequireDefault(_ui_container_plugin);
 
@@ -29398,19 +31971,19 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _styler = __webpack_require__(15);
+	var _styler = __webpack_require__(16);
 
 	var _styler2 = _interopRequireDefault(_styler);
 
-	var _template = __webpack_require__(17);
+	var _template = __webpack_require__(18);
 
 	var _template2 = _interopRequireDefault(_template);
 
-	var _spinner = __webpack_require__(81);
+	var _spinner = __webpack_require__(91);
 
 	var _spinner2 = _interopRequireDefault(_spinner);
 
-	var _spinner3 = __webpack_require__(82);
+	var _spinner3 = __webpack_require__(92);
 
 	var _spinner4 = _interopRequireDefault(_spinner3);
 
@@ -29507,7 +32080,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 80 */
+/* 90 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29518,7 +32091,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _utils = __webpack_require__(2);
 
-	var _ui_object = __webpack_require__(18);
+	var _ui_object = __webpack_require__(19);
 
 	var _ui_object2 = _interopRequireDefault(_ui_object);
 
@@ -29587,16 +32160,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 81 */
+/* 91 */
 /***/ function(module, exports) {
 
 	module.exports = "<div data-bounce1></div><div data-bounce2></div><div data-bounce3></div>\n";
 
 /***/ },
-/* 82 */
+/* 92 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(25)();
+	exports = module.exports = __webpack_require__(28)();
 	// imports
 
 
@@ -29607,15 +32180,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 83 */
+/* 93 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(84);
+	module.exports = __webpack_require__(94);
 
 /***/ },
-/* 84 */
+/* 94 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29626,7 +32199,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _container_plugin = __webpack_require__(85);
+	var _container_plugin = __webpack_require__(95);
 
 	var _container_plugin2 = _interopRequireDefault(_container_plugin);
 
@@ -29634,7 +32207,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _clapprZepto = __webpack_require__(16);
+	var _clapprZepto = __webpack_require__(17);
 
 	var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
 
@@ -29766,7 +32339,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 85 */
+/* 95 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29844,15 +32417,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 86 */
+/* 96 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(87);
+	module.exports = __webpack_require__(97);
 
 /***/ },
-/* 87 */
+/* 97 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29863,7 +32436,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _ui_container_plugin = __webpack_require__(80);
+	var _ui_container_plugin = __webpack_require__(90);
 
 	var _ui_container_plugin2 = _interopRequireDefault(_ui_container_plugin);
 
@@ -29871,19 +32444,19 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _styler = __webpack_require__(15);
+	var _styler = __webpack_require__(16);
 
 	var _styler2 = _interopRequireDefault(_styler);
 
-	var _template = __webpack_require__(17);
+	var _template = __webpack_require__(18);
 
 	var _template2 = _interopRequireDefault(_template);
 
-	var _watermark = __webpack_require__(88);
+	var _watermark = __webpack_require__(98);
 
 	var _watermark2 = _interopRequireDefault(_watermark);
 
-	var _watermark3 = __webpack_require__(89);
+	var _watermark3 = __webpack_require__(99);
 
 	var _watermark4 = _interopRequireDefault(_watermark3);
 
@@ -29963,10 +32536,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 88 */
+/* 98 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(25)();
+	exports = module.exports = __webpack_require__(28)();
 	// imports
 
 
@@ -29977,21 +32550,21 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 89 */
+/* 99 */
 /***/ function(module, exports) {
 
 	module.exports = "<div data-watermark data-watermark-<%=position %>>\n<% if(typeof imageLink !== 'undefined') { %>\n<a target=_blank href=\"<%= imageLink %>\">\n<% } %>\n<img src=\"<%= imageUrl %>\">\n<% if(typeof imageLink !== 'undefined') { %>\n</a>\n<% } %>\n</div>\n";
 
 /***/ },
-/* 90 */
+/* 100 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(91);
+	module.exports = __webpack_require__(101);
 
 /***/ },
-/* 91 */
+/* 101 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -30002,7 +32575,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _ui_container_plugin = __webpack_require__(80);
+	var _ui_container_plugin = __webpack_require__(90);
 
 	var _ui_container_plugin2 = _interopRequireDefault(_ui_container_plugin);
 
@@ -30010,27 +32583,27 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _styler = __webpack_require__(15);
+	var _styler = __webpack_require__(16);
 
 	var _styler2 = _interopRequireDefault(_styler);
 
-	var _template = __webpack_require__(17);
+	var _template = __webpack_require__(18);
 
 	var _template2 = _interopRequireDefault(_template);
 
-	var _playback = __webpack_require__(31);
+	var _playback = __webpack_require__(34);
 
 	var _playback2 = _interopRequireDefault(_playback);
 
-	var _poster = __webpack_require__(92);
+	var _poster = __webpack_require__(102);
 
 	var _poster2 = _interopRequireDefault(_poster);
 
-	var _poster3 = __webpack_require__(93);
+	var _poster3 = __webpack_require__(103);
 
 	var _poster4 = _interopRequireDefault(_poster3);
 
-	var _play = __webpack_require__(37);
+	var _play = __webpack_require__(43);
 
 	var _play2 = _interopRequireDefault(_play);
 
@@ -30200,13 +32773,13 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = PosterPlugin;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(29)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(32)))
 
 /***/ },
-/* 92 */
+/* 102 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(25)();
+	exports = module.exports = __webpack_require__(28)();
 	// imports
 
 
@@ -30217,21 +32790,21 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 93 */
+/* 103 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"play-wrapper\" data-poster></div>\n";
 
 /***/ },
-/* 94 */
+/* 104 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(95);
+	module.exports = __webpack_require__(105);
 
 /***/ },
-/* 95 */
+/* 105 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30242,7 +32815,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _container_plugin = __webpack_require__(85);
+	var _container_plugin = __webpack_require__(95);
 
 	var _container_plugin2 = _interopRequireDefault(_container_plugin);
 
@@ -30404,15 +32977,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 96 */
+/* 106 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(97);
+	module.exports = __webpack_require__(107);
 
 /***/ },
-/* 97 */
+/* 107 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30423,7 +32996,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _container_plugin = __webpack_require__(85);
+	var _container_plugin = __webpack_require__(95);
 
 	var _container_plugin2 = _interopRequireDefault(_container_plugin);
 
@@ -30431,7 +33004,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _playback = __webpack_require__(31);
+	var _playback = __webpack_require__(34);
 
 	var _playback2 = _interopRequireDefault(_playback);
 
@@ -30490,15 +33063,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 98 */
+/* 108 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(99);
+	module.exports = __webpack_require__(109);
 
 /***/ },
-/* 99 */
+/* 109 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30509,19 +33082,19 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _ui_core_plugin = __webpack_require__(100);
+	var _ui_core_plugin = __webpack_require__(110);
 
 	var _ui_core_plugin2 = _interopRequireDefault(_ui_core_plugin);
 
-	var _template = __webpack_require__(17);
+	var _template = __webpack_require__(18);
 
 	var _template2 = _interopRequireDefault(_template);
 
-	var _playback = __webpack_require__(31);
+	var _playback = __webpack_require__(34);
 
 	var _playback2 = _interopRequireDefault(_playback);
 
-	var _styler = __webpack_require__(15);
+	var _styler = __webpack_require__(16);
 
 	var _styler2 = _interopRequireDefault(_styler);
 
@@ -30529,11 +33102,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _dvr_controls = __webpack_require__(101);
+	var _dvr_controls = __webpack_require__(111);
 
 	var _dvr_controls2 = _interopRequireDefault(_dvr_controls);
 
-	var _index = __webpack_require__(102);
+	var _index = __webpack_require__(112);
 
 	var _index2 = _interopRequireDefault(_index);
 
@@ -30660,7 +33233,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 100 */
+/* 110 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30671,7 +33244,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _utils = __webpack_require__(2);
 
-	var _ui_object = __webpack_require__(18);
+	var _ui_object = __webpack_require__(19);
 
 	var _ui_object2 = _interopRequireDefault(_ui_object);
 
@@ -30740,10 +33313,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 101 */
+/* 111 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(25)();
+	exports = module.exports = __webpack_require__(28)();
 	// imports
 
 
@@ -30754,21 +33327,21 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 102 */
+/* 112 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"live-info\"><%= live %></div>\n<button type=\"button\" class=\"live-button\"><%= backToLive %></button>\n";
+	module.exports = "<div class=\"live-info\"><%= live %></div>\n<button type=\"button\" class=\"live-button\" aria-label=\"<%= backToLive %>\"><%= backToLive %></button>\n";
 
 /***/ },
-/* 103 */
+/* 113 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(104);
+	module.exports = __webpack_require__(114);
 
 /***/ },
-/* 104 */
+/* 114 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30779,7 +33352,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _core_plugin = __webpack_require__(105);
+	var _core_plugin = __webpack_require__(115);
 
 	var _core_plugin2 = _interopRequireDefault(_core_plugin);
 
@@ -30787,15 +33360,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _clapprZepto = __webpack_require__(16);
+	var _clapprZepto = __webpack_require__(17);
 
 	var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
 
-	var _play = __webpack_require__(37);
+	var _play = __webpack_require__(43);
 
 	var _play2 = _interopRequireDefault(_play);
 
-	var _pause = __webpack_require__(38);
+	var _pause = __webpack_require__(44);
 
 	var _pause2 = _interopRequireDefault(_pause);
 
@@ -30922,7 +33495,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 105 */
+/* 115 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30997,15 +33570,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 106 */
+/* 116 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(107);
+	module.exports = __webpack_require__(117);
 
 /***/ },
-/* 107 */
+/* 117 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -31018,15 +33591,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _utils = __webpack_require__(2);
 
-	var _ui_core_plugin = __webpack_require__(100);
+	var _ui_core_plugin = __webpack_require__(110);
 
 	var _ui_core_plugin2 = _interopRequireDefault(_ui_core_plugin);
 
-	var _styler = __webpack_require__(15);
+	var _styler = __webpack_require__(16);
 
 	var _styler2 = _interopRequireDefault(_styler);
 
-	var _template = __webpack_require__(17);
+	var _template = __webpack_require__(18);
 
 	var _template2 = _interopRequireDefault(_template);
 
@@ -31034,15 +33607,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _playback = __webpack_require__(31);
+	var _playback = __webpack_require__(34);
 
 	var _playback2 = _interopRequireDefault(_playback);
 
-	var _seek_time = __webpack_require__(108);
+	var _seek_time = __webpack_require__(118);
 
 	var _seek_time2 = _interopRequireDefault(_seek_time);
 
-	var _seek_time3 = __webpack_require__(109);
+	var _seek_time3 = __webpack_require__(119);
 
 	var _seek_time4 = _interopRequireDefault(_seek_time3);
 
@@ -31243,10 +33816,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 108 */
+/* 118 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(25)();
+	exports = module.exports = __webpack_require__(28)();
 	// imports
 
 
@@ -31257,13 +33830,13 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 109 */
+/* 119 */
 /***/ function(module, exports) {
 
 	module.exports = "<span data-seek-time></span>\n<span data-duration></span>\n";
 
 /***/ },
-/* 110 */
+/* 120 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -31274,7 +33847,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _core_plugin = __webpack_require__(105);
+	var _core_plugin = __webpack_require__(115);
 
 	var _core_plugin2 = _interopRequireDefault(_core_plugin);
 
@@ -31330,7 +33903,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 111 */
+/* 121 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -31345,7 +33918,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _events2 = _interopRequireDefault(_events);
 
-	var _core_plugin = __webpack_require__(105);
+	var _core_plugin = __webpack_require__(115);
 
 	var _core_plugin2 = _interopRequireDefault(_core_plugin);
 
@@ -31403,7 +33976,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 112 */
+/* 122 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -31416,11 +33989,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _utils = __webpack_require__(2);
 
-	var _core_plugin = __webpack_require__(105);
+	var _core_plugin = __webpack_require__(115);
 
 	var _core_plugin2 = _interopRequireDefault(_core_plugin);
 
-	var _lodash = __webpack_require__(32);
+	var _lodash = __webpack_require__(35);
 
 	var _lodash2 = _interopRequireDefault(_lodash);
 
